@@ -1,0 +1,224 @@
+First step is to understand the problem statement.
+
+To understand, we can start by looking at 2 things.
+1. What will be given to us?
+2. What is the expected result?
+
+We will be given two integers.
+
+We need to print all non-negative integers between the given two integers (including them).
+
+To understand this, you should know the meaning of following.
+1. Integers
+2. Non-negative
+
+I know
+Don't know - Please use internet to find out the meaning of integers and non-negative integers.
+
+Which of the following is not an integer?
+8 - This answer is incorrect. Please use internet to find out the meaning of integers.
+0
+-13
+5.8 - This is correct answer. 5.8 is not an integer.
+
+Which of the following is not a non-negative integer?
+8 - This answer is incorrect. 8 is a positive integer. So, it is non-negative. Please use internet to find out the meaning of non-negative integers.
+0 - This answer is incorrect. 0 is neither positive, nor negative. So, it is non-negative. Please use internet to find out the meaning of non-negative integers.
+-13 - This is correct answer. -13 is a negative integer.
+
+How many non-negative integers are there between -5 and 5 (including them)?
+5 - This answer is incorrect. Non-negative integers between -5 and 5 are 0, 1, 2, 3, 4 and 5. So, there are 6 non-negative integers between -5 and 5.
+10
+11
+6 - This is correct answer. Non-negative integers between -5 and 5 are 0, 1, 2, 3, 4 and 5. So, there are 6 non-negative integers between -5 and 5.
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+1 line - This answer is incorrect. Please read the input description carefully.
+2 lines - This is correct answer.
+Not known until we read input - This answer is incorrect. Please read the input description carefully.
+
+What will the first line of input contain?
+Begin of range - This is correct answer. First line will contain the starting value of the range. Secodn line will contain the ending value of the range.
+End of range - This answer is incorrect. Please read the input description carefully.
+Number of test cases
+
+Now that we understand the input format, let us understand the output format.
+
+How many lines should the output contain?
+1 line - This answer is incorrect. Please read the output description carefully.
+2 lines - 
+Not known until we read input - This is correct answer. We need to print each non-negative number in a separate line. So the number of output lines will depend on the starting and ending values, which we will know only after reading the input.
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+103
+110
+
+For the above input, how many lines should the output contain?
+1 line - This answer is incorrect. Please read the problem statement carefully.
+6 lines - This answer is incorrect. Please read the problem statement carefully.
+8 lines - This is correct answer. First line of input is 103, which means the starting value is 103. Ending value is 110. Non-negative integers in this range are 103, 104, 105, 106, 107, 108, 109 and 110. Total 8 values. We should print each value in a separate line. So, output should contain 8 lines.
+Don't know - Please read the problem statement carefully.
+
+Consider the following input.
+Input:
+-8
+3
+
+For the above input, how many lines should the output contain?
+1 line - This answer is incorrect. Please read the problem statement carefully.
+4 lines - This is correct answer. First line of input is -8, which means the starting value is -8. Ending value is 3. Non-negative integers between -8 and 3 are 0, 1, 2 and 3. Total 4 values. We should print each value in a separate line. So, output should contain 4 lines.
+12 lines - This answer is incorrect. We need to print only non-negative values. Please read the problem statement carefully.
+Don't know - Please read the problem statement carefully.
+
+Consider the following input.
+Input:
+-20
+-10
+
+For the above input, how many lines should the output contain?
+0 lines - This answer is incorrect. If there are no non-negative integers in the given range, what should we do? Please read the output description carefully.
+1 line - This is correct answer.
+11 lines - This answer is incorrect. We need to print only non-negative values. Please read the output description carefully.
+Invalid input - This answer is incorrect. Given input is valid. Please read the output description carefully.
+Don't know - Please read the output description carefully.
+
+What should be the output for the above input?
+No output - This answer is incorrect. If there are no non-negative values in the given range, what should we do? Please read the output description carefully.
+0
+-1 - This is correct answer. If there are no non-negative integers in the given range, we should print -1.
+
+You have seen multiple test cases. Based on them, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+1. Normal test cases
+    i. Starting is a negative integer and ending is a positive integer
+    ii. Starting is a positive integer and ending is a positive integer
+2. Boundary test cases
+    i. Starting is 0 and ending is a positive integer
+    ii. Starting is a negative integer and ending is 0
+    iii. Starting is 0 and ending is 0
+    iv. Starting is a negative integer and ending is a negative integer
+    v. Starting and ending values are same (positive)
+    vi. Starting and ending values are same (negative)
+
+Based on these hints, you can come up with at least 8 new test cases.
+Write them on a paper.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+103
+110
+
+I will try to explain what I did.
+I looked at the first line. It contains 103. So, I came to know that the starting value of the range is 103.
+
+Then I looked at the second line, which contains 110. So, ending value of the range is 110.
+
+So, the range is [103, 110].
+
+Non-negative integers in this range are all the integers between 103 and 110.
+So I will need to print all the integers from 103 to 110.
+
+You would have something similar. Can you try to write down an algorithm based on this?
+
+You might have something like below.
+1. Read the starting value
+2. Read the ending value
+3. Print all the values between starting and ending values
+
+But this won't work for all kinds of test cases. Will the above algorithm work for the below input?
+Input:
+-8
+3
+
+Yes - This answer is incorrect. It will print all the integers from -8 to 3. But the expected result is only the integers from 0 to 3.
+No - This is correct answer.
+
+So, what correction should we make?
+
+If the starting value is negative, we should start from 0. Modify the above algorithm based on this.
+
+Your modified version may look something like below.
+1. Read the starting value and store it in begin
+2. Read the ending value and store it in end
+3. If begin < 0, then make begin as 0
+4. Print all the values between begin and end
+
+Will the above algorithm work for the below input?
+Input:
+-8
+3
+Yes - This is correct answer. It will print all the integers from 0 to 3.
+No - This answer is incorrect.
+
+Will the above algorithm work for the below input?
+Input:
+-20
+-10
+Yes - This answer is incorrect. It won't print anything. But the expected result is -1.
+No - This is correct answer.
+
+So, what correction should we make?
+
+If the ending value is negative, we should print -1. Modify the above algorithm based on this.
+
+Your modified version may look something like below.
+1. Read the starting value and store it in begin
+2. Read the ending value and store it in end
+3. If end < 0
+4. Then print -1
+5. Otherwise
+    5.1 If begin < 0, then make begin as 0
+    5.2 Print all the values between begin and end
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Also, test it with all your test cases, to make sure all scenarios are covered.
+
+Notice that in the first attempt, our algorithm was not complete. We modified it multiple times to arrive at the final version. This is how algorithms are designed in real life. That is why it is very important to come up with different kinds of test cases.
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+There are various things to be implemented.
+a. Taking input as an integer (steps 1 and 2)
+b. Creating new variables (steps 1 and 2)
+c. Compare two values (steps 3 and 5.1)
+d. Take different actions based on a condition (steps 3, 4, 5, 5.1)
+e. Displaying output (step 5.2)
+f. Repeat a set of steps for a given number of times (step 5.2)
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"

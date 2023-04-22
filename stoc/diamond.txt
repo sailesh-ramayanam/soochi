@@ -1,0 +1,156 @@
+First step is "Understand the problem statement".
+
+We will be given n. We have to print a diamond pattern based on n.
+
+In the description, we are given 2 examples, viz. for n = 5 and n = 3.
+
+Observe the given examples, take a paper and do the following.
+
+Draw the diamond pattern for n = 1.
+
+*
+
+Draw the diamond pattern for n = 2.
+ *
+***
+ *
+
+Draw the diamond pattern for n = 3.
+  *
+ ***
+*****
+ ***
+  *
+
+Draw the diamond pattern for n = 4.
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+Draw the diamond pattern for n = 5.
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+Second step is "Coming up with new test cases". In the process of understanding the problem statement, we already created 5 test cases.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+
+Following are some hints.
+On a paper, write the following in a tabular format, n and number of lines in the pattern for n.
+
+There is a mathematical relation between n and the number of lines in the pattern for n. What is it?
+2*n - 1 - This is correct answer.
+2*n - This answer is incorrect. Please observe the above patterns carefully.
+2*n + 1
+n + 2
+
+There is a difference in the first lines for different n's. What is the difference?
+Number of *'s - This answer is incorrect. Please observe the above patterns carefully.
+Position of *'s - This is correct answer. For any n, the first line contains a single *. But for n=1, it has no spaces before it, for n=2, there is 1 space before it and so on.
+Both number and position - This answer is incorrect. Please observe the above patterns carefully.
+
+There is also another fact. For each n, we start with one *. Then we will have 3 stars. Then 5 stars and so on, the stars keep increasing, until a point. Aftre that, the number of stars starts decreasing, until we print the final line, which will have a single *. Till which line do the stars keep on increasing?
+nth line - This is correct answer.
+(n-1)th line - This answer is incorrect. Please observe the above patterns carefully.
+
+Based on these, we can separate the pattern into 2 parts. Increasing part and decreasing part. How many lines do the increasing part and decreasing part contain respectively?
+n-1, n-1 - This answer is incorrect. Please observe the above patterns carefully.
+n, n
+n, n-1 - This is correct answer.
+n-1, n
+
+Now, notice that in the increasing part, the number of stars are increasing but the number of spaces are decreasing.
+On a paper, write the following in a tabular format, n and the number of spaces in first line.
+There is a mathematical relation between n and the number of spaces in the first line. What is it?
+n - This answer is incorrect. Please observe the above patterns carefully.
+n-1 - This is correct answer. First line of the diamond pattern will contain (n-1) spaces and 1 star.
+n+1 - This answer is incorrect. Please observe the above patterns carefully.
+
+In the increasing part of the pattern, from one line to the next line, the number of spaces decrease and the number of stars increase. From one line to the next line, how many spaces get decreased and how many stars get increased?
+1 space, 1 star - This answer is incorrect. Please observe the above patterns carefully.
+1 space, 2 stars - This is correct answer.
+2 spaces, 2 stars - This answer is incorrect. Please observe the above patterns carefully.
+
+Exact reverse happens in the decreasing part.
+
+Let us try to summarize our observations.
+1. The pattern has 2*n-1 lines
+2. Any pattern will start with (n-1) spaces followed by 1 star
+3. Each next line will have 1 less space and 2 more stars
+4. This way we will have n lines
+5. After that, each next line will have 1 more space and 2 less stars
+6. This way we will have (n-1) lines
+
+Based on this, try to write an algorithm to print the diamond pattern.
+
+Following is what I came up with.
+1. Read n
+2. Initialize numSpaces as (n-1)
+3. Initialize numStars as 1
+4. Repeat the below steps (5.a. to 5.f.) for n times
+5.a. Initialize patLine to be an empty string
+5.b. Run a loop for numSpaces iterations, in each iteration add 1 space to patLine
+5.c. Run a loop for numStars iterations, in each iteration add 1 star to patLine
+5.d. Print patLine
+5.e. Decrement numSpaces by 1
+5.f. Increment numStars by 2
+6. Set numSpaces to 1
+7. Set numStars to 2*n-3
+8. Repeat the below steps (9.a. to 9.f.) for (n-1) times
+9.a. Initialize patLine to be an empty string
+9.b. Run a loop for numSpaces iterations, in each iteration add 1 space to patLine
+9.c. Run a loop for numStars iterations, in each iteration add 1 star to patLine
+9.d. Print patLine
+9.e. Increment numSpaces by 1
+9.f. Decrement numStars by 2
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+There are various things to be implemented.
+a. Taking input as an integer (step 1)
+b. Creating new variables (steps 1, 2, 3, 5.a and 9.a)
+c. Displaying output (steps 5.d and 9.d)
+d. Repeat a set of steps for a given number of times (steps 4, 5.b, 5.c, 8, 9.b and 9.c)
+e. Modifying a variable (steps 5.e, 5.f, 6, 7, 9.e and 9.f)
+
+We have discussed all of the above in previous assignments multiple times.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+How to modify a variable? - Please refer to the assignments like "Pattern" or "Count odd even" or "Count first"
+
+Take a paper and write the code for our algorithm.

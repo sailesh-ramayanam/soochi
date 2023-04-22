@@ -1,0 +1,290 @@
+First step is to understand the problem statement.
+
+To understand, we can start by looking at 2 things.
+1. What will be given to us?
+2. What should we find out?
+
+We will be given the x and y coordinates of a point.
+
+We need to find out which quadrant the point belongs to.
+
+Now, you might be having some questions.
+What is the meaning of a point?
+What is the meaning of a quadrant?
+
+Some information is already provided in the question itself.
+If you don't know about quadrants, please read about them here -
+In software development, often we come across topics/concepts that we don't know. You don't need to worry or panic in such times. Use internet to find out about those topics.
+
+Using internet is an integral part of software development and it is a skill you must learn. Simply searching on internet is not sufficient. Internet will throw a huge amount of information at you. You cannot go through all of that. You should be able to quickly figure out which is relevant and which is not. That, you can learn only through practice.
+
+Let us make sure that our understanding of points and quadrants is correct.
+
+Suppose the point is (5, 8). What is the x co-ordinate?
+5 - This is correct answer. First value is the x co-ordinate.
+8 - This answer is incorrect. Second value is the y co-ordinate. So, 8 is y co-ordinate.
+Don't know - In a point, first value is the x co-ordinate and second value is the y co-ordinate.
+
+Suppose the point is (5, 8). Which quadrant does the point belong to?
+Q1 - This is correct answer. Both x and y co-ordinates are positive. so, it belongs to Q1.
+Q2 - This answer is incorrect. Given point has both x and y co-ordinates as positive. Check the definition provided in the assignment to predict the correct quadrant.
+Q3
+Q4
+
+A point is in 3rd quadrant (i.e. Q3). Which of the following can be its y co-ordinate?
+8 - This answer is incorrect. For points in Q3, the y co-ordinate will be negative.
+-5 - This is correct answer. For points in Q3, the y co-ordinate will be negative.
+
+A point is in 4th quadrant (i.e. Q4). Which of the following cannot be its x co-ordinate?
+1.3 - This answer is incorrect. For points in Q4, the x co-ordinate will be positive.
+9 -
+-4 - This is correct answer. For points in Q4, the x co-ordinate will not be negative. It must be positive.
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+2 - This answer is incorrect. Please read the input description carefully.
+3 - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This is correct answer. Until we read the first line of input, we don't know how many lines the input contains.
+
+What does the first line of input contain?
+Number of test cases - This is correct answer.
+A point - This answer is incorrect. Please read the input description carefully.
+x co-ordinate of a point
+Don't know - Please read the input description provided in the assignment.
+
+Suppose first line contains 13. Then, how many lines will the input have?
+13 - This answer is incorrect. Please read the input description carefully.
+14 - This is correct answer. First line contains 13 means there are 13 points. Each point is provided in a separate line, starting from 2nd line. So, 13 lines + the first line. Total 14 lines of input.
+Cannot say - This answer is incorrect. Please read the input description carefully.
+
+What does each test case contain?
+A number - This answer is incorrect. Please read the input description carefully.
+Two space separated numbers - This is correct answer. First value represents the x co-ordinate and second value represents the y co-ordinate.
+Two comma separated numbers - This answer is incorrect. Please read the input description carefully.
+Don't know - Please read the input description provided in the assignment.
+
+We have some sample inputs below.
+Input 1:
+4
+113 85
+24 -8
+-7 -67
+-12 -1
+
+Input 2:
+3
+-8 19
+21 43
+
+Which of these is not a valid input for this problem?
+Input 1 - This answer is incorrect. Please read the input description carefully.
+Input 2 - This is correct answer. Input 2 is invalid. First line contains 3, which means there will be 3 points. But the input specifies only 2 points (viz. (-8, 19) and (21, 43)).
+Both are invalid - This answer is incorrect. Please read the input description carefully.
+Both are valid - This answer is incorrect. Please read the input description carefully.
+
+We have some sample inputs below.
+Input 1:
+3
+84 -7
+-23 -8
+5 41
+
+Input 2:
+3
+20 -9
+74 54
+56
+
+Which of these is not a valid input for this problem?
+Input 1 - This answer is incorrect. Please read the input description carefully.
+Input 2 - This is correct answer. Input 2 is invalid. For the 3rd test case, y co-ordinate is missing.
+Both are invalid - This answer is incorrect. Please read the input description carefully.
+Both are valid - This answer is incorrect. Please read the input description carefully.
+
+Now that we understood the input format, let us understand the output format.
+
+How many lines should the output contain?
+1 line - This answer is incorrect. Please read the output description carefully.
+2 lines - 
+Not known until we read input - This is correct answer. Number of output lines depends on the number of points in the input, which we will know only after reading the first line of input.
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+3
+84 -7
+-23 -8
+5 41
+
+For the above input, how many lines should the output contain?
+1 line - This answer is incorrect.
+3 lines - This is correct answer. First line of input is 3, which means there are 3 points. We should print the quadrant of each point in a separate line. So, output should contain 3 lines.
+4 lines - This answer is incorrect.
+Don't know - Please redo the section on understanding output format.
+
+For the above input, what will be the second line of output?
+3 - This answer is incorrect. Please read the output description carefully.
+q3
+q 3
+Q3 - This is correct answer.
+Q 3
+Don't know - Please redo the section on understa quadrants.
+
+You have seen multiple test cases. Based on them, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+1. Normal test cases - number of points is like 5, 8, 10 etc.
+    i. There is at least 1 point from each quadrant
+2. Boundary test cases
+    i. Input contains only 1 point
+    ii. Input contains multiple points, but all of them belong to the same quadrant
+    iii. Input contains multiple points, but all of the points are same
+
+Based on these hints, you can come up with at least 4 new test cases.
+Write them on a paper.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+3
+84 -7
+-23 -8
+5 41
+
+I will try to explain what I did.
+I looked at the first line. It contains 3. So, I came to know that there will be 3 points.
+
+Then I looked at the next line, which contains, "84 -7". This is the first point, whose x co-ordinate is 84 and y co-ordinate is -7.
+
+I need to predict which qudrant it belongs to. There are 4 conditions given in the problem description, one for each quadrant. I started checking quadrant by quadrant.
+Check if the point belongs to Q1
+If yes, then we know that the answer is Q1
+Otherwise, check if the point belongs to Q2
+If yes, then we know that the answer is Q2
+Otherwise, check if the point belongs to Q3
+If yes, then we know that the answer is Q3
+Otherwise, we know that the answer is Q4
+
+When I followed this on a paper, I found that "84 -7" belongs to Q4.
+I wrote Q4 on the paper.
+
+Then I looked at the next line, which contains, "-23 -8". x co-ordinate is -23 and y co-ordinate is -8.
+I followed same process as for the first point and found that "-23 -8" belongs to Q3.
+I wrote Q3 on the paper (just below the output of previous point).
+
+Then I looked at the next line, which contains, "5 41". x co-ordinate is 5 and y co-ordinate is 41.
+I followed same process as for the first point and found that "5 41" belongs to Q1.
+I wrote Q1 on the paper (just below the output of previous point).
+
+I reached the end of the list, so I looked at the results I wrote on the paper and realised that the expected output is
+Q4
+Q3
+Q1
+
+You would have something similar. Can you try to write down an algorithm based on this?
+
+Following are some hints.
+1. What do you need to read from input?
+2. How many times should you read from input?
+3. What should you do after reading a point?
+
+Following is what I came up with.
+1. Read the first line which contains the number of points
+2. Read a point and store its x co-ordinate and y co-ordinate
+3. Check if x > 0 and y > 0
+4. If yes, then print Q1
+5. Otherwise, check if x < 0 and y > 0
+6. If yes, then print Q2
+7. Otherwise, check if x < 0 and y < 0
+8. If yes, then print Q3
+9. Otherwise, print Q4
+10. Repeat steps 2 to 9 until you process the given number of points
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+There are various things to be implemented.
+a. Taking input as an integer (step 1)
+b. Creating new variables (steps 1 and 2)
+c. Read 2 values from one line of input (step 2)
+d. Compare two values (steps 3, 5 and 7)
+e. Take different actions based on a condition (steps 3 to 9)
+f. Displaying output (steps 4, 6, 8, 9)
+g. Repeat a set of steps for a given number of times (step 10)
+
+We have discussed all of the above in previous assignments multiple times, except c (viz. Read 2 values from one line of input (step 2)).
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+
+To read 2 values from one line, we will first read the line. We already know how to read one line (viz. using readLine()).
+To identify the 2 values, there should be some separation between them. As per the problem statement, what is the separtor between 2 values?
+One space - This is correct answer. Input contains space separated values.
+, (comma) - This answer is incorrect. Please read the input description carefully.
+; (semi-colon)
+. (dot)
+
+Recall that the result of readLine() is a string. In javascript, we can split one string into multiple values.
+
+Which of the following functions can be used to split a string in Javascript?
+split() - This is correct answer. For a detailed discussion, please watch the lecture on "Arithmetic Operations" - refer to the implementation of "Bill calculator".
+trim() - This answer is incorrect. Please watch the lecture on "Arithmetic Operations" - refer to the implementation of "Bill calculator".
+divide()
+separate()
+Don't know - Please watch the lecture on "Arithmetic Operations" - refer to the implementation of "Bill calculator".
+
+let line = "84 -7";
+Which of the following is the correct way to split this string into "84" and "-7"?
+line.split() - This answer is incorrect. You have to mention what is the separator. Please watch the lecture on "Arithmetic Operations" - refer to the implementation of "Bill calculator".
+line.split(" ") - This is correct answer. Note that here we are mentioning one space as a separator.
+split(line) - This answer is incorrect. You have to mention what is the separator. Please watch the lecture on "Arithmetic Operations" - refer to the implementation of "Bill calculator".
+
+let line = "84 -7";
+let values = line.split(" ");
+
+What is the result of split()? In other words, in the above code snippet, what does values contain?
+string - This answer is incorrect. The result of split() is an array of strings.
+number
+Array - This is correct answer. The result of split() is an array of strings. Don't worry if you don't know about Arrays. We will discuss about them in detail in the future modules.
+
+Based on the above code snippet, how can we access the first co-ordinate (i.e. "84")?
+values(1) - This answer is incorrect. For arrays, you should use square brackets to access a value.
+values[1] - This answer is incorrect. For arrays, the indexing starts from 0. So, values[1] means the 2nd value, not the 1st value.
+values(0) - This answer is incorrect. For arrays, you should use square brackets to access a value.
+values[0] - This is correct answer. For arrays, you should use square brackets and also the indexing starts from 0.
+
+Below is a full example of how to use split to read 2 values from one line.
+let line = "84 -7";
+let values = line.split(" ");
+let x = parseInt(values[0]);
+let y = parseInt(values[1]);
+
+Now we know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.

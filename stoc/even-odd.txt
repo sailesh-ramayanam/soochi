@@ -1,0 +1,127 @@
+This step-by-step procedure is also called as algorithm.
+To come up with an algorithm, one way is to see if there is a direct relation ship between the input and output.
+In the case of "Even or Odd" assignment, there is such a relationship.
+
+Given a number n, following are some properties of n.
+P1: Sign of n (i.e. positive or negative)
+P2: Remainder when divided by 2
+P3: Absolute value of n
+Which of these will help us determine whether n is even or odd?
+P1 - This answer is incorrect. Please use internet to find out the definition of even and odd numbers.
+P2: This is correct answer. If remainder when divided by 2 is 0, then the number is even. Otherwise it is odd.
+P3 - same as P1
+
+So, to determine whether a number is even or odd, first we need to know the remainder when divided by 2.
+Let us start building our algorithm.
+1. Take n
+2. Find the remainder when divided by 2
+What next?
+
+What is the relationship between the remainder and "even or odd"?
+0 - Even, 1 - Odd - This is correct answer. So our next step in the algorithm is to check if the remainder is 0 or 1.
+0 - Odd, 1 - Even - This answer is incorrect. Please use internet to find out the definition of even and odd numbers.
+
+Let us add this new step to our algorithm.
+1. Take n
+2. Find the remainder when divided by 2
+3. If the reminder is 0, n is Even. Otherwise, n is Odd.
+Hurray!!! This is what we wanted. We wanted to determine whether a number is even or odd. We have come up with an algorithm for it.
+
+Next step is to convert the algorithm into code.
+Tip:
+
+Let us convert the algorithm step by step.
+First step is "Take n". This means we have to read the input.
+
+Do you know how to read input in Javascript?
+Yes - Cool. Take a paper and start writing down the code. Write the code to read input as an integer and store it in n.
+No - Please solve the previous problems, like "Simple interest", "Arithmetic Progression" and come back.
+
+Next step is "Find the remainder when divided by 2".
+
+Which of the following operators will give us the remainder?
+/ - This answer is incorrect. / operator is division operator. It won't give us reminder. 
+% - This is correct answer. This is called "Remainder operator". It is also called "Modulo operator". Following are some examples. 87 % 5, n % 3.
+* - This answer is incorrect.
+
+On your paper implementation, add the code to find out remainder.
+
+Next step from algorithm is "If the reminder is 0, n is Even. Otherwise, n is Odd."
+Unlike the previous 2 steps, this looks a bit complicated.
+Here we have to check the remainder and based on it we have to do different things.
+
+In programming, what do we use to check something?
+"if else" statement - This answer is incorrect. "if else" will not compare values. "if else" will execute different codes based on what we provide to if.
+Checkers - This answer is incorrect.
+Comparison operators - This is correct answer. Comparison operators will help us check various things. Following are some examples. age < limit, balance >= withdrawlAmount, typedPassword === storedPassword
+
+Every comparison operator will provide a result. What is the data type of the result of a comparison operator?
+string - This answer is incorrect. Please watch the lecture or use internet to find out the answer.
+number
+boolean - This is correct answer. boolean data type has only 2 values. Either true or false. Following are some examples.
+Don't know - The result of a comparison operator is either true or false.
+
+Which of the following operators will you use to check whether remainder is 0 or not?
+= - This answer is incorrect. Single = is called assignment operator. It is not a comparison operator. Please watch the lecture or use internet to understand the difference between = and ===.
+=== - This is correct answer. Even if you answered correctly, it is better to watch the lecture or use internet to understand the difference between = and ===.
+
+let remainder = 139 % 2;
+console.log(remainder === 0);
+
+What will be the output of the above code snippet?
+true - This answer is incorrect.
+false - This is correct answer.
+Error - This answer is incorrect. Above code is perfectly alright. There is no error.
+No output - This answer is incorrect.
+
+Now we know how to compare the remainder. But our algorithm says "If the reminder is 0, n is Even. Otherwise, n is Odd.".
+It is not sufficient to compare. Depending on the result, we need to do different things.
+
+Which of the following helps us to do different things based on a value?
+"if else" statement - This is correct answer. "if else" is also called a "Conditional statement".
+console.log() - This answer is incorrect. console.log() is used to print output. If you are not familiar with console.log() please watch the initial 2 - 3 lectures and revisit the initial 2 - 3 practice assignments.
+Comparison operators - This answer is incorrect. Comparison operators will compare 2 values and provide a result (either true or false).
+Don't know - Please watch the lecture on "Conditionals" and come back.
+
+Below is the syntax of "if else".
+if (comparison_statement) {
+    // block of code
+} else {
+    // block of code
+}
+
+Note that there are 2 kinds of brackets here.
+1. Circular brackets also known as Parantheses - opening bracket is "(", closing bracket is ")"
+2. Flower brackets - opening bracket is "{", closing bracket is "}"
+
+You should be very careful when writing if else statements.
+1. You must use the correct type of brackets
+2. You must use opening bracket at the correct place
+3. You must use closing bracket at the correct place
+Otherwise you will get errors.
+
+Inside the "if" block or "else" block, you can write any valid code.
+
+Below is an example of "if else"
+let remainder = 139 % 2;
+if (remainder === 0) {
+    // Do something
+} else {
+    // Do something different
+}
+
+Based on the above discussion, on your paper, write the code for the 3rd step of our algorithm, viz. "If the reminder is 0, n is Even. Otherwise, n is Odd."
+
+By now we have converted our entire algorithm into code.
+We have completed 4 steps.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3. Coming up with logic (or algorithm)
+4. Converting logic to code
+Next step is to execute the code and test with different test cases.
+
+You have the code on your paper. Now write it in your computer and execute it with various test cases.
+If all test cases are passing, then submit it on the student portal.
+
+Read about arithmetic operators.
+Please use internet to find out which operator provides remainder in Javascript. This is anoyther opportunity to improve internet searching skills. Caution: On internet you can also find complete solution for this assignment. But do not use internet for solutions. You will not learn anything that way.

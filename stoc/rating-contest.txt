@@ -1,0 +1,216 @@
+First step is to understand the problem statement.
+
+There is a contest and there are different levels in the contest.
+
+As per the problem statement, how many levels are there?
+1 - This answer is incorrect. Please read the problem statement carefully.
+2
+3 - This is correct answer.
+4
+
+Which of the following is not a level in the contest?
+ABC - This answer is incorrect. Please read the problem statement carefully.
+AGC
+ARC
+ATC - This is correct answer. ATC is not a level. The 3 levels are ABC, ARC and AGC.
+
+Each level has an entry criterion. What is the criterion based on?
+Rank - This is correct answer.
+Score - This answer is incorrect. Please read the problem statement carefully.
+Age - This answer is incorrect. Please read the problem statement carefully.
+
+Which ranks are eligible for the level ABC?
+1 to 1200 - This answer is incorrect. Please read the problem statement carefully.
+> 1200 - This answer is incorrect. Please read the problem statement carefully.
+1 to 1199 - This is correct answer. As per problem statement, level ABC is open for rankings less than 1200. Less than 1200 means, 1200 is not included. 1200 is called a boundary case. Many people make mistakes with boundary cases. Always note down the boundary cases on a paper.
+
+Which ranks are eligible for the level ARC?
+1200 to 2800 - This answer is incorrect. Please read the problem statement carefully.
+1200 to 2799 - This answer is incorrect. Please read the problem statement carefully.
+1 to 2800 - This answer is incorrect. Please read the problem statement carefully.
+1 to 2799 - This is correct answer. As per problem statement, level ARC is open for rankings less than 2800. Less than 2800 means, 2800 is not included. 2800 is a boundary case.
+
+Which ranks are eligible for the level AGC?
+> 2800 - This answer is incorrect. Please read the problem statement carefully.
+>= 2800 - This answer is incorrect. Please read the problem statement carefully.
+Everyone - This is correct answer. Everyone is eligible for the level AGC.
+
+Now that we understand the probem statement, let us proceed to the 2nd step of problem solving.
+2nd step is coming up with new test cases.
+
+Suppose the rank of Ramesh is 1400. Which is the highest level that Ramesh can participate?
+ARC - This is correct answer. Top most level is ABC, but it requires rank less than 1200. So, Ramesh is not eligible for ABC. Next level is ARC, which requires rank less than 2800. 1400 is less than 2800. So, Ramesh is eligible for ARC.
+AGC - This answer is incorrect. Ramesh is eligible for AGC, but he is also eligible for ARC, which is higher than AGC.
+Both ARC and AGC - This answer is incorrect. Ramesh is eligible for both ARC and AGC. But the question is about the highest level. Between ARC and AGC, ARC is the higher level.
+
+Note the above test case on a paper.
+Come up with at least 3 more new test cases.
+
+Following are some hints for coming up with new test cases.
+1. There should be at least one test case for each of the levels. This will give at least 3 test cases.
+2. There should be a test case for each of the boundary cases. There are 2 boundaries. One is between ABC and ARC. Second is between ARC and AGC.
+Overall, you can easily come up with 5 new test cases. Write them down on a paper.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how did you arrive at the result.
+Let us demonstrate through example.
+
+One test input from above is 1400.
+Expected result is ARC.
+How did you decide that the result is ARC? Most likely you would have done everything in your mind. Now you should try to put it in words.
+
+I will try to explain what I did.
+First I compared 1400 with 1200. 1400 is not less than 1200. So, I decided that the result won't be ABC.
+
+Next I compared 1400 with 2800. 1400 is less than 2800. So, I decided that the result is ARC.
+
+Now repeat this with another test input, say 5000.
+Write down what would you do for 5000.
+
+Based on the above descriptions, let us start building the algorithm. Take a paper and start writing down.
+1. Take rank
+2. Check if rank is less than 1200
+3. If yes, then the result is ABC
+4. Otherwise, check if rank is less than 2800
+5. If yes, then the result is ARC
+6. Otherwise the result is AGC
+
+This is what happens in your mind. But these are very small steps, so you don't notice them.
+For a computer, we have to tell each and every small step. That is what an algorithm does.
+
+Next step is to convert the algorithm into code.
+Tip: Never jump into writing code without figuring out the logic.
+
+Let us convert the algorithm step by step.
+First step is "Take rank". This means we have to read the input.
+
+Do you know how to read input in Javascript?
+Yes - Cool. Take a paper and start writing down the code. Write the code to read input as an integer and store it in rank.
+No - Please solve the previous problems, like "Simple interest", "Arithmetic Progression" and come back.
+
+Next step is "Check if rank is less than 1200".
+
+In programming, what do we use to check something?
+"if else" statement - This answer is incorrect. "if else" will not compare values. "if else" will execute different codes based on what we provide to if.
+Checkers - This answer is incorrect.
+Comparison operators - This is correct answer. Comparison operators will help us check various things. Following are some examples. speed < 60, bill >= freeShipping, driver !== owner
+
+Every comparison operator will provide a result. What is the data type of the result of a comparison operator?
+string - This answer is incorrect. Please watch the lecture or use internet to find out the answer.
+number
+boolean - This is correct answer. boolean data type has only 2 values. Either true or false. Following are some examples.
+Don't know - The result of a comparison operator is either true or false.
+
+Which of the following operators will you use to check whether rank is less than 1200 or not?
+<= - This answer is incorrect. < and <= are different operators. Try to understand the difference between them.
+< - This is correct answer. Even if you answered correctly, try to understand the difference between < and <=.
+
+Let us take a small deviation to understand the difference between < and <=.
+
+Give 2 values for which, < and <= will give the same result.
+For e.g. 7 and 21
+7 < 21 --> Gives you true
+7 <= 21 --> Also gives you true
+Provide 2 new values by yourself.
+
+Give 2 values for which, < and <= will give different results.
+
+When both values are same, we will get different results.
+5 < 5 --> Gives you false
+5 <= 5 --> Gives you true
+
+Let us go back to our main discussion on converting our algorithm to code. 
+Now we know how to convert first 2 lines of our algorithm to code.
+Let us get to the 3rd line - "If yes, then the result is ABC"
+
+Which of the following helps us to do different things based on a value, i.e. decide between different things?
+"if else" statement - This is correct answer. "if else" is also called a "Conditional statement".
+console.log() - This answer is incorrect. console.log() is used to print output. If you are not familiar with console.log() please watch the initial 2 - 3 lectures and revisit the initial 2 - 3 practice assignments.
+Comparison operators - This answer is incorrect. Comparison operators will compare 2 values and provide a result (either true or false).
+Don't know - Please watch the lecture on "Conditionals" and come back.
+
+Below is the syntax of "if else".
+if (comparison_statement) {
+    // block of code
+} else {
+    // block of code
+}
+
+Note that there are 2 kinds of brackets here.
+1. Circular brackets also known as Parantheses - opening bracket is "(", closing bracket is ")"
+2. Flower brackets - opening bracket is "{", closing bracket is "}"
+
+You should be very careful when writing if else statements.
+1. You must use the correct type of brackets
+2. You must use opening bracket at the correct place
+3. You must use closing bracket at the correct place
+Otherwise you will get errors.
+
+Inside the "if" block or "else" block, you can write any valid code.
+
+Below is an example of "if else"
+if (rank < 1200) {
+    // Eligible for ABC
+} else {
+    // Not eligible for ABC
+}
+
+Now we know how to convert first 3 lines of our algorithm to code.
+1. Take rank
+2. Check if rank is less than 1200
+3. If yes, then the result is ABC
+4. Otherwise, check if rank is less than 2800
+5. If yes, then the result is ARC
+6. Otherwise the result is AGC
+
+Write the code for first 3 lines of our algorithm.
+
+Let us now go to line 4, i.e. "Otherwise, check if rank is less than 2800".
+This is basically the else part. As per line 4, we need to do one more comparison (i.e. with 2800) and based on the result, do different things.
+
+This means we need to write one more if else block. You can write as many if else blocks as you want. There is no limit. This can be done in 2 ways.
+Method 1:
+if (rank < 1200) {
+    // Eligible for ABC
+} else {
+    if (rank < 2800) {
+        // Eligible for ARC
+    } else {
+        // Eligible for AGC
+    }
+}
+
+Method 2:
+if (rank < 1200) {
+    // Eligible for ABC
+} else if (rank < 2800) {
+    // Eligible for ARC
+} else {
+    // Eligible for AGC
+}
+
+Which of the above methods is correct?
+Method 1: Method 1 is correct. Method 2 is also correct. People prefer method 2 for readability.
+Method 2: Method 2 is correct. Method 1 is also correct. People prefer method 2 for readability.
+
+By now we have converted our entire algorithm into code.
+We have completed 4 steps.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3. Coming up with logic (or algorithm)
+4. Converting logic to code
+Next step is to execute the code and test with different test cases.
+
+You have the code on your paper. Now write it in your computer and execute it with various test cases.
+If all test cases are passing, then submit it on the student portal.

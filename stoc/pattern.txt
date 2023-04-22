@@ -1,0 +1,113 @@
+First step is "Understand the problem statement".
+
+The problem statement is quite simple. We will be given n. We have to print a pattern in which
+- 1st line has 1 1
+- 2nd line has 2 2's
+- 3rd line has 3 3's
+and so on until n
+
+Second step is "Coming up with new test cases".
+First let us understand the input format.
+
+How many lines does the input contain?
+1 - This is correct answer.
+4 - This answer is incorrect. Please read the input description carefully.
+2 - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This answer is incorrect. Please read the input description carefully.
+
+How many lines should the output contain?
+1 line - This answer is incorrect. Please read the output description carefully.
+2 lines - 
+5 lines -
+Not known until we read input - This is correct answer. The input value will denote the number of lines in output, which we will know only after reading the input.
+
+Writing test cases is very straighforward for this problem.
+Come up with 3 new test cases. Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+Suppose the input is 4.
+
+I know that I should print 4 lines of output.
+In the 1st line I should print 1
+In the 2nd line I should print 22
+In the 3rd line I should print 333
+In the 4th line I should print 4444
+
+Write this as an algorithm.
+
+Following is what I came up with.
+1. Read n
+2. Repeat the following n times
+3. In ith line, print i i's, side-by-side
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+There are various things to be implemented.
+a. Taking input as an integer (step 1)
+b. Creating new variables (step 1)
+c. Repeating a set of steps (step 2)
+d. Print side-by-side (step 3)
+
+We have discussed all of the above in previous assignments multiple times, except printing side-by-side.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+How to print side-by-side?
+
+We know how to print line-by-line. Every console.log() will print in a new line.
+But how do we print side-by-side?
+
+Do you know the difference between "2"+"2" and 2+2? We have talked about this in the lecture on "Data Types" and also in the contextual hints for problems like "Simple interest".
+
+let a = 2;
+let b = "2";
+What will be the values of a+a, b+b?
+4, 4 - This answer is incorrect. a+a will give 4. But b+b will not give 4. Note that b contains a string value.
+4, 22 - You are almost correct, but not completely correct. b+b will give 22. But it is a string data type. So, it must be represented using double quotes, like "22".
+4, "22" - This is correct answer.
+a is of number type, so a+a will do arithmetic addition. Thus, 2+2 will give 4.
+But b is of string type, so b+b will do string addition. Thus "2"+"2" will give "22".
+Note the use of double quotes for b and no double quotes for a.
+
+We can use the string addition to generate a string containing things that we want to print side-by-side.
+
+One point to note in this assignment is that each line of output also requires different number of additions. So, step 3 of our algorithm will get translated into something like below.
+Suppose we want to print ith line.
+a. Initiate outputValue to be empty string
+b. Repeat the below step for i times
+c. Replace outputValue with outputValue + i
+
+If we plug the above steps into step 3 of our original algorithm, we will get the final algorithm as follows.
+
+1. Read n
+2. Repeat the following (viz. steps 3 and 4) n times
+3.a. Initiate outputValue to be empty string
+3.b. Repeat the below step (viz. 3.c) for i times
+3.c. Replace outputValue with outputValue + i
+4. Print outputValue
+
+Take a paper and write the code for our algorithm.
