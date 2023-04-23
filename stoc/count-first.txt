@@ -1,4 +1,4 @@
-First step is to understand the problem statement.
+First step is "Understand the problem statement".
 
 We will be given a sequence of integers. We need to find how many times the first value occurs in that sequence.
 Suppose the sequence is 23, 44, 31, 23, 44. The occurrences of which value should we count?
@@ -83,6 +83,7 @@ What should be the output for the above input?
 
 You have seen multiple test cases. Based on them, please come up with 3 new test cases.
 
+10x-pre-formatted
 Following are some hints for coming up with new test cases.
 1. Normal test cases - length of the sequence is like 5, 8, 10 etc.
     i. First number is repeated in multiple places in the sequence
@@ -120,6 +121,7 @@ One test input from above is
 44
 
 I will try to explain what I did.
+
 I looked at the first line. It contains 5. So, I came to know that there will be 5 numbers in the sequence.
 
 Then I looked at 23. This is the first number. I need to count how many times it occurs in the sequence. Until now it occurred one time.
@@ -188,6 +190,7 @@ Do you know about for loop?
 Yes
 No - Please watch the lecture on for loop and come back.
 
+10x-pre-formatted
 Below is the syntax of "for" loop.
 for (init_expr; loop_cond; step_expr) {
     // Code that you want to execute repeatedly
@@ -207,6 +210,7 @@ You should be very careful when writing for loops.
 
 Inside the "for" loop, you can write any valid code.
 
+10x-pre-formatted
 Below is an example of a "for" loop
 for (let i = 0; i < listSize; i = i + 1) {
     let val = parseInt(readLine());
@@ -233,6 +237,12 @@ If you want detailed example of a for loop, please watch the lecture on for loop
 
 Now we know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.
 
+By now we have converted our entire algorithm into code.
+We have completed 4 steps.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3. Coming up with logic (or algorithm)
+4. Converting logic to code
 Next step is to execute the code and test with different test cases.
 
 You have the code on your paper. Now write it in your computer and execute it with various test cases.
