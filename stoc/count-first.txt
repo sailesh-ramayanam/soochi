@@ -83,18 +83,20 @@ What should be the output for the above input?
 
 You have seen multiple test cases. Based on them, please come up with 3 new test cases.
 
-10x-pre-formatted
 Following are some hints for coming up with new test cases.
+---
 1. Normal test cases - length of the sequence is like 5, 8, 10 etc.
-    i. First number is repeated in multiple places in the sequence
-    ii. First number is repeated back to back in the sequence
-    iii. First number is repeated and a few other numbers are also repeated
+1.a. First number is repeated in multiple places in the sequence
+1.b. First number is repeated back to back in the sequence
+1.c. First number is repeated and a few other numbers are also repeated
+---
 2. Boundary test cases
-    i. Sequence contains only 1 number
-    ii. First number is not repeated in the sequence
-    iii. Entire sequence contains only a single number
+2.a. Sequence contains only 1 number
+2.b. First number is not repeated in the sequence
+2.c. Entire sequence contains only a single number
 
 Based on these hints, you can come up with at least 6 new test cases.
+
 Write them on a paper.
 
 We have completed 2 steps in problem solving approach.
@@ -190,10 +192,12 @@ Do you know about for loop?
 Yes
 No - Please watch the lecture on for loop and come back.
 
-10x-pre-formatted
 Below is the syntax of "for" loop.
+
 for (init_expr; loop_cond; step_expr) {
-    // Code that you want to execute repeatedly
+
+     // Code that you want to execute repeatedly
+
 }
 
 Note that there are 2 kinds of brackets here.
@@ -210,10 +214,12 @@ You should be very careful when writing for loops.
 
 Inside the "for" loop, you can write any valid code.
 
-10x-pre-formatted
 Below is an example of a "for" loop
+
 for (let i = 0; i < listSize; i = i + 1) {
+
     let val = parseInt(readLine());
+
 }
 
 Suppose the value of listSize is 7. How many times will the body of for loop execute?
@@ -223,9 +229,14 @@ Suppose the value of listSize is 7. How many times will the body of for loop exe
 Don't know - Please watch the lecture on for loop and come back.
 
 Now we want the body of for loop to execute only 6 times. Bablu and Cherry gave 2 suggestions on how to achieve it.
-Bablu says write the loop as "for (let i = 1; i < listSize; i = i + 1)"
 
-Cherry says write the loop as "for (let i = 0; i < listSize - 1; i = i + 1)"
+Bablu says write the loop as below.
+
+for (let i = 1; i < listSize; i = i + 1)
+
+Cherry says write the loop as below.
+
+for (let i = 0; i < listSize - 1; i = i + 1)
 
 Which of them is correct?
 Bablu - Bablu is correct. Cherry is also correct.
