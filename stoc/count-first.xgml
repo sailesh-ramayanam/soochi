@@ -854,10 +854,10 @@ Based on these hints, you can come up with at least 6 new test cases.
 
 Write them on a paper.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1307.6789682539682</attribute>
-				<attribute key="y" type="double">2761.5703141197832</attribute>
-				<attribute key="w" type="double">353.81162767487876</attribute>
-				<attribute key="h" type="double">244.06385253010274</attribute>
+				<attribute key="x" type="double">1294.7684178099116</attribute>
+				<attribute key="y" type="double">2750.273582481234</attribute>
+				<attribute key="w" type="double">379.6327285629916</attribute>
+				<attribute key="h" type="double">266.65731580720137</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
 				<attribute key="fill" type="String">#FFCC00</attribute>
@@ -882,8 +882,8 @@ Write them on a paper.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">353.81162767487876</attribute>
-				<attribute key="contentHeight" type="double">262.59375</attribute>
+				<attribute key="contentWidth" type="double">379.6327285629916</attribute>
+				<attribute key="contentHeight" type="double">247.5</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -1324,10 +1324,10 @@ e. Repeating the check for one number at a time
 
 We have discussed a, b, c and d in previous assignments multiple times.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1229.0305555555556</attribute>
-				<attribute key="y" type="double">3630.153880097231</attribute>
-				<attribute key="w" type="double">271.2004166933925</attribute>
-				<attribute key="h" type="double">162.72147559122766</attribute>
+				<attribute key="x" type="double">1222.9787350349043</attribute>
+				<attribute key="y" type="double">3623.6986048752033</attribute>
+				<attribute key="w" type="double">283.30405773469533</attribute>
+				<attribute key="h" type="double">175.63202603528396</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
 				<attribute key="fill" type="String">#FFCC00</attribute>
@@ -1346,7 +1346,7 @@ We have discussed a, b, c and d in previous assignments multiple times.</attribu
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">271.2004166933925</attribute>
+				<attribute key="contentWidth" type="double">283.30405773469533</attribute>
 				<attribute key="contentHeight" type="double">172.03125</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
@@ -1407,13 +1407,14 @@ We have discussed a, b, c and d in previous assignments multiple times.</attribu
 - Arithmetic operators: used for operations like +, -, *, /, %
 - Comparison operators: used for operations like &lt;, &lt;=, >, >=, ===, !==
 - Conditional statement: used to decide between different actions
+
 But in this problem we want to repeat some set of steps. None of the above concepts can do that.
 Loops will help us to repeat a set of steps.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1319.4305555555557</attribute>
-				<attribute key="y" type="double">3979.1744473504705</attribute>
-				<attribute key="w" type="double">277.97076110970534</attribute>
-				<attribute key="h" type="double">189.80285325647844</attribute>
+				<attribute key="x" type="double">1308.9407333197596</attribute>
+				<attribute key="y" type="double">3969.491534517428</attribute>
+				<attribute key="w" type="double">298.9504055812972</attribute>
+				<attribute key="h" type="double">209.16867892256312</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
 				<attribute key="fill" type="String">#FFCC00</attribute>
@@ -1425,12 +1426,13 @@ Loops will help us to repeat a set of steps.</attribute>
 - Arithmetic operators: used for operations like +, -, *, /, %
 - Comparison operators: used for operations like &lt;, &lt;=, >, >=, ===, !==
 - Conditional statement: used to decide between different actions
+
 But in this problem we want to repeat some set of steps. None of the above concepts can do that.
 Loops will help us to repeat a set of steps.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">277.97076110970534</attribute>
+				<attribute key="contentWidth" type="double">298.9504055812972</attribute>
 				<attribute key="contentHeight" type="double">187.125</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
@@ -3191,7 +3193,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0000000000000013</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000004</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000009</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Hints</attribute>
@@ -3201,8 +3203,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">31.33984375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1292.0090463789682</attribute>
-				<attribute key="y" type="double">2596.5722672447832</attribute>
+				<attribute key="x" type="double">1282.6079450041896</attribute>
+				<attribute key="y" type="double">2595.2607800720907</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3214,7 +3216,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-1.0</attribute>
+				<attribute key="xSource" type="double">-1.0000000000000004</attribute>
 				<attribute key="xTarget" type="double">1.0</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -3225,8 +3227,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">113.376953125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1007.3960472470237</attribute>
-				<attribute key="y" type="double">2752.2197281822832</attribute>
+				<attribute key="x" type="double">981.8564608361303</attribute>
+				<attribute key="y" type="double">2747.044138558319</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3551,7 +3553,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0000000000000013</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999979</attribute>
+				<attribute key="yTarget" type="double">-0.9999999999999981</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Next</attribute>
@@ -3561,8 +3563,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1214.6936414930556</attribute>
-				<attribute key="y" type="double">3510.437083222231</attribute>
+				<attribute key="x" type="double">1209.567787895822</attribute>
+				<attribute key="y" type="double">3510.2910780191587</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3574,8 +3576,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1229.0305555555556</attribute>
-						<attribute key="y" type="double">3630.153880097231</attribute>
+						<attribute key="x" type="double">1222.9787350349043</attribute>
+						<attribute key="y" type="double">3623.6986048752033</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">812.973099578373</attribute>
@@ -3592,8 +3594,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				</section>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-1.0</attribute>
-				<attribute key="ySource" type="double">-0.25</attribute>
+				<attribute key="xSource" type="double">-0.9999999999999998</attribute>
+				<attribute key="ySource" type="double">-0.2500000000000001</attribute>
 				<attribute key="xTarget" type="double">1.0</attribute>
 				<attribute key="yTarget" type="double">-0.25</attribute>
 			</section>
@@ -3605,8 +3607,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">103.392578125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">822.973099578373</attribute>
-				<attribute key="y" type="double">3600.4631097108277</attribute>
+				<attribute key="x" type="double">810.9682865644825</attribute>
+				<attribute key="y" type="double">3598.968942378033</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3618,8 +3620,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1229.0305555555556</attribute>
-						<attribute key="y" type="double">3630.153880097231</attribute>
+						<attribute key="x" type="double">1222.9787350349043</attribute>
+						<attribute key="y" type="double">3623.6986048752033</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">937.365677703373</attribute>
@@ -3636,8 +3638,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				</section>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-1.0</attribute>
-				<attribute key="ySource" type="double">0.25</attribute>
+				<attribute key="xSource" type="double">-0.9999999999999998</attribute>
+				<attribute key="ySource" type="double">0.2500000000000001</attribute>
 				<attribute key="xTarget" type="double">1.0</attribute>
 				<attribute key="yTarget" type="double">0.25</attribute>
 			</section>
@@ -3649,8 +3651,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">136.064453125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">947.365677703373</attribute>
-				<attribute key="y" type="double">3641.1434786086347</attribute>
+				<attribute key="x" type="double">935.3061265688659</attribute>
+				<attribute key="y" type="double">3638.9247959820004</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3662,8 +3664,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1229.0305555555556</attribute>
-						<attribute key="y" type="double">3630.153880097231</attribute>
+						<attribute key="x" type="double">1222.9787350349043</attribute>
+						<attribute key="y" type="double">3623.6986048752033</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1229.0305555555556</attribute>
@@ -3680,7 +3682,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				</section>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="ySource" type="double">1.0000000000000004</attribute>
 				<attribute key="xTarget" type="double">-0.5</attribute>
 				<attribute key="yTarget" type="double">1.0</attribute>
 			</section>
@@ -3692,8 +3694,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">146.072265625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1072.9582899305556</attribute>
-				<attribute key="y" type="double">3796.370676972231</attribute>
+				<attribute key="x" type="double">1073.1166477845213</attribute>
+				<attribute key="y" type="double">3801.500148461383</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3705,8 +3707,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1229.0305555555556</attribute>
-						<attribute key="y" type="double">3630.153880097231</attribute>
+						<attribute key="x" type="double">1222.9787350349043</attribute>
+						<attribute key="y" type="double">3623.6986048752033</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">737.951615203373</attribute>
@@ -3723,8 +3725,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				</section>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-1.0</attribute>
-				<attribute key="ySource" type="double">0.75</attribute>
+				<attribute key="xSource" type="double">-0.9999999999999998</attribute>
+				<attribute key="ySource" type="double">0.7500000000000001</attribute>
 				<attribute key="xTarget" type="double">1.0</attribute>
 				<attribute key="yTarget" type="double">0.75</attribute>
 			</section>
@@ -3736,8 +3738,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">116.06640625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">747.951615203373</attribute>
-				<attribute key="y" type="double">3681.823847506442</attribute>
+				<attribute key="x" type="double">735.8511487717506</attribute>
+				<attribute key="y" type="double">3681.5609708310667</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3761,16 +3763,16 @@ As an exercise, use internet and find out about the following in Python and Java
 						<attribute key="y" type="double">3569.133326750521</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1229.0305555555556</attribute>
-						<attribute key="y" type="double">3630.153880097231</attribute>
+						<attribute key="x" type="double">1222.9787350349043</attribute>
+						<attribute key="y" type="double">3623.6986048752033</attribute>
 					</section>
 				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">1.0</attribute>
 				<attribute key="ySource" type="double">-0.75</attribute>
-				<attribute key="xTarget" type="double">-1.0</attribute>
-				<attribute key="yTarget" type="double">-0.7499999999999998</attribute>
+				<attribute key="xTarget" type="double">-0.9999999999999998</attribute>
+				<attribute key="yTarget" type="double">-0.7499999999999999</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Try again</attribute>
@@ -3805,16 +3807,16 @@ As an exercise, use internet and find out about the following in Python and Java
 						<attribute key="y" type="double">3751.020091034731</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1229.0305555555556</attribute>
-						<attribute key="y" type="double">3630.153880097231</attribute>
+						<attribute key="x" type="double">1222.9787350349043</attribute>
+						<attribute key="y" type="double">3623.6986048752033</attribute>
 					</section>
 				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.5</attribute>
 				<attribute key="ySource" type="double">1.0</attribute>
-				<attribute key="xTarget" type="double">-0.6666666666666667</attribute>
-				<attribute key="yTarget" type="double">1.0</attribute>
+				<attribute key="xTarget" type="double">-0.6666666666666666</attribute>
+				<attribute key="yTarget" type="double">1.0000000000000004</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Try again</attribute>
@@ -3838,8 +3840,8 @@ As an exercise, use internet and find out about the following in Python and Java
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.6666666666666661</attribute>
-				<attribute key="ySource" type="double">0.9999999999999979</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000007</attribute>
+				<attribute key="ySource" type="double">0.9999999999999981</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000002</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">How to repeat some code?</attribute>
@@ -3849,8 +3851,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">147.4140625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1245.7235243055557</attribute>
-				<attribute key="y" type="double">3850.571848847231</attribute>
+				<attribute key="x" type="double">1235.5214936112598</attribute>
+				<attribute key="y" type="double">3850.3459727939958</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3862,8 +3864,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1319.4305555555557</attribute>
-						<attribute key="y" type="double">3979.1744473504705</attribute>
+						<attribute key="x" type="double">1308.9407333197596</attribute>
+						<attribute key="y" type="double">3969.491534517428</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1319.4305555555557</attribute>
@@ -3880,7 +3882,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				</section>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="ySource" type="double">0.9999999999999996</attribute>
 				<attribute key="yTarget" type="double">1.0</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -3891,8 +3893,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">52.03515625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1257.3953993055557</attribute>
-				<attribute key="y" type="double">4099.57587397871</attribute>
+				<attribute key="x" type="double">1258.4786981907027</attribute>
+				<attribute key="y" type="double">4108.477977055193</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -5109,6 +5111,7 @@ As an exercise, use internet and find out about the following in Python and Java
 		<section name="edge">
 			<attribute key="source" type="int">27</attribute>
 			<attribute key="target" type="int">28</attribute>
+			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -5116,6 +5119,16 @@ As an exercise, use internet and find out about the following in Python and Java
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0</attribute>
 				<attribute key="yTarget" type="double">-1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
 			</section>
 		</section>
 		<section name="edge">
