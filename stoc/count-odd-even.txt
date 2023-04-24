@@ -89,11 +89,12 @@ What should be the second line of output for the above input?
 While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
 
 Following are some hints for coming up with new test cases.
+
 1. Normal test cases - length of the list is like 5, 8, 10 etc.
 2. Boundary test cases
-    i. List contains only odd numbers
-    ii. List contains only even numbers
-    iii. List contains only 1 number
+2.a. List contains only odd numbers
+2.b. List contains only even numbers
+2.c. List contains only 1 number
 
 Based on these hints, you can come up with at least 4 new test cases.
 Write them on a paper.

@@ -392,7 +392,8 @@ Until we read the first line of input, we don't know how many lines the input co
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">16</attribute>
-			<attribute key="label" type="String">This is correct answer. First line contains 7 means the list has 7 numbers. Each number is provided in a separate line, starting from 2nd line. So, 7 lines + the first line. Total 8 lines of input.</attribute>
+			<attribute key="label" type="String">This is correct answer.
+First line contains 7 means the list has 7 numbers. Each number is provided in a separate line, starting from 2nd line. So, 7 lines + the first line. Total 8 lines of input.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">828.0031746031746</attribute>
 				<attribute key="y" type="double">1154.8249409814969</attribute>
@@ -404,7 +405,8 @@ Until we read the first line of input, we don't know how many lines the input co
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This is correct answer. First line contains 7 means the list has 7 numbers. Each number is provided in a separate line, starting from 2nd line. So, 7 lines + the first line. Total 8 lines of input.</attribute>
+				<attribute key="text" type="String">This is correct answer.
+First line contains 7 means the list has 7 numbers. Each number is provided in a separate line, starting from 2nd line. So, 7 lines + the first line. Total 8 lines of input.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -642,6 +644,7 @@ Input:
 23
 88
 951
+
 What should be the first line of output for the above input?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">717.040873015873</attribute>
@@ -660,12 +663,13 @@ Input:
 23
 88
 951
+
 What should be the first line of output for the above input?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">223.4172787384009</attribute>
-				<attribute key="contentHeight" type="double">126.75</attribute>
+				<attribute key="contentHeight" type="double">141.84375</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -798,6 +802,7 @@ Input:
 87
 3
 1001
+
 What should be the first line of output for the above input?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">717.040873015873</attribute>
@@ -816,12 +821,13 @@ Input:
 87
 3
 1001
+
 What should be the first line of output for the above input?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">223.4172787384009</attribute>
-				<attribute key="contentHeight" type="double">126.75</attribute>
+				<attribute key="contentHeight" type="double">141.84375</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -973,19 +979,20 @@ What should be the first line of output for the above input?</attribute>
 		<section name="node">
 			<attribute key="id" type="int">38</attribute>
 			<attribute key="label" type="String">Following are some hints for coming up with new test cases.
+
 1. Normal test cases - length of the list is like 5, 8, 10 etc.
 2. Boundary test cases
-    i. List contains only odd numbers
-    ii. List contains only even numbers
-    iii. List contains only 1 number
+2.a. List contains only odd numbers
+2.b. List contains only even numbers
+2.c. List contains only 1 number
 
 Based on these hints, you can come up with at least 4 new test cases.
 Write them on a paper.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1291.2234126984126</attribute>
-				<attribute key="y" type="double">2613.516208630185</attribute>
-				<attribute key="w" type="double">289.11722547455724</attribute>
-				<attribute key="h" type="double">185.38753425539232</attribute>
+				<attribute key="x" type="double">1276.5160788912988</attribute>
+				<attribute key="y" type="double">2621.049233263097</attribute>
+				<attribute key="w" type="double">318.5318930887852</attribute>
+				<attribute key="h" type="double">200.45358352121673</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
 				<attribute key="fill" type="String">#FFCC00</attribute>
@@ -993,18 +1000,19 @@ Write them on a paper.</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Following are some hints for coming up with new test cases.
+
 1. Normal test cases - length of the list is like 5, 8, 10 etc.
 2. Boundary test cases
-    i. List contains only odd numbers
-    ii. List contains only even numbers
-    iii. List contains only 1 number
+2.a. List contains only odd numbers
+2.b. List contains only even numbers
+2.c. List contains only 1 number
 
 Based on these hints, you can come up with at least 4 new test cases.
 Write them on a paper.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">289.11722547455724</attribute>
+				<attribute key="contentWidth" type="double">318.5318930887852</attribute>
 				<attribute key="contentHeight" type="double">187.125</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
@@ -1609,6 +1617,7 @@ Loops will help us to repeat a set of steps.</attribute>
 		<section name="node">
 			<attribute key="id" type="int">60</attribute>
 			<attribute key="label" type="String">Below is the syntax of "for" loop.
+
 for (init_expr; loop_cond; step_expr) {
     // Code that you want to execute repeatedly
 }</attribute>
@@ -1624,6 +1633,7 @@ for (init_expr; loop_cond; step_expr) {
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Below is the syntax of "for" loop.
+
 for (init_expr; loop_cond; step_expr) {
     // Code that you want to execute repeatedly
 }</attribute>
@@ -1631,7 +1641,7 @@ for (init_expr; loop_cond; step_expr) {
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">222.13211848997526</attribute>
-				<attribute key="contentHeight" type="double">81.46875</attribute>
+				<attribute key="contentHeight" type="double">96.5625</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -2021,6 +2031,7 @@ As an exercise, use internet and find out about the following in Python and Java
 		<section name="edge">
 			<attribute key="source" type="int">0</attribute>
 			<attribute key="target" type="int">2</attribute>
+			<attribute key="label" type="String">Proceed</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2028,11 +2039,22 @@ As an exercise, use internet and find out about the following in Python and Java
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0</attribute>
 				<attribute key="yTarget" type="double">-1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Proceed</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">48.6953125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
 			</section>
 		</section>
 		<section name="edge">
 			<attribute key="source" type="int">2</attribute>
 			<attribute key="target" type="int">3</attribute>
+			<attribute key="label" type="String">Continue</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2040,6 +2062,16 @@ As an exercise, use internet and find out about the following in Python and Java
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0</attribute>
 				<attribute key="yTarget" type="double">-1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Continue</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">52.03515625</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
 			</section>
 		</section>
 		<section name="edge">
@@ -4348,7 +4380,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0000000000000013</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999981</attribute>
+				<attribute key="yTarget" type="double">-0.9999999999999976</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Hints</attribute>
@@ -4358,8 +4390,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">31.33984375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1275.5534908234126</attribute>
-				<attribute key="y" type="double">2486.252536755185</attribute>
+				<attribute key="x" type="double">1267.3198375422241</attribute>
+				<attribute key="y" type="double">2485.2511593224567</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -4371,7 +4403,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-1.0</attribute>
+				<attribute key="xSource" type="double">-0.9999999999999994</attribute>
 				<attribute key="xTarget" type="double">1.0</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -4382,8 +4414,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">113.376953125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1023.2877139136904</attribute>
-				<attribute key="y" type="double">2604.165622692685</attribute>
+				<attribute key="x" type="double">994.0063482265841</attribute>
+				<attribute key="y" type="double">2607.4841875833513</attribute>
 			</section>
 		</section>
 		<section name="edge">
