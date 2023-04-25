@@ -10,7 +10,7 @@
 			<attribute key="id" type="int">0</attribute>
 			<attribute key="label" type="String">Let us start solving this assignment step-by-step.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
+				<attribute key="x" type="double">812.4869047619047</attribute>
 				<attribute key="y" type="double">75.85016286644952</attribute>
 				<attribute key="w" type="double">196.99017242128116</attribute>
 				<attribute key="h" type="double">51.700325732899046</attribute>
@@ -34,7 +34,7 @@
 			<attribute key="id" type="int">1</attribute>
 			<attribute key="label" type="String">start</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
+				<attribute key="x" type="double">812.4869047619047</attribute>
 				<attribute key="y" type="double">15.0</attribute>
 				<attribute key="w" type="double">30.0</attribute>
 				<attribute key="h" type="double">30.0</attribute>
@@ -54,7 +54,7 @@
 			<attribute key="id" type="int">2</attribute>
 			<attribute key="label" type="String">First step is "Understand the problem statement".</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
+				<attribute key="x" type="double">812.4869047619047</attribute>
 				<attribute key="y" type="double">151.31437877826966</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">59.22810609074119</attribute>
@@ -76,34 +76,11 @@
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">3</attribute>
-			<attribute key="label" type="String">So, if we count from the front, this is the 1st coach. If we count from the back, what will be its position?</attribute>
+			<attribute key="label" type="String">Second step is "Coming up with new test cases".
+First let us understand the input format.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
-				<attribute key="y" type="double">1102.8311973700188</attribute>
-				<attribute key="w" type="double">213.08761424752595</attribute>
-				<attribute key="h" type="double">73.76223725877105</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">So, if we count from the front, this is the 1st coach. If we count from the back, what will be its position?</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">213.08761424752595</attribute>
-				<attribute key="contentHeight" type="double">51.28125</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">4</attribute>
-			<attribute key="label" type="String">This answer is incorrect. Draw the 5 coaches on a paper and observe carefully.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">857.8821428571429</attribute>
-				<attribute key="y" type="double">1248.0363290694186</attribute>
+				<attribute key="x" type="double">812.4869047619047</attribute>
+				<attribute key="y" type="double">460.2919028839602</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -112,7 +89,8 @@
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This answer is incorrect. Draw the 5 coaches on a paper and observe carefully.</attribute>
+				<attribute key="text" type="String">Second step is "Coming up with new test cases".
+First let us understand the input format.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -123,61 +101,7 @@
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">5</attribute>
-			<attribute key="label" type="String">This is correct answer. If we count from the back, it will be the 5th coach.
-
-So, if n is 5 and i is 1, then j will be 5.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">1111.2996031746031</attribute>
-				<attribute key="y" type="double">1248.0363290694186</attribute>
-				<attribute key="w" type="double">223.4172787384009</attribute>
-				<attribute key="h" type="double">67.24568239002826</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">This is correct answer. If we count from the back, it will be the 5th coach.
-
-So, if n is 5 and i is 1, then j will be 5.</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">223.4172787384009</attribute>
-				<attribute key="contentHeight" type="double">66.375</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">6</attribute>
-			<attribute key="label" type="String">Now that we understand the problem statement, 2nd step is to come up with new test cases.
-First let us understand the input format.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">1111.2996031746031</attribute>
-				<attribute key="y" type="double">1374.9280589731934</attribute>
-				<attribute key="w" type="double">223.4172787384009</attribute>
-				<attribute key="h" type="double">67.24568239002826</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Now that we understand the problem statement, 2nd step is to come up with new test cases.
-First let us understand the input format.</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">223.4172787384009</attribute>
-				<attribute key="contentHeight" type="double">66.375</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">7</attribute>
+			<attribute key="id" type="int">4</attribute>
 			<attribute key="label" type="String">The problem statement is quite simple.
 
 We will be given n. We have to print a pattern in which
@@ -186,7 +110,7 @@ We will be given n. We have to print a pattern in which
 - 3rd line has 3 3's
 and so on until n</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
+				<attribute key="x" type="double">812.4869047619047</attribute>
 				<attribute key="y" type="double">303.79874675629316</attribute>
 				<attribute key="w" type="double">233.17897344305766</attribute>
 				<attribute key="h" type="double">128.33828611530575</attribute>
@@ -213,165 +137,11 @@ and so on until n</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">8</attribute>
-			<attribute key="label" type="String">This is correct answer.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
-				<attribute key="y" type="double">447.57072913646834</attribute>
-				<attribute key="w" type="double">132.82448022876042</attribute>
-				<attribute key="h" type="double">41.80333489504454</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">This is correct answer.</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">132.82448022876042</attribute>
-				<attribute key="contentHeight" type="double">21.09375</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">9</attribute>
-			<attribute key="label" type="String">What does i represent?</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
-				<attribute key="y" type="double">556.7876215043613</attribute>
-				<attribute key="w" type="double">206.81735838214126</attribute>
-				<attribute key="h" type="double">59.22810609074119</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">What does i represent?</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">206.81735838214126</attribute>
-				<attribute key="contentHeight" type="double">21.09375</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">10</attribute>
-			<attribute key="label" type="String">This answer is incorrect. Please read the problem statement carefully.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">560.2257936507937</attribute>
-				<attribute key="y" type="double">556.7876215043614</attribute>
-				<attribute key="w" type="double">154.3682472031619</attribute>
-				<attribute key="h" type="double">67.24568239002829</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">This answer is incorrect. Please read the problem statement carefully.</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">154.3682472031619</attribute>
-				<attribute key="contentHeight" type="double">51.28125</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">11</attribute>
-			<attribute key="label" type="String">This is correct answer.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
-				<attribute key="y" type="double">670.9122047701825</attribute>
-				<attribute key="w" type="double">154.3682472031619</attribute>
-				<attribute key="h" type="double">51.61871669090124</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">This is correct answer.</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">154.3682472031619</attribute>
-				<attribute key="contentHeight" type="double">21.09375</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">12</attribute>
-			<attribute key="label" type="String">We need to find out j such that "the i-th car from the front of the train is the j-th car from the back".
-
-Let us try to understand this by taking an example.</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
-				<attribute key="y" type="double">803.7039849906331</attribute>
-				<attribute key="w" type="double">245.93614260728782</attribute>
-				<attribute key="h" type="double">91.82709294502999</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">We need to find out j such that "the i-th car from the front of the train is the j-th car from the back".
-
-Let us try to understand this by taking an example.</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">245.93614260728782</attribute>
-				<attribute key="contentHeight" type="double">96.5625</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">13</attribute>
-			<attribute key="label" type="String">Suppose n is 5 and i is 1. This means the train has 5 coaches.
-
-Let us plug these values into the statement.
-"The 1st car from the front of the train is the j-th car from the back."</attribute>
-			<section name="graphics">
-				<attribute key="x" type="double">884.5182539682539</attribute>
-				<attribute key="y" type="double">958.9676568656331</attribute>
-				<attribute key="w" type="double">245.93614260728782</attribute>
-				<attribute key="h" type="double">91.82709294502999</attribute>
-				<attribute key="type" type="String">rectangle</attribute>
-				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
-				<attribute key="outline" type="String">#000000</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Suppose n is 5 and i is 1. This means the train has 5 coaches.
-
-Let us plug these values into the statement.
-"The 1st car from the front of the train is the j-th car from the back."</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">245.93614260728782</attribute>
-				<attribute key="contentHeight" type="double">96.5625</attribute>
-				<attribute key="autoSizePolicy" type="String">node_width</attribute>
-				<attribute key="anchor" type="String">c</attribute>
-			</section>
-		</section>
-		<section name="node">
-			<attribute key="id" type="int">14</attribute>
+			<attribute key="id" type="int">5</attribute>
 			<attribute key="label" type="String">How many lines should the output contain?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">812.4869047619047</attribute>
-				<attribute key="y" type="double">1605.0431212694139</attribute>
+				<attribute key="y" type="double">817.298695083955</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -391,11 +161,11 @@ Let us plug these values into the statement.
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">15</attribute>
+			<attribute key="id" type="int">6</attribute>
 			<attribute key="label" type="String">This answer is incorrect. Please read the output description carefully.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">326.98531746031745</attribute>
-				<attribute key="y" type="double">1605.0431212694139</attribute>
+				<attribute key="y" type="double">817.298695083955</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -415,11 +185,11 @@ Let us plug these values into the statement.
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">16</attribute>
+			<attribute key="id" type="int">7</attribute>
 			<attribute key="label" type="String">This is correct answer. The input value will denote the number of lines in output, which we will know only after reading the input.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">812.4869047619047</attribute>
-				<attribute key="y" type="double">1731.9348511731887</attribute>
+				<attribute key="y" type="double">944.1904249877298</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -439,7 +209,7 @@ Let us plug these values into the statement.
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">17</attribute>
+			<attribute key="id" type="int">8</attribute>
 			<attribute key="label" type="String">We have completed 2 steps in problem solving approach.
 1. Understanding the problem statement
 2. Coming up with new test cases
@@ -447,7 +217,7 @@ Let us plug these values into the statement.
 3rd step is "Coming up with logic"</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">812.4869047619047</attribute>
-				<attribute key="y" type="double">2042.7106897712063</attribute>
+				<attribute key="y" type="double">1254.966263585747</attribute>
 				<attribute key="w" type="double">230.9050540721338</attribute>
 				<attribute key="h" type="double">93.06135787208711</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -471,12 +241,12 @@ Let us plug these values into the statement.
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">18</attribute>
+			<attribute key="id" type="int">9</attribute>
 			<attribute key="label" type="String">Logic means step-by-step procedure which explains how to calculate the result for the given input.
 This step-by-step procedure is also called as algorithm.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">521.6515873015873</attribute>
-				<attribute key="y" type="double">2042.710689771206</attribute>
+				<attribute key="y" type="double">1254.9662635857467</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">82.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -497,7 +267,7 @@ This step-by-step procedure is also called as algorithm.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">19</attribute>
+			<attribute key="id" type="int">10</attribute>
 			<attribute key="label" type="String">One way to come up with an algorithm is by using the test cases we wrote down previosuly.
 Take a test case.
 Write down the input.
@@ -506,7 +276,7 @@ Now write down, how you arrived at the result.
 Let us demonstrate through an example.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">521.6515873015873</attribute>
-				<attribute key="y" type="double">2210.8559090829226</attribute>
+				<attribute key="y" type="double">1423.1114828974635</attribute>
 				<attribute key="w" type="double">279.7125960022446</attribute>
 				<attribute key="h" type="double">136.6424124834051</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -531,7 +301,7 @@ Let us demonstrate through an example.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">20</attribute>
+			<attribute key="id" type="int">11</attribute>
 			<attribute key="label" type="String">Suppose the input is 4.
 
 I know that I should print 4 lines of output.
@@ -541,7 +311,7 @@ In the 3rd line I should print 333
 In the 4th line I should print 4444</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">868.5269841269841</attribute>
-				<attribute key="y" type="double">2210.8559090829226</attribute>
+				<attribute key="y" type="double">1423.1114828974635</attribute>
 				<attribute key="w" type="double">239.96700953383197</attribute>
 				<attribute key="h" type="double">136.6424124834051</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -567,11 +337,11 @@ In the 4th line I should print 4444</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">21</attribute>
+			<attribute key="id" type="int">12</attribute>
 			<attribute key="label" type="String">Write this as an algorithm.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">868.5269841269841</attribute>
-				<attribute key="y" type="double">2379.0011283946396</attribute>
+				<attribute key="y" type="double">1591.2567022091803</attribute>
 				<attribute key="w" type="double">223.41727873840094</attribute>
 				<attribute key="h" type="double">82.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -591,14 +361,14 @@ In the 4th line I should print 4444</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">22</attribute>
+			<attribute key="id" type="int">13</attribute>
 			<attribute key="label" type="String">Following is what I came up with.
 1. Read n
 2. Repeat the following n times
 3. In ith line, print i i's, side-by-side</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">487.7527777777778</attribute>
-				<attribute key="y" type="double">2379.0011283946396</attribute>
+				<attribute key="y" type="double">1591.2567022091803</attribute>
 				<attribute key="w" type="double">236.02077045120393</attribute>
 				<attribute key="h" type="double">82.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -621,13 +391,13 @@ In the 4th line I should print 4444</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">23</attribute>
+			<attribute key="id" type="int">14</attribute>
 			<attribute key="label" type="String">Compare it with what you wrote.
 What are the differences?
 What are the similarities?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">487.7527777777778</attribute>
-				<attribute key="y" type="double">2519.947982659668</attribute>
+				<attribute key="y" type="double">1732.2035564742087</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">82.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -649,13 +419,13 @@ What are the similarities?</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">24</attribute>
+			<attribute key="id" type="int">15</attribute>
 			<attribute key="label" type="String">Next step is to convert the algorithm into code.
 Note that we have not written even a single line of code until now.
 Algorithm design is done on a paper, not in a computer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">783.675</attribute>
-				<attribute key="y" type="double">2519.947982659668</attribute>
+				<attribute key="y" type="double">1732.2035564742087</attribute>
 				<attribute key="w" type="double">241.07855474274402</attribute>
 				<attribute key="h" type="double">101.67308599480555</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -677,11 +447,11 @@ Algorithm design is done on a paper, not in a computer.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">25</attribute>
+			<attribute key="id" type="int">16</attribute>
 			<attribute key="label" type="String">Tip: Never jump into writing code without figuring out the logic (also known as algorithm).</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">783.675</attribute>
-				<attribute key="y" type="double">2670.608538727085</attribute>
+				<attribute key="y" type="double">1882.8641125416257</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">82.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -701,11 +471,11 @@ Algorithm design is done on a paper, not in a computer.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">26</attribute>
+			<attribute key="id" type="int">17</attribute>
 			<attribute key="label" type="String">Now we know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">765.0630952380952</attribute>
-				<attribute key="y" type="double">4175.029154566503</attribute>
+				<attribute key="y" type="double">3387.284728381045</attribute>
 				<attribute key="w" type="double">222.13211848997526</attribute>
 				<attribute key="h" type="double">69.51704317091833</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -725,7 +495,7 @@ Algorithm design is done on a paper, not in a computer.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">27</attribute>
+			<attribute key="id" type="int">18</attribute>
 			<attribute key="label" type="String">By now we have converted our entire algorithm into code.
 We have completed 4 steps.
 1. Understanding the problem statement
@@ -735,7 +505,7 @@ We have completed 4 steps.
 Next step is to execute the code and test with different test cases.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">765.0630952380952</attribute>
-				<attribute key="y" type="double">4333.969005635684</attribute>
+				<attribute key="y" type="double">3546.2245794502255</attribute>
 				<attribute key="w" type="double">363.92531685176954</attribute>
 				<attribute key="h" type="double">130.96031521744226</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -761,12 +531,12 @@ Next step is to execute the code and test with different test cases.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">28</attribute>
+			<attribute key="id" type="int">19</attribute>
 			<attribute key="label" type="String">You have the code on your paper. Now write it in your computer and execute it with various test cases.
 If all test cases are passing, then submit it on the student portal.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">379.4670634920635</attribute>
-				<attribute key="y" type="double">4534.201217880813</attribute>
+				<attribute key="y" type="double">3746.456791695354</attribute>
 				<attribute key="w" type="double">302.146429555353</attribute>
 				<attribute key="h" type="double">79.06604988845265</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -787,11 +557,11 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">29</attribute>
+			<attribute key="id" type="int">20</attribute>
 			<attribute key="label" type="String">Please refer to the introduction video to learn how to run a program.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">208.81190476190477</attribute>
-				<attribute key="y" type="double">4765.2353914807345</attribute>
+				<attribute key="y" type="double">3977.4909652952765</attribute>
 				<attribute key="w" type="double">175.62258414766563</attribute>
 				<attribute key="h" type="double">71.38673763300767</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -811,11 +581,11 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">30</attribute>
+			<attribute key="id" type="int">21</attribute>
 			<attribute key="label" type="String">Mentor</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">417.23531746031745</attribute>
-				<attribute key="y" type="double">4765.235391480735</attribute>
+				<attribute key="y" type="double">3977.4909652952765</attribute>
 				<attribute key="w" type="double">181.22345276872989</attribute>
 				<attribute key="h" type="double">54.58413176981526</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -835,7 +605,7 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">31</attribute>
+			<attribute key="id" type="int">22</attribute>
 			<attribute key="label" type="String">Following are some common mistakes.
 1. Not converting string to integer
 2. Not writing the loop condition correctly
@@ -844,7 +614,7 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 5. Not writing a nested loop properly (please refer to lecture)</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">837.7547619047618</attribute>
-				<attribute key="y" type="double">4765.235391480735</attribute>
+				<attribute key="y" type="double">3977.4909652952765</attribute>
 				<attribute key="w" type="double">341.69700345655394</attribute>
 				<attribute key="h" type="double">124.1976098113928</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -869,11 +639,11 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">32</attribute>
+			<attribute key="id" type="int">23</attribute>
 			<attribute key="label" type="String">Resolved</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">837.754761904762</attribute>
-				<attribute key="y" type="double">4913.327434146339</attribute>
+				<attribute key="y" type="double">4125.58300796088</attribute>
 				<attribute key="w" type="double">181.22345276872989</attribute>
 				<attribute key="h" type="double">54.58413176981526</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -893,13 +663,13 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">33</attribute>
+			<attribute key="id" type="int">24</attribute>
 			<attribute key="label" type="String">This assignment demonstrates the concepts of nested loops and string addition.
 1. Nested loop means loop inside a loop
 2. String addition is an extremely common operation done in programming</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">765.0630952380952</attribute>
-				<attribute key="y" type="double">4534.201217880812</attribute>
+				<attribute key="y" type="double">3746.456791695354</attribute>
 				<attribute key="w" type="double">341.69700345655394</attribute>
 				<attribute key="h" type="double">152.10176552281382</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -921,12 +691,12 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">34</attribute>
+			<attribute key="id" type="int">25</attribute>
 			<attribute key="label" type="String">Writing test cases is very straighforward for this problem.
 Come up with 3 new test cases. Write them on a paper along with the expected output.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">812.4869047619047</attribute>
-				<attribute key="y" type="double">1879.9935660697045</attribute>
+				<attribute key="y" type="double">1092.2491398842456</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">111.46940365300327</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -947,7 +717,7 @@ Come up with 3 new test cases. Write them on a paper along with the expected out
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">35</attribute>
+			<attribute key="id" type="int">26</attribute>
 			<attribute key="label" type="String">Let us convert the algorithm step by step.
 There are various things to be implemented.
 a. Taking input as an integer (step 1)
@@ -958,7 +728,7 @@ d. Print side-by-side (step 3)
 We have discussed all of the above in previous assignments multiple times, except printing side-by-side.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">783.675</attribute>
-				<attribute key="y" type="double">2885.44973289521</attribute>
+				<attribute key="y" type="double">2097.705306709751</attribute>
 				<attribute key="w" type="double">339.55747452503306</attribute>
 				<attribute key="h" type="double">230.03436219622233</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -985,11 +755,11 @@ We have discussed all of the above in previous assignments multiple times, excep
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">36</attribute>
+			<attribute key="id" type="int">27</attribute>
 			<attribute key="label" type="String">Please refer to assignments like "Simple interest" or "Square sum"</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">131.70873015873016</attribute>
-				<attribute key="y" type="double">2885.44973289521</attribute>
+				<attribute key="y" type="double">2097.705306709751</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">82.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1009,11 +779,11 @@ We have discussed all of the above in previous assignments multiple times, excep
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">37</attribute>
+			<attribute key="id" type="int">28</attribute>
 			<attribute key="label" type="String">How many lines does the input contain?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">812.4869047619047</attribute>
-				<attribute key="y" type="double">1374.9280589731936</attribute>
+				<attribute key="y" type="double">587.183632787735</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">59.22810609074119</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1033,11 +803,11 @@ We have discussed all of the above in previous assignments multiple times, excep
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">38</attribute>
+			<attribute key="id" type="int">29</attribute>
 			<attribute key="label" type="String">This answer is incorrect. Please read the input description carefully.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">281.5702380952381</attribute>
-				<attribute key="y" type="double">1374.9280589731934</attribute>
+				<attribute key="y" type="double">587.183632787735</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1057,11 +827,11 @@ We have discussed all of the above in previous assignments multiple times, excep
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">39</attribute>
+			<attribute key="id" type="int">30</attribute>
 			<attribute key="label" type="String">This is correct answer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">812.4869047619047</attribute>
-				<attribute key="y" type="double">1488.4822945651874</attribute>
+				<attribute key="y" type="double">700.7378683797285</attribute>
 				<attribute key="w" type="double">134.35776839746723</attribute>
 				<attribute key="h" type="double">46.58387599093146</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1081,11 +851,11 @@ We have discussed all of the above in previous assignments multiple times, excep
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">40</attribute>
+			<attribute key="id" type="int">31</attribute>
 			<attribute key="label" type="String">Please refer to the assignments like "Count odd even" or "Count first"</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1247.5769841269841</attribute>
-				<attribute key="y" type="double">2885.44973289521</attribute>
+				<attribute key="y" type="double">2097.705306709751</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">82.24568239002826</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1105,12 +875,12 @@ We have discussed all of the above in previous assignments multiple times, excep
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">41</attribute>
+			<attribute key="id" type="int">32</attribute>
 			<attribute key="label" type="String">We know how to print line-by-line. Every console.log() will print in a new line.
 But how do we print side-by-side?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">783.675</attribute>
-				<attribute key="y" type="double">3093.926607453781</attribute>
+				<attribute key="y" type="double">2306.1821812683215</attribute>
 				<attribute key="w" type="double">222.13211848997526</attribute>
 				<attribute key="h" type="double">69.51704317091833</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1131,11 +901,11 @@ But how do we print side-by-side?</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">42</attribute>
+			<attribute key="id" type="int">33</attribute>
 			<attribute key="label" type="String">Do you know the difference between "2"+"2" and 2+2? We have talked about this in the lecture on "Data Types" and also in the contextual hints for problems like "Simple interest".</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">783.675</attribute>
-				<attribute key="y" type="double">3234.2058373896016</attribute>
+				<attribute key="y" type="double">2446.461411204142</attribute>
 				<attribute key="w" type="double">243.23889454730443</attribute>
 				<attribute key="h" type="double">93.63907295072329</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1155,14 +925,14 @@ But how do we print side-by-side?</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">43</attribute>
+			<attribute key="id" type="int">34</attribute>
 			<attribute key="label" type="String">let a = 2;
 let b = "2";
 
 What will be the values of a+a, b+b?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">783.675</attribute>
-				<attribute key="y" type="double">3372.9140457399635</attribute>
+				<attribute key="y" type="double">2585.1696195545046</attribute>
 				<attribute key="w" type="double">222.69412622648446</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1185,13 +955,13 @@ What will be the values of a+a, b+b?</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">44</attribute>
+			<attribute key="id" type="int">35</attribute>
 			<attribute key="label" type="String">This answer is incorrect.
 
 a+a will give 4. But b+b will not give 4. Note that b contains a string value.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">609.9047619047619</attribute>
-				<attribute key="y" type="double">3576.3634509051435</attribute>
+				<attribute key="y" type="double">2788.6190247196846</attribute>
 				<attribute key="w" type="double">181.6934781842371</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1213,13 +983,13 @@ a+a will give 4. But b+b will not give 4. Note that b contains a string value.</
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">45</attribute>
+			<attribute key="id" type="int">36</attribute>
 			<attribute key="label" type="String">You are almost correct, but not completely correct.
 
 b+b will give 22. But it is a string data type. So, it must be represented using double quotes, like "22".</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">836.5984126984127</attribute>
-				<attribute key="y" type="double">3576.3634509051435</attribute>
+				<attribute key="y" type="double">2788.6190247196846</attribute>
 				<attribute key="w" type="double">211.69365079365076</attribute>
 				<attribute key="h" type="double">105.50579240026042</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1241,7 +1011,7 @@ b+b will give 22. But it is a string data type. So, it must be represented using
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">46</attribute>
+			<attribute key="id" type="int">37</attribute>
 			<attribute key="label" type="String">This is correct answer.
 
 a is of number type, so a+a will do arithmetic addition. Thus, 2+2 will give 4.
@@ -1251,7 +1021,7 @@ But b is of string type, so b+b will do string addition. Thus "2"+"2" will give 
 Note the use of double quotes for b and no double quotes for a.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1115.7619047619048</attribute>
-				<attribute key="y" type="double">3576.3634509051435</attribute>
+				<attribute key="y" type="double">2788.6190247196846</attribute>
 				<attribute key="w" type="double">286.6327376644169</attribute>
 				<attribute key="h" type="double">159.12146658036033</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1277,11 +1047,11 @@ Note the use of double quotes for b and no double quotes for a.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">47</attribute>
+			<attribute key="id" type="int">38</attribute>
 			<attribute key="label" type="String">So, we can use the string addition to generate a string containing things that we want to print side-by-side.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1115.7619047619048</attribute>
-				<attribute key="y" type="double">3784.1860893605035</attribute>
+				<attribute key="y" type="double">2996.4416631750446</attribute>
 				<attribute key="w" type="double">222.69412622648446</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1301,7 +1071,7 @@ Note the use of double quotes for b and no double quotes for a.</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">48</attribute>
+			<attribute key="id" type="int">39</attribute>
 			<attribute key="label" type="String">One point to note in this assignment is that each line of output also requires different number of additions. So, step 3 of our algorithm will get translated into something like below.
 
 Suppose we want to print ith line.
@@ -1310,7 +1080,7 @@ b. Repeat the below step for i times
 c. Replace outputValue with outputValue + i</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">765.0630952380952</attribute>
-				<attribute key="y" type="double">3784.186089360504</attribute>
+				<attribute key="y" type="double">2996.441663175045</attribute>
 				<attribute key="w" type="double">286.6327376644169</attribute>
 				<attribute key="h" type="double">159.12146658036033</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1335,7 +1105,7 @@ c. Replace outputValue with outputValue + i</attribute>
 			</section>
 		</section>
 		<section name="node">
-			<attribute key="id" type="int">49</attribute>
+			<attribute key="id" type="int">40</attribute>
 			<attribute key="label" type="String">If we plug the above steps into step 3 of our original algorithm, we will get the final algorithm as follows.
 
 1. Read n
@@ -1346,7 +1116,7 @@ c. Replace outputValue with outputValue + i</attribute>
 4. Print outputValue</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">765.0630952380952</attribute>
-				<attribute key="y" type="double">4002.0087278158644</attribute>
+				<attribute key="y" type="double">3214.2643016304055</attribute>
 				<attribute key="w" type="double">286.6327376644169</attribute>
 				<attribute key="h" type="double">159.12146658036033</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1397,76 +1167,8 @@ c. Replace outputValue with outputValue + i</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">4</attribute>
-			<attribute key="target" type="int">3</attribute>
-			<attribute key="label" type="String">Try again</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-				<section name="Line">
-					<section name="point">
-						<attribute key="x" type="double">857.8821428571429</attribute>
-						<attribute key="y" type="double">1248.0363290694186</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">932.3547619047619</attribute>
-						<attribute key="y" type="double">1155.2123159994044</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">911.1542057491947</attribute>
-						<attribute key="y" type="double">1155.2123159994044</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">884.5182539682539</attribute>
-						<attribute key="y" type="double">1102.8311973700188</attribute>
-					</section>
-				</section>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">0.6666666666666666</attribute>
-				<attribute key="ySource" type="double">-1.0000000000000018</attribute>
-				<attribute key="xTarget" type="double">0.2500000000000004</attribute>
-				<attribute key="yTarget" type="double">1.0000000000000016</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Try again</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">54.021484375</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">905.3440197172619</attribute>
-				<attribute key="y" type="double">1180.7123159994044</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">5</attribute>
-			<attribute key="target" type="int">6</attribute>
-			<attribute key="label" type="String">Next</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0000000000000018</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000018</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Next</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">28.673828125</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1096.9626891121031</attribute>
-				<attribute key="y" type="double">1306.6591702644328</attribute>
-			</section>
-		</section>
-		<section name="edge">
 			<attribute key="source" type="int">2</attribute>
-			<attribute key="target" type="int">7</attribute>
+			<attribute key="target" type="int">4</attribute>
 			<attribute key="label" type="String">Proceed</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -1484,357 +1186,13 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentWidth" type="double">48.6953125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">860.1705977182539</attribute>
+				<attribute key="x" type="double">788.1392485119047</attribute>
 				<attribute key="y" type="double">205.92843182364027</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">10</attribute>
-			<attribute key="target" type="int">9</attribute>
-			<attribute key="label" type="String">Try again</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-				<section name="Line">
-					<section name="point">
-						<attribute key="x" type="double">560.2257936507937</attribute>
-						<attribute key="y" type="double">556.7876215043614</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">766.1095300099206</attribute>
-						<attribute key="y" type="double">539.9762009068542</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">766.1095300099206</attribute>
-						<attribute key="y" type="double">541.980594981676</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">884.5182539682539</attribute>
-						<attribute key="y" type="double">556.7876215043613</attribute>
-					</section>
-				</section>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">1.0</attribute>
-				<attribute key="ySource" type="double">-0.5</attribute>
-				<attribute key="xTarget" type="double">-1.0</attribute>
-				<attribute key="yTarget" type="double">-0.5</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Try again</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">54.021484375</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">702.0880456349206</attribute>
-				<attribute key="y" type="double">530.6256149693543</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">8</attribute>
-			<attribute key="target" type="int">9</attribute>
-			<attribute key="label" type="String">Next</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0000000000000013</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000004</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Next</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">28.673828125</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">870.1813399057539</attribute>
-				<attribute key="y" type="double">493.47239658399064</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">7</attribute>
-			<attribute key="target" type="int">8</attribute>
-			<attribute key="label" type="String">Number of coaches</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0000000000000002</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000013</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Number of coaches</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">108.05078125</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">830.4928633432539</attribute>
-				<attribute key="y" type="double">392.96788981394604</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">9</attribute>
-			<attribute key="target" type="int">11</attribute>
-			<attribute key="label" type="String">Position of a coach</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0000000000000004</attribute>
-				<attribute key="yTarget" type="double">-1.0</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Position of a coach</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">105.396484375</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">831.8200117807539</attribute>
-				<attribute key="y" type="double">611.4016745497319</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">9</attribute>
-			<attribute key="target" type="int">10</attribute>
-			<attribute key="label" type="String">Platform number</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-				<section name="Line">
-					<section name="point">
-						<attribute key="x" type="double">884.5182539682539</attribute>
-						<attribute key="y" type="double">556.7876215043613</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">652.4103112599206</attribute>
-						<attribute key="y" type="double">571.5946480270466</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">652.4103112599206</attribute>
-						<attribute key="y" type="double">573.5990421018683</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">560.2257936507937</attribute>
-						<attribute key="y" type="double">556.7876215043614</attribute>
-					</section>
-				</section>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-1.0</attribute>
-				<attribute key="ySource" type="double">0.5</attribute>
-				<attribute key="xTarget" type="double">1.0</attribute>
-				<attribute key="yTarget" type="double">0.5</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Platform number</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">92.69921875</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">662.4103112599206</attribute>
-				<attribute key="y" type="double">562.2440620895466</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">11</attribute>
-			<attribute key="target" type="int">12</attribute>
-			<attribute key="label" type="String">Next</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000002</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Next</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">28.673828125</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">870.1813399057539</attribute>
-				<attribute key="y" type="double">721.7215631156331</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">12</attribute>
-			<attribute key="target" type="int">13</attribute>
-			<attribute key="label" type="String">Continue</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0000000000000002</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000002</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Continue</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">52.03515625</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">858.5006758432539</attribute>
-				<attribute key="y" type="double">876.9852349906331</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">13</attribute>
-			<attribute key="target" type="int">3</attribute>
-			<attribute key="label" type="String">Continue</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0000000000000002</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000016</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Continue</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">52.03515625</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">858.5006758432539</attribute>
-				<attribute key="y" type="double">1032.2489068656332</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">3</attribute>
-			<attribute key="target" type="int">4</attribute>
-			<attribute key="label" type="String">1</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-0.2500000000000004</attribute>
-				<attribute key="ySource" type="double">1.0000000000000016</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000018</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">1</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">10.673828125</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">852.5452287946429</attribute>
-				<attribute key="y" type="double">1180.7123159994044</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">3</attribute>
-			<attribute key="target" type="int">4</attribute>
-			<attribute key="label" type="String">4</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-				<section name="Line">
-					<section name="point">
-						<attribute key="x" type="double">884.5182539682539</attribute>
-						<attribute key="y" type="double">1102.8311973700188</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">804.6103986254317</attribute>
-						<attribute key="y" type="double">1155.2123159994044</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">783.4095238095238</attribute>
-						<attribute key="y" type="double">1155.2123159994044</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">857.8821428571429</attribute>
-						<attribute key="y" type="double">1248.0363290694186</attribute>
-					</section>
-				</section>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-0.7500000000000001</attribute>
-				<attribute key="ySource" type="double">1.0000000000000016</attribute>
-				<attribute key="xTarget" type="double">-0.6666666666666666</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000018</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">4</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">10.673828125</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">778.0726097470238</attribute>
-				<attribute key="y" type="double">1180.7123159994044</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">3</attribute>
+			<attribute key="source" type="int">6</attribute>
 			<attribute key="target" type="int">5</attribute>
-			<attribute key="label" type="String">5</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-				<section name="Line">
-					<section name="point">
-						<attribute key="x" type="double">884.5182539682539</attribute>
-						<attribute key="y" type="double">1102.8311973700188</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">964.4261093110762</attribute>
-						<attribute key="y" type="double">1155.2123159994044</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">1111.2996031746031</attribute>
-						<attribute key="y" type="double">1155.2123159994044</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">1111.2996031746031</attribute>
-						<attribute key="y" type="double">1248.0363290694186</attribute>
-					</section>
-				</section>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">0.7500000000000001</attribute>
-				<attribute key="ySource" type="double">1.0000000000000016</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000018</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">5</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">10.673828125</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1105.9626891121031</attribute>
-				<attribute key="y" type="double">1180.7123159994044</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">15</attribute>
-			<attribute key="target" type="int">14</attribute>
 			<attribute key="label" type="String">Try again</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -1855,12 +1213,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">448.6941189236111</attribute>
-				<attribute key="y" type="double">1570.4754044356532</attribute>
+				<attribute key="y" type="double">782.7309782501943</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">17</attribute>
-			<attribute key="target" type="int">18</attribute>
+			<attribute key="source" type="int">8</attribute>
+			<attribute key="target" type="int">9</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -1879,12 +1237,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">658.3603081597222</attribute>
-				<attribute key="y" type="double">2033.3601038337065</attribute>
+				<attribute key="y" type="double">1245.615677648247</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">18</attribute>
-			<attribute key="target" type="int">19</attribute>
+			<attribute key="source" type="int">9</attribute>
+			<attribute key="target" type="int">10</attribute>
 			<attribute key="label" type="String">Continue</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -1892,7 +1250,7 @@ c. Replace outputValue with outputValue + i</attribute>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0000000000000013</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999976</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000009</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Continue</attribute>
@@ -1903,12 +1261,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">495.63400917658726</attribute>
-				<attribute key="y" type="double">2108.83353096622</attribute>
+				<attribute key="y" type="double">1321.0891047807609</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">19</attribute>
-			<attribute key="target" type="int">20</attribute>
+			<attribute key="source" type="int">10</attribute>
+			<attribute key="target" type="int">11</attribute>
 			<attribute key="label" type="String">Continue</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -1927,12 +1285,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">671.5082155257936</attribute>
-				<attribute key="y" type="double">2201.5053231454226</attribute>
+				<attribute key="y" type="double">1413.7608969599635</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">21</attribute>
-			<attribute key="target" type="int">22</attribute>
+			<attribute key="source" type="int">12</attribute>
+			<attribute key="target" type="int">13</attribute>
 			<attribute key="label" type="String">Wrote down the logic</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -1951,12 +1309,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">630.763529265873</attribute>
-				<attribute key="y" type="double">2369.6505424571396</attribute>
+				<attribute key="y" type="double">1581.9061162716803</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">22</attribute>
-			<attribute key="target" type="int">23</attribute>
+			<attribute key="source" type="int">13</attribute>
+			<attribute key="target" type="int">14</attribute>
 			<attribute key="label" type="String">Continue</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -1975,12 +1333,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">461.73519965277774</attribute>
-				<attribute key="y" type="double">2445.123969589654</attribute>
+				<attribute key="y" type="double">1657.3795434041945</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">23</attribute>
-			<attribute key="target" type="int">24</attribute>
+			<attribute key="source" type="int">14</attribute>
+			<attribute key="target" type="int">15</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -1999,12 +1357,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">609.4614986359127</attribute>
-				<attribute key="y" type="double">2510.597396722168</attribute>
+				<attribute key="y" type="double">1722.8529705367087</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">24</attribute>
-			<attribute key="target" type="int">25</attribute>
+			<attribute key="source" type="int">15</attribute>
+			<attribute key="target" type="int">16</attribute>
 			<attribute key="label" type="String">Continue</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2023,12 +1381,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">757.657421875</attribute>
-				<attribute key="y" type="double">2595.784525657071</attribute>
+				<attribute key="y" type="double">1808.0400994716115</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">31</attribute>
-			<attribute key="target" type="int">30</attribute>
+			<attribute key="source" type="int">22</attribute>
+			<attribute key="target" type="int">21</attribute>
 			<attribute key="label" type="String">Connect with a mentor</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2047,12 +1405,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">532.8472904265873</attribute>
-				<attribute key="y" type="double">4755.884805543235</attribute>
+				<attribute key="y" type="double">3968.1403793577765</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">28</attribute>
-			<attribute key="target" type="int">29</attribute>
+			<attribute key="source" type="int">19</attribute>
+			<attribute key="target" type="int">20</attribute>
 			<attribute key="label" type="String">How to run my program?</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2060,25 +1418,25 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">379.4670634920635</attribute>
-						<attribute key="y" type="double">4534.201217880813</attribute>
+						<attribute key="y" type="double">3746.456791695354</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">266.16215240880615</attribute>
-						<attribute key="y" type="double">4589.234242825039</attribute>
+						<attribute key="y" type="double">3801.48981663958</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">164.9063492063492</attribute>
-						<attribute key="y" type="double">4589.234242825039</attribute>
+						<attribute key="y" type="double">3801.48981663958</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">208.81190476190477</attribute>
-						<attribute key="y" type="double">4765.2353914807345</attribute>
+						<attribute key="y" type="double">3977.4909652952765</attribute>
 					</section>
 				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">-0.75</attribute>
-				<attribute key="ySource" type="double">1.0000000000000115</attribute>
+				<attribute key="ySource" type="double">1.0</attribute>
 				<attribute key="xTarget" type="double">-0.5</attribute>
 				<attribute key="yTarget" type="double">-0.9999999999999937</attribute>
 			</section>
@@ -2091,12 +1449,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">96.8829117063492</attribute>
-				<attribute key="y" type="double">4630.734242825039</attribute>
+				<attribute key="y" type="double">3842.98981663958</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">29</attribute>
-			<attribute key="target" type="int">28</attribute>
+			<attribute key="source" type="int">20</attribute>
+			<attribute key="target" type="int">19</attribute>
 			<attribute key="label" type="String">Try again</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2104,19 +1462,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">208.81190476190477</attribute>
-						<attribute key="y" type="double">4765.2353914807345</attribute>
+						<attribute key="y" type="double">3977.4909652952765</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">252.7174603174603</attribute>
-						<attribute key="y" type="double">4605.234242825039</attribute>
+						<attribute key="y" type="double">3817.48981663958</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">341.69875979764436</attribute>
-						<attribute key="y" type="double">4605.234242825039</attribute>
+						<attribute key="y" type="double">3817.48981663958</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">379.4670634920635</attribute>
-						<attribute key="y" type="double">4534.201217880813</attribute>
+						<attribute key="y" type="double">3746.456791695354</attribute>
 					</section>
 				</section>
 			</section>
@@ -2124,7 +1482,7 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="xSource" type="double">0.5</attribute>
 				<attribute key="ySource" type="double">-0.9999999999999937</attribute>
 				<attribute key="xTarget" type="double">-0.2500000000000002</attribute>
-				<attribute key="yTarget" type="double">1.0000000000000115</attribute>
+				<attribute key="yTarget" type="double">1.0</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Try again</attribute>
@@ -2135,12 +1493,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">225.70671812996034</attribute>
-				<attribute key="y" type="double">4669.435414700039</attribute>
+				<attribute key="y" type="double">3881.69098851458</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">28</attribute>
-			<attribute key="target" type="int">30</attribute>
+			<attribute key="source" type="int">19</attribute>
+			<attribute key="target" type="int">21</attribute>
 			<attribute key="label" type="String">Getting errors</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2148,8 +1506,8 @@ c. Replace outputValue with outputValue + i</attribute>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.2500000000000002</attribute>
-				<attribute key="ySource" type="double">1.0000000000000115</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000124</attribute>
+				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">-0.9999999999999958</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Getting errors</attribute>
@@ -2160,12 +1518,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">378.55562996031745</attribute>
-				<attribute key="y" type="double">4630.734242825039</attribute>
+				<attribute key="y" type="double">3842.98981663958</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">28</attribute>
-			<attribute key="target" type="int">31</attribute>
+			<attribute key="source" type="int">19</attribute>
+			<attribute key="target" type="int">22</attribute>
 			<attribute key="label" type="String">Not getting 100% score</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2173,26 +1531,26 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">379.4670634920635</attribute>
-						<attribute key="y" type="double">4534.201217880813</attribute>
+						<attribute key="y" type="double">3746.456791695354</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">492.7719745753209</attribute>
-						<attribute key="y" type="double">4625.752100642219</attribute>
+						<attribute key="y" type="double">3838.0076744567605</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">837.754761904762</attribute>
-						<attribute key="y" type="double">4625.752100642219</attribute>
+						<attribute key="y" type="double">3838.0076744567605</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">837.7547619047618</attribute>
-						<attribute key="y" type="double">4765.235391480735</attribute>
+						<attribute key="y" type="double">3977.4909652952765</attribute>
 					</section>
 				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.75</attribute>
-				<attribute key="ySource" type="double">1.0000000000000115</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999927</attribute>
+				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">-1.0</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Not getting 100% score</attribute>
@@ -2202,20 +1560,20 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentWidth" type="double">128.740234375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">773.384644717262</attribute>
-				<attribute key="y" type="double">4669.435414700039</attribute>
+				<attribute key="x" type="double">773.3846447172621</attribute>
+				<attribute key="y" type="double">3881.69098851458</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">26</attribute>
-			<attribute key="target" type="int">27</attribute>
+			<attribute key="source" type="int">17</attribute>
+			<attribute key="target" type="int">18</attribute>
 			<attribute key="label" type="String">Wrote the code</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">0.9999999999999886</attribute>
+				<attribute key="ySource" type="double">1.0000000000000016</attribute>
 				<attribute key="yTarget" type="double">-1.0</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -2227,12 +1585,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">722.3755952380952</attribute>
-				<attribute key="y" type="double">4234.787676151963</attribute>
+				<attribute key="y" type="double">3447.0432499665044</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">35</attribute>
-			<attribute key="target" type="int">36</attribute>
+			<attribute key="source" type="int">26</attribute>
+			<attribute key="target" type="int">27</attribute>
 			<attribute key="label" type="String">How to take input?</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2251,12 +1609,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">500.503425719246</attribute>
-				<attribute key="y" type="double">2876.09914695771</attribute>
+				<attribute key="y" type="double">2088.354720772251</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">35</attribute>
-			<attribute key="target" type="int">36</attribute>
+			<attribute key="source" type="int">26</attribute>
+			<attribute key="target" type="int">27</attribute>
 			<attribute key="label" type="String">How to create variables?</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2264,19 +1622,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">783.675</attribute>
-						<attribute key="y" type="double">2885.44973289521</attribute>
+						<attribute key="y" type="double">2097.705306709751</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">333.438972594246</attribute>
-						<attribute key="y" type="double">2962.1278536272844</attribute>
+						<attribute key="y" type="double">2174.383427441825</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">333.438972594246</attribute>
-						<attribute key="y" type="double">2912.864960358553</attribute>
+						<attribute key="y" type="double">2125.120534173094</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">131.70873015873016</attribute>
-						<attribute key="y" type="double">2885.44973289521</attribute>
+						<attribute key="y" type="double">2097.705306709751</attribute>
 					</section>
 				</section>
 			</section>
@@ -2295,12 +1653,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">343.438972594246</attribute>
-				<attribute key="y" type="double">2952.7772676897844</attribute>
+				<attribute key="y" type="double">2165.032841504325</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">36</attribute>
-			<attribute key="target" type="int">35</attribute>
+			<attribute key="source" type="int">27</attribute>
+			<attribute key="target" type="int">26</attribute>
 			<attribute key="label" type="String">Try again</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2308,19 +1666,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">131.70873015873016</attribute>
-						<attribute key="y" type="double">2885.44973289521</attribute>
+						<attribute key="y" type="double">2097.705306709751</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">317.438972594246</attribute>
-						<attribute key="y" type="double">2858.0345054318673</attribute>
+						<attribute key="y" type="double">2070.290079246408</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">317.438972594246</attribute>
-						<attribute key="y" type="double">2808.771612163136</attribute>
+						<attribute key="y" type="double">2021.0271859776767</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">783.675</attribute>
-						<attribute key="y" type="double">2885.44973289521</attribute>
+						<attribute key="y" type="double">2097.705306709751</attribute>
 					</section>
 				</section>
 			</section>
@@ -2339,12 +1697,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">253.41748821924602</attribute>
-				<attribute key="y" type="double">2848.6839194943673</attribute>
+				<attribute key="y" type="double">2060.939493308908</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">25</attribute>
-			<attribute key="target" type="int">35</attribute>
+			<attribute key="source" type="int">16</attribute>
+			<attribute key="target" type="int">26</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2352,7 +1710,7 @@ c. Replace outputValue with outputValue + i</attribute>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0000000000000013</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999986</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000004</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Next</attribute>
@@ -2363,12 +1721,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">769.3380859375</attribute>
-				<attribute key="y" type="double">2736.731379922099</attribute>
+				<attribute key="y" type="double">1948.9869537366399</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">16</attribute>
-			<attribute key="target" type="int">34</attribute>
+			<attribute key="source" type="int">7</attribute>
+			<attribute key="target" type="int">25</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2387,19 +1745,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">798.1499906994047</attribute>
-				<attribute key="y" type="double">1790.5576923682029</attribute>
+				<attribute key="y" type="double">1002.8132661827439</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">31</attribute>
-			<attribute key="target" type="int">32</attribute>
+			<attribute key="source" type="int">22</attribute>
+			<attribute key="target" type="int">23</attribute>
 			<attribute key="label" type="String">Issue resolved</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">0.9999999999999927</attribute>
+				<attribute key="ySource" type="double">1.0</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000124</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -2411,12 +1769,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">797.068238467262</attribute>
-				<attribute key="y" type="double">4852.334196386431</attribute>
+				<attribute key="y" type="double">4064.589770200973</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">27</attribute>
-			<attribute key="target" type="int">33</attribute>
+			<attribute key="source" type="int">18</attribute>
+			<attribute key="target" type="int">24</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2435,12 +1793,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">750.7261811755952</attribute>
-				<attribute key="y" type="double">4424.449163244405</attribute>
+				<attribute key="y" type="double">3636.7047370589466</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">33</attribute>
-			<attribute key="target" type="int">28</attribute>
+			<attribute key="source" type="int">24</attribute>
+			<attribute key="target" type="int">19</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2459,12 +1817,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">555.5404668898809</attribute>
-				<attribute key="y" type="double">4524.850631943312</attribute>
+				<attribute key="y" type="double">3737.106205757854</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">38</attribute>
-			<attribute key="target" type="int">37</attribute>
+			<attribute key="source" type="int">29</attribute>
+			<attribute key="target" type="int">28</attribute>
 			<attribute key="label" type="String">Try again</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2472,19 +1830,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">281.5702380952381</attribute>
-						<attribute key="y" type="double">1374.9280589731934</attribute>
+						<attribute key="y" type="double">587.183632787735</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">542.9881417410714</attribute>
-						<attribute key="y" type="double">1349.7109280769328</attribute>
+						<attribute key="y" type="double">561.9665018914743</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">542.9881417410714</attribute>
-						<attribute key="y" type="double">1352.7175191891654</attribute>
+						<attribute key="y" type="double">564.9730930037069</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">812.4869047619047</attribute>
-						<attribute key="y" type="double">1374.9280589731936</attribute>
+						<attribute key="y" type="double">587.183632787735</attribute>
 					</section>
 				</section>
 			</section>
@@ -2503,12 +1861,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">478.96665736607144</attribute>
-				<attribute key="y" type="double">1340.3603421394328</attribute>
+				<attribute key="y" type="double">552.6159159539743</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">37</attribute>
-			<attribute key="target" type="int">39</attribute>
+			<attribute key="source" type="int">28</attribute>
+			<attribute key="target" type="int">30</attribute>
 			<attribute key="label" type="String">1 line</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2527,12 +1885,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">796.1431547619047</attribute>
-				<attribute key="y" type="double">1431.4891846947216</attribute>
+				<attribute key="y" type="double">643.7447585092629</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">37</attribute>
-			<attribute key="target" type="int">38</attribute>
+			<attribute key="source" type="int">28</attribute>
+			<attribute key="target" type="int">29</attribute>
 			<attribute key="label" type="String">4 lines</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2540,19 +1898,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">812.4869047619047</attribute>
-						<attribute key="y" type="double">1374.9280589731936</attribute>
+						<attribute key="y" type="double">587.183632787735</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">408.27915736607144</attribute>
-						<attribute key="y" type="double">1367.5245457118508</attribute>
+						<attribute key="y" type="double">579.7801195263922</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">408.27915736607144</attribute>
-						<attribute key="y" type="double">1366.5223486744399</attribute>
+						<attribute key="y" type="double">578.7779224889814</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">281.5702380952381</attribute>
-						<attribute key="y" type="double">1374.9280589731934</attribute>
+						<attribute key="y" type="double">587.183632787735</attribute>
 					</section>
 				</section>
 			</section>
@@ -2571,12 +1929,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">418.27915736607144</attribute>
-				<attribute key="y" type="double">1358.173959774351</attribute>
+				<attribute key="y" type="double">570.4295335888922</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">37</attribute>
-			<attribute key="target" type="int">38</attribute>
+			<attribute key="source" type="int">28</attribute>
+			<attribute key="target" type="int">29</attribute>
 			<attribute key="label" type="String">2 lines</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2584,19 +1942,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">812.4869047619047</attribute>
-						<attribute key="y" type="double">1374.9280589731936</attribute>
+						<attribute key="y" type="double">587.183632787735</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">467.96665736607144</attribute>
-						<attribute key="y" type="double">1382.331572234536</attribute>
+						<attribute key="y" type="double">594.5871460490775</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">467.96665736607144</attribute>
-						<attribute key="y" type="double">1383.333769271947</attribute>
+						<attribute key="y" type="double">595.5893430864885</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">281.5702380952381</attribute>
-						<attribute key="y" type="double">1374.9280589731934</attribute>
+						<attribute key="y" type="double">587.183632787735</attribute>
 					</section>
 				</section>
 			</section>
@@ -2615,12 +1973,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">477.96665736607144</attribute>
-				<attribute key="y" type="double">1372.9809862970362</attribute>
+				<attribute key="y" type="double">585.2365601115775</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">37</attribute>
-			<attribute key="target" type="int">38</attribute>
+			<attribute key="source" type="int">28</attribute>
+			<attribute key="target" type="int">29</attribute>
 			<attribute key="label" type="String">Not known until we read input</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2628,19 +1986,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">812.4869047619047</attribute>
-						<attribute key="y" type="double">1374.9280589731936</attribute>
+						<attribute key="y" type="double">587.183632787735</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">527.6541573660714</attribute>
-						<attribute key="y" type="double">1397.1385987572214</attribute>
+						<attribute key="y" type="double">609.3941725717629</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">527.6541573660714</attribute>
-						<attribute key="y" type="double">1400.145189869454</attribute>
+						<attribute key="y" type="double">612.4007636839955</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">281.5702380952381</attribute>
-						<attribute key="y" type="double">1374.9280589731934</attribute>
+						<attribute key="y" type="double">587.183632787735</attribute>
 					</section>
 				</section>
 			</section>
@@ -2659,20 +2017,20 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">537.6541573660714</attribute>
-				<attribute key="y" type="double">1387.7880128197216</attribute>
+				<attribute key="y" type="double">600.0435866342629</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">6</attribute>
-			<attribute key="target" type="int">37</attribute>
+			<attribute key="source" type="int">3</attribute>
+			<attribute key="target" type="int">28</attribute>
 			<attribute key="label" type="String">Proceed</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-1.0</attribute>
-				<attribute key="xTarget" type="double">1.0</attribute>
+				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000004</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Proceed</attribute>
@@ -2682,13 +2040,13 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentWidth" type="double">48.6953125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">940.8955977182541</attribute>
-				<attribute key="y" type="double">1365.5774730356934</attribute>
+				<attribute key="x" type="double">788.1392485119047</attribute>
+				<attribute key="y" type="double">518.9147440789743</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">39</attribute>
-			<attribute key="target" type="int">14</attribute>
+			<attribute key="source" type="int">30</attribute>
+			<attribute key="target" type="int">5</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2707,12 +2065,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">798.1499906994047</attribute>
-				<attribute key="y" type="double">1536.7742325606532</attribute>
+				<attribute key="y" type="double">749.0298063751943</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">14</attribute>
-			<attribute key="target" type="int">15</attribute>
+			<attribute key="source" type="int">5</attribute>
+			<attribute key="target" type="int">6</attribute>
 			<attribute key="label" type="String">1 line</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2733,12 +2091,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">658.0906032986111</attribute>
-				<attribute key="y" type="double">1587.2868250331603</attribute>
+				<attribute key="y" type="double">799.5423988477014</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">14</attribute>
-			<attribute key="target" type="int">15</attribute>
+			<attribute key="source" type="int">5</attribute>
+			<attribute key="target" type="int">6</attribute>
 			<attribute key="label" type="String">2 lines</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2759,12 +2117,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">598.4031032986111</attribute>
-				<attribute key="y" type="double">1604.0982456306674</attribute>
+				<attribute key="y" type="double">816.3538194452085</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">14</attribute>
-			<attribute key="target" type="int">15</attribute>
+			<attribute key="source" type="int">5</attribute>
+			<attribute key="target" type="int">6</attribute>
 			<attribute key="label" type="String">5 lines</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2785,12 +2143,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">538.7156032986111</attribute>
-				<attribute key="y" type="double">1620.9096662281745</attribute>
+				<attribute key="y" type="double">833.1652400427156</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">14</attribute>
-			<attribute key="target" type="int">16</attribute>
+			<attribute key="source" type="int">5</attribute>
+			<attribute key="target" type="int">7</attribute>
 			<attribute key="label" type="String">Not known until we read input</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2809,12 +2167,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">731.7749906994047</attribute>
-				<attribute key="y" type="double">1664.6108381031745</attribute>
+				<attribute key="y" type="double">876.8664119177156</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">34</attribute>
-			<attribute key="target" type="int">17</attribute>
+			<attribute key="source" type="int">25</attribute>
+			<attribute key="target" type="int">8</attribute>
 			<attribute key="label" type="String">Wrote test cases</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2833,19 +2191,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">765.8062406994047</attribute>
-				<attribute key="y" type="double">1960.728267896206</attribute>
+				<attribute key="y" type="double">1172.9838417107471</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">20</attribute>
-			<attribute key="target" type="int">21</attribute>
+			<attribute key="source" type="int">11</attribute>
+			<attribute key="target" type="int">12</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">0.9999999999999976</attribute>
+				<attribute key="ySource" type="double">1.0000000000000009</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000013</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -2857,12 +2215,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">854.1900700644841</attribute>
-				<attribute key="y" type="double">2304.1771153246254</attribute>
+				<attribute key="y" type="double">1516.432689139166</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">35</attribute>
-			<attribute key="target" type="int">40</attribute>
+			<attribute key="source" type="int">26</attribute>
+			<attribute key="target" type="int">31</attribute>
 			<attribute key="label" type="String">How to repeat some code?</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2870,19 +2228,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">783.675</attribute>
-						<attribute key="y" type="double">2885.44973289521</attribute>
+						<attribute key="y" type="double">2097.705306709751</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1120.868142361111</attribute>
-						<attribute key="y" type="double">2827.9411423461547</attribute>
+						<attribute key="y" type="double">2040.1967161606954</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1120.868142361111</attribute>
-						<attribute key="y" type="double">2864.888312297703</attribute>
+						<attribute key="y" type="double">2077.1438861122438</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1247.5769841269841</attribute>
-						<attribute key="y" type="double">2885.44973289521</attribute>
+						<attribute key="y" type="double">2097.705306709751</attribute>
 					</section>
 				</section>
 			</section>
@@ -2901,12 +2259,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">963.454079861111</attribute>
-				<attribute key="y" type="double">2818.5905564086547</attribute>
+				<attribute key="y" type="double">2030.8461302231954</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">40</attribute>
-			<attribute key="target" type="int">35</attribute>
+			<attribute key="source" type="int">31</attribute>
+			<attribute key="target" type="int">26</attribute>
 			<attribute key="label" type="String">Try again</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2914,19 +2272,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1247.5769841269841</attribute>
-						<attribute key="y" type="double">2885.44973289521</attribute>
+						<attribute key="y" type="double">2097.705306709751</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">968.454079861111</attribute>
-						<attribute key="y" type="double">2906.0111534927173</attribute>
+						<attribute key="y" type="double">2118.266727307258</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">968.454079861111</attribute>
-						<attribute key="y" type="double">2942.9583234442657</attribute>
+						<attribute key="y" type="double">2155.2138972588064</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">783.675</attribute>
-						<attribute key="y" type="double">2885.44973289521</attribute>
+						<attribute key="y" type="double">2097.705306709751</attribute>
 					</section>
 				</section>
 			</section>
@@ -2945,12 +2303,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">978.454079861111</attribute>
-				<attribute key="y" type="double">2896.6605675552173</attribute>
+				<attribute key="y" type="double">2108.916141369758</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">35</attribute>
-			<attribute key="target" type="int">41</attribute>
+			<attribute key="source" type="int">26</attribute>
+			<attribute key="target" type="int">32</attribute>
 			<attribute key="label" type="String">How to print side-by-side?</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2969,12 +2327,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">712.31171875</attribute>
-				<attribute key="y" type="double">3025.4669139933217</attribute>
+				<attribute key="y" type="double">2237.7224878078623</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">41</attribute>
-			<attribute key="target" type="int">42</attribute>
+			<attribute key="source" type="int">32</attribute>
+			<attribute key="target" type="int">33</attribute>
 			<attribute key="label" type="String">Let us find out</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -2993,12 +2351,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">743.981640625</attribute>
-				<attribute key="y" type="double">3153.68512903924</attribute>
+				<attribute key="y" type="double">2365.9407028537807</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">43</attribute>
-			<attribute key="target" type="int">44</attribute>
+			<attribute key="source" type="int">34</attribute>
+			<attribute key="target" type="int">35</attribute>
 			<attribute key="label" type="String">4, 4</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3006,19 +2364,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">783.675</attribute>
-						<attribute key="y" type="double">3372.9140457399635</attribute>
+						<attribute key="y" type="double">2585.1696195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">694.5973495094062</attribute>
-						<attribute key="y" type="double">3421.6015457399635</attribute>
+						<attribute key="y" type="double">2633.8571195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">564.4813492063493</attribute>
-						<attribute key="y" type="double">3421.6015457399635</attribute>
+						<attribute key="y" type="double">2633.8571195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">609.9047619047619</attribute>
-						<attribute key="y" type="double">3576.3634509051435</attribute>
+						<attribute key="y" type="double">2788.6190247196846</attribute>
 					</section>
 				</section>
 			</section>
@@ -3037,12 +2395,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">552.4735367063493</attribute>
-				<attribute key="y" type="double">3463.1015457399635</attribute>
+				<attribute key="y" type="double">2675.3571195545046</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">44</attribute>
-			<attribute key="target" type="int">43</attribute>
+			<attribute key="source" type="int">35</attribute>
+			<attribute key="target" type="int">34</attribute>
 			<attribute key="label" type="String">Try again</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3050,19 +2408,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">609.9047619047619</attribute>
-						<attribute key="y" type="double">3576.3634509051435</attribute>
+						<attribute key="y" type="double">2788.6190247196846</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">655.3281746031746</attribute>
-						<attribute key="y" type="double">3437.6015457399635</attribute>
+						<attribute key="y" type="double">2649.8571195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">739.136174754703</attribute>
-						<attribute key="y" type="double">3437.6015457399635</attribute>
+						<attribute key="y" type="double">2649.8571195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">783.675</attribute>
-						<attribute key="y" type="double">3372.9140457399635</attribute>
+						<attribute key="y" type="double">2585.1696195545046</attribute>
 					</section>
 				</section>
 			</section>
@@ -3081,12 +2439,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">628.3174324156746</attribute>
-				<attribute key="y" type="double">3463.1015457399635</attribute>
+				<attribute key="y" type="double">2675.3571195545046</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">43</attribute>
-			<attribute key="target" type="int">45</attribute>
+			<attribute key="source" type="int">34</attribute>
+			<attribute key="target" type="int">36</attribute>
 			<attribute key="label" type="String">4, 22</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3106,12 +2464,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">768.3302734375</attribute>
-				<attribute key="y" type="double">3463.1015457399635</attribute>
+				<attribute key="y" type="double">2675.3571195545046</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">45</attribute>
-			<attribute key="target" type="int">43</attribute>
+			<attribute key="source" type="int">36</attribute>
+			<attribute key="target" type="int">34</attribute>
 			<attribute key="label" type="String">Try again</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3119,19 +2477,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">836.5984126984127</attribute>
-						<attribute key="y" type="double">3576.3634509051435</attribute>
+						<attribute key="y" type="double">2788.6190247196846</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">889.5218253968254</attribute>
-						<attribute key="y" type="double">3437.6015457399635</attribute>
+						<attribute key="y" type="double">2649.8571195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">828.2138252452969</attribute>
-						<attribute key="y" type="double">3437.6015457399635</attribute>
+						<attribute key="y" type="double">2649.8571195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">783.675</attribute>
-						<attribute key="y" type="double">3372.9140457399635</attribute>
+						<attribute key="y" type="double">2585.1696195545046</attribute>
 					</section>
 				</section>
 			</section>
@@ -3150,12 +2508,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">862.5110832093254</attribute>
-				<attribute key="y" type="double">3463.1015457399635</attribute>
+				<attribute key="y" type="double">2675.3571195545046</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">43</attribute>
-			<attribute key="target" type="int">46</attribute>
+			<attribute key="source" type="int">34</attribute>
+			<attribute key="target" type="int">37</attribute>
 			<attribute key="label" type="String">4, "22"</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3163,19 +2521,19 @@ c. Replace outputValue with outputValue + i</attribute>
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">783.675</attribute>
-						<attribute key="y" type="double">3372.9140457399635</attribute>
+						<attribute key="y" type="double">2585.1696195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">872.7526504905937</attribute>
-						<attribute key="y" type="double">3421.6015457399635</attribute>
+						<attribute key="y" type="double">2633.8571195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1115.7619047619048</attribute>
-						<attribute key="y" type="double">3421.6015457399635</attribute>
+						<attribute key="y" type="double">2633.8571195545046</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1115.7619047619048</attribute>
-						<attribute key="y" type="double">3576.3634509051435</attribute>
+						<attribute key="y" type="double">2788.6190247196846</attribute>
 					</section>
 				</section>
 			</section>
@@ -3193,12 +2551,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1096.1574125744048</attribute>
-				<attribute key="y" type="double">3463.1015457399635</attribute>
+				<attribute key="y" type="double">2675.3571195545046</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">42</attribute>
-			<attribute key="target" type="int">43</attribute>
+			<attribute key="source" type="int">33</attribute>
+			<attribute key="target" type="int">34</attribute>
 			<attribute key="label" type="String">Recap</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3217,12 +2575,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">764.33125</attribute>
-				<attribute key="y" type="double">3306.0253738649635</attribute>
+				<attribute key="y" type="double">2518.280947679504</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">46</attribute>
-			<attribute key="target" type="int">47</attribute>
+			<attribute key="source" type="int">37</attribute>
+			<attribute key="target" type="int">38</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3241,12 +2599,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1101.4249906994048</attribute>
-				<attribute key="y" type="double">3680.924184195324</attribute>
+				<attribute key="y" type="double">2893.179758009865</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">47</attribute>
-			<attribute key="target" type="int">48</attribute>
+			<attribute key="source" type="int">38</attribute>
+			<attribute key="target" type="int">39</attribute>
 			<attribute key="label" type="String">Continue</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3264,13 +2622,13 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentWidth" type="double">52.03515625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">933.3796440972224</attribute>
-				<attribute key="y" type="double">3774.8355034230035</attribute>
+				<attribute key="x" type="double">933.3796440972221</attribute>
+				<attribute key="y" type="double">2987.0910772375446</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">48</attribute>
-			<attribute key="target" type="int">49</attribute>
+			<attribute key="source" type="int">39</attribute>
+			<attribute key="target" type="int">40</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3289,12 +2647,12 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">750.7261811755952</attribute>
-				<attribute key="y" type="double">3888.7468226506844</attribute>
+				<attribute key="y" type="double">3101.0023964652255</attribute>
 			</section>
 		</section>
 		<section name="edge">
-			<attribute key="source" type="int">49</attribute>
-			<attribute key="target" type="int">26</attribute>
+			<attribute key="source" type="int">40</attribute>
+			<attribute key="target" type="int">17</attribute>
 			<attribute key="label" type="String">Next</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
@@ -3302,7 +2660,7 @@ c. Replace outputValue with outputValue + i</attribute>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">0.9999999999999979</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999886</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000016</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Next</attribute>
@@ -3313,7 +2671,31 @@ c. Replace outputValue with outputValue + i</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">750.7261811755952</attribute>
-				<attribute key="y" type="double">4106.569461106044</attribute>
+				<attribute key="y" type="double">3318.825034920586</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">4</attribute>
+			<attribute key="target" type="int">3</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="ySource" type="double">1.0000000000000002</attribute>
+				<attribute key="yTarget" type="double">-1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">798.1499906994047</attribute>
+				<attribute key="y" type="double">392.96788981394604</attribute>
 			</section>
 		</section>
 	</section>
