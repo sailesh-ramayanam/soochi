@@ -10,7 +10,7 @@
 			<attribute key="id" type="int">0</attribute>
 			<attribute key="label" type="String">Let us start solving this assignment step-by-step.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1318.6593253968254</attribute>
+				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">75.85016286644952</attribute>
 				<attribute key="w" type="double">196.99017242128116</attribute>
 				<attribute key="h" type="double">51.700325732899046</attribute>
@@ -34,7 +34,7 @@
 			<attribute key="id" type="int">1</attribute>
 			<attribute key="label" type="String">start</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1318.6593253968254</attribute>
+				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">15.0</attribute>
 				<attribute key="w" type="double">30.0</attribute>
 				<attribute key="h" type="double">30.0</attribute>
@@ -54,7 +54,7 @@
 			<attribute key="id" type="int">2</attribute>
 			<attribute key="label" type="String">First step is "Understand the problem statement".</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1318.6593253968254</attribute>
+				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">151.31437877826966</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">59.22810609074119</attribute>
@@ -78,7 +78,7 @@
 			<attribute key="id" type="int">3</attribute>
 			<attribute key="label" type="String">What should we find out?</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1318.6593253968254</attribute>
+				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">779.4325549312257</attribute>
 				<attribute key="w" type="double">194.45962175936086</attribute>
 				<attribute key="h" type="double">45.820248526523415</attribute>
@@ -102,7 +102,7 @@
 			<attribute key="id" type="int">4</attribute>
 			<attribute key="label" type="String">This answer is incorrect. Please read the problem statement carefully.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1251.216865079365</attribute>
+				<attribute key="x" type="double">1176.7442460317461</attribute>
 				<attribute key="y" type="double">981.3678641395015</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -126,7 +126,7 @@
 			<attribute key="id" type="int">5</attribute>
 			<attribute key="label" type="String">This is correct answer.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1504.6343253968255</attribute>
+				<attribute key="x" type="double">1430.1617063492063</attribute>
 				<attribute key="y" type="double">981.3678641395015</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -151,7 +151,7 @@
 			<attribute key="label" type="String">Now that we understand the problem statement, 2nd step is to come up with new test cases.
 First let us understand the input format.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1504.6343253968255</attribute>
+				<attribute key="x" type="double">1430.1617063492063</attribute>
 				<attribute key="y" type="double">1107.31471840453</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -176,7 +176,7 @@ First let us understand the input format.</attribute>
 			<attribute key="id" type="int">7</attribute>
 			<attribute key="label" type="String">How many lines does the input contain?</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1202.4811507936508</attribute>
+				<attribute key="x" type="double">1128.0085317460318</attribute>
 				<attribute key="y" type="double">1107.31471840453</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">59.22810609074119</attribute>
@@ -200,7 +200,7 @@ First let us understand the input format.</attribute>
 			<attribute key="id" type="int">8</attribute>
 			<attribute key="label" type="String">This answer is incorrect. Please read the input description carefully.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1165.2448412698413</attribute>
+				<attribute key="x" type="double">1090.7722222222221</attribute>
 				<attribute key="y" type="double">1249.261572669558</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -225,7 +225,7 @@ First let us understand the input format.</attribute>
 			<attribute key="label" type="String">This is correct answer.
 Until we read the first line of input, we don't know how many lines the input contains.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1418.6623015873015</attribute>
+				<attribute key="x" type="double">1344.1896825396825</attribute>
 				<attribute key="y" type="double">1249.261572669558</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -250,7 +250,7 @@ Until we read the first line of input, we don't know how many lines the input co
 			<attribute key="id" type="int">10</attribute>
 			<attribute key="label" type="String">What does the first line of input contain?</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1418.6623015873015</attribute>
+				<attribute key="x" type="double">1344.1896825396825</attribute>
 				<attribute key="y" type="double">1371.1996387849429</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">59.22810609074119</attribute>
@@ -274,7 +274,7 @@ Until we read the first line of input, we don't know how many lines the input co
 			<attribute key="id" type="int">11</attribute>
 			<attribute key="label" type="String">This is correct answer.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1109.3904761904762</attribute>
+				<attribute key="x" type="double">1034.9178571428572</attribute>
 				<attribute key="y" type="double">1525.1377049003277</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -298,7 +298,7 @@ Until we read the first line of input, we don't know how many lines the input co
 			<attribute key="id" type="int">12</attribute>
 			<attribute key="label" type="String">This answer is incorrect. Please read the input description carefully.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1362.8079365079366</attribute>
+				<attribute key="x" type="double">1288.3353174603174</attribute>
 				<attribute key="y" type="double">1525.1377049003277</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -322,7 +322,7 @@ Until we read the first line of input, we don't know how many lines the input co
 			<attribute key="id" type="int">13</attribute>
 			<attribute key="label" type="String">Please read the input description provided in the assignment.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1616.2253968253967</attribute>
+				<attribute key="x" type="double">1541.7527777777777</attribute>
 				<attribute key="y" type="double">1525.1377049003277</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -346,7 +346,7 @@ Until we read the first line of input, we don't know how many lines the input co
 			<attribute key="id" type="int">14</attribute>
 			<attribute key="label" type="String">Suppose first line contains 23. Then, how many lines will the input have?</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1109.3904761904762</attribute>
+				<attribute key="x" type="double">1034.9178571428572</attribute>
 				<attribute key="y" type="double">1720.9935059623158</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">59.22810609074119</attribute>
@@ -370,7 +370,7 @@ Until we read the first line of input, we don't know how many lines the input co
 			<attribute key="id" type="int">15</attribute>
 			<attribute key="label" type="String">This answer is incorrect. Please read the input description carefully.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1111.4654761904762</attribute>
+				<attribute key="x" type="double">1034.9178571428572</attribute>
 				<attribute key="y" type="double">2013.550478899304</attribute>
 				<attribute key="w" type="double">223.4172787384009</attribute>
 				<attribute key="h" type="double">67.24568239002826</attribute>
@@ -394,7 +394,7 @@ Until we read the first line of input, we don't know how many lines the input co
 			<attribute key="id" type="int">16</attribute>
 			<attribute key="label" type="String">This is correct answer. First line contains 23 means the list has 23 values. Each value is provided in a separate line, starting from 2nd line. So, 23 lines + the first line. Total 24 lines of input.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1391.8555555555556</attribute>
+				<attribute key="x" type="double">1317.3829365079366</attribute>
 				<attribute key="y" type="double">1720.9935059623158</attribute>
 				<attribute key="w" type="double">253.4172787384009</attribute>
 				<attribute key="h" type="double">82.24568239002826</attribute>
@@ -431,7 +431,7 @@ Input 2:
 
 Which of these is not a valid input for this problem?</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1752.9420634920634</attribute>
+				<attribute key="x" type="double">1678.4694444444444</attribute>
 				<attribute key="y" type="double">1720.9935059623158</attribute>
 				<attribute key="w" type="double">341.407897630909</attribute>
 				<attribute key="h" type="double">227.06357598394777</attribute>
@@ -1438,7 +1438,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			<attribute key="id" type="int">52</attribute>
 			<attribute key="label" type="String">We are given a sequence of values. What does each of these values represent?</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1318.6593253968254</attribute>
+				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">271.39541709948304</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">59.22810609074119</attribute>
@@ -1510,7 +1510,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			<attribute key="id" type="int">55</attribute>
 			<attribute key="label" type="String">This answer is incorrect. Please read the problem statement carefully.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">961.3569444444445</attribute>
+				<attribute key="x" type="double">886.8843253968254</attribute>
 				<attribute key="y" type="double">271.39541709948304</attribute>
 				<attribute key="w" type="double">154.3682472031619</attribute>
 				<attribute key="h" type="double">67.24568239002829</attribute>
@@ -1534,7 +1534,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			<attribute key="id" type="int">56</attribute>
 			<attribute key="label" type="String">This is correct answer. Each value represents the remaining lifespan of a macbook. A macbook is a laptop from Apple.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1318.6593253968254</attribute>
+				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">398.3554996368091</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">77.28971523391101</attribute>
@@ -1558,7 +1558,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			<attribute key="id" type="int">57</attribute>
 			<attribute key="label" type="String">As per the problem statement, which of the following will never be a part of input?</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1318.6593253968254</attribute>
+				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">530.2692459625251</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">59.22810609074119</attribute>
@@ -1582,7 +1582,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			<attribute key="id" type="int">58</attribute>
 			<attribute key="label" type="String">This answer is incorrect. Please read the problem statement carefully.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">990.7005952380953</attribute>
+				<attribute key="x" type="double">916.2279761904762</attribute>
 				<attribute key="y" type="double">530.2692459625252</attribute>
 				<attribute key="w" type="double">154.3682472031619</attribute>
 				<attribute key="h" type="double">67.24568239002829</attribute>
@@ -1606,7 +1606,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			<attribute key="id" type="int">59</attribute>
 			<attribute key="label" type="String">This is correct answer. The input will contain only integers. 4.5 is not an integer.</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">1318.6593253968254</attribute>
+				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">659.1764011760085</attribute>
 				<attribute key="w" type="double">206.81735838214126</attribute>
 				<attribute key="h" type="double">77.28971523391101</attribute>
@@ -1797,27 +1797,27 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1251.216865079365</attribute>
+						<attribute key="x" type="double">1176.7442460317461</attribute>
 						<attribute key="y" type="double">981.3678641395015</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1334.9983446062654</attribute>
+						<attribute key="x" type="double">1260.5257255586464</attribute>
 						<attribute key="y" type="double">932.2450229444873</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1387.6847222222223</attribute>
+						<attribute key="x" type="double">1313.2121031746033</attribute>
 						<attribute key="y" type="double">932.2450229444873</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1387.6847222222223</attribute>
+						<attribute key="x" type="double">1313.2121031746033</attribute>
 						<attribute key="y" type="double">833.8426791944875</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1357.5512497486975</attribute>
+						<attribute key="x" type="double">1283.0786307010785</attribute>
 						<attribute key="y" type="double">833.8426791944875</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">779.4325549312257</attribute>
 					</section>
 				</section>
@@ -1836,7 +1836,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">54.021484375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1360.6739800347223</attribute>
+				<attribute key="x" type="double">1286.2013609871033</attribute>
 				<attribute key="y" type="double">898.0438510694873</attribute>
 			</section>
 		</section>
@@ -1860,7 +1860,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1490.2974113343255</attribute>
+				<attribute key="x" type="double">1415.8247922867063</attribute>
 				<attribute key="y" type="double">1039.9907053345157</attribute>
 			</section>
 		</section>
@@ -1884,7 +1884,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">52.03515625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1330.890159970238</attribute>
+				<attribute key="x" type="double">1256.417540922619</attribute>
 				<attribute key="y" type="double">1097.96413246703</attribute>
 			</section>
 		</section>
@@ -1897,19 +1897,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1202.4811507936508</attribute>
+						<attribute key="x" type="double">1128.0085317460318</attribute>
 						<attribute key="y" type="double">1107.31471840453</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1124.9246414003478</attribute>
+						<attribute key="x" type="double">1050.4520223527288</attribute>
+						<attribute key="y" type="double">1152.4287714499005</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1016.2996031746031</attribute>
 						<attribute key="y" type="double">1152.4287714499005</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1090.7722222222221</attribute>
-						<attribute key="y" type="double">1152.4287714499005</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">1165.2448412698413</attribute>
 						<attribute key="y" type="double">1249.261572669558</attribute>
 					</section>
 				</section>
@@ -1928,7 +1928,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">38.6875</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1071.4284722222221</attribute>
+				<attribute key="x" type="double">996.9558531746031</attribute>
 				<attribute key="y" type="double">1181.9375595995439</attribute>
 			</section>
 		</section>
@@ -1941,19 +1941,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1202.4811507936508</attribute>
+						<attribute key="x" type="double">1128.0085317460318</attribute>
 						<attribute key="y" type="double">1107.31471840453</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1176.6289809958832</attribute>
+						<attribute key="x" type="double">1102.1563619482642</attribute>
 						<attribute key="y" type="double">1152.4287714499005</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1165.2448412698413</attribute>
+						<attribute key="x" type="double">1090.7722222222221</attribute>
 						<attribute key="y" type="double">1152.4287714499005</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1165.2448412698413</attribute>
+						<attribute key="x" type="double">1090.7722222222221</attribute>
 						<attribute key="y" type="double">1249.261572669558</attribute>
 					</section>
 				</section>
@@ -1971,7 +1971,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">38.6875</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1145.9010912698413</attribute>
+				<attribute key="x" type="double">1071.4284722222221</attribute>
 				<attribute key="y" type="double">1181.9375595995439</attribute>
 			</section>
 		</section>
@@ -1984,19 +1984,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1165.2448412698413</attribute>
+						<attribute key="x" type="double">1090.7722222222221</attribute>
 						<attribute key="y" type="double">1249.261572669558</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1239.7174603174603</attribute>
+						<attribute key="x" type="double">1165.2448412698413</attribute>
 						<attribute key="y" type="double">1152.4287714499005</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1228.3333205914184</attribute>
+						<attribute key="x" type="double">1153.8607015437995</attribute>
 						<attribute key="y" type="double">1152.4287714499005</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1202.4811507936508</attribute>
+						<attribute key="x" type="double">1128.0085317460318</attribute>
 						<attribute key="y" type="double">1107.31471840453</attribute>
 					</section>
 				</section>
@@ -2015,7 +2015,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">54.021484375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1212.7067181299603</attribute>
+				<attribute key="x" type="double">1138.2340990823413</attribute>
 				<attribute key="y" type="double">1181.9375595995439</attribute>
 			</section>
 		</section>
@@ -2028,19 +2028,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1202.4811507936508</attribute>
+						<attribute key="x" type="double">1128.0085317460318</attribute>
 						<attribute key="y" type="double">1107.31471840453</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1280.0376601869539</attribute>
+						<attribute key="x" type="double">1205.5650411393349</attribute>
 						<attribute key="y" type="double">1156.4375595995439</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1418.6623015873015</attribute>
+						<attribute key="x" type="double">1344.1896825396825</attribute>
 						<attribute key="y" type="double">1156.4375595995439</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1418.6623015873015</attribute>
+						<attribute key="x" type="double">1344.1896825396825</attribute>
 						<attribute key="y" type="double">1249.261572669558</attribute>
 					</section>
 				</section>
@@ -2058,7 +2058,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">161.423828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1337.9503875248015</attribute>
+				<attribute key="x" type="double">1263.4777684771825</attribute>
 				<attribute key="y" type="double">1181.9375595995439</attribute>
 			</section>
 		</section>
@@ -2082,7 +2082,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1404.3253875248015</attribute>
+				<attribute key="x" type="double">1329.8527684771825</attribute>
 				<attribute key="y" type="double">1307.8844138645723</attribute>
 			</section>
 		</section>
@@ -2095,19 +2095,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1418.6623015873015</attribute>
+						<attribute key="x" type="double">1344.1896825396825</attribute>
 						<attribute key="y" type="double">1371.1996387849429</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1335.935358234445</attribute>
+						<attribute key="x" type="double">1261.462739186826</attribute>
 						<attribute key="y" type="double">1416.3136918303135</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1109.3904761904762</attribute>
+						<attribute key="x" type="double">1034.9178571428572</attribute>
 						<attribute key="y" type="double">1416.3136918303135</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1109.3904761904762</attribute>
+						<attribute key="x" type="double">1034.9178571428572</attribute>
 						<attribute key="y" type="double">1525.1377049003277</attribute>
 					</section>
 				</section>
@@ -2125,7 +2125,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">78.701171875</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1070.0398902529762</attribute>
+				<attribute key="x" type="double">995.5672712053572</attribute>
 				<attribute key="y" type="double">1457.8136918303135</attribute>
 			</section>
 		</section>
@@ -2138,19 +2138,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1418.6623015873015</attribute>
+						<attribute key="x" type="double">1344.1896825396825</attribute>
 						<attribute key="y" type="double">1371.1996387849429</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1377.2988299108733</attribute>
+						<attribute key="x" type="double">1302.8262108632543</attribute>
 						<attribute key="y" type="double">1432.3136918303135</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1306.9535714285714</attribute>
+						<attribute key="x" type="double">1232.4809523809524</attribute>
 						<attribute key="y" type="double">1432.3136918303135</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1362.8079365079366</attribute>
+						<attribute key="x" type="double">1288.3353174603174</attribute>
 						<attribute key="y" type="double">1525.1377049003277</attribute>
 					</section>
 				</section>
@@ -2158,7 +2158,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">-0.39999999999999913</attribute>
 				<attribute key="ySource" type="double">1.0000000000000004</attribute>
-				<attribute key="xTarget" type="double">-0.500000000000001</attribute>
+				<attribute key="xTarget" type="double">-0.499999999999999</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000018</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -2169,7 +2169,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">110.705078125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1251.6010323660714</attribute>
+				<attribute key="x" type="double">1177.1284133184524</attribute>
 				<attribute key="y" type="double">1457.8136918303135</attribute>
 			</section>
 		</section>
@@ -2182,19 +2182,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1418.6623015873015</attribute>
+						<attribute key="x" type="double">1344.1896825396825</attribute>
 						<attribute key="y" type="double">1371.1996387849429</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1460.0257732637297</attribute>
+						<attribute key="x" type="double">1385.5531542161107</attribute>
 						<attribute key="y" type="double">1432.3136918303135</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1560.3710317460318</attribute>
+						<attribute key="x" type="double">1485.8984126984126</attribute>
 						<attribute key="y" type="double">1432.3136918303135</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1616.2253968253967</attribute>
+						<attribute key="x" type="double">1541.7527777777777</attribute>
 						<attribute key="y" type="double">1525.1377049003277</attribute>
 					</section>
 				</section>
@@ -2213,7 +2213,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">62.986328125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1528.8778676835318</attribute>
+				<attribute key="x" type="double">1454.4052486359126</attribute>
 				<attribute key="y" type="double">1457.8136918303135</attribute>
 			</section>
 		</section>
@@ -2226,19 +2226,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1616.2253968253967</attribute>
+						<attribute key="x" type="double">1541.7527777777777</attribute>
 						<attribute key="y" type="double">1525.1377049003277</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1672.0797619047619</attribute>
+						<attribute key="x" type="double">1597.607142857143</attribute>
 						<attribute key="y" type="double">1416.3136918303135</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1501.389244940158</attribute>
+						<attribute key="x" type="double">1426.916625892539</attribute>
 						<attribute key="y" type="double">1416.3136918303135</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1418.6623015873015</attribute>
+						<attribute key="x" type="double">1344.1896825396825</attribute>
 						<attribute key="y" type="double">1371.1996387849429</attribute>
 					</section>
 				</section>
@@ -2257,7 +2257,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">54.021484375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1645.0690197172619</attribute>
+				<attribute key="x" type="double">1570.596400669643</attribute>
 				<attribute key="y" type="double">1457.8136918303135</attribute>
 			</section>
 		</section>
@@ -2270,7 +2270,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">0.500000000000001</attribute>
+				<attribute key="xSource" type="double">0.499999999999999</attribute>
 				<attribute key="ySource" type="double">-1.0000000000000018</attribute>
 				<attribute key="yTarget" type="double">1.0000000000000004</attribute>
 			</section>
@@ -2282,7 +2282,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">54.021484375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1391.6515593998015</attribute>
+				<attribute key="x" type="double">1317.1789403521825</attribute>
 				<attribute key="y" type="double">1457.8136918303135</attribute>
 			</section>
 		</section>
@@ -2306,7 +2306,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1095.0535621279762</attribute>
+				<attribute key="x" type="double">1020.5809430803572</attribute>
 				<attribute key="y" type="double">1583.7605460953419</attribute>
 			</section>
 		</section>
@@ -2319,19 +2319,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1111.4654761904762</attribute>
+						<attribute key="x" type="double">1034.9178571428572</attribute>
 						<attribute key="y" type="double">2013.550478899304</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1195.2469557173765</attribute>
+						<attribute key="x" type="double">1118.6993366697575</attribute>
 						<attribute key="y" type="double">1964.4276377042897</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1186.9468253968255</attribute>
+						<attribute key="x" type="double">1112.4742063492063</attribute>
 						<attribute key="y" type="double">1964.4276377042897</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1109.3904761904762</attribute>
+						<attribute key="x" type="double">1034.9178571428572</attribute>
 						<attribute key="y" type="double">1720.9935059623158</attribute>
 					</section>
 				</section>
@@ -2350,7 +2350,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">54.021484375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1159.9360832093255</attribute>
+				<attribute key="x" type="double">1085.4634641617063</attribute>
 				<attribute key="y" type="double">1930.2264658292897</attribute>
 			</section>
 		</section>
@@ -2374,7 +2374,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1528.5642764136905</attribute>
+				<attribute key="x" type="double">1454.0916573660713</attribute>
 				<attribute key="y" type="double">1711.6429200248158</attribute>
 			</section>
 		</section>
@@ -2387,11 +2387,11 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1752.9420634920634</attribute>
+						<attribute key="x" type="double">1678.4694444444444</attribute>
 						<attribute key="y" type="double">1720.9935059623158</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1667.5900890843361</attribute>
+						<attribute key="x" type="double">1650.0187863085353</attribute>
 						<attribute key="y" type="double">1850.0252939542897</attribute>
 					</section>
 					<section name="point">
@@ -2405,7 +2405,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				</section>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-0.5000000000000003</attribute>
+				<attribute key="xSource" type="double">-0.1666666666666672</attribute>
 				<attribute key="ySource" type="double">1.0000000000000004</attribute>
 				<attribute key="xTarget" type="double">-0.6666666666666666</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000018</attribute>
@@ -2419,7 +2419,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1589.0892206101191</attribute>
-				<attribute key="y" type="double">1930.2264658292897</attribute>
+				<attribute key="y" type="double">1891.5252939542897</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2429,27 +2429,9 @@ We have discussed all of the above in previous assignments multiple times. Take 
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
-				<section name="Line">
-					<section name="point">
-						<attribute key="x" type="double">1752.9420634920634</attribute>
-						<attribute key="y" type="double">1720.9935059623158</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">1724.4914053561542</attribute>
-						<attribute key="y" type="double">1850.0252939542897</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">1706.9202380952381</attribute>
-						<attribute key="y" type="double">1850.0252939542897</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">1706.9202380952381</attribute>
-						<attribute key="y" type="double">2013.550478899304</attribute>
-					</section>
-				</section>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">-0.1666666666666672</attribute>
+				<attribute key="xSource" type="double">0.1666666666666672</attribute>
 				<attribute key="ySource" type="double">1.0000000000000004</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000018</attribute>
 			</section>
@@ -2462,50 +2444,6 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1668.2317615327381</attribute>
-				<attribute key="y" type="double">1891.5252939542897</attribute>
-			</section>
-		</section>
-		<section name="edge">
-			<attribute key="source" type="int">18</attribute>
-			<attribute key="target" type="int">17</attribute>
-			<attribute key="label" type="String">Try again</attribute>
-			<section name="graphics">
-				<attribute key="fill" type="String">#000000</attribute>
-				<attribute key="targetArrow" type="String">standard</attribute>
-				<section name="Line">
-					<section name="point">
-						<attribute key="x" type="double">1964.0234126984124</attribute>
-						<attribute key="y" type="double">2013.550478899304</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">2021.720634920635</attribute>
-						<attribute key="y" type="double">1850.0252939542897</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">1895.1953541716089</attribute>
-						<attribute key="y" type="double">1850.0252939542897</attribute>
-					</section>
-					<section name="point">
-						<attribute key="x" type="double">1752.9420634920634</attribute>
-						<attribute key="y" type="double">1720.9935059623158</attribute>
-					</section>
-				</section>
-			</section>
-			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">0.4999999999999995</attribute>
-				<attribute key="ySource" type="double">-1.0000000000000013</attribute>
-				<attribute key="xTarget" type="double">0.8333333333333335</attribute>
-				<attribute key="yTarget" type="double">1.0000000000000004</attribute>
-			</section>
-			<section name="LabelGraphics">
-				<attribute key="text" type="String">Try again</attribute>
-				<attribute key="fontSize" type="int">12</attribute>
-				<attribute key="fontName" type="String">Dialog</attribute>
-				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">54.021484375</attribute>
-				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1994.709892733135</attribute>
 				<attribute key="y" type="double">1930.2264658292897</attribute>
 			</section>
 		</section>
@@ -2516,11 +2454,29 @@ We have discussed all of the above in previous assignments multiple times. Take 
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">1706.9202380952381</attribute>
+						<attribute key="y" type="double">2013.550478899304</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1781.392857142857</attribute>
+						<attribute key="y" type="double">1850.0252939542897</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1763.8214188521717</attribute>
+						<attribute key="y" type="double">1850.0252939542897</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1678.4694444444444</attribute>
+						<attribute key="y" type="double">1720.9935059623158</attribute>
+					</section>
+				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.6666666666666666</attribute>
 				<attribute key="ySource" type="double">-1.0000000000000018</attribute>
-				<attribute key="xTarget" type="double">0.1666666666666672</attribute>
+				<attribute key="xTarget" type="double">0.5000000000000003</attribute>
 				<attribute key="yTarget" type="double">1.0000000000000004</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -2532,7 +2488,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1754.382114955357</attribute>
-				<attribute key="y" type="double">1930.2264658292897</attribute>
+				<attribute key="y" type="double">1891.5252939542897</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3283,7 +3239,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">48.6953125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1294.3116691468254</attribute>
+				<attribute key="x" type="double">1219.8390500992064</attribute>
 				<attribute key="y" type="double">205.92843182364027</attribute>
 			</section>
 		</section>
@@ -3296,19 +3252,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1109.3904761904762</attribute>
+						<attribute key="x" type="double">1034.9178571428572</attribute>
 						<attribute key="y" type="double">1720.9935059623158</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1031.834126984127</attribute>
+						<attribute key="x" type="double">957.3615079365079</attribute>
 						<attribute key="y" type="double">1925.7264658292897</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1027.683996663576</attribute>
+						<attribute key="x" type="double">951.1363776159569</attribute>
 						<attribute key="y" type="double">1925.7264658292897</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1111.4654761904762</attribute>
+						<attribute key="x" type="double">1034.9178571428572</attribute>
 						<attribute key="y" type="double">2013.550478899304</attribute>
 					</section>
 				</section>
@@ -3327,7 +3283,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">17.34765625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1023.1602988591269</attribute>
+				<attribute key="x" type="double">948.6876798115079</attribute>
 				<attribute key="y" type="double">1891.5252939542897</attribute>
 			</section>
 		</section>
@@ -3351,7 +3307,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">17.34765625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1222.7991877480158</attribute>
+				<attribute key="x" type="double">1148.3265687003968</attribute>
 				<attribute key="y" type="double">1711.6429200248158</attribute>
 			</section>
 		</section>
@@ -3364,19 +3320,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1109.3904761904762</attribute>
+						<attribute key="x" type="double">1034.9178571428572</attribute>
 						<attribute key="y" type="double">1720.9935059623158</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1135.2424603174604</attribute>
+						<attribute key="x" type="double">1060.7698412698412</attribute>
 						<attribute key="y" type="double">1964.4276377042897</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1139.3926360327764</attribute>
+						<attribute key="x" type="double">1062.8450169851574</attribute>
 						<attribute key="y" type="double">1964.4276377042897</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1111.4654761904762</attribute>
+						<attribute key="x" type="double">1034.9178571428572</attribute>
 						<attribute key="y" type="double">2013.550478899304</attribute>
 					</section>
 				</section>
@@ -3395,7 +3351,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">64.703125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1102.8908978174604</attribute>
+				<attribute key="x" type="double">1028.4182787698412</attribute>
 				<attribute key="y" type="double">1891.5252939542897</attribute>
 			</section>
 		</section>
@@ -3408,16 +3364,16 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1752.9420634920634</attribute>
+						<attribute key="x" type="double">1678.4694444444444</attribute>
 						<attribute key="y" type="double">1720.9935059623158</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1838.2940378997907</attribute>
-						<attribute key="y" type="double">1866.0252939542897</attribute>
+						<attribute key="x" type="double">1820.7227351239899</attribute>
+						<attribute key="y" type="double">1850.0252939542897</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1906.3261904761905</attribute>
-						<attribute key="y" type="double">1866.0252939542897</attribute>
+						<attribute key="x" type="double">1964.0234126984126</attribute>
+						<attribute key="y" type="double">1850.0252939542897</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1964.0234126984124</attribute>
@@ -3426,9 +3382,8 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				</section>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="xSource" type="double">0.5000000000000003</attribute>
+				<attribute key="xSource" type="double">0.8333333333333335</attribute>
 				<attribute key="ySource" type="double">1.0000000000000004</attribute>
-				<attribute key="xTarget" type="double">-0.4999999999999995</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000013</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -3439,8 +3394,8 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">40.697265625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1885.9775576636905</attribute>
-				<attribute key="y" type="double">1891.5252939542897</attribute>
+				<attribute key="x" type="double">1943.6747798859126</attribute>
+				<attribute key="y" type="double">1930.2264658292897</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -3452,15 +3407,15 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1752.9420634920634</attribute>
+						<attribute key="x" type="double">1678.4694444444444</attribute>
 						<attribute key="y" type="double">1720.9935059623158</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1610.688772812518</attribute>
+						<attribute key="x" type="double">1536.216153764899</attribute>
 						<attribute key="y" type="double">1850.0252939542897</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1453.5027777777777</attribute>
+						<attribute key="x" type="double">1397.6484126984126</attribute>
 						<attribute key="y" type="double">1850.0252939542897</attribute>
 					</section>
 					<section name="point">
@@ -3472,6 +3427,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">-0.8333333333333335</attribute>
 				<attribute key="ySource" type="double">1.0000000000000004</attribute>
+				<attribute key="xTarget" type="double">-0.500000000000001</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000013</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -3482,7 +3438,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">40.697265625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1433.1541449652777</attribute>
+				<attribute key="x" type="double">1377.2997798859126</attribute>
 				<attribute key="y" type="double">1891.5252939542897</attribute>
 			</section>
 		</section>
@@ -3905,19 +3861,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">961.3569444444445</attribute>
+						<attribute key="x" type="double">886.8843253968254</attribute>
 						<attribute key="y" type="double">271.39541709948304</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1200.2503255208333</attribute>
+						<attribute key="x" type="double">1125.7777064732143</attribute>
 						<attribute key="y" type="double">248.98018963614027</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1200.2503255208333</attribute>
+						<attribute key="x" type="double">1125.7777064732143</attribute>
 						<attribute key="y" type="double">251.65271506923597</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">271.39541709948304</attribute>
 					</section>
 				</section>
@@ -3936,7 +3892,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">54.021484375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1136.2288411458333</attribute>
+				<attribute key="x" type="double">1061.7562220982143</attribute>
 				<attribute key="y" type="double">239.62960369864027</attribute>
 			</section>
 		</section>
@@ -3960,7 +3916,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">31.33984375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1135.2288411458333</attribute>
+				<attribute key="x" type="double">1060.7562220982143</attribute>
 				<attribute key="y" type="double">262.04483116198304</attribute>
 			</section>
 		</section>
@@ -3984,7 +3940,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">106.05859375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1265.6300285218254</attribute>
+				<attribute key="x" type="double">1191.1574094742064</attribute>
 				<attribute key="y" type="double">326.0094701448536</attribute>
 			</section>
 		</section>
@@ -3997,19 +3953,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">271.39541709948304</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1053.5413411458333</attribute>
+						<attribute key="x" type="double">979.0687220982143</attribute>
 						<attribute key="y" type="double">291.1381191297301</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1053.5413411458333</attribute>
+						<attribute key="x" type="double">979.0687220982143</attribute>
 						<attribute key="y" type="double">293.8106445628258</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">961.3569444444445</attribute>
+						<attribute key="x" type="double">886.8843253968254</attribute>
 						<attribute key="y" type="double">271.39541709948304</attribute>
 					</section>
 				</section>
@@ -4028,7 +3984,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">50.6875</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1063.5413411458333</attribute>
+				<attribute key="x" type="double">989.0687220982143</attribute>
 				<attribute key="y" type="double">281.7875331922301</attribute>
 			</section>
 		</section>
@@ -4041,19 +3997,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">990.7005952380953</attribute>
+						<attribute key="x" type="double">916.2279761904762</attribute>
 						<attribute key="y" type="double">530.2692459625252</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1200.2502759176587</attribute>
+						<attribute key="x" type="double">1125.7776568700397</attribute>
 						<attribute key="y" type="double">505.0521150662646</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1200.2502759176587</attribute>
+						<attribute key="x" type="double">1125.7776568700397</attribute>
 						<attribute key="y" type="double">508.05870617849723</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">530.2692459625251</attribute>
 					</section>
 				</section>
@@ -4072,7 +4028,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">54.021484375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1136.2287915426587</attribute>
+				<attribute key="x" type="double">1061.7561724950397</attribute>
 				<attribute key="y" type="double">495.7015291287647</attribute>
 			</section>
 		</section>
@@ -4096,7 +4052,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1304.3224113343254</attribute>
+				<attribute key="x" type="double">1229.8497922867064</attribute>
 				<attribute key="y" type="double">462.0003572537646</attribute>
 			</section>
 		</section>
@@ -4109,19 +4065,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">530.2692459625251</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1082.8850415426587</attribute>
+						<attribute key="x" type="double">1008.4124224950397</attribute>
 						<attribute key="y" type="double">522.8657327011825</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1082.8850415426587</attribute>
+						<attribute key="x" type="double">1008.4124224950397</attribute>
 						<attribute key="y" type="double">521.8635356637717</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">990.7005952380953</attribute>
+						<attribute key="x" type="double">916.2279761904762</attribute>
 						<attribute key="y" type="double">530.2692459625252</attribute>
 					</section>
 				</section>
@@ -4140,7 +4096,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">21.34375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1092.8850415426587</attribute>
+				<attribute key="x" type="double">1018.4124224950397</attribute>
 				<attribute key="y" type="double">513.5151467636824</attribute>
 			</section>
 		</section>
@@ -4153,19 +4109,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">530.2692459625251</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1125.2287915426587</attribute>
+						<attribute key="x" type="double">1050.7561724950397</attribute>
 						<attribute key="y" type="double">537.6727592238678</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1125.2287915426587</attribute>
+						<attribute key="x" type="double">1050.7561724950397</attribute>
 						<attribute key="y" type="double">538.6749562612788</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">990.7005952380953</attribute>
+						<attribute key="x" type="double">916.2279761904762</attribute>
 						<attribute key="y" type="double">530.2692459625252</attribute>
 					</section>
 				</section>
@@ -4184,7 +4140,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">10.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1135.2287915426587</attribute>
+				<attribute key="x" type="double">1060.7561724950397</attribute>
 				<attribute key="y" type="double">528.3221732863677</attribute>
 			</section>
 		</section>
@@ -4197,19 +4153,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">530.2692459625251</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1156.9026196676587</attribute>
+						<attribute key="x" type="double">1082.4300006200397</attribute>
 						<attribute key="y" type="double">552.4797857465531</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1156.9026196676587</attribute>
+						<attribute key="x" type="double">1082.4300006200397</attribute>
 						<attribute key="y" type="double">555.4863768587858</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">990.7005952380953</attribute>
+						<attribute key="x" type="double">916.2279761904762</attribute>
 						<attribute key="y" type="double">530.2692459625252</attribute>
 					</section>
 				</section>
@@ -4228,7 +4184,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">17.34765625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1166.9026196676587</attribute>
+				<attribute key="x" type="double">1092.4300006200397</attribute>
 				<attribute key="y" type="double">543.129199809053</attribute>
 			</section>
 		</section>
@@ -4252,7 +4208,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">20.681640625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1308.3185050843254</attribute>
+				<attribute key="x" type="double">1233.8458860367064</attribute>
 				<attribute key="y" type="double">586.830371684053</attribute>
 			</section>
 		</section>
@@ -4276,7 +4232,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1304.3224113343254</attribute>
+				<attribute key="x" type="double">1229.8497922867064</attribute>
 				<attribute key="y" type="double">722.821258792964</attribute>
 			</section>
 		</section>
@@ -4289,19 +4245,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">779.4325549312257</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1396.4431741005696</attribute>
+						<attribute key="x" type="double">1321.9705550529507</attribute>
 						<attribute key="y" type="double">817.8426791944875</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1504.6343253968255</attribute>
+						<attribute key="x" type="double">1430.1617063492063</attribute>
 						<attribute key="y" type="double">817.8426791944875</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1504.6343253968255</attribute>
+						<attribute key="x" type="double">1430.1617063492063</attribute>
 						<attribute key="y" type="double">981.3678641395015</attribute>
 					</section>
 				</section>
@@ -4319,7 +4275,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">201.443359375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1403.9126457093255</attribute>
+				<attribute key="x" type="double">1329.4400266617063</attribute>
 				<attribute key="y" type="double">859.3426791944873</attribute>
 			</section>
 		</section>
@@ -4332,27 +4288,27 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">779.4325549312257</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1240.875476693081</attribute>
+						<attribute key="x" type="double">1166.402857645462</attribute>
 						<attribute key="y" type="double">817.8426791944875</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1121.914880952381</attribute>
+						<attribute key="x" type="double">1047.4422619047618</attribute>
 						<attribute key="y" type="double">817.8426791944875</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1121.914880952381</attribute>
+						<attribute key="x" type="double">1047.4422619047618</attribute>
 						<attribute key="y" type="double">932.2450229444873</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1167.4353855524648</attribute>
+						<attribute key="x" type="double">1092.9627665048458</attribute>
 						<attribute key="y" type="double">932.2450229444873</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1251.216865079365</attribute>
+						<attribute key="x" type="double">1176.7442460317461</attribute>
 						<attribute key="y" type="double">981.3678641395015</attribute>
 					</section>
 				</section>
@@ -4371,7 +4327,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">172.75</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1035.539880952381</attribute>
+				<attribute key="x" type="double">961.0672619047618</attribute>
 				<attribute key="y" type="double">859.3426791944873</attribute>
 			</section>
 		</section>
@@ -4384,19 +4340,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">779.4325549312257</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1279.7674010449532</attribute>
+						<attribute key="x" type="double">1205.2947819973342</attribute>
 						<attribute key="y" type="double">833.8426791944875</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1223.289880952381</attribute>
+						<attribute key="x" type="double">1148.8172619047618</attribute>
 						<attribute key="y" type="double">833.8426791944875</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1251.216865079365</attribute>
+						<attribute key="x" type="double">1176.7442460317461</attribute>
 						<attribute key="y" type="double">981.3678641395015</attribute>
 					</section>
 				</section>
@@ -4415,7 +4371,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">160.73828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1142.920740327381</attribute>
+				<attribute key="x" type="double">1068.4481212797618</attribute>
 				<attribute key="y" type="double">898.0438510694873</attribute>
 			</section>
 		</section>
@@ -4428,19 +4384,19 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">779.4325549312257</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1318.6593253968254</attribute>
+						<attribute key="x" type="double">1244.1867063492064</attribute>
 						<attribute key="y" type="double">932.2450229444873</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1279.1440249216653</attribute>
+						<attribute key="x" type="double">1204.6714058740463</attribute>
 						<attribute key="y" type="double">932.2450229444873</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">1251.216865079365</attribute>
+						<attribute key="x" type="double">1176.7442460317461</attribute>
 						<attribute key="y" type="double">981.3678641395015</attribute>
 					</section>
 				</section>
@@ -4458,7 +4414,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">108.05078125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1264.6339347718254</attribute>
+				<attribute key="x" type="double">1190.1613157242064</attribute>
 				<attribute key="y" type="double">859.3426791944873</attribute>
 			</section>
 		</section>
@@ -4469,6 +4425,24 @@ We have discussed all of the above in previous assignments multiple times. Take 
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">1034.9178571428572</attribute>
+						<attribute key="y" type="double">1720.9935059623158</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1009.065873015873</attribute>
+						<attribute key="y" type="double">1964.4276377042897</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1006.990697300557</attribute>
+						<attribute key="y" type="double">1964.4276377042897</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1034.9178571428572</attribute>
+						<attribute key="y" type="double">2013.550478899304</attribute>
+					</section>
+				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">-0.24999999999999944</attribute>
@@ -4484,7 +4458,7 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="contentWidth" type="double">17.34765625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1074.864663938492</attribute>
+				<attribute key="x" type="double">1000.392044890873</attribute>
 				<attribute key="y" type="double">1930.2264658292897</attribute>
 			</section>
 		</section>
@@ -5046,6 +5020,50 @@ We have discussed all of the above in previous assignments multiple times. Take 
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">993.7369915674603</attribute>
 				<attribute key="y" type="double">4354.568287041602</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">20</attribute>
+			<attribute key="target" type="int">17</attribute>
+			<attribute key="label" type="String">Try again</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">1453.5027777777777</attribute>
+						<attribute key="y" type="double">2013.550478899304</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1509.357142857143</attribute>
+						<attribute key="y" type="double">1866.0252939542897</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1593.1174700367171</attribute>
+						<attribute key="y" type="double">1866.0252939542897</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1678.4694444444444</attribute>
+						<attribute key="y" type="double">1720.9935059623158</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">0.500000000000001</attribute>
+				<attribute key="ySource" type="double">-1.0000000000000013</attribute>
+				<attribute key="xTarget" type="double">-0.5000000000000003</attribute>
+				<attribute key="yTarget" type="double">1.0000000000000004</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Try again</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">54.021484375</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">1482.346400669643</attribute>
+				<attribute key="y" type="double">1930.2264658292897</attribute>
 			</section>
 		</section>
 	</section>
