@@ -2276,7 +2276,7 @@ As an exercise, use internet and find out about the following in Python and Java
 		<section name="edge">
 			<attribute key="source" type="int">3</attribute>
 			<attribute key="target" type="int">7</attribute>
-			<attribute key="label" type="String">8</attribute>
+			<attribute key="label" type="String">Odd</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2305,14 +2305,14 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="yTarget" type="double">-0.9999999999999993</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">8</attribute>
+				<attribute key="text" type="String">Odd</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">10.673828125</attribute>
+				<attribute key="contentWidth" type="double">26.681640625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1017.7392764136905</attribute>
+				<attribute key="x" type="double">1009.7353701636905</attribute>
 				<attribute key="y" type="double">581.6920275521799</attribute>
 			</section>
 		</section>
