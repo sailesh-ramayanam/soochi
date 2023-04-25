@@ -29,9 +29,9 @@ Now that we understand the problem statement, 2nd step is to come up with new te
 First let us understand the input format.
 
 How many lines does the input contain?
-1 - This is correct answer.
-4 - This answer is incorrect. Please read the input description carefully.
-2 - This answer is incorrect. Please read the input description carefully.
+1 line - This is correct answer.
+4 lines - This answer is incorrect. Please read the input description carefully.
+2 lines - This answer is incorrect. Please read the input description carefully.
 Not known until we read input - This answer is incorrect. Please read the input description carefully.
 
 What does the input contain?
