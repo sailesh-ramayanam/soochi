@@ -1,6 +1,8 @@
 First step is "Understand the problem statement".
 
-The problem statement is quite simple. We will be given n. We have to print a pattern in which
+The problem statement is quite simple.
+
+We will be given n. We have to print a pattern in which
 - 1st line has 1 1
 - 2nd line has 2 2's
 - 3rd line has 3 3's
@@ -85,17 +87,26 @@ Do you know the difference between "2"+"2" and 2+2? We have talked about this in
 
 let a = 2;
 let b = "2";
+
 What will be the values of a+a, b+b?
-4, 4 - This answer is incorrect. a+a will give 4. But b+b will not give 4. Note that b contains a string value.
-4, 22 - You are almost correct, but not completely correct. b+b will give 22. But it is a string data type. So, it must be represented using double quotes, like "22".
+4, 4 - This answer is incorrect.
+
+a+a will give 4. But b+b will not give 4. Note that b contains a string value.
+4, 22 - You are almost correct, but not completely correct.
+
+b+b will give 22. But it is a string data type. So, it must be represented using double quotes, like "22".
 4, "22" - This is correct answer.
+
 a is of number type, so a+a will do arithmetic addition. Thus, 2+2 will give 4.
+
 But b is of string type, so b+b will do string addition. Thus "2"+"2" will give "22".
+
 Note the use of double quotes for b and no double quotes for a.
 
-We can use the string addition to generate a string containing things that we want to print side-by-side.
+So, we can use the string addition to generate a string containing things that we want to print side-by-side.
 
 One point to note in this assignment is that each line of output also requires different number of additions. So, step 3 of our algorithm will get translated into something like below.
+
 Suppose we want to print ith line.
 a. Initiate outputValue to be empty string
 b. Repeat the below step for i times
