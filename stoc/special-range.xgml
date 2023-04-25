@@ -1682,11 +1682,9 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">63</attribute>
-			<attribute key="label" type="String">This assignment demonstrates the concept of loops and for loop in particular.
-Loop is a fundamental building block and most programming languages have similar concepts.
-As an exercise, use internet and find out about the following in Python and Java. You already know it in Javascript.
-1. For loop
-2. Compare their syntax with the syntax of for loop in Javascript - does it look similar?</attribute>
+			<attribute key="label" type="String">1. This assignment demonstrates how an algorithm is designed from scratch.
+2. Notice that we started with a simple idea and modified it multiple times before arriving at the final solution. This approach is very common in algorithm design.
+3. Most importantly, we thought of modifications, only because it was not working for some test cases. Thus, test case design is a crucial part of algorithm design.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1098.6702380952381</attribute>
 				<attribute key="y" type="double">8076.594081501686</attribute>
@@ -1698,16 +1696,14 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This assignment demonstrates the concept of loops and for loop in particular.
-Loop is a fundamental building block and most programming languages have similar concepts.
-As an exercise, use internet and find out about the following in Python and Java. You already know it in Javascript.
-1. For loop
-2. Compare their syntax with the syntax of for loop in Javascript - does it look similar?</attribute>
+				<attribute key="text" type="String">1. This assignment demonstrates how an algorithm is designed from scratch.
+2. Notice that we started with a simple idea and modified it multiple times before arriving at the final solution. This approach is very common in algorithm design.
+3. Most importantly, we thought of modifications, only because it was not working for some test cases. Thus, test case design is a crucial part of algorithm design.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">341.69700345655394</attribute>
-				<attribute key="contentHeight" type="double">141.84375</attribute>
+				<attribute key="contentHeight" type="double">126.75</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
