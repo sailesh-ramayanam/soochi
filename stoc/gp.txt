@@ -1,3 +1,5 @@
-First step is "Understand the problem statement".
+This assignment is very similar to the "Arithmetic progression" assignment. Please refer to that assignment.
 
-This problem is based on Geometric Progression.
+I referred.
+
+Are you still having issues?
