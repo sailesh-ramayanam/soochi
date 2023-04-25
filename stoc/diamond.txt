@@ -42,6 +42,8 @@ Draw the diamond pattern for n = 5.
    ***
     *
 
+All this exercise was to help you understand the pattern.
+
 Second step is "Coming up with new test cases". In the process of understanding the problem statement, we already created 5 test cases.
 
 We have completed 2 steps in problem solving approach.
@@ -58,8 +60,10 @@ Write down the input.
 Write down the expected result.
 Now write down, how you arrived at the result.
 
-Following are some hints.
-On a paper, write the following in a tabular format, n and number of lines in the pattern for n.
+Following is a hint.
+On a paper, write the following in a tabular format
+- n
+- number of lines in the pattern for n
 
 There is a mathematical relation between n and the number of lines in the pattern for n. What is it?
 2*n - 1 - This is correct answer.
@@ -72,9 +76,14 @@ Number of *'s - This answer is incorrect. Please observe the above patterns care
 Position of *'s - This is correct answer. For any n, the first line contains a single *. But for n=1, it has no spaces before it, for n=2, there is 1 space before it and so on.
 Both number and position - This answer is incorrect. Please observe the above patterns carefully.
 
-There is also another fact. For each n, we start with one *. Then we will have 3 stars. Then 5 stars and so on, the stars keep increasing, until a point. Aftre that, the number of stars starts decreasing, until we print the final line, which will have a single *. Till which line do the stars keep on increasing?
+There is also another fact. For each n, we start with one *. Then we will have 3 stars. Then 5 stars and so on, the stars keep increasing, until a point.
+
+After that, the number of stars starts decreasing, until we print the final line, which will have a single *.
+
+Till which line do the stars keep on increasing?
 nth line - This is correct answer.
 (n-1)th line - This answer is incorrect. Please observe the above patterns carefully.
+(n+1)th line
 
 Based on these, we can separate the pattern into 2 parts. Increasing part and decreasing part. How many lines do the increasing part and decreasing part contain respectively?
 n-1, n-1 - This answer is incorrect. Please observe the above patterns carefully.
@@ -83,11 +92,14 @@ n, n-1 - This is correct answer.
 n-1, n
 
 Now, notice that in the increasing part, the number of stars are increasing but the number of spaces are decreasing.
-On a paper, write the following in a tabular format, n and the number of spaces in first line.
-There is a mathematical relation between n and the number of spaces in the first line. What is it?
-n - This answer is incorrect. Please observe the above patterns carefully.
-n-1 - This is correct answer. First line of the diamond pattern will contain (n-1) spaces and 1 star.
-n+1 - This answer is incorrect. Please observe the above patterns carefully.
+On a paper, write the following in a tabular format.
+- n
+- number of spaces in first line
+
+How many spaces are there in the first line?
+n spaces - This answer is incorrect. Please observe the above patterns carefully.
+n-1 spaces - This is correct answer. First line of the diamond pattern will contain (n-1) spaces and 1 star.
+n+1 spaces - This answer is incorrect. Please observe the above patterns carefully.
 
 In the increasing part of the pattern, from one line to the next line, the number of spaces decrease and the number of stars increase. From one line to the next line, how many spaces get decreased and how many stars get increased?
 1 space, 1 star - This answer is incorrect. Please observe the above patterns carefully.
@@ -110,22 +122,22 @@ Following is what I came up with.
 1. Read n
 2. Initialize numSpaces as (n-1)
 3. Initialize numStars as 1
-4. Repeat the below steps (5.a. to 5.f.) for n times
-5.a. Initialize patLine to be an empty string
-5.b. Run a loop for numSpaces iterations, in each iteration add 1 space to patLine
-5.c. Run a loop for numStars iterations, in each iteration add 1 star to patLine
-5.d. Print patLine
-5.e. Decrement numSpaces by 1
-5.f. Increment numStars by 2
+4. Repeat the below steps (5.1 to 5.6) for n times
+5.1. Initialize patLine to be an empty string
+5.2. Run a loop for numSpaces iterations, in each iteration add 1 space to patLine
+5.3. Run a loop for numStars iterations, in each iteration add 1 star to patLine
+5.4. Print patLine
+5.5. Decrement numSpaces by 1
+5.6. Increment numStars by 2
 6. Set numSpaces to 1
 7. Set numStars to 2*n-3
-8. Repeat the below steps (9.a. to 9.f.) for (n-1) times
-9.a. Initialize patLine to be an empty string
-9.b. Run a loop for numSpaces iterations, in each iteration add 1 space to patLine
-9.c. Run a loop for numStars iterations, in each iteration add 1 star to patLine
-9.d. Print patLine
-9.e. Increment numSpaces by 1
-9.f. Decrement numStars by 2
+8. Repeat the below steps (9.1 to 9.6) for (n-1) times
+9.1. Initialize patLine to be an empty string
+9.2. Run a loop for numSpaces iterations, in each iteration add 1 space to patLine
+9.3. Run a loop for numStars iterations, in each iteration add 1 star to patLine
+9.4. Print patLine
+9.5. Increment numSpaces by 1
+9.6. Decrement numStars by 2
 
 Compare it with what you wrote.
 What are the differences?
@@ -140,10 +152,10 @@ Tip: Never jump into writing code without figuring out the logic (also known as 
 Let us convert the algorithm step by step.
 There are various things to be implemented.
 a. Taking input as an integer (step 1)
-b. Creating new variables (steps 1, 2, 3, 5.a and 9.a)
-c. Displaying output (steps 5.d and 9.d)
-d. Repeat a set of steps for a given number of times (steps 4, 5.b, 5.c, 8, 9.b and 9.c)
-e. Modifying a variable (steps 5.e, 5.f, 6, 7, 9.e and 9.f)
+b. Creating new variables (steps 1, 2, 3, 5.1 and 9.1)
+c. Displaying output (steps 5.4 and 9.4)
+d. Repeat a set of steps for a given number of times (steps 4, 5.2, 5.3, 8, 9.2 and 9.3)
+e. Modifying a variable (steps 5.5, 5.6, 6, 7, 9.5 and 9.6)
 
 We have discussed all of the above in previous assignments multiple times.
 
