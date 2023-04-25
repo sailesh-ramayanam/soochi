@@ -1,4 +1,4 @@
-First step is to understand the problem statement.
+First step is "Understand the problem statement".
 
 The problem mentions about a train. We will be given 2 values, n and i. What does n represent?
 Train number - This answer is incorrect. Please read the problem statement carefully.
@@ -9,9 +9,13 @@ What does i represent?
 Position of a coach - This is correct answer.
 Platform number - This answer is incorrect. Please read the problem statement carefully.
 
-We need to find out j such that "the i-th car from the front of the train is the j-th car from the back". Let us try to understand this by taking an example.
+We need to find out j such that "the i-th car from the front of the train is the j-th car from the back".
 
-Suppose n is 5 and i is 1. This means the train has 5 coaches. Let us plug these values into the statement.
+Let us try to understand this by taking an example.
+
+Suppose n is 5 and i is 1. This means the train has 5 coaches.
+
+Let us plug these values into the statement.
 "The 1st car from the front of the train is the j-th car from the back."
 
 So, if we count from the front, this is the 1st coach. If we count from the back, what will be its position?
@@ -37,9 +41,9 @@ Two comma separated numbers - This answer is incorrect. Please read the input de
 Don't know - Please read the input description provided in the assignment.
 
 Which of the following is not a valid input for this problem?
-9 1 - This answer is incorrect. Think of the relation between n and i.
+9 1 - This answer is incorrect. It is a valid input. To identify the correct answer, think of the relation between n and i.
 13 13
-4 5 - This is correct answer. "4 5" is not a valid input. In a train with 4 coaches, there won't be a 5th coach. In other words, i will always be less than or equal to n. This is not explicitly mentioned in the problem. This is something we deduce using our common sense.
+4 5 - This is correct answer. "4 5" is not a valid input. In a train with 4 coaches, there cannot be a 5th coach. In other words, i will always be less than or equal to n. This is not explicitly mentioned in the problem. This is something we deduce using our common sense.
 17 7
 
 How many lines should the output contain?
@@ -59,15 +63,17 @@ What should be the output for that above input?
 10
 11 - This is correct answer. 7th coach from the front is same as the 11th cocach from the back.
 
-Based on your understanding, come up with 3 new test cases.
+While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
 
 Following are some hints for coming up with new test cases.
+
 1. Normal test cases
-    i. n is greater than 1 and i is some value between 2 and (n-1)
+1.1. n is greater than 1 and i is some value between 2 and (n-1)
+
 2. Boundary test cases
-    i. n is greater than 1 and i is 1
-    ii. n is greater than 1 and i is same as n
-    iii. n is 1 and i is 1
+2.1. n is greater than 1 and i is 1
+2.2. n is greater than 1 and i is same as n
+2.3. n is 1 and i is 1
 
 Based on these hints, you can come up with at least 4 new test cases.
 Write them on a paper along with the expected output.
@@ -91,8 +97,11 @@ One test input from above is
 5 1
 
 I will try to explain what I did.
+
 I looked at the input and found that n is 5 and i is 1.
+
 I took a paper and wrote down 5 coaches. I marked the 1st coach. Then I counted from the back and found that it is 5th coach from the back.
+
 So the output should be 5.
 
 Now imagine n is 1000. What will you do? Put it in words.
@@ -114,6 +123,7 @@ Algorithm design is done on a paper, not in a computer.
 Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
 
 Let us convert the algorithm step by step.
+
 a. Taking input as an integer (step 1)
 b. Creating new variables (steps 1 and 2)
 c. Read 2 values from one line of input (step 1)
