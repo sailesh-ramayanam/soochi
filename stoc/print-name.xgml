@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Cp1252"?>
 <section name="xgml">
 	<attribute key="Creator" type="String">yFiles</attribute>
-	<attribute key="Version" type="String">2.18</attribute>
+	<attribute key="Version" type="String">2.20</attribute>
 	<section name="graph">
 		<attribute key="hierarchic" type="int">1</attribute>
 		<attribute key="label" type="String"></attribute>
@@ -746,7 +746,7 @@ In Javascript, there is no command called output. Please refer to the lecture to
 
 Following are some common mistakes people generally make.
 1. Not having a space between "Hello" and "Ravi".
-2. Using loer case "h" instead of upper case "H".
+2. Using lower case "h" instead of upper case "H".
 Let us now look at implementation. </attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">880.1444444444444</attribute>
@@ -763,7 +763,7 @@ Let us now look at implementation. </attribute>
 
 Following are some common mistakes people generally make.
 1. Not having a space between "Hello" and "Ravi".
-2. Using loer case "h" instead of upper case "H".
+2. Using lower case "h" instead of upper case "H".
 Let us now look at implementation. </attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
@@ -2486,7 +2486,7 @@ As an exercise, use internet and find out how to do the following in Python and 
 				<attribute key="contentWidth" type="double">16.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">149.79840339781742</attribute>
+				<attribute key="x" type="double">149.7984033978174</attribute>
 				<attribute key="y" type="double">1184.9005873628084</attribute>
 			</section>
 		</section>
