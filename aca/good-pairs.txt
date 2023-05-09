@@ -1,8 +1,17 @@
 First step is "Understand the problem statement".
 
-We will be given an array of integers. We need to find how many pairs of indices (i,j) are there in the array that satisfy the following conditions: 1. i < j & 2. arr[i] = arr[j].
+We will be given an array of integers.
+We need to find how many pairs of indices (i,j) are there in the array that satisfy the following conditions:
+1. i < j and
+2. arr[i] === arr[j].
+
 Suppose the array is [23, 44, 31, 23, 54]. How many pairs of indices satisfy the required conditions?
-1 - This is correct answer. (0, 3) is the only pair satisfying the required conditions i.e., 1. 0 < 3 & 2. The value at 0th index & the value at 3rd index in the array are equal (equal to 23).
+1 -
+This is correct answer.
+(0, 3) is the only pair satisfying the required conditions i.e.,
+1. 0 < 3 and
+2. The value at index 0 and the value at index 3 in the array are equal (equal to 23).
+
 2 - This is incorrect answer. Please read the problem statement carefully.
 4 - This is incorrect answer. Please read the problem statement carefully.
 
@@ -15,7 +24,7 @@ How many lines does the input contain?
 1 - This is correct answer. As input description says "Single line containing a list of integers separated by spaces" will be given.
 
 What does the input contain?
-A list of integers separated by spaces - This is correct answer.
+Space separated integers - This is correct answer.
 Size of the array - This answer is incorrect. Please read the input description carefully.
 Don't know - Please read the input description provided in the assignment.
 
@@ -49,7 +58,11 @@ Input:
 What should be the output for the above input?
 0 - This answer is incorrect. Please read the problem statement carefully.
 1 - This answer is incorrect. Please read the problem statement carefully.
-2 - This is correct answer. We need to print the count of pairs of indices. (0, 2) & (1, 4) are the pairs of indices. So the output should be 2.
+2 -
+This is correct answer.
+We need to print the count of pairs of indices.
+(0, 2) and (1, 4) are the pairs of indices. So the output should be 2.
+
 3 - This answer is incorrect. Please read the problem statement carefully.
 
 Consider the following input.
@@ -58,7 +71,12 @@ Input:
 
 What should be the output for the above input?
 1 - This answer is incorrect. Please read the problem statement carefully.
-0 - This is correct answer. There are no pairs of indices (i,j) are in the array that satisfy the following conditions: 1. i < j & 2. arr[i] = arr[j].
+0 -
+This is correct answer.
+There are no pairs of indices (i,j) are in the array that satisfy the following conditions:
+1. i < j and
+2. arr[i] === arr[j].
+
 2 - This answer is incorrect. Please read the problem statement carefully.
 3 - This answer is incorrect. Please read the problem statement carefully.
 
@@ -102,33 +120,60 @@ One test input from above is
 
 I will try to explain what I did.
 
-I looked at the first line. It contains a list of integers separated by spaces which are 32, 44, 32, 23, 44.
+I looked at the first line. It contains space separated integers which are 32, 44, 32, 23, 44.
 
-Then I looked at 0th index. The number at 0th index is 32. I need to know if it occurs again in the array apart from it's current occurrence (occurrence at > 0th index).
+Then I looked at index 0.
+The number at index 0 is 32.
+I need to know if it occurs again in the array apart from it's current occurrence (occurrence at > index 0).
 
-Then I looked at 1st index. The number at 1st index is 44. It is different from 32 (number at 0th index).
+Then I looked at index 1.
+The number at index 1 is 44.
+It is different from 32 (number at index 0).
 
-Then I looked at 2nd index. The number at 2nd index is 32. It is same as 32 (number at 0th index). (0, 2) is the 1st pair of indices (as 0 < 2 & arr[0] = arr[2] = 32).
+Then I looked at index 2.
+The number at index  2 is 32.
+It is same as 32 (number at index 0).
+(0, 2) is the 1st pair of indices
+(as 0 < 2 and arr[0] === arr[2] which is 32).
 
-Then I looked at 3rd index. The number at 3rd index is 23. It is different from 32 (number at 0th index).
+Then I looked at index 3.
+The number at index 3 is 23.
+It is different from 32 (number at index 0).
 
-Then I looked at 4th index. The number at 4th index is 44. It is different from 32 (number at 0th index).
+Then I looked at index 4.
+The number at index 4 is 44.
+It is different from 32 (number at index 0).
 
 I reached the end of the list, so I recalled from my memory that 32 is at 1 pair of indices (0, 2).
 
-But, I realized that i have only compared every number of the array with the number at 0th index, i have to repeat the same process for every index.
+But, I realized that i have only compared every number of the array with the number at index 0, i have to repeat the same process for every index.
 
-Then I looked at the array again, this time leaving the 0th index, looking at 1st index. The number at 1st index is 44. I need to know if it occurs again in the array apart from it's current occurrence (occurrence at > 1st index).
+Then I looked at the array again, this time leaving the index 0, looking at index 1.
+The number at index 1 is 44.
+I need to know if it occurs again in the array apart from it's current occurrence (occurrence at > index 1).
 
-Then I looked at 2nd index. The number at 2nd index is 32. It is different from 44 (number at 1st index).
+Then I looked at index 2.
+The number at index 2 is 32.
+It is different from 44 (number at index 1).
 
-Then I looked at 3rd index. The number at 3rd index is 23. It is different from 44 (number at 1st index).
+Then I looked at index 3.
+The number at index 3 is 23.
+It is different from 44 (number at index 1).
 
-Then I looked at 4th index, The number at 4th index is 44. It is same as 44 (number at 1st index). (1, 4) is the 2nd pair of indices (as 1 < 4 & arr[1] = arr[4] = 44).
+Then I looked at index 4.
+The number at index 4 is 44.
+It is same as 44 (number at index 1). 
+(1, 4) is the 2nd pair of indices
+(as 1 < 4 and arr[1] === arr[4] which is 44).
 
-I reached the end of the list again, so I recalled from my memory that 32 is at 1 pair of indices (0, 2) & 44 is at 2nd pair of indices (1, 4).
+I reached the end of the list again,
+So I recalled from my memory that:
+32 is at 1st pair of indices (0, 2) and
+44 is at 2nd pair of indices (1, 4).
+So, till now 2 good pairs have been found.
 
-But, I realized that i have only compared every number of the array with the numbers at 0th & 1st indices, i have to repeat the same process for every index.
+But, I realized that i have only compared every number of the array with the numbers at index 0 and index 1,
+I have to repeat the same process for every index.
 
 I have repeated the same process for every index and i have found only 2 pairs (0, 2) and (1, 4). So the output is 2.
 
@@ -141,7 +186,7 @@ Following are some hints.
 
 Following is what I came up with.
 1. Write down the count of pairs as 0
-2. Read the array and store it as arr
+2. Read the array numbers
 3. Take the first number in the array as current number
 4. Take the next number in the array
 5. Check if it is same as the current number
@@ -149,7 +194,7 @@ Following is what I came up with.
 7. Repeat steps 4, 5 and 6 until you reach the end of the array
 8. Now, Take the second number in the array
 9. Repeat steps 4, 5 and 6 until you reach the end of the array
-10. Similarly, Repeat steps 8 & 9 until you reach the end of the array
+10. Similarly, Repeat steps 8 and 9 until you reach the end of the array
 11. By the end, count of pairs will contain the number of good pairs as per problem statement
 
 Compare it with what you wrote.
@@ -176,7 +221,7 @@ We have discussed a, b, d and f in previous assignments multiple times.
 
 How to convert space separated integers into an array of integer strings? - 
 
-Please watch the lecture on Introduction to Arrays and come back.
+Please refer to assignments like "Predict the quadrant" or "Train" from STOC Module
 
 Consider "24 32 44 -20" is the given space separated integer input.
 After writing the following code:
@@ -188,8 +233,9 @@ What would be the output?
 
 [24, 32, 44, -20] - This is correct answer. `.split(" ")` will split the given string separated with " " (space) into array of strings
 [24] - This answer is incorrect, Please watch the lecture on Introduction to Arrays and come back.
+24 - This answer is incorrect, Please watch the lecture on Introduction to Arrays and come back.
 
-What are Nested loops? - Please watch the lecture on Nested loops and come back.
+What are Nested loops? - Please refer to assignments like "Pattern 122333" or "Diamond" from STOC Module
 
 How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
 How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
