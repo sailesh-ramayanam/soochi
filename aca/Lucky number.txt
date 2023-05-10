@@ -51,12 +51,12 @@ First let us understand the input format.
 How many lines does the input contain?
 4 lines - This answer is incorrect. Please read the input description carefully.
 5 lines - This answer is incorrect. Please read the input description carefully.
-space separated integers- This answer is incorrect. Please read the input description carefully.
 Not known until we read input - This is correct answer. Until we read the first line of input, we don't know how many lines the input contains.
 
 What does the first line of input contain?
 Size of the sequence - This is correct answer.
 First value of the sequence - This answer is incorrect. Please read the input description carefully.
+space separated integers- This answer is incorrect. Please read the input description carefully.
 Don't know - Please read the input description provided in the assignment.
 
 We have some sample inputs below.
@@ -265,7 +265,7 @@ arr.push(input)
 console.log(arr)
 }
 
-Now you will observe that the array is ['7'} , ['7','5']  and ['7','5','10'] after first second and third iteration respectively, when the input from the user is 7,5 and 10 respectively.
+Now you will observe that the array is ['7'] , ['7','5']  and ['7','5','10'] after first second and third iteration respectively, when the input from the user is 7,5 and 10 respectively.
 Please rewatch the lecture recordings also, this concept is already covered in lectures
 
 
