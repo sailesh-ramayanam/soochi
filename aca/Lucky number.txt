@@ -7,7 +7,7 @@ No - Sorted means arranged in either ascending order or descending order.
 Which of the following sequence is not sorted?
 5,5,5,5-This is incorrect answer. Since all the integers are same, so they are also sequence of sorted integers.
 9,5,3,3- This is incorrect answer.Here integers are sorted in descending order
-6,7,10,2- This is correct answer. Since till 10, numbers are in ascending order then there is number 2 which is less than 4
+6,7,10,2- This is correct answer. Since till 10, numbers are in ascending order then there is number 2 which is less than 10
 
 We are given n integers. What is n supposed to be according to the problem statement.
 number of inputs for given problem- This answer is incorrect. Please read the problem statement carefully.
