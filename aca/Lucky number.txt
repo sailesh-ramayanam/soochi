@@ -4,7 +4,7 @@ We have a sequence of integers.Which of the following
 sequence is not sorted integers?
 1,1,1,1-This is incorrect answer. Since all the integers are same, so they are also sequence of sorted integers.
 4,3,1,1- This is incorrect answer.Here integers are sorted in reverse order
-1,3,4,2- This is correct answer. Since till 4 numbers are in ascending order then there is number 2 which is less than 4
+1,3,4,2- This is correct answer. Since till 4, numbers are in ascending order then there is number 2 which is less than 4
 
 We are given n integers. What is n supposed to be according to the problem statement.
 number of inputs for given problem- This answer is incorrect. Please read the problem statement carefully.
@@ -217,4 +217,26 @@ How to compare 2 values? - Please refer to the assignments like "Rating contest"
 How to take different actions? - Please refer to the assignment "Rating contest"
 How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
 How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
-How to store an element in array- Use array.push() method. Please rewatch the lecture recordings
+How to store an element in array- Use array.push() method.
+Suppose I have an array = [1,2,3,4] and if I will do array.push(5) then my array will become [1,2,3,4,5]
+Similarly if I have to add a new value from user, I can use readLine() for taking value and then array.push() for appending that value to end of array
+One example for that will be:
+arr=[]
+for(let i=1;i<4;i++){
+input = readLine()
+arr.push(input)
+}
+
+Here if input from user is 7,5,10 then the final array we have is arr=['7','5','10'].
+In the above example we are using "input = readLine()", so all the elements in the array are string. If we want numbers instead of string, inside array then we should write input = parseInt(readLine()). Try to use this approach whenever you have inputs in multiple lines and you want to store them in an array.
+
+Please use console.log() statements in different lines and observe how it is working. Best way is to put console.log() statement after arr.push() method like this
+  arr=[]
+for(let i=1;i<4;i++){
+input = readLine()
+arr.push(input)
+console.log(arr)
+}
+
+Now you will observe that the array is ['7'} , ['7','5']  and ['7','5','10'] after first second and third iteration respectively, when the input from the user is 7,5 and 10 respectively.
+Please rewatch the lecture recordings also, this concept is already covered in lectures

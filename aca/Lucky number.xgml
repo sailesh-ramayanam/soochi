@@ -1910,12 +1910,33 @@ loop to store it. Please go through
 		<section name="node">
 			<attribute key="id" type="int">69</attribute>
 			<attribute key="label" type="String">Use array.push() method.
-Please rewatch the lecture recordings</attribute>
+Suppose I have an array = [1,2,3,4] and if I will do array.push(5) then my array will become [1,2,3,4,5]
+Similarly if I have to add a new value from user, I can use readLine() for taking value and then array.push() for appending that value to end of array
+One example for that will be:
+arr=[]
+for(let i=1;i&lt;4;i++){
+input = readLine()
+arr.push(input)
+}
+
+Here if input from user is 7,5,10 then the final array we have is arr=['7','5','10'].
+In the above example we are using "input = readLine()", so all the elements in the array are string. If we want numbers instead of string, inside array then we should write input = parseInt(readLine()). Try to use this approach whenever you have inputs in multiple lines and you want to store them in an array.
+
+Please use console.log() statements in different lines and observe how it is working. Best way is to put console.log() statement after arr.push() method like this
+  arr=[]
+for(let i=1;i&lt;4;i++){
+input = readLine()
+arr.push(input)
+console.log(arr)
+}
+
+Now you will observe that the array is ['7'} , ['7','5']  and ['7','5','10'] after first second and third iteration respectively, when the input from the user is 7,5 and 10 respectively.
+Please rewatch the lecture recordings also, this concept is already covered in lectures</attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">2165.0715177117327</attribute>
-				<attribute key="y" type="double">4693.202900869289</attribute>
-				<attribute key="w" type="double">223.4172787384009</attribute>
-				<attribute key="h" type="double">82.24568239002826</attribute>
+				<attribute key="x" type="double">2312.913261673728</attribute>
+				<attribute key="y" type="double">4889.5670633624</attribute>
+				<attribute key="w" type="double">519.1007666623914</attribute>
+				<attribute key="h" type="double">474.9740073762513</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
 				<attribute key="fill" type="String">#FFCC00</attribute>
@@ -1923,12 +1944,33 @@ Please rewatch the lecture recordings</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Use array.push() method.
-Please rewatch the lecture recordings</attribute>
+Suppose I have an array = [1,2,3,4] and if I will do array.push(5) then my array will become [1,2,3,4,5]
+Similarly if I have to add a new value from user, I can use readLine() for taking value and then array.push() for appending that value to end of array
+One example for that will be:
+arr=[]
+for(let i=1;i&lt;4;i++){
+input = readLine()
+arr.push(input)
+}
+
+Here if input from user is 7,5,10 then the final array we have is arr=['7','5','10'].
+In the above example we are using "input = readLine()", so all the elements in the array are string. If we want numbers instead of string, inside array then we should write input = parseInt(readLine()). Try to use this approach whenever you have inputs in multiple lines and you want to store them in an array.
+
+Please use console.log() statements in different lines and observe how it is working. Best way is to put console.log() statement after arr.push() method like this
+  arr=[]
+for(let i=1;i&lt;4;i++){
+input = readLine()
+arr.push(input)
+console.log(arr)
+}
+
+Now you will observe that the array is ['7'} , ['7','5']  and ['7','5','10'] after first second and third iteration respectively, when the input from the user is 7,5 and 10 respectively.
+Please rewatch the lecture recordings also, this concept is already covered in lectures</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
-				<attribute key="contentWidth" type="double">223.4172787384009</attribute>
-				<attribute key="contentHeight" type="double">36.1875</attribute>
+				<attribute key="contentWidth" type="double">519.1007666623914</attribute>
+				<attribute key="contentHeight" type="double">458.8125</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -1959,7 +2001,7 @@ Please rewatch the lecture recordings</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">71</attribute>
-			<attribute key="label" type="String">This assignment demonstrates the concept of loops and for loop in particular.
+			<attribute key="label" type="String">This assignment demonstrates the concept of loops.
 Loop is a fundamental building block and most programming languages have similar concepts.
 As an exercise, use internet and find out about the following in Python and Java. You already know it in Javascript.
 1. For loop
@@ -1975,7 +2017,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This assignment demonstrates the concept of loops and for loop in particular.
+				<attribute key="text" type="String">This assignment demonstrates the concept of loops.
 Loop is a fundamental building block and most programming languages have similar concepts.
 As an exercise, use internet and find out about the following in Python and Java. You already know it in Javascript.
 1. For loop
@@ -1984,7 +2026,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">341.69700345655394</attribute>
-				<attribute key="contentHeight" type="double">141.84375</attribute>
+				<attribute key="contentHeight" type="double">126.75</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -2015,7 +2057,7 @@ As an exercise, use internet and find out about the following in Python and Java
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">73</attribute>
-			<attribute key="label" type="String">This is correct answer. Since till 4 numbers are in ascending order then there is number 2 which is less than 4</attribute>
+			<attribute key="label" type="String">This is correct answer. Since till 4, numbers are in ascending order then there is number 2 which is less than 4</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1244.1867063492064</attribute>
 				<attribute key="y" type="double">179.502950685393</attribute>
@@ -2027,7 +2069,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This is correct answer. Since till 4 numbers are in ascending order then there is number 2 which is less than 4</attribute>
+				<attribute key="text" type="String">This is correct answer. Since till 4, numbers are in ascending order then there is number 2 which is less than 4</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -5446,8 +5488,8 @@ As an exercise, use internet and find out about the following in Python and Java
 						<attribute key="y" type="double">4582.73605384513</attribute>
 					</section>
 					<section name="point">
-						<attribute key="x" type="double">2165.0715177117327</attribute>
-						<attribute key="y" type="double">4693.202900869289</attribute>
+						<attribute key="x" type="double">2312.913261673728</attribute>
+						<attribute key="y" type="double">4889.5670633624</attribute>
 					</section>
 				</section>
 			</section>
@@ -5514,8 +5556,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 				<section name="Line">
 					<section name="point">
-						<attribute key="x" type="double">2165.0715177117327</attribute>
-						<attribute key="y" type="double">4693.202900869289</attribute>
+						<attribute key="x" type="double">2312.913261673728</attribute>
+						<attribute key="y" type="double">4889.5670633624</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">2090.0970109263653</attribute>
@@ -5542,8 +5584,9 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">54.021484375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model" type="String">six_pos</attribute>
-				<attribute key="position" type="String">tail</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">1748.5173030533551</attribute>
+				<attribute key="y" type="double">4618.091627447015</attribute>
 			</section>
 		</section>
 		<section name="edge">
