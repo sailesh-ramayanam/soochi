@@ -31,7 +31,7 @@ Don't know - Please read the input description provided in the assignment.
 What does the second line of input contain?
 Elements of array - This answer is incorrect. Please read the input description carefully.
 First element of the array - This answer is incorrect. Please read the input description carefully.
-Number of times we have to rotate array- This answer is incorrect. Please read the input description carefully.
+Number of times we have to rotate array- This is correct answer.
 Don't know - Please read the input description provided in the assignment.
 
 
@@ -145,7 +145,7 @@ We have completed 2 steps in problem solving approach.
 Logic means step-by-step procedure which explains how to calculate the result for the given input.
 This step-by-step procedure is also called as algorithm.
 
-One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+One way to come up with an algorithm is by using the test cases we wrote down previously.
 Take a test case.
 Write down the input.
 Write down the expected result.

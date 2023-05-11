@@ -59,6 +59,12 @@ First value of the sequence - This answer is incorrect. Please read the input de
 space separated integers- This answer is incorrect. Please read the input description carefully.
 Don't know - Please read the input description provided in the assignment.
 
+Suppose first line contains 23. Then, how many lines will the input have?
+23 - This answer is incorrect. Please read the input description carefully.
+24 - This is correct answer. First line contains 23 means the list has 23 values. Each value is provided in a separate line, starting from 2nd line. So, 23 lines + the first line. Total 24 lines of input.
+22 - This answer is incorrect. Please read the input description carefully.
+Cannot say - This answer is incorrect. Please read the input description carefully.
+
 We have some sample inputs below.
 Input 1:
 3
@@ -146,7 +152,7 @@ We have completed 2 steps in problem solving approach.
 Logic means step-by-step procedure which explains how to calculate the result for the given input.
 This step-by-step procedure is also called as algorithm.
 
-One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+One way to come up with an algorithm is by using the test cases we wrote down previously.
 Take a test case.
 Write down the input.
 Write down the expected result.
@@ -164,7 +170,7 @@ One test input from above is
 
 I will try to explain what I did.
 
-I looked at the first line. It contains 6. So, I came to know that there will be 6 values in the list.
+I looked at the first line. It contains 6. So, I came to know that there will be 6 values in the sequence.
 
 Then I looked at 1.And wrote the count of 1 equals to 1.
 
