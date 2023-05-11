@@ -236,7 +236,7 @@ Following are some hints to put the logic in words.
 1. As I process 1000 values, it will be difficult for me to remember all the elements of array, so I will write down all the numbers in a paper.
 2. Then I see I have to fold the array 20 times.
 3. It is difficult for me to remember the elements of the array after every folds. So I wrote down the elements after each fold in paper.
-4. Here I have observed that while folding the array there is relation between index of elements and length of array. Suppose if first element index value is i then its pair will have index value length of array minus i.
+4. Here I have observed that while folding the array there is relation between index of elements and length of array. Suppose if first element index value is i then its pair will have index value length of array minus i minus 1.
 
 Following is what I came up with.
 
@@ -254,7 +254,7 @@ Phase 2
 7. Create a variable called len and store length of array in it.
 8. Create an empty array called resArr.
 9. Create a variable i and initialize it to 0
-10. Now add element at ith index and element at index at len-i+1 (why not len - i?)
+10. Now add element at ith index and element at index at len-i-1 (why not len - i?)
 11. Now increment the value i.
 12. Repeat step 9 and 10 untill i reach middle element of array.
 13. Now check if len is odd or even.
