@@ -1,0 +1,27 @@
+First step is "Understand the problem statement".
+
+The problem statement is very simple.
+- We have 2 strings.
+- We need to check if they are anagrams or not.
+
+To be able to solve this, we need to understand the meaning of anagram.
+Before proceeding further, use internet and read about anagrams (Warning: Do not look up the solutions).
+
+Two strings are called anagrams, if one string can be obtained by rearranging the characters of the second string.
+
+Which of the following is not an anagram of heater?
+reheat - This answer is incorrect.
+aethar - This is correct answer.
+hearet
+
+We have a few pairs of words below. Which pair does not contain anagrams?
+Pair 1: hectare, teacher
+Pair 2: trainer, terrain
+Pair 3: armrest, smarter
+Pair 4: create, reacot
+
+Pair 1 - This answer is incorrect.
+Pair 2 - This answer is incorrect.
+Pair 3 - This answer is incorrect.
+Pair 4 - This is correct answer.
+
