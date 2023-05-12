@@ -90,3 +90,119 @@ Write down the input.
 Write down the expected result.
 Now write down, how you arrived at the result.
 Let us demonstrate through an example.
+
+One sample input is
+trainer
+terrain
+
+I will try to explain what I did.
+
+I took the first character from trainer (viz. t). I checked if t is present in terrain. It is present. So I struck off t in both the strings.
+
+<s>t</s>rainer
+<s>t</s>errain
+
+Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
+
+<s>tr</s>ainer
+<s>t</s>e<s>r</s>rain
+
+Note that there are 2 r's in terrain. I struck off only 1 r.
+
+Then I took the next character from trainer (viz. a). I checked if a is present in terrain. It is present. So I struck off a in both the strings.
+
+<s>tra</s>iner
+<s>t</s>e<s>r</s>r<s>a</s>in
+
+Then I took the next character from trainer (viz. i). I checked if i is present in terrain. It is present. So I struck off i in both the strings.
+
+<s>trai</s>ner
+<s>t</s>e<s>r</s>r<s>ai</s>n
+
+Then I took the next character from trainer (viz. n). I checked if n is present in terrain. It is present. So I struck off n in both the strings.
+
+<s>train</s>er
+<s>t</s>e<s>r</s>r<s>ain</s>
+
+Then I took the next character from trainer (viz. e). I checked if e is present in terrain. It is present. So I struck off e in both the strings.
+
+<s>traine</s>r
+<s>ter</s>r<s>ain</s>
+
+Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
+
+<s>trainer</s>
+<s>terrain</s>
+
+Note that this time I struck off the 2nd r in terrain.
+
+I reached the end of trainer. I see that I struck off all the characters from trainer and also all the characters from terrain. This means that I can rearrange the characters in trainer and get terrain. So, they are anagrams.
+
+Now repeat this exercise for the following input.
+create
+reacot
+
+These are not anagrams. But at which step do you find out that they are not anagrams?
+
+Can you try to write down an algorithm based on the above exercise?
+
+Following are some hints.
+1. You can strike off on a paper. But how do we do it in a program?
+2. What did we do in the above logic? We are simply tallying the characters between the 2 strings.
+3. So, it is sufficient to tally the characters.
+3.1 Take a character from the 1st string.
+3.2 Count how many times it appears in the 1st string. Write it down.
+3.3 Repeat this for all the characters in the 1st string.
+3.4 Take a character from the 2nd string.
+3.5 Count how many times it appears in the 2nd string.
+3.6 Check if this count matches with the count in the 1st string.
+3.7 If yes, continue and repeat for the next character from the 2nd string.
+3.8 If no, then the 2 strings are not anagrams.
+3.9 By the time we reach the end of the 2nd string, if there are no mismatches, then the 2 strings are anagrams.
+
+These hints are almost like an algorithm, but one major point is not mentioned in these hints.
+How do we store the counts of every character of the 1st string?
+This is where our data structure skills come into picture.
+
+There are multiple ways to solve this problem.
+Variables approach: Use variables like a_count, b_count, c_count etc. to store the counts.
+Arrays approach: Use 2 arrays. In one array store the character, and in the second array store the corresponding count.
+Hashmap approach: Use a hashmap to store <character, count> key value pairs.
+
+This method will look like below.
+let a_count = 0, b_count = 0, and so on z_count = 0;
+for each character c in string {
+    if (c === "a") {
+        a_count++;
+    } else if (c === "b") {
+        b_count++;
+    } and so on until else if (c === "z") {
+        z_count++;
+    }
+}
+
+There are multiple issues with this approach.
+
+You have to create 26 variables and write 26 if conditions.
+But, this is not sufficient.
+What about uppercase letters (i.e. A, B, C, ... Z)?
+What about digits (i.e. 0, 1, 2, 3 ... 9)?
+What about special characters (like @, #, $, %, ;, ', and so on)?
+Ww will have to create 100s of variables and write 100s of if conditions. Even if we miss one character, our program will not work correctly.
+
+This is not a wrong approach. But very impractical approach.
+
+
+This method will look like below.
+1. let charsArray = [], countsArray = [];
+2. for each character c in string {
+3.     // Check if c is present in charsArray
+4.     // If yes, then get its index (say idx). Increment countsArray[idx]
+5.     // Otherwise, append c at the end of charsArray and append 1 at the end of countsArray
+6. }
+
+Unlike the variables approach, arrays approach looks more elegant. But, it is still not the optimal approach.
+
+What will be the time complexity of the above for loop? Assume that string's length is n.
+
+
