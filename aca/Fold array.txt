@@ -23,7 +23,7 @@ In previous example, it was easy to calculate length of array after 1 fold, sinc
 4- This is incorrect answer. Please read the problem description carefully.
 5- This is correct answer.
 
-Now what if er have to do multiple folds in an array, what will be the length of array after 3 folds in its initial length is 15?
+Now what if we have to do multiple folds in an array, what will be the length of array after 3 folds in its initial length is 15?
 5- This answer is incorrect, Why do you thinks 5, because 15/3=5. It will not happen like this, try to see how length is changing in each folds.
 2- This is correct answer. After 1 fold length will be 8, then after second fold its 4 and finally after third fold it is 2.
 4- This is incorrect answer. Length will be 4 after 2 folds, you have to do 3 folds here.
@@ -45,7 +45,7 @@ Don't know - Please read the input description provided in the assignment.
 
 What does the last line of input contain?
 Last element of array - This answer is incorrect. Please read the input description carefully.
-Number of times we have to fold the array- This answer is incorrect. Please read the input description carefully.
+Number of times we have to fold the array- This is correct answer.
 Don't know - Please read the input description provided in the assignment.
 
 Suppose first line of input contains 15. Then, how many lines will the input have?
