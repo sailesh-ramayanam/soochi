@@ -1,0 +1,289 @@
+First step is "Understand the problem statement".
+
+There is a lot of information in the problem statement. In such cases, we should try to break down it into small pieces. One way to start is by identifying what needs to be calculated.
+
+What should we calculate?
+Number of steps - This answer is incorrect. Please read the problem statement carefully.
+Number of mountains
+Number of valleys - This is correct answer. We have to calculate the number of valleys in the trek.
+
+To be able to calculate the number of valleys, we should know the meaning of a valley. As per the problem statement, the definition of a valley is a sequence of consecutive steps with some properties. How many properties are defined for a valley?
+1 - This answer is incorrect.
+2 - This answer is incorrect.
+3 - This is correct answer.
+4 - This answer is incorrect.
+
+There are 3 properties of a valley as described below.
+1. All the steps must be below sea level
+2. Starting step is a "down" step from sea level
+3. Ending step is an "up" step to sea level
+
+How is the trek noted down?
+
+Method 1: +1 for up, -1 for down.
+E.g. +1+1-1+1-1-1-1+1
+
+Method 2: U for up, D for down
+E.g. UUDUDDDU
+
+Method 3: Altitude of each step
+E.g. 121210-10
+
+Method 1 - This answer is incorrect. Please read the problem statement carefully.
+Method 2 - This is correct answer.
+Method 3 - This answer is incorrect. Please read the problem statement carefully.
+
+So, at each step we know whether we are moving down or up. But we should also know the altitude.
+How do we know the altitude?
+
+Initial altitude is provided - This is correct answer.
+Will be provided as input - This answer is incorrect. Please read the problem statement carefully.
+Altitude is not provided - This answer is incorrect. Please read the problem statement carefully.
+
+Problem statement mentions that the trek always starts at sea level. So, initial altitude is always zero.
+
+So, now
+1. We know the definition of a valley.
+2. We know the initial altitude.
+3. We will be given the steps of the trek.
+
+Using these we need to calculate the number of valleys.
+
+Suppose the trek is "UDDDUUDUUUDUDDDU". How many valleys does this trek contain?
+0 - This answer is incorrect. Take a paper and draw the trek to get clarity.
+1
+2
+3 - This is correct answer. There are 3 valleys in the given trek.
+          /\/\
+_/\      /    \  _
+   \  /\/      \/
+    \/
+
+Suppose the trek is "DDDUUDDUUUUD". How many valleys does this trek contain?
+0 - This answer is incorrect. Take a paper and draw the trek to get clarity.
+1 - This is correct answer. There is 1 valley in the given trek.
+2 - This answer is incorrect. As per problem statement, a valley should always start and end at sea level.
+_          /\_
+ \        /
+  \  /\  /
+   \/  \/
+
+
+Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+First let us understand the input format.
+
+How many lines does the input contain?
+1 - This answer is incorrect. Please read the input description carefully.
+2 - This answer is incorrect. Please read the input description carefully.
+3 - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This is correct answer. Until we read the first line of input, we don't know how many lines the input contains.
+
+What does the first line of input contain?
+Size of the sequence
+First step of the sequence - This answer is incorrect. Please read the input description carefully.
+Entire sequence
+Number of test cases - This is correct answer.
+
+Suppose first line contains 7. Then, how many lines will the input have?
+7 - This answer is incorrect. Please read the input description carefully.
+8 - This answer is incorrect. Please read the input description carefully.
+14 - This answer is incorrect. Please read the input description carefully.
+15 - This is correct answer. First line contains 7, means there are 7 test cases. Each test case contains 2 lines of input. So, 14 lines of test cases + the first line. Total 15 lines of input.
+
+We have some sample inputs below.
+Input 1:
+3
+6
+UUDUDD
+4
+UUDD
+4
+DUDU
+
+Input 2:
+3
+4
+UDUD
+6
+UDDDUU
+
+Which of these is not a valid input for this problem?
+Input 1 - This answer is incorrect. Please read the input description carefully.
+Input 2 - This is correct answer. Input 2 is invalid. First line contains 3, which means there will be 3 test cases, which means total 7 lines of input. But the input specifies only 2 test cases.
+Both are invalid - This answer is incorrect. Please read the input description carefully.
+Both are valid - This answer is incorrect. Please read the input description carefully.
+
+Now that we understood the input format, let us understand the output format.
+
+How many lines should the output contain?
+1 line - This answer is incorrect. Please read the output description carefully.
+2 - 
+3 - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This is correct answer. Until we read the first line of output, we won't know the number of test cases.
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+3
+4
+UDUD
+6
+UDDDUU
+2
+UD
+
+For the above input, how many lines should the output contain?
+1 - This answer is incorrect. Please read the output description carefully.
+2
+3 - This is correct answer. There are 3 test cases. For each test case, we have to print the result in a new line. So, there will be 3 lines in output.
+4
+
+For the above input, what should be the first line of output?
+0 - This is correct answer. "UDUD" has no valleys.
+1 - This answer is incorrect. You need to count the number of valleys.
+2
+
+You have seen multiple test cases. Based on them, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+---
+1. Normal test cases
+1.1. There is exactly one valley, somewhere in the middle
+1.2. There are multiple valleys, with mountains in between them
+---
+2. Boundary test cases
+2.1. There are no valleys
+2.2. There is a valley at the beginning
+2.3. There is a valley at the end
+2.4. There are 2 valleys, side-by-side
+
+Based on these hints, you can come up with at least 6 new test cases.
+
+Write them on a paper.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previously.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One sample trek is "UDDDUU".
+
+_/\    _
+   \  /
+    \/
+
+This has one valley.
+
+I will try to explain what I did.
+
+I know that the trek always begins at sea level. So initially my altitude is 0. I wrote it down on a paper.
+
+First step is U, which means up. So I increment the altitude. It will become 1.
+
+Second step is D, which means down. So I decrement the altitude. It will become 0.
+
+Third step is D. I notice that my altitude is 0 and I am taking a down step. So I am entering a valley. I write down the valley count as 1. I decrement the altitude. It will become -1.
+
+Fourth step is D. I decrement the altitude. It will become -2.
+
+Fifth step is U. I increment the altitude. It will become -1.
+
+Sixth step is U.  I increment the altitude. It will become 0.
+
+I reached end of trek. I look at the paper and see that the valley count is 1. So, there is 1 valley in the given trek.
+
+You would have something similar.
+
+Now, write down the steps for "DUDDUDUU".
+
+_        _
+ \/\    /
+    \/\/
+
+This has 2 valleys.
+
+Can you try to write down an algorithm based on the above exercise?
+
+Following are some hints.
+1. What are the things you need to keep track of?
+2. When should you update them?
+3. What is the beginning of a valley?
+
+Following is what I came up with.
+1. Create 2 variables, altitude and valleyCount and initialize them to 0
+2. Take a step from the trek
+3. If it is U, increment the altitude
+4. Otherwise,
+4.1 Decrement the altitude
+4.2 If altitude is -1, that means we entered a valley. Increment the valleyCount
+5. Repeat steps 2 to 4, until we reach the end of the trek
+6. The value of valleyCount will be the number of valleys in the given trek
+7. Repeat steps 1 to 6, for each of the test cases
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+There are various things to be implemented.
+a. Creating new variables (step 1)
+b. Getting a character from a string, based on the index (step 2)
+c. Check if one string is same as another string (step 3)
+d. Repeating a set of steps (steps 5, 7)
+e. Updating variables (steps 3, 4.1, 4.2)
+f. Conditional blocks (steps 3, 4.2)
+
+We have discussed a, c, d, e and f in previous assignments multiple times.
+
+How to create/update variables? - Please refer to assignments from STOC module
+Comparing variables/values
+Conditional blocks
+How to repeat some code?
+Getting a character from a string
+
+Strings are one of the most ubiquitous data structures. A software developer will have to handle strings almost on a daily basis. So, a thorough knowledge of string operations is essential.
+
+Suppose we have a string "bifurcate".
+What is the index of the character "f" in "bifurcate"?
+2 - This is correct answer. Indexing of strings starts from 0 (like arrays). So, in "bifurcate", the index of "f" is 2.
+3 - This answer is incorrect. 
+No index for characters in a string - This answer is incorrect.
+
+In a string, how can we get the character at a particular index?
+Using square brackets (i.e. []) - This answer is incorrect.
+Using charAt(index) - This is correct answer.
+Square brackets work for array indexing, but not for strings. For strings, we have to use charAt(index).
+
+Below is an example of charAt(index)
+let word = "bifurcate";
+console.log(word.charAt(2)); // This will display f
+
+Now we know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.
+
+By now we have converted our entire algorithm into code.
+We have completed 4 steps.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3. Coming up with logic (or algorithm)
+4. Converting logic to code
+Next step is to execute the code and test with different test cases.
+
+You have the code on your paper. Now write it in your computer and execute it with various test cases.
+If all test cases are passing, then submit it on the student portal.
