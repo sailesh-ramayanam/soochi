@@ -5,7 +5,7 @@ Yes
 No- 2 Dimensional arrays are arrays where the data element's position is referred to, by two indices. The name specifies two dimensions, that is, row and column. E.g. we have an array
 arr =[[5, 9],
       [17,13]]
-here if we want to access element 17, we will access it by using arr[1][0], where 1 and 0 indicates the row and column of element 17 respectively. Please go through lecture recordings where 2-dimensional arrays are covered.
+here if we want to access element 13, we will access it by using arr[1][0], where 1 and 0 indicates the row and column of element 7 respectively. Please go through lecture recordings where 2-dimensional arrays are covered.
 
 Which of the following is 2D array?
 [[5]]- This is correct answer.
@@ -279,4 +279,4 @@ How to take different actions? - Please refer to the assignment "Rating contest"
 How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
 How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
 How to create an empty array?- Use let arr = [], please refer lecture recordings this is covered in lecture.
-How to read space separated numbers as input? Please refer to assignments like "good pairs"
+How to read space separated numbers as input? Please refer to assignments like "good pairs" and
