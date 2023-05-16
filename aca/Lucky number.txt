@@ -234,11 +234,12 @@ There are various things to be implemented.
 a. Taking input as an integer (steps 1 and 3)
 b. Initialize an empty array (step 2)
 c. Creating new variables (step 6)
-d. Store the number in an array.(step 4)
+d. Append an element in array.(step 4)
 e. Comparing numbers (steps 9, 11.1 and 15)
 f. Displaying output (steps 11.2, 15.1 and 15.2)
 g. Repeating the process for one number at a time (steps 5 and 12)
-h. break statement- (step 11.2)
+h. Break statement- (step 11.2)
+i. Create an empty array
 
 We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
 
@@ -250,7 +251,7 @@ How to show output? - Please refer to assignments like "Simple interest" or "Squ
 How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
 How to Initialize an empty array? Please refer to assignment "Good Pairs"
 How to use break statements?- Please refer to the lectures where break statements are covered
-How to store an element in array- Use array.push() method.
+How to append an element in array- Use array.push() method.
 Suppose I have an array = [1,2,3,4] and if I will do array.push(5) then my array will become [1,2,3,4,5]
 Similarly if I have to add a new value from user, I can use readLine() for taking value and then array.push() for appending that value to end of array
 One example for that will be:

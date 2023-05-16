@@ -1,180 +1,148 @@
 First step is "Understand the problem statement".
 
-Do you know what is a 2 Dimensional array?
-Yes
-No- 2 Dimensional arrays are arrays where the data element's position is referred to, by two indices. The name specifies two dimensions, that is, row and column. E.g. we have an array
-arr =[[5, 9],
-      [17,13]]
-here if we want to access element 13, we will access it by using arr[1][0], where 1 and 0 indicates the row and column of element 7 respectively. Please go through lecture recordings where 2-dimensional arrays are covered.
+Which of the following statement is correct regarding image?
+It is 1D array- This is correct answer.
+It is 2D array- This answer is not correct. Please read the problem description carefully.
 
-Which of the following is 2D array?
-[[5]]- This is correct answer.
-[20, 13]- This answer is incorrect. Why do you think it is a 2D array, because there are 2 elements in array?. This is 1D array with only 2 elements. Please go through lecture recordings where 2-dimensional arrays are covered.
-[[[53]], [[19]]]- This answer is incorrect. Actually this is 3D array. Please revise concept of multi-dimensional array, and watch lecture recordings of 2D array.
+Which of the following statement is correct regarding icon?
+It is 1D array- This is correct answer.
+It is 2D array- This answer is not correct. Please read the problem description carefully.
 
-Which of the following statement is correct about length of the 2D array?
-Option-1: Length of 2D array is equal to the number of rows in the array.
-Option-2: Length of 2D array is equal to the number of columns in the array.
-Option-3: Length of 2D array is equal to the sum of number of rows and number of columns in the array.
-Option-4: Length cannot be determined for 2D arrays.
+What do we have to check in the image (i.e a 1D array)?
+Option-1: If all elements of icons(i.e. also 1D array) are present in image at least once
+Option-2: Number of times all elements of icons(i.e. also 1D array) are present in the image, in the same order as they are in icon.
 
-Option-1: This is correct answer.
-Option-2: This answer is incorrect. Please rewatch the lectures on 2D arrays
-Option-3: This answer is incorrect. Please rewatch the lectures on 2D arrays
-Option-4: This answer is incorrect. Length of 2D array is equal to the number of rows in 2D arrays. Please rewatch the lectures on 2D arrays.
-
-We have 2 dimensional array, which of the following array does not have size n*n?
-A1:
-9 15 -17
-13 -71 62
--83 -51 78
-
-A2:
-10 10
--10 10
-
-A3:
-25 -36 64
--81 62 93
-
-A1- This answer is incorrect. Since number of rows is equal to number of columns, so it is an array of size n*n (or n*n matrix).
-A2- This answer is incorrect. Since number of rows is equal to number of columns, so it is an array of size n*n (or n*n matrix).
-A3- This is correct answer.
-
-What does element 'e' refers to in the given problem statement?
-option-1: Any element of the given 2 dimensional array.
-option-2: Only diagonal element of the given array.
-
-Option-1- This answer is incorrect. Please read the problem description carefully.
-Option-2- This is correct answer.
-
-Suppose the element 'e' is equal to 0, what changes we have to apply to this element?
-Change element to 1- This is correct answer.
-Change element to -1- This is incorrect answer, please read the description carefully.
-No change- This is incorrect answer, please read the description carefully.
-Don't Know- Please read the description carefully.
-
-In which of the following scenario there will be no change with the element value?
-S1: Only when element equal to 1
-S2: Only when element equal to -1
-S3: When element equal to either -1 or 1
-S4: When element equal to either 0, -1 or 1
-
-S3- This answer is incorrect. Please read the problem description carefully.
-S2- This answer is incorrect. Please read the problem description carefully.
-S1- This is correct answer.
-S4- This answer is incorrect. Please read the problem description carefully.
+Option-1 - This answer is incorrect. Please read the problem description carefully.
+Option-2 - This is correct answer.
 
 
 Now that we understand the problem statement, 2nd step is to come up with new test cases.
 First let us understand the input format.
 
 How many lines does the input contain?
-4 lines - This answer is incorrect. Please read the input description carefully.
-5 lines - This answer is incorrect. Please read the input description carefully.
+14 lines - This answer is incorrect. Please read the input description carefully.
+15 lines - This answer is incorrect. Please read the input description carefully.
 Not known until we read input - This is correct answer.
 
 What does the first line of input contain?
-Length of 2D array - This is correct answer.
-First row of 2D array - This answer is incorrect. Please read the input description carefully.
-First column of 2D array- This answer is incorrect. Please read the input description carefully.
+Size of Image - This is correct answer.
+Pixels of Image - This answer is incorrect. Please read the input description carefully.
+Length of Icon- This answer is incorrect. Please read the input description carefully.
 Don't know - Please read the input description provided in the assignment.
 
-What does the second line of input contain?
-First column of array - This answer is incorrect. Please read the input description carefully.
-First row of 2D array- This is correct answer
+Suppose first line of input contains 8, then what does line 10 contain?
+First pixel of image - This answer is incorrect. Please read the input description carefully.
+Size of Icon- This is correct answer
+First Pixel of Icon- This answer is incorrect. Please read the input description carefully.
 Don't know - Please read the input description provided in the assignment.
 
-Suppose first line of input contains 15. Then, how many lines will the input have?
+Suppose first line of input contains 11. Then, how many lines will the input have?
+12 - This answer is incorrect. Please read the input description carefully.
 15 - This answer is incorrect. Please read the input description carefully.
-16 - This is correct answer. First line contains 15 means the array has 15 rows and 15 columns. Each row of 2D is provided in a separate line, starting from 2nd line. So, 15 lines + the first line. Total 16 lines of input.
-17 - This answer is incorrect. Please read the input description carefully.
-Cannot say - This answer is incorrect. Please read the input description carefully.
+20 - This answer is incorrect. Please read the input description carefully.
+Cannot say - This is correct answer. Since size of Icon is not mentioned, so it is difficult to decide the length of input.
 
 
 We have some sample inputs below.
 Input 1:
-2
--17 23 35
-72 -41 53
+0
+3
+28
+32
+71
 
 Input 2:
 3
-42 83 -68
-39 -26 16
-32 15 92
+95
+39
+38
+0
+
+Input 3:
+2
+85
+64
+1
+85
+64
 
 
 Which of these is not a valid input for this problem?
-Input 2- This answer is incorrect. Please read problem description carefully.
-Input 1- This is correct answer. Input 1 is invalid because number of rows is not equal to number of columns.
+Input 1- This answer is incorrect. Why do you think this is not a valid answer? Because size of Icon is 0. Please read the input description carefully.
+Input 2- This answer is incorrect. Why do you think this is not a valid answer? Because size of Image is 0. Please read the input description carefully.
+Input 3- This is correct answer. Input 3 is invalid because here size of icon is mentioned as 1 but there are 2 elements in the Icon.
 
+Which of the following option is correct regarding the below sample input?0
+Input:
+0
+0
+
+O1: This is invalid input.
+O2: Here size of image is 0 and size of icon is also 0
+
+O1- This answer is incorrect. Both image and icon can be of size 0. Please read the input description carefully.
+O2- This is correct answer.
 
 Now that we understood the input format, let us understand the output format.
 
 
 How many lines should the output contain?
-4 lines - This answer is incorrect. Please read the output description carefully.
-5 lines - This answer is incorrect. Please read the output description carefully.
-Not known until we read input - This answer is correct. Since output depends on initial size of array.
+1 lines - This is correct answer. There is only 1 line in output denoting the number of times icon occurs in the image.
+2 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This answer is incorrect. Please read the output description carefully.
 
-What does the first line of output contain?
-First row of final array- This is correct answer.
-First column of final array- This answer is incorrect. Please read the output description carefully.
-Don't know- Please read the output description carefully.
 
 Suppose the given array is
-42 83 -68
-39 -26 16
-32 15 92
 
-Which of the following elements we have to change?
-42,-26,92- This is correct answer.
--68,-26,32- This answer is incorrect. We have to consider only left to right diagonal. Please observe the sample output carefully
-42,-26,92,-68,32- This answer is incorrect. We have to consider only left to right diagonal. Please observe the sample output carefully
 
 Let us now look at some sample test cases.
 
 Consider the following input.
 Input:
 4
-20 10 13 40
--1 11 3 7
-9 51 -1 61
-5 -3 -9 0
+61
+61
+61
+61
+2
+61
+
 
 What should be the output for the above input?
-Output-1
-1 10 13 40
-0 1 3 7
-9 51 0 61
-5 0 0 1
+0- This answer is incorrect. The icon appears(i.e. 61) in the image. Why did you think output is 0?
+2- This answer is incorrect. Please read the input/output description carefully.
+4- This is correct answer. Since 61 appears 4 times in the image, so correct output is 4
 
-Output-2
-1 10 13 40
--1 1 3 7
-9 51 0 61
-5 -3 -9 0
 
-Output-3
-1 10 13 40
--1 1 3 7
-9 51 0 61
-5 -3 -9 1
 
-Output-1 - This answer is incorrect. You don't have to change all negative elements to 0. Please read problem description carefully
-Output-2 - This answer is incorrect. Please read problem statement carefully.
-Output-3 - This is correct answer.
+Input:
+4
+58 
+42 
+35 
+73
+2
+35
+42
+
+What should be the output for the above input?
+0- This is correct answer.
+1- This answer is incorrect. 35 and 42 pixels are there in image but there order is not same. 
+This input is not valid- This answer is incorrect. Why do you think it is not valid. Please read input/output description carefully.
+
+
 
 
 While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
 
 Following are some hints for coming up with new test cases.
 
-1. Normal test cases - length of the array is like 5, 8, 10 etc.
-1.1 When all numbers are greater than or equal to zero
-1.2 When all numbers are less than zero
-1.3 When all numbers are positive, negative as well as zero
+1. Normal test cases - length of the image and icon is like 5, 8 and 10 .
+1.1 When icon does not appear single time in the image
+1.2 When icon appear at least 1 time in image.
+
+2. Boundary cases
+2.1 When length of any of the image or icon is 0
 
 
 Based on these hints, you can come up with at least 3 new test cases.
@@ -197,58 +165,75 @@ Let us demonstrate through an example.
 
 One test input from above is
 4
-20 10 13 40
--1 11 3 7
-9 51 -1 61
-5 -3 -9 0
+58 
+42 
+35 
+73
+2
+35
+42
 
 I will try to explain what I did.
 
-I looked at the first line. It contains 4 that means there size of 2D array is 4*4 (i.e 4 rows and 4 columns).
+I looked at the first line. It contains 4 that means the size of 1D image is 4 (There are 4 pixels in image).
 
-Then I see in the next 4 lines, these are 4 rows of 2D array.
+Then I see in the next 4 lines, these are 4 pixels of 1D image.
 
-Now I looked at first row and index 0 element of that row. I see it is not less than 0. SO I change it to 1
+Then I looked at next line, it contains 2, that means the size of icon is 2 (there are 2 pixels in icon)
 
-Now I looked at second row and index 1 element of that row. I see it is not less than 0. SO I change it to 1
+Then I looked into first element of image(i.e 58), and compare it with first element of icon(i.e 35) and see they are not equal.
 
-Now I looked at third row and index 2 element of that row. I see it is less than 0. SO I change it to 0
+Then I moved to next element of the image(i.e. 42), and compare it with first element of icon(i.e 35) and see they are not equal.
 
-Now I looked at forth row and index 3 element of that row. I see it is not less than 0. SO I change it to 1
+Then again I moved to next element of the image(i.e. 35), and compare it with first element of icon(i.e 35) and see they are equal.
+
+Since they are equal so I compared next element of image(i.e 73) to next element of icon(i.e 42). They are not equal.
+
+Since they are not equal, and also there is only one pixel left in the image array, so I stoppped comparing. Because we need at least 2 pixels, since there are two pixels in icon.
+
+Since the icon is not appeared even single time in the image, so output will be 0
 
 
-Now imagine that the size of array is 1000*1000
+Now imagine that there are 1000 pixels in image, and 10 pixels in icon.
 What will you do? Put it in words.
 
 Following are some hints to put the logic in words.
 
-1. As there are 1000 rows it will be difficult for me to remember each row of the array, so I will take a paper and note down all the rows of 2D array.
-2. Again I have to see through each row and look into diagonal elements and see if it is nrgative or not, if it is negative, I have to change it to -1 otherwise i have to change it to 1.
+1. As there are 1000 pixels in the image, it is difficult for me to remember all the pixels so I will write it down in paper.
+2. Now there 10 pixels in icon, that also I have to write in paper.
+3. Now I have to keep start comparing each pixel with the first pixel of icon, f they are equal then I will move to next pixel of both image and icon and compare it, I will repeat it till I reach end of the Icon pixels.
+4. If all the pixels of icon appeared in the image with the same order, then I will that count.
+5. Similarly I will count total how many times that icon appear in the inage.
 
-Hint: The diagonal elements will have row value same as the column value (e.g arr[0][0] or arr[5][5])
 
 Following is what I came up with.
 
 We have 2 major phases in the implementation.
-Phase 1: One is to read the rows of 2D array and store it in 2D array.
-Phase 2: Second is changing the elements of the diagonal of the array.
+Phase 1: One is to read the pixels of image(i.e 1D array) and icon(i.e 1D array).
+Phase 2: Second is count the number of times icon is appearing in the array
 
-1. Read the length of 2D array from input
-2. Create an empty array
-3. Read the next row from input
+1. Read the length of 1D array from input(i.e. length of image).
+2. Create an empty array (for storing pixels of image).
+3. Read the next value from input
 4. Append it to the array
-5. Repeat steps 3 and 4 until you read all rows of 2D array.
+5. Repeat steps 3 and 4 until you read all the elements of 1D array.
+6. Read the length of 1D array from input(i.e. length of icon).
+7. Create an empty array (for storing pixels of icon).
+8. Read the next value from input
+9. Append it to the array
+10. Repeat steps 8 and 9 until you read all the elements of 1D array.
 Phase 2
-7. Now go to first row of 2D array.
-8. Go to that element row value is equal to its column value and check if it is negative or not
-8.1 If it is negative, then change it to 0.
-8.2 Otherwise, change it to 1.
-9. Move to next row.
-10 Repeat step 8, 8.1, 8.2 and 9 untill we reach end of the array.
-11. Go to row 1 of array.
-12. Display that row, with elements are separated by spaces.
-13. Move to next row
-14. Repeat step 12 and 13 untill we reach end of the array.
+11. Create a variable called count and initialize it to 0 (for counting the number of times icons repeat in image).
+12. Create a variable i and initialize it to 0.
+13. Go to element with index i, of the image array and compare it with element at index 0, of icon array.
+14. If both the elements are not equal then move to next element of image, otherwise,
+14.1 Compare next element of image array to next element of icon array.
+14.2 Repeat step 14.1 till you reach end of icon array.
+15 We need to check if we came out of the loop because elements of the image and icon array elements are not equal or we reach the end of the icon array.
+16. If we came out of the loop beacuse we reach end of icon array, then increase count value by 1, otherwise do nothing.
+17. Go to the next element of image array by increasing the value of i by 1, or increase it by length of Icon array minus 1 if all pixels of Icon appears in Image array in same order.
+18. Repeat steps 13, 14, 14.1, 14.2, 15, 16, 17 till we reach end of the image array.
+19. Display the count value.
 
 
 Compare it with what you wrote.
@@ -264,11 +249,11 @@ Tip: Never jump into writing code without figuring out the logic (also known as 
 Let us convert the algorithm step by step.
 
 There are various things to be implemented.
-a. Taking input as an integer (step 1).
-b. Displaying output (step 12).
-c. Repeating the process for one number at a time (steps 5, 10 and 14).
-d. Creating an empty array (step 2).
-e. Read space separated numbers as input.(step 3)
+a. Taking input as an integer (steps 1,3,6 and 8).
+b. Displaying output (step 19).
+c. Repeating the process for one number at a time (steps 5,10,14.2 and 18).
+d. Creating an empty array (steps 2 and 7).
+e. Creating new variable (steps 11 and 12).
 
 We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
 
@@ -279,4 +264,4 @@ How to take different actions? - Please refer to the assignment "Rating contest"
 How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
 How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
 How to create an empty array?- Use let arr = [], please refer lecture recordings this is covered in lecture.
-How to read space separated numbers as input? Please refer to assignments like "good pairs" and
+How to read space separated numbers as input? Please refer to assignments like "good pairs"
