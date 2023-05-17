@@ -1,6 +1,6 @@
 First step is "Understand the problem statement".
 
-Q1: The problem statement mentions that we will have a sorted array. Do you know the meaning of sorted?
+The problem statement mentions that we will have a sorted array. Do you know the meaning of sorted?
 Yes
 No - Sorted means arranged in either ascending order or descending order.
 
