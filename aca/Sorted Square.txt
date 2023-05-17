@@ -212,9 +212,10 @@ Following are some hints to put the logic in words.
 
 Following is what I came up with.
 
-We have 2 major phases in the implementation.
-Phase 1: One is to read the pixels of image(i.e 1D array) and icon(i.e 1D array).
-Phase 2: Second is count the number of times icon is appearing in the array
+We have 3 major phases in the implementation.
+Phase 1: One is to read the elements of the array.
+Phase 2: Second squaring the elements of the array
+Phase 3: Sorting the array
 
 1. Read the length of the array
 2. Create an empty array.
@@ -226,6 +227,7 @@ Phase 2
 12. Replace the that element with the square of that element.
 13. Now move to next element
 14. Repeat steps 12,13 untill we reach the end of array.
+Phase 3
 15. Now sort the array in ascending order.
 16. Now start displaying elements of array from index 0 to last element in separate lines.
 
