@@ -1,0 +1,234 @@
+First step is "Understand the problem statement".
+
+How many arrays are given in the problem?
+0 array- This answer is incorrect, Please read the problem description carefully.
+1 array- This answer is incorrect, Please read the problem description carefully.
+2 array- This is correct answer.
+Not mentioned- This answer is incorrect, Please read the problem description carefully.
+
+
+There are two integers for which we got the maximum product, which of the following is true about the integers?
+Option 1: Both the integers can be from same array.
+Option 2: One integer is from array 1 and other is from array 2.
+
+Option 1- This answer is incorrect. Please read the problem description carefully.
+Option 2 - This is correct answer. Both integers have to be from different array.
+
+Do you know about the absolute value of a number?
+Yes
+No- The absolute value  |x| of a real number x is the non-negative value of x without regard to its sign.
+
+What is the absolute value of the following numbers
+10, -20, -15
+
+10, 20, 15- This is correct answer.
+-10, 20, 15- This answer is incorrect.
+
+Here are some pairs (x,y), which of the following pair will have maximum value |x*y| ?
+(-5,10)- This is correct answer. Since here |x*y| => |(-5)*(10)| => |-50| => 50, which is greater than 6*8(=48) and |9*-4|(=36)
+(6,8)- This answer is incorrect. Please check every options carefully.
+(9,-4)- This answer is incorrect. Please check every options carefully.
+(-6,-7)- This answer is incorrect. Please check every options carefully.
+
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+4 lines - This is correct answer.
+5 lines - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This answer is incorrect. Please read the input description carefully.
+
+What does the first and second line of input contain?
+Size of the array 1 and array 2 - This is correct answer.
+First element of array 1 and array 2 - This answer is incorrect. Please read the input description carefully.
+Space separated elements of array 1 and array 2- This answer is incorrect. Please read the input description carefully.
+Don't know - Please read the input description provided in the assignment.
+
+What does the third and fourth line of input contain?
+Size of the array 1 and array 2 - This answer is incorrect. Please read the input description carefully.
+First element of each arrays - This answer is incorrect. Please read the input description carefully.
+Space separated elements of array 1 and array 2- This is correct answer.
+Don't know - Please read the input description provided in the assignment.
+
+
+We have some sample inputs below.
+Input 1:
+4
+6
+9 23 -82 91
+37 0 -5 29 67
+
+Input 2:
+7
+3
+10 10 10 10 10 10 10
+0 0 0
+
+
+Which of these is not a valid input for this problem?
+Input 2- This answer is incorrect. Why do you think it is invalid, because elements are same in both array?
+Input 1- This is correct answer. Input 1 is invalid because here size of array 2 is 6, but total elements in the array 2 are 5.
+
+
+
+Now that we understood the input format, let us understand the output format.
+
+
+How many lines should the output contain?
+1 line - This is correct answer.
+2 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This answer is incorrect. Please read the output description carefully.
+
+
+Suppose the given array is
+
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+3
+5
+8 12 -15
+-20 30 14 10 7
+
+
+What should be the output for the above input?
+Output1:
+300
+
+Output2:
+450
+
+Output3:
+360
+
+Output1- This answer is incorrect. 
+Output2- This is correct answer. Two integers for which the product is maximum are -15 and 30
+Output3- This answer is incorrect. Why do you think it is correct? Have you considered only positive number in both array
+
+
+While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+
+1. Normal test cases - length of the array is like 5, 8 and 10 .
+1.1 When all the elements are different.
+1.2 When some of the elements are same.
+1.3 When all the elements are same.
+
+
+Based on these hints, you can come up with at least 3 new test cases.
+Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previously.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+3
+5
+8 12 -15
+-20 30 14 10 7
+
+I will try to explain what I did.
+
+I looked at the first line. It contains 3 that means array 1 has length 3
+
+I looked at the second line. It contains 5 that means array 2 has length 5
+
+Then I see elements of array 1 and array 2
+
+Now I see absolute value of first element of array 1 is 8
+
+I compared it with absolute value of second element of the array 2, I see 12 is greater
+
+Then I compare 12 with absolute value of next element i.e 15, I see 15 is greater. After -15 there is no other element in the array 1. So now I got the maximum absolute value in array 1.
+
+Similar steps I followed for array 2 and got 30 as the maximum absolute value.
+
+Now the maximum product I got is 15*30 i.e 450
+
+
+Now imagine that there are 1000 elements in both the array
+What will you do? Put it in words.
+
+Following are some hints to put the logic in words.
+
+1. As there are 1000 elements in both the array, it will be difficult for me to remember all the elements of the array, so I will write all the elements of both the array in paper.
+2. For finding the maximum in both the array, I have to start comparing consecutive elements in pairs. And update the maximum value
+
+
+Following is what I came up with.
+
+We have 2 major phases in the implementation.
+Phase 1: One is to read the elements of the both array.
+Phase 2: Second is finding the maximum product
+
+Phase 1
+1. Read the length of the array 1
+2. Read the length of the array 2
+3. Read the elements of array 1
+4. Read the elements of array 1
+Phase 2
+5. Now create a variable called max1 and initialize its value equal to absolute value of index 0 element of array 1
+6. Now start from index 1 element of array and compare its absolute value with the max1
+6.1 If max1 is greater or equal to that value then do nothing, otherwise
+6.2 Update the value of max1 with absolute value of current index value.
+7. Now repeat steps 6.1 and 6.2 for other values of array 1 till we reach end of the array.
+8. Now create a variable called max2 and initialize its value equal to absolute value of index 0 element of array 2
+9. Follow step 6, 6.1 and 6.2 for array 2 elements and max2 variable.
+10. Now display the value of max1 * max2
+
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+
+There are various things to be implemented.
+a. Taking input as an integer (steps 1,2,3 and 4).
+b. Displaying output (step 10).
+c. Repeating the process for one number at a time (steps 7 and 8).
+d. Create a new variable(step 5).
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+How to Initialize an empty array? Please refer to assignment "Good Pairs"
+How to use break statements?- Please refer to the lectures where break statements are covered
+How to append an element in array? Please refer to the assignment like "good pairs" and "lucky number"
+How to sort the array? Since sorting algorithms are not covered yet, use inbuilt functions for sorting the array.
+Suppose you have array points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a - b});
+The above line will sort the array in ascending order.
+If you will do console.log(points) now, you will get the output as [1, 5, 10, 25, 40, 100]
+points.sort(function(a, b){return b - a});
+The above line will sort the array in descending order. So if you do console.log(points) after this line
+you will get output as [100,40,25,10,5,1]
+It is recommend to create random array of numbers and practice above sort method and observe the changes.
+For strings the sorting function will be different in javascript.It will be array.sort() only. It will sort in ascending order by default. So do array.reverse() after sorting, if you want to sort in descending order. 

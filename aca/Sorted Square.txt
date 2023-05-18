@@ -77,9 +77,9 @@ Now that we understood the input format, let us understand the output format.
 
 
 How many lines should the output contain?
-1 lines - This answer is incorrect. Please read the output description carefully.
+1 line - This answer is incorrect. Please read the output description carefully.
 2 lines - This answer is incorrect. Please read the output description carefully.
-Not known until we read input - This is correct answer. Please read the output description carefully.
+Not known until we read input - This is correct answer.
 
 
 Suppose the given array is
@@ -214,9 +214,10 @@ Following is what I came up with.
 
 We have 3 major phases in the implementation.
 Phase 1: One is to read the elements of the array.
-Phase 2: Second squaring the elements of the array
-Phase 3: Sorting the array
+Phase 2: Second is squaring the elements of the array
+Phase 3: Third is sorting the array
 
+Phase 1
 1. Read the length of the array
 2. Create an empty array.
 3. Read the next value from input
@@ -246,7 +247,7 @@ Let us convert the algorithm step by step.
 
 There are various things to be implemented.
 a. Taking input as an integer (steps 1 and 3).
-b. Displaying output (steps 16).
+b. Displaying output (step 16).
 c. Repeating the process for one number at a time (steps 5 and 14).
 d. Creating an empty array (steps 2).
 e. Sort the array
