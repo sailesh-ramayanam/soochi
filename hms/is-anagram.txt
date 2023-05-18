@@ -171,7 +171,7 @@ Hashmap approach: Use a hashmap to store <character, count> key value pairs.
 
 This method will look like below.
 let a_count = 0, b_count = 0, and so on z_count = 0;
-for each character c in string {
+for each character c in word {
     if (c === "a") {
         a_count++;
     } else if (c === "b") {
@@ -183,19 +183,18 @@ for each character c in string {
 
 There are multiple issues with this approach.
 
-You have to create 26 variables and write 26 if conditions.
-But, this is not sufficient.
+You have to create 26 variables and write 26 if conditions. That is also not sufficient.
 What about uppercase letters (i.e. A, B, C, ... Z)?
 What about digits (i.e. 0, 1, 2, 3 ... 9)?
 What about special characters (like @, #, $, %, ;, ', and so on)?
-Ww will have to create 100s of variables and write 100s of if conditions. Even if we miss one character, our program will not work correctly.
+We will have to create 100s of variables and write 100s of if conditions. Even if we miss one character, our program will not work correctly.
 
-This is not a wrong approach. But very impractical approach.
+This is a correct approach, but not a practical approach.
 
 
 This method will look like below.
 1. let charsArray = [], countsArray = [];
-2. for each character c in string {
+2. for each character c in word {
 3.     // Check if c is present in charsArray
 4.     // If yes, then get its index (say idx). Increment countsArray[idx]
 5.     // Otherwise, append c at the end of charsArray and append 1 at the end of countsArray
@@ -204,5 +203,166 @@ This method will look like below.
 Unlike the variables approach, arrays approach looks more elegant. But, it is still not the optimal approach.
 
 What will be the time complexity of the above for loop? Assume that string's length is n.
+Let us try to analyse the time complexity of the arrays approach.
 
+Below is an implementation of the arrays approach.
+1. let charsArray = [], countsArray = [];
+2. for (let i = 0; i < word.length; ++i) {
+3.     let c = word.charAt(i);
+4.     let cIndex = charsArray.indexOf(c);
+5.     if (cIndex === -1) {
+6.         // c is not present in charsArray
+7.         charsArray.append(c);
+8.         countsArray.append(1);
+9.     } else {
+10.        ++countsArray[cIndex];
+11.    }
+12.}
 
+There is one for loop. The body of the loop is from line 3 to line 11.
+
+How many times will the body of for loop get executed? Assume that word's length is n.
+1 time - This answer is incorrect. Please revise the lectures on time complexity analysis.
+n times - This is correct answer. For every character of the word, the body of for loop is executed once. If there are n characters in the word, then the body will be executed n times.
+n^2 times - This answer is incorrect. Please revise the lectures on time complexity analysis.
+
+In the body of for loop, on an average, which is the most time taking line?
+line 3 - This answer is incorrect. Access by index in a string takes O(1) time.
+line 4 - This is correct answer. Here, we are searching for an element by its value in an array. For this, we have to look compare it with each element in an array. So, the time depends on the length of the array. Compared to other lines, this is the most time taking line. It is O(m), where m is the length of charsArray.
+line 7 - This answer is incorrect. On an average, append operation takes O(1) time.
+line 10 - This answer is incorrect. In an array, access by index takes O(1) time.
+All take O(1) time - This answer is incorrect.
+
+Based on the above discussion, what is the time complexity of the above implementation? Assume that word's length is n.
+O(1) - This answer is incorrect. Please revise the lectures on time complexity analysis.
+O(n) - This answer is incorrect. Please revise the lectures on time complexity analysis.
+O(n^2) - This is correct answer. Each iteration of the for loop takes O(m), where m is the length of charsArray. Worst case is where, in every iteration, we encounter a new character. So, the size of charsArrays increases in every execution. So, it will be 0 + 1 + 2 + ... + (n-1). This is O(n^2).
+
+Thus, arrays approach has a time complexity of O(n^2).
+
+Let us look at the space complexity.
+Which of the following will take the most space?
+i - This answer is incorrect. i stores an integer value. 
+c - This answer is incorrect. c stores a string containing one character. 
+cIndex - This answer is incorrect. cIndex stores an integer value. 
+charsArray - This is correct answer. charsArray is an array that stores all the unique characters in word. So it can be as large as the word itself. Same applies to countsArray as well. So, apart from word, charsArray and countsArray take the most amount of space in the above program.
+
+If the word's length is n, then what can be the maximum size of charsArray?
+log n - This answer is incorrect. Please revise the lectures on time complexity analysis.
+n - This is correct answer. If word does not contain any duplicate characters, then the size of charsArray will also be n. Do a dry run and check. Some samples for word are "cyberpunk", "path-finder", "blue sky", "sharp knife" etc.
+n/2 - This answer is incorrect. Please revise the lectures on time complexity analysis.
+No relation with n - This answer is incorrect. Please revise the lectures on time complexity analysis.
+
+Thus, arrays approach has extra space complexity of O(n).
+
+To summarise, arrays approach has a time complexity of O(n^2) and extra space complexity of O(n).
+We can improve time complexity by using hashmaps.
+
+This method will look like below.
+let charMap = new Map();
+for each character c in word {
+    // If c is present in charMap, increment its count
+    // Otherwise, add c to charMap and set its count to 1
+}
+
+This looks very similar to the arrays approach. But, its time complexity is different.
+
+What will be the time complexity of the above for loop? Assume that string's length is n.
+Let us try to analyse the time complexity of the hashmap approach.
+
+Below is an implementation of the hashmap approach.
+1. let charMap = new Map();
+2. for (let i = 0; i < word.length; ++i) {
+3.     let c = word.charAt(i);
+4.     if (charMap.has(c)) {
+5.         charMap.set(c, charMap.get(c) + 1);
+6.     } else {
+7.         charMap.set(c, 1);
+8.     }
+9. }
+
+There is one for loop. The body of the loop is from line 3 to line 8.
+
+How many times will the body of for loop get executed? Assume that word's length is n.
+1 time - This answer is incorrect. Please revise the lectures on time complexity analysis.
+n times - This is correct answer. For every character of the word, the body of for loop is executed once. If there are n characters in the word, then the body will be executed n times.
+n^2 times - This answer is incorrect. Please revise the lectures on time complexity analysis.
+
+In the body of for loop, on an average, which is the most time taking line?
+line 3 - This answer is incorrect. Access by index in a string takes O(1) time.
+line 4 - This answer is incorrect. Checking if a key is present in a hashmap takes O(1) time.
+line 5 - This answer is incorrect. Both, getting and setting the value of a key in hashmap take O(1) time.
+line 7 - This answer is incorrect. Setting the value of a key in hashmap take O(1) time.
+All take O(1) time - This is correct answer. All lines take constant amount of time.
+
+Based on the above discussion, what is the time complexity of the above implementation? Assume that word's length is n.
+O(1) - This answer is incorrect. Please revise the lectures on time complexity analysis.
+O(n) - This is correct answer. Each iteration of the for loop takes O(1) time. n iterations will take O(n) time.
+O(n^2) - This answer is incorrect. Please revise the lectures on time complexity analysis.
+
+Thus, hashmap approach has a time complexity of O(n), whereas arrays approach has a time complexity of O(n^2).
+
+Let us look at the space complexity.
+Which of the following will take the most space?
+i - This answer is incorrect. i stores an integer value. 
+c - This answer is incorrect. c stores a string containing one character. 
+charMap - This is correct answer. charMap is a hashmap that stores all the unique characters in word and their counts. So it can be as large as the word itself. So, apart from word, charMap takes the most amount of space in the above program.
+
+If the word's length is n, then what can be the maximum size of charMap?
+log n - This answer is incorrect. Please revise the lectures on time complexity analysis.
+n - This is correct answer. If word does not contain any duplicate characters, then the size of charMap will also be n. Do a dry run and check. Some samples for word are "cyberpunk", "path-finder", "blue sky", "sharp knife" etc.
+n/2 - This answer is incorrect. Please revise the lectures on time complexity analysis.
+No relation with n - This answer is incorrect. Please revise the lectures on time complexity analysis.
+
+Thus, hashmap approach has extra space complexity of O(n).
+
+To summarise, hashmap approach has a time complexity of O(n) and extra space complexity of O(n).
+
+Based on our discussion, can you write an algorithm?
+
+Following is what I came up with.
+
+1. Take firstWord
+2. Store the counts of each unique character in firstWord, in w1Map
+3. Take secondWord
+4. Store the counts of each unique character in secondWord, in w2Map
+5. let areAnagrams = true;
+6. if w1Map.size() !== w2Map.size() {
+7.     areAnagrams = false;
+8. } else {
+9.     for every key c in w1Map {
+10.        if c is not present in w2Map {
+11.            areAnagrams = false;
+12.        } else if (w1Map.get(c) !== w2Map.get(c)) {
+13.            areAnagrams = false;
+14.        }
+15.    }
+16.}
+17.if (areAnagrams) {
+18.    // firstWord and secondWord are anagrams
+19.} else {
+20.    // firstWord and secondWord are not anagrams
+21.}
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now. Some part of the algorithm may look like code. It is written to avoid long and confusing sentences. But it is not real code.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+We know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.
+
+By now we have converted our entire algorithm into code.
+We have completed 4 steps.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3. Coming up with logic (or algorithm)
+4. Converting logic to code
+Next step is to execute the code and test with different test cases.
+
+You have the code on your paper. Now write it in your computer and execute it with various test cases.
+If all test cases are passing, then submit it on the student portal.
