@@ -11,7 +11,7 @@ Option2- This is correct answer.
 Option3- This answer is incorrect, Please read the problem description carefully.
 Option4- This answer is incorrect, Please read the problem description carefully.
 
-Suppose the integer P=5, what do we have check in the array?
+Suppose the integer P=5, what do we have to check in the array?
 Option1: How many numbers are greater than the number 5 in the array.
 Option2: At least 5 numbers must be greater than 5 in the array.
 Option3: Exactly 5 numbers should be greater than the number 5.
@@ -62,8 +62,8 @@ Input 3:
 
 
 Which of these is not a valid input for this problem?
-Input 3- This answer is incorrect. The size of array is 3 and there are 3 elements, why do you think it is invalid?
-Input 2- This answer is incorrect. Why do you think it is invalid, because elements are 1 and 0?
+Input 2- This answer is incorrect. The size of array is 3 and there are 3 elements, why do you think it is invalid?
+Input 3- This answer is incorrect. Why do you think it is invalid, because elements are 1 and 0?
 Input 1- This is correct answer. Input 1 is invalid because here size of array is 1, but in the input description it is mentioned that it should be >=2.
 
 
@@ -72,7 +72,7 @@ Now that we understood the input format, let us understand the output format.
 
 
 How many lines should the output contain?
-1 lines - This is correct answer. There is only 1 line in output, displaying 1 ot -1.
+1 line - This is correct answer. There is only 1 line in output, displaying 1 or -1.
 2 lines - This answer is incorrect. Please read the output description carefully.
 Not known until we read input - This answer is incorrect. Please read the output description carefully.
 
@@ -93,7 +93,7 @@ Input:
 
 What should be the output for the above input?
 -1- This answer is incorrect. Please go through the output decsription carefully.
-1- This is correct answer. Here last element of the array is 3 and there are exactly 3 elements greater than 3 in the array.
+1- This is correct answer. Here exactly 3 elements are greater than 3 in the array.
 
 Input:
 5
@@ -120,7 +120,7 @@ Following are some hints for coming up with new test cases.
 1.4 When all the elements are different, and there are more than 1 integer P for which there are exactly P numbers greater than P  in the array.
 
 2. Boundary test cases
-2.1 When all the elements are same, and still for an integer P there are exactly P numbers in the array.
+2.1 When all the elements are same, and still for an integer P there are exactly P numbers greater than P  in the array.
 
 
 Based on these hints, you can come up with at least 5 new test cases.
@@ -187,18 +187,18 @@ Phase 2: Second is finding the noble integer.
 4. Append it to the array
 5. Repeat steps 3 and 4 until you read all the elements of the array.
 Phase 2
-11. Create a variable i and initialize it to 0.
-12. Create a variable called count and initialize it to 0.
-13. Create a variable called currVal and initialize it to value at index i of the array.
-14. Now start comparing element of array, if it is greater than currVal or not, if yes
-14.1 Increase the value of count by 1, otherwise
-14.2 Do nothing 
-15. Repeat the steps 14, 14.1 and 14.2 till we reach the end of array.
-16. After reaching the end of array, compare the value of count with the value of currVal.
-16.1 If both are equal then break out of the loop and display 1, otherwise
-16.2 Go to the next element of array by increasing the value of i by 1
-17. Repeat step 12, 13, 14, 14.1, 14.2, 15, 16, 16.1 and 16.2 untill we reach end of the array.
-18. After reaching the end of array display -1, since there is no integer P in the array for which there are exactly P numbers greater than P.
+6. Create a variable i and initialize it to 0.
+7. Create a variable called count and initialize it to 0.
+8. Create a variable called currVal and initialize it to value at index i of the array.
+9. Now start comparing element of array, if it is greater than currVal or not, if yes
+9.1 Increase the value of count by 1, otherwise
+9.2 Do nothing 
+10. Repeat the steps 9, 9.1 and 9.2 till we reach the end of array.
+11. After reaching the end of array, compare the value of count with the value of currVal.
+11.1 If both are equal then break out of the loop and display 1, otherwise
+11.2 Go to the next element of array by increasing the value of i by 1
+12. Repeat step 7, 8, 9, 9.1, 9.2, 10, 11, 11.1 and 11.2 untill we reach end of the array.
+13. After reaching the end of array display -1, since there is no integer P in the array for which there are exactly P numbers greater than P.
 
 
 Compare it with what you wrote.
@@ -215,11 +215,11 @@ Let us convert the algorithm step by step.
 
 There are various things to be implemented.
 a. Taking input as an integer (steps 1 and 3).
-b. Displaying output (steps 16.1 and 18).
-c. Repeating the process for one number at a time (steps 5,15 and 17).
-d. Creating an empty array (steps 2).
-e. Creating new variable (steps 11,12 and 13).
-f. break statement- (step 16.1)
+b. Displaying output (steps 11.1 and 13).
+c. Repeating the process for one number at a time (steps 5,10 and 12).
+d. Creating an empty array (step 2).
+e. Creating new variable (steps 6,7 and 8).
+f. break statement- (step 11.1)
 
 We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
 

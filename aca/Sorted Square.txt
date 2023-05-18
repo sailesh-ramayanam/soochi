@@ -77,9 +77,9 @@ Now that we understood the input format, let us understand the output format.
 
 
 How many lines should the output contain?
-1 lines - This is correct answer. There is only 1 line in output, displaying 1 ot -1.
+1 lines - This answer is incorrect. Please read the output description carefully.
 2 lines - This answer is incorrect. Please read the output description carefully.
-Not known until we read input - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This is correct answer. Please read the output description carefully.
 
 
 Suppose the given array is
@@ -223,13 +223,13 @@ Phase 3: Sorting the array
 4. Append it to the array
 5. Repeat steps 3 and 4 until you read all the elements of the array.
 Phase 2
-11. Now go to index 0 element of the array.
-12. Replace the that element with the square of that element.
-13. Now move to next element
-14. Repeat steps 12,13 untill we reach the end of array.
+5. Now go to index 0 element of the array.
+6. Replace the that element with the square of that element.
+7. Now move to next element
+8. Repeat steps 12,13 untill we reach the end of array.
 Phase 3
-15. Now sort the array in ascending order.
-16. Now start displaying elements of array from index 0 to last element in separate lines.
+9. Now sort the array in ascending order.
+10. Now start displaying elements of array from index 0 to last element in separate lines.
 
 
 Compare it with what you wrote.

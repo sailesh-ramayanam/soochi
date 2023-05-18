@@ -27,7 +27,7 @@ Not known until we read input - This is correct answer.
 What does the first line of input contain?
 Size of Image - This is correct answer.
 Pixels of Image - This answer is incorrect. Please read the input description carefully.
-Length of Icon- This answer is incorrect. Please read the input description carefully.
+Size of Icon- This answer is incorrect. Please read the input description carefully.
 Don't know - Please read the input description provided in the assignment.
 
 Suppose first line of input contains 8, then what does line 10 contain?
@@ -68,11 +68,11 @@ Input 3:
 
 
 Which of these is not a valid input for this problem?
-Input 1- This answer is incorrect. Why do you think this is not a valid answer? Because size of Icon is 0. Please read the input description carefully.
-Input 2- This answer is incorrect. Why do you think this is not a valid answer? Because size of Image is 0. Please read the input description carefully.
+Input 1- This answer is incorrect. Why do you think this is not a valid answer? Because size of Image is 0. Please read the input description carefully.
+Input 2- This answer is incorrect. Why do you think this is not a valid answer? Because size of Icon is 0. Please read the input description carefully.
 Input 3- This is correct answer. Input 3 is invalid because here size of icon is mentioned as 1 but there are 2 elements in the Icon.
 
-Which of the following option is correct regarding the below sample input?0
+Which of the following option is correct regarding the below sample input?
 Input:
 0
 0
@@ -87,7 +87,7 @@ Now that we understood the input format, let us understand the output format.
 
 
 How many lines should the output contain?
-1 lines - This is correct answer. There is only 1 line in output denoting the number of times icon occurs in the image.
+1 line - This is correct answer. There is only 1 line in output denoting the number of times icon occurs in the image.
 2 lines - This answer is incorrect. Please read the output description carefully.
 Not known until we read input - This answer is incorrect. Please read the output description carefully.
 
@@ -104,7 +104,7 @@ Input:
 61
 61
 61
-2
+1
 61
 
 

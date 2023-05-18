@@ -50,7 +50,7 @@ Don't know - Please read the input description provided in the assignment.
 
 Suppose first line of input contains 15. Then, how many lines will the input have?
 15 - This answer is incorrect. Please read the input description carefully.
-17 - This is correct answer. First line contains 17 means the array has 17 values. Each value is provided in a separate line, starting from 2nd line. And last line contains number of times we have to fold the array. So, 15 lines + the first line + last line. Total 17 lines of input. (Will the number of folds greater than length of array?)
+17 - This is correct answer. First line contains 15 means the array has 15 values. Each value is provided in a separate line, starting from 2nd line. And last line contains number of times we have to fold the array. So, 15 lines + the first line + last line. Total 17 lines of input. (Will the number of folds greater than length of array?)
 16 - This answer is incorrect. Please read the input description carefully.
 Cannot say - This answer is incorrect. Please read the input description carefully.
 
@@ -95,7 +95,7 @@ Don't know- Please read the output description carefully.
 
 Suppose first line of input contains 11. Then, how many lines will the input have?
 11 - This answer is incorrect. Please read the output description carefully.
-12 - This is correct answer. First line contains 11 means the final array has 11 values. Each value is provided in a separate line, starting from 2nd line. So, 11 lines + the first line + last line. Total 12 lines of output.
+12 - This is correct answer. First line contains 11 means the final array has 11 values. Each value is provided in a separate line, starting from 2nd line. So, 11 lines + the first line. Total 12 lines of output.
 13 - This answer is incorrect. Please read the output description carefully.
 Cannot say - This answer is output. Please read the input description carefully.
 
@@ -111,24 +111,24 @@ Input:
 1
 
 What should be the output for the above input?
-Output-1
+Output 1:
 2
 40
 90
 
-Output-2
-1
-40
-90
+Output 2:
+2
+80
+50
 
-Output-3
+Output 3:
 2
 70
 60
 
-Output-2 - This answer is incorrect. How many elements are in the final array?
-Output-3 - This answer is incorrect. Have you folded the array correctly.
-Output-1 - This is correct answer.
+Output 2- This answer is incorrect. How many elements are in the final array?
+Output 3- This answer is incorrect. Have you folded the array correctly.
+Output 1- This is correct answer.
 
 
 Consider the following input.
@@ -145,25 +145,25 @@ Input:
 
 
 What should be the output for the above input?
-Output-1
+Output 1:
 1 
 205
 
-Output-2
+Output 2:
 2
 105
 100
 
-Output-3
+Output 3:
 4
 70
 50
 50
 35
 
-Output-2 - This answer is incorrect. We have to do total 3 folds.
-Output-3 - This answer is incorrect. Last line of input says 3 that means we have to do 3 folds, but this elements we will get after 1 fold only.
-Output-1 - This is correct answer.
+Output 2 - This answer is incorrect. We have to do total 3 folds.
+Output 3 - This answer is incorrect. Last line of input says 3 that means we have to do 3 folds, but this elements we will get after 1 fold only.
+Output 1 - This is correct answer.
 
 
 While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
@@ -216,13 +216,13 @@ Now I have to do first fold for the initial array.
 
 Now I added first element (i.e. index 0 element) to the last index (i.e. index 6 element), which is 13+57=70.
 
-Again I added second element (i.e. index 1 element) to the second last index element (i.e. index 5 element) which is 8+42=50.
+Again I added second element (i.e. index 1 element) to the second last element (i.e. index 5 element) which is 8+42=50.
 
 Again I added third element (i.e. index 3 element) to the third last element (i.e. index 4 element) which is 22+28=50.
 
 Now there is no pair for middle element i.e. 35, since the length of array was odd this time.
 
-Now I have element 70,50,50,35 after first, I have to to 2 more folds with this new values I got.
+Now I have element 70,50,50,35 after first, I have to do 2 more folds with this new values I got.
 
 I repeated the above steps again for 2nd fold, so I got 105 and 100.
 
@@ -248,15 +248,15 @@ Phase 2: Second is folding the array.
 2. Create an empty array
 3. Read the next value from input
 4. Append it to the array
-5. Repeat steps 3 and 4 until you read all values of the sequence
+5. Repeat steps 3 and 4 until you read all values 
 6. Read the last line of input i.e. number of folds.
 Phase 2
 7. Create a variable called len and store length of array in it.
 8. Create an empty array called resArr.
 9. Create a variable i and initialize it to 0
-10. Now add element at ith index and element at index at len-i-1 (why not len - i?)
+10. Now add element at index i and element at index at len-i-1 (why not len - i?)
 11. Now increment the value i.
-12. Repeat step 9 and 10 untill i reach middle element of array.
+12. Repeat step 9 and 10 untill 'i' reach middle element of array.
 13. Now check if len is odd or even.
 13.1 If len is odd then, then append middle element of array to resArr, otherwise do nothing.
 14. Repeat step 8,9,10,11,12,13 untill the array is fold numOfFolds time.

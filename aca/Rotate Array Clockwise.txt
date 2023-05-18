@@ -1,18 +1,18 @@
 First step is "Understand the problem statement".
 
-What is the meaning of rotating array clockwise, m times in this assignment?
-Option-1-Shifting each element of array to the left side
-Option-2-Shifting each element of array to the right side
+What is the meaning of rotating array clockwise, m times, in this assignment?
+Option 1: Shifting each element of array to the left side by m times.
+Option 2: Shifting each element of array to the right side by m times.
 
-Option-1- This is incorrect answer, if it was asked to rotate anti clockwise then this was correct.
-Option-2- This is correct answer.
+Option 1- This is incorrect answer, if it was asked to rotate anti clockwise then this was correct.
+Option 2- This is correct answer.
 
 Suppose we have to rotate array only 1 time, what will happen to last element of array?
-Option-1- It will be removed from array, since there is no place in right to shift it.
-Option-2- It will be shifted to index 0, since first element is moved to index 1, so there is empty space at index 0.
+Option 1: It will be removed from array, since there is no place in right to shift it.
+Option 2: It will be shifted to index 0, since first element is moved to index 1, so there is empty space at index 0.
 
-Option-1- This is incorrect answer. We have to move it to index 0
-Option-2- This is correct answer
+Option 1- This is incorrect answer. We have to move it to index 0
+Option 2- This is correct answer
 
 Now that we understand the problem statement, 2nd step is to come up with new test cases.
 First let us understand the input format.
@@ -92,7 +92,7 @@ Output-3
 
 Output-1 - This answer is incorrect.
 Output-3 - This answer is incorrect. Here the array is rotated anticlockwise, m times. 
-Output-2 - This is correct answer. Since after 3 rotation 7 will reach to index 3, 10 will reach to index 4 and likewise 14,2,6 will reach to 0,1,2 index respectively.
+Output-2 - This is correct answer. Since after 3 rotation 7 will reach to index 3, 10 will reach to index 4 and likewise 14,2,6 will reach to index 0,1,2  respectively.
 
 
 Consider the following input.
