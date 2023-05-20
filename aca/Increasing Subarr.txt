@@ -1,0 +1,236 @@
+First step is "Understand the problem statement".
+
+Do you know what is subarray?
+Yes
+No- Distinct integers means non repeated numbers, that means any number should occur only once in the series
+
+We have some array of elements, which of the following will not have distinct integers in it.
+23, 45, 29, 64, 9 - This answer is incorrect, Here we don't have any repeated number so all are distinct.
+10, 15, 25, 30, 15 - This is correct answer. Since 15 is repeated so this are not distinct integers.
+91, 75, 83, 54, 48 - This answer is incorrect, Here we don't have any repeated number so all are distinct.
+
+
+"Rightmost integer is always an a leader". Which of the following is rightmost integer in an array?
+Last element of array- This is correct answer. There is no element in the right of the last element so it is rightmost element.
+First element of array- This answer is incorrect.
+
+
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+2 lines - This is correct answer.
+3 lines - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This answer is incorrect. Please read the input description carefully.
+
+
+
+We have some sample inputs below.
+Input 1:
+1
+33
+
+
+Input 2:
+5
+14 92 54 82 100
+
+Which of these is not a valid input for this problem?
+Input 1- This is correct answer. Since it is mentioned in the problem that length of array must be greater than or equal to 2, and here length is 1, so it is invalid input.
+Input 2- This answer is incorrect. Please read the input description carefully.
+
+
+Now that we understood the input format, let us understand the output format.
+
+
+How many lines should the output contain?
+1 line - This is correct answer.
+Not known until we read input -This answer is incorrect. Please read the output description carefully. This is correct answer.
+
+How many elements we have to print in 1 line of output?
+1- This answer is incorrect. Please read the output decription carefully.
+2- This answer is incorrect. Please read the output decription carefully.
+3- This is correct answer. There are 3 values- length, start index and end index of array.
+Not known until we read input-This answer is incorrect. Please read the output decription carefully.
+
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+9
+15 63 35 52 73 81 95 19 28
+
+
+What should be the output for the above input?
+Output1:
+2 0 1
+
+Output2:
+4 2 5
+
+Output3:
+5 2 6
+
+Output4:
+5 3 7
+
+Output1- This answer is incorrect. This is also striclty increasing sub array but you have to find that sub array which is of largest length
+Output2- This answer is incorrect.
+Output3- This is correct answer. Since the longest increasing sub array is having length 5 and start index and end index are 2 and 6 respectively 
+Output4- This answer is incorrect. Index are not correct.
+
+Input:
+5
+93 65 43 27 15
+
+
+What should be the output for the above input?
+Output1:
+1 0 1
+
+Output2:
+5 0 4
+
+Output3:
+Cannot be determined
+
+Output1- This is correct answer. Since the array is strictly decreasing so (1 1 2), (1 2 3),(1 3 4) are also correct answer but from all the option given correct option is 1 0 1
+Output2- This answer is incorrect. Why do you think this is correct? Given array is strictly decreasing sub array.
+Output3- This answer is incorrect. Since array is strictly decreasing, there can be multiple array of same length which is strictly increasing.
+
+While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+
+1. Normal test cases - length of the array is like 5, 8 and 10 .
+1.1 When there are multiple strictly increasing sub arrays of different length.
+1.2 When there are multiple strictly increasing sub array of same length
+
+Boundary test case
+1. When there is only 1 strictly increasing sub array.
+
+
+Based on these hints, you can come up with at least 2 new test cases.
+Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previously.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+9
+15 63 35 52 73 81 95 19 28
+
+I will try to explain what I did.
+
+I looked at the first line. It contains 9 that means there are 9 elements in the array
+
+Then I see all the elements of the array.
+
+Then I start comparing element at index 1(i.e 63) with element at index 0(i.e 15), element at index 1(i.e 63) is greater. So I move to next element.
+
+Now I commpare element at index 2(i.e 35) with the element at index 1(i.e 63), element at index 2(i.e 35) is smaller, that means 15 and 63 is 1 subarray I have which is strictly increasing having length 2 and start index and end index 0 and 1 respectively.
+
+Now I move to next element and compare element at index 3 with element at index 2(i.e 35), element at index 3(i.e 52) is greater than element at index 2(i.e 35). So I move to next element.
+
+Similary for next 3 element I repeated the comparison till I reach index 7, at index 7 element at index 7(i.e 19) is smaller than element at index 6(i.e 95). So now I got a new sub array which is strictly increasing and having length as 5 with start index 2 and end index 6. 
+
+I compared length of current sub array with the length of previous sub array and, Length of the new sub array is greater than the length of previous sub array. So till now I have maximum length of increasing sub array is 5 with start index 2 and end index 6. 
+
+Now I move to next index which is 8 and compare element at index 8 with element at index 7(i.e 35). Element at index 8(i.e 28) is greater than element at index 7(i.e 19).
+
+Now I reach the end of array, again I have 1 strictly increasing sub array i.e. 19 and 28
+
+Now I compare the length of current sub array with the length of previous sub array.
+
+Length of previous sub array (i.e 5) is greater than length of current sub array(i.e 2). So my output will be 5 2 6 (length, start index and end index of the longest strictly sub array respectively)
+
+
+
+
+Now imagine that there are 1000 elements in the array
+What will you do? Put it in words.
+
+Following are some hints to put the logic in words.
+
+1. As there are 1000 elements in the array, it will be difficult for me to remember all the elements of the array, so I will write all the elements of the array in paper.
+2. It will be dificult for me to remember the length of current and previous strictly increasing sub array, so that also i will write in paper.
+3. Also I have keep track of start index and end index of the sub array, so I have to write that also in paper.
+4. Now after I reach to elements when the current element of array is smalller than previous element then i will update the update the current start index, since all sub array will have differnt start index and also i will write the end index of current sub array that I have.
+5. When I reach the element which is smaller than previous element than I have to compare the length of current sub array with the previous sub array I have and according to that I have to update start Index and end index of the largest strictly increasing sub array. 
+
+
+Following is what I came up with.
+
+We have 2 major phases in the implementation.
+Phase 1: One is to read the elements of the the array.
+Phase 2: Second is finding the sub array
+
+Phase 1
+1. Read the length of the array(let's call it n).
+2. Read the elements of the array.
+Phase 2
+6. Create a variable maxcount and initialize it to 1 (Why not 0?).
+7. Create a variable called currCount and initialize it to 1.
+8. Create a variable called startIndex and endIndex and initialize both of them to 0.
+9. Create a variable called currStartIndex and initilize it to i
+10. Create a variable i and initialize it to 1
+11. Now compare the value at index i to the value at index i-1.
+11.1. If value at index i is greater then increase the value of currCount by 1 
+11.2 Otherwise, 
+11.2.1 Compare the value of currCount with maxCount
+11.2.2 If maxCount is smaller than currCount then update the value of maxCount with currCount, update value of endIndex with i-1 (why not i?) and update value of startIndex with currStartIndex.
+11.2.3 Otherwise do nothing
+11.2.4 Initialize currCount with 1 again and and currStartIndex with 1 again.
+12. Move to next element of array by increasing value of i by 1
+13 Repeat steps 11,11.1,11.2,11.2.1,11.2.2,11.2.3,11.2.4,12 till we reach the end of array.
+14. After coming out of the loop, compare the value of currCount with maxCount
+14.1. If maxCount is smaller than currCount then update the value of maxCount with currCount, update value of endIndex with n-1 (why not n?) and update value of startIndex with currStartIndex.
+15. Display maxCount, startIndex and endIndex.
+
+
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+
+There are various things to be implemented.
+a. Taking input as an integer (steps 1).
+b. Displaying output (step 15).
+c. Repeating the process for one number at a time (steps 13).
+d. Create a new variable(steps 6,7,8,9 and 10).
+e. Compare two values (steps 11,  11.2.1 and 14)
+f. Read space separated value (step 2)
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+How to Initialize an empty array? Please refer to assignment "Good Pairs"
+How to use break statements?- Please refer to the lectures where break statements are covered
+How to append an element in array? Please refer to the assignment like "good pairs" and "lucky number"

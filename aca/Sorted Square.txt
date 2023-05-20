@@ -82,9 +82,6 @@ How many lines should the output contain?
 Not known until we read input - This is correct answer.
 
 
-Suppose the given array is
-
-
 Let us now look at some sample test cases.
 
 Consider the following input.

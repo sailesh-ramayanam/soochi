@@ -81,9 +81,6 @@ How many lines should the output contain?
 Not known until we read input - This answer is incorrect. Please read the output description carefully.
 
 
-Suppose the given array is
-
-
 Let us now look at some sample test cases.
 
 Consider the following input.
@@ -222,13 +219,3 @@ How to repeat some code? - Please refer to the assignments like "Count odd even"
 How to Initialize an empty array? Please refer to assignment "Good Pairs"
 How to use break statements?- Please refer to the lectures where break statements are covered
 How to append an element in array? Please refer to the assignment like "good pairs" and "lucky number"
-How to sort the array? Since sorting algorithms are not covered yet, use inbuilt functions for sorting the array.
-Suppose you have array points = [40, 100, 1, 5, 25, 10];
-points.sort(function(a, b){return a - b});
-The above line will sort the array in ascending order.
-If you will do console.log(points) now, you will get the output as [1, 5, 10, 25, 40, 100]
-points.sort(function(a, b){return b - a});
-The above line will sort the array in descending order. So if you do console.log(points) after this line
-you will get output as [100,40,25,10,5,1]
-It is recommend to create random array of numbers and practice above sort method and observe the changes.
-For strings the sorting function will be different in javascript.It will be array.sort() only. It will sort in ascending order by default. So do array.reverse() after sorting, if you want to sort in descending order. 
