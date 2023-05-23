@@ -80,7 +80,7 @@ How many lines does the input contain?
 1 line - This answer is incorrect. Please read the input description carefully.
 2 lines - This answer is incorrect. Please read the input description carefully.
 3 lines - This answer is incorrect. Please read the input description carefully.
-Not known until we read input - This is correct answer. Until we read the first line of input, we don't know how many lines the input contains.
+Not known until we read input - This is correct answer. Until we read the first line of input, we don't know the number of test cases. Number of lines of input depends on the number of test cases.
 
 What does the first line of input contain?
 Size of the sequence
@@ -89,10 +89,10 @@ Entire sequence
 Number of test cases - This is correct answer.
 
 Suppose first line contains 7. Then, how many lines will the input have?
-7 - This answer is incorrect. Please read the input description carefully.
-8 - This answer is incorrect. Please read the input description carefully.
-14 - This answer is incorrect. Please read the input description carefully.
-15 - This is correct answer. First line contains 7, means there are 7 test cases. Each test case contains 2 lines of input. So, 14 lines of test cases + the first line. Total 15 lines of input.
+7 lines - This answer is incorrect. Please read the input description carefully.
+8 lines - This answer is incorrect. Please read the input description carefully.
+14 lines - This answer is incorrect. Please read the input description carefully.
+15 lines - This is correct answer. First line contains 7, means there are 7 test cases. Each test case contains 2 lines of input. So, 14 lines of test cases + the first line. Total 15 lines of input.
 
 We have some sample inputs below.
 Input 1:
@@ -121,11 +121,11 @@ Now that we understood the input format, let us understand the output format.
 
 How many lines should the output contain?
 1 line - This answer is incorrect. Please read the output description carefully.
-2 - 
-3 - This answer is incorrect. Please read the output description carefully.
-Not known until we read input - This is correct answer. Until we read the first line of output, we won't know the number of test cases.
+2 lines - 
+3 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This is correct answer. Until we read the first line of output, we won't know the number of test cases. Number of lines of output depends on the number of test cases.
 
-Let us now look at some sample test cases.
+Let us now look at a sample test case.
 
 Consider the following input.
 Input:
@@ -138,17 +138,17 @@ UDDDUU
 UD
 
 For the above input, how many lines should the output contain?
-1 - This answer is incorrect. Please read the output description carefully.
-2
-3 - This is correct answer. There are 3 test cases. For each test case, we have to print the result in a new line. So, there will be 3 lines in output.
-4
+1 line - This answer is incorrect. Please read the output description carefully.
+2 lines
+3 lines - This is correct answer. There are 3 test cases. For each test case, we have to print the result in a new line. So, there will be 3 lines in output.
+Invalid input - This answer is incorrect. Given input is valid. Please read the output description carefully.
 
 For the above input, what should be the first line of output?
 0 - This is correct answer. "UDUD" has no valleys.
 1 - This answer is incorrect. You need to count the number of valleys.
 2
 
-You have seen multiple test cases. Based on them, please come up with 3 new test cases.
+While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
 
 Following are some hints for coming up with new test cases.
 ---
