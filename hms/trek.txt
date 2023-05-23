@@ -267,13 +267,12 @@ Strings are one of the most ubiquitous data structures. A software developer wil
 Suppose we have a string "bifurcate".
 What is the index of the character "f" in "bifurcate"?
 2 - This is correct answer. Indexing of strings starts from 0 (like arrays). So, in "bifurcate", the index of "f" is 2.
-3 - This answer is incorrect. 
-No index for characters in a string - This answer is incorrect.
+3 - This answer is incorrect. Please revise the lectures on strings.
+No index for characters in a string - 
 
 In a string, how can we get the character at a particular index?
 Using square brackets (i.e. []) - This answer is incorrect.
-Using charAt(index) - This is correct answer.
-Square brackets work for array indexing, but not for strings. For strings, we have to use charAt(index).
+Using charAt(index) - This is correct answer. Square brackets work for array indexing, but not for strings. For strings, we have to use charAt(index).
 
 Below is an example of charAt(index)
 let word = "bifurcate";
