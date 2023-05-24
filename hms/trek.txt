@@ -193,21 +193,53 @@ I will try to explain what I did.
 
 I know that the trek always begins at sea level. So initially my altitude is 0. I wrote it down on a paper.
 
-First step is U, which means up. So I increment the altitude. It will become 1.
+First step is U, which means up.
+What happens to the altitude?
+Increment - This is correct answer. When we move up, altitude increases by 1 unit.
+Decrement - This answer is incorrect.
+Nothing
 
-Second step is D, which means down. So I decrement the altitude. It will become 0.
+Second step is D, which means down. So I decrement the altitude.
+What is the current altitude?
+0 - This is correct answer. The steps we took till now are UD. We started at sea-level (i.e. altitude 0). We then moved one step up and then one step down. So, we are back to sea-level.
+1 - This answer is incorrect. Trace the steps we have taken till now to know the current altitude.
+2
+-1
 
 Third step is D. I notice that my altitude is 0 and I am taking a down step. So I am entering a valley. I write down the valley count as 1. I decrement the altitude. It will become -1.
 
-Fourth step is D. I decrement the altitude. It will become -2.
+Fourth step is D.
+At the end of the fourth step, what is the altitude?
+0 - This answer is incorrect. Trace the steps we have taken till now to know the current altitude.
+1
+-1
+-2 - This is correct answer. Current altitude is -2. We are inside a valley.
 
-Fifth step is U. I increment the altitude. It will become -1.
+What is the current valley count?
+0 - This answer is incorrect. Trace the steps we have taken till now to know the valley count.
+1 - This is correct answer. We encountered 1 valley till now.
+2
 
-Sixth step is U.  I increment the altitude. It will become 0.
 
-I reached end of trek. I look at the paper and see that the valley count is 1. So, there is 1 valley in the given trek.
+Fifth step is U.
+At the end of the fifth step, what are the values of altitude and valley count?
+-2, 1 - This answer is incorrect.
+-1, 1 - This is correct answer.
+-1, 2
+-2, 2
 
-You would have something similar.
+Sixth step is U. I increment the altitude.
+
+I reached end of trek.
+What are the final values of altitude and valley count?
+1, -1 - This answer is incorrect.
+-1, 1
+0, 1 - This is correct answer.
+1, 0
+
+I look at the paper and see that the valley count is 1. So, there is 1 valley in the given trek.
+
+You would have something similar on your paper.
 
 Now, write down the steps for "DUDDUDUU".
 
