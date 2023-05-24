@@ -5,13 +5,13 @@ The problem statement is very simple.
 - We need to check if they are anagrams or not.
 
 To be able to solve this, we need to understand the meaning of anagram.
-Before proceeding further, use internet and read about anagrams (Warning: Do not look up the solutions).
 
 Two strings are called anagrams, if one string can be obtained by rearranging the characters of the second string.
+You can also use internet and read more about anagrams (Warning: Do not look up the solutions).
 
 Which of the following is not an anagram of heater?
 reheat - This answer is incorrect.
-aethar - This is correct answer.
+aethar - This is correct answer. aethar contains one less e and one extra a.
 hearet
 
 We have a few pairs of words below. Which pair does not contain anagrams?
@@ -23,9 +23,10 @@ Pair 4: create, reacot
 Pair 1 - This answer is incorrect.
 Pair 2 - This answer is incorrect.
 Pair 3 - This answer is incorrect.
-Pair 4 - This is correct answer.
+Pair 4 - This is correct answer. create and reacot are not anagrams.
 
 Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+
 First let us understand the input format.
 
 How many lines does the input contain?
@@ -142,7 +143,7 @@ Now repeat this exercise for the following input.
 create
 reacot
 
-These are not anagrams. But at which step do you find out that they are not anagrams?
+These (create and reacot) are not anagrams. But, at which step do you find out that they are not anagrams?
 
 Can you try to write down an algorithm based on the above exercise?
 
