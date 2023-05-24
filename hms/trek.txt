@@ -65,7 +65,7 @@ _/\      /    \  _
 
 Suppose the trek is "DDDUUDDUUUUD". How many valleys does this trek contain?
 0 - This answer is incorrect. Take a paper and draw the trek to get clarity.
-1 - This is correct answer. There is 1 valley in the given trek.
+1 - This is correct answer. There is 1 valley in the given trek. When you draw the trek, it may appear that there are 2 valleys. But, recall the definition of a valley. A valley always starts from sea-level and ends at sea-level. Within a valley, there can be ups and downs, but they don't count as extra valleys.
 2 - This answer is incorrect. As per problem statement, a valley should always start and end at sea level.
 _          /\_
  \        /
