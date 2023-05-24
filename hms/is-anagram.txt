@@ -30,24 +30,22 @@ Now that we understand the problem statement, 2nd step is "Come up with new test
 First let us understand the input format.
 
 How many lines does the input contain?
-1 - This answer is incorrect. Please read the input description carefully.
-2 - This is correct answer. Input will contain 2 lines. Each line will contain one string.
-3 - This answer is incorrect. Please read the input description carefully.
+1 line - This answer is incorrect. Please read the input description carefully.
+2 lines - This is correct answer. Input will contain 2 lines. Each line will contain one string.
+3 lines - This answer is incorrect. Please read the input description carefully.
 Not known until we read input - This answer is incorrect. Please read the input description carefully.
 
 How many lines should the output contain?
 1 line - This is correct answer.
-2 - 
-3 - This answer is incorrect. Please read the output description carefully.
+2 lines - 
+3 lines - This answer is incorrect. Please read the output description carefully.
 Not known until we read input - This answer is incorrect. Please read the output description carefully.
 
 If the given strings are anagrams, what should we output?
 Yes - This answer is incorrect. Please read the output description carefully.
 1 - This is correct answer. If the given strings are anagrams, we should print 1. Otherwise, we should print 0.
-They are anagrams
 True
-
-Let us now look at some sample test cases.
+They are anagrams
 
 Consider the following input.
 Input:
@@ -58,7 +56,7 @@ What should be the output for the above input?
 1 - This is correct answer. break and brake are anagrams. So, we should output 1.
 0 - This answer is incorrect.
 
-You have seen multiple test cases. Based on them, please come up with 3 new test cases.
+Based on the above discussion, please come up with 3 new test cases.
 
 Following are some hints for coming up with new test cases.
 ---
