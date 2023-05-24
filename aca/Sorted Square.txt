@@ -129,14 +129,14 @@ Input:
 
 What should be the output for the above input?
 Output1:
-100
+10
 
 Output2:
-100
-100
-100
-100
-100
+10
+10
+10
+10
+10
 
 
 What should be the output for the above input?
@@ -221,13 +221,13 @@ Phase 1
 4. Append it to the array
 5. Repeat steps 3 and 4 until you read all the elements of the array.
 Phase 2
-5. Now go to index 0 element of the array.
-6. Replace the that element with the square of that element.
-7. Now move to next element
-8. Repeat steps 12,13 untill we reach the end of array.
+6. Now go to index 0 element of the array.
+7. Replace the that element with the square of that element.
+8. Now move to next element
+9. Repeat steps 7,8 untill we reach the end of array.
 Phase 3
-9. Now sort the array in ascending order.
-10. Now start displaying elements of array from index 0 to last element in separate lines.
+10. Now sort the array in ascending order.
+11. Now start displaying elements of array from index 0 to last element in separate lines.
 
 
 Compare it with what you wrote.
@@ -244,10 +244,10 @@ Let us convert the algorithm step by step.
 
 There are various things to be implemented.
 a. Taking input as an integer (steps 1 and 3).
-b. Displaying output (step 16).
-c. Repeating the process for one number at a time (steps 5 and 14).
+b. Displaying output (step 11).
+c. Repeating the process for one number at a time (steps 5 and 9).
 d. Creating an empty array (steps 2).
-e. Sort the array
+e. Sort the array(step 10)
 
 We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
 

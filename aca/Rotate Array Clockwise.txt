@@ -187,13 +187,13 @@ Following is what I came up with.
 1. Read the array.
 2. Read the value m.
 3. Create a variable called len for storing the length of array
-3. Calculate remainder after dividing m from len. (why not m minus len)
-4. Create a variable called rotations and store the value m%len in it.
-5. Create a variable called startIndex to store the position of the index which is at index 0 now. Used startIndex = len - rotation.
-6. Now display the number which is at index startIndex,then move to next index.
-7. Repeat step 6 till we reach end of the array.
-8. Now display element which is at index 0, and move to next index.
-9. Repeat line 8 till we reach the index startIndex.
+4. Calculate remainder after dividing m from len. (why not m minus len)
+5. Create a variable called rotations and store the value m%len in it.
+6. Create a variable called startIndex to store the position of the index which is at index 0 now. Used startIndex = len - rotation.
+7. Now display the number which is at index startIndex,then move to next index.
+8. Repeat step 7 till we reach end of the array.
+9. Now display element which is at index 0, and move to next index.
+10. Repeat line 9 till we reach the index startIndex.
 
 
 
@@ -211,10 +211,10 @@ Let us convert the algorithm step by step.
 
 There are various things to be implemented.
 a. Taking input as an integer (step 2).
-b. Creating new variable (steps 3,4 and 6).
+b. Creating new variable (steps 3,5 and 6).
 c. Read space separated integers (step 1).
-d. Displaying output (step 6 and 8).
-e. Repeating the process for one number at a time (steps 7 and 9).
+d. Displaying output (step 7 and 9).
+e. Repeating the process for one number at a time (steps 8 and 10).
 
 We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
 

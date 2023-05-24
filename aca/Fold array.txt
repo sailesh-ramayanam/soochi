@@ -25,7 +25,7 @@ In previous example, it was easy to calculate length of array after 1 fold, sinc
 
 Now what if we have to do multiple folds in an array, what will be the length of array after 3 folds in its initial length is 15?
 5- This answer is incorrect, Why do you thinks 5, because 15/3=5. It will not happen like this, try to see how length is changing in each folds.
-2- This is correct answer. After 1 fold length will be 8, then after second fold its 4 and finally after third fold it is 2.
+2- 	
 4- This is incorrect answer. Length will be 4 after 2 folds, you have to do 3 folds here.
 
 
@@ -93,11 +93,11 @@ Size of the final array- This is correct answer.
 First element of final array- This answer is incorrect. Please read the output description carefully.
 Don't know- Please read the output description carefully.
 
-Suppose first line of input contains 11. Then, how many lines will the input have?
+Suppose first line of output contains 11. Then, how many lines will the output have?
 11 - This answer is incorrect. Please read the output description carefully.
 12 - This is correct answer. First line contains 11 means the final array has 11 values. Each value is provided in a separate line, starting from 2nd line. So, 11 lines + the first line. Total 12 lines of output.
 13 - This answer is incorrect. Please read the output description carefully.
-Cannot say - This answer is output. Please read the input description carefully.
+Not known until we read input - This answer is incorrect. Please read the output description carefully.
 
 Let us now look at some sample test cases.
 

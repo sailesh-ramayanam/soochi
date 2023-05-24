@@ -2,17 +2,22 @@ First step is "Understand the problem statement".
 
 Do you know what is subarray?
 Yes
-No- Distinct integers means non repeated numbers, that means any number should occur only once in the series
+No- A subarray is a contiguous part of any given array
 
-We have some array of elements, which of the following will not have distinct integers in it.
-23, 45, 29, 64, 9 - This answer is incorrect, Here we don't have any repeated number so all are distinct.
-10, 15, 25, 30, 15 - This is correct answer. Since 15 is repeated so this are not distinct integers.
-91, 75, 83, 54, 48 - This answer is incorrect, Here we don't have any repeated number so all are distinct.
+Given an array=[10, 20, 30, 40, 50, 60, 70, 80, 90], which of the following option is not a subarray of given array?
+[20,30,40,50]- This answer is incorrect.
+[10, 20, 30, 40, 50, 60, 70, 80, 90]- This answer is incorrect. Whole array is also a subarray of given array.
+[30,60,90]- This is correct answer. This elements are present in the array but they are not subarray since they are not contiguous
 
+Do you know what is strictly increasing sequence?
+Yes
+No - A sequence is strictly increasing if each term in the sequence is larger than the preceding term.
 
-"Rightmost integer is always an a leader". Which of the following is rightmost integer in an array?
-Last element of array- This is correct answer. There is no element in the right of the last element so it is rightmost element.
-First element of array- This answer is incorrect.
+Which of the followng is strictly increasing sequence?
+50, 51, 52, 55, 57- This is correct answer. Since each element is greater than its previous element so it is a strictly increasing sequence.
+25, 24, 23, 22, 21- This answer is incorrect.
+10, 10, 10, 10, 10- This answer is incorrect. Since all the elements are equal it is not strictly increasing sequence
+81, 85, 87, 87, 89- This answer is incorrect. 87 comes two time, so it is not an increasing sequence
 
 
 

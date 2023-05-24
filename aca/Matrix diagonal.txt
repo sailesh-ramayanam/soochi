@@ -13,15 +13,15 @@ Which of the following is 2D array?
 [[[53]], [[19]]]- This answer is incorrect. Actually this is 3D array. Please revise concept of multi-dimensional array, and watch lecture recordings of 2D array.
 
 Which of the following statement is correct about length of the 2D array?
-Option-1: Length of 2D array is equal to the number of rows in the array.
-Option-2: Length of 2D array is equal to the number of columns in the array.
-Option-3: Length of 2D array is equal to the sum of number of rows and number of columns in the array.
-Option-4: Length cannot be determined for 2D arrays.
+Option1: Length of 2D array is equal to the number of rows in the array.
+Option2: Length of 2D array is equal to the number of columns in the array.
+Option3: Length of 2D array is equal to the sum of number of rows and number of columns in the array.
+Optio4: Length cannot be determined for 2D arrays.
 
-Option-1: This is correct answer.
-Option-2: This answer is incorrect. Please rewatch the lectures on 2D arrays
-Option-3: This answer is incorrect. Please rewatch the lectures on 2D arrays
-Option-4: This answer is incorrect. Length of 2D array is equal to the number of rows in 2D arrays. Please rewatch the lectures on 2D arrays.
+Option1- This is correct answer.
+Option2- This answer is incorrect. Please rewatch the lectures on 2D arrays
+Option3- This answer is incorrect. Please rewatch the lectures on 2D arrays
+Option4- This answer is incorrect. Length of 2D array is equal to the number of rows in 2D arrays. Please rewatch the lectures on 2D arrays.
 
 We have 2 dimensional array, which of the following array does not have size n*n?
 A1:
@@ -244,11 +244,11 @@ Phase 2
 7.1 If it is negative, then change it to 0.
 7.2 Otherwise, change it to 1.
 8. Move to next row.
-9 Repeat step 8, 8.1, 8.2 and 9 untill we reach end of the array.
+9 Repeat step 7, 7.1, 7.2 and 8 untill we reach end of the array.
 10. Go to first row of array.
 11. Display that row, with elements are separated by spaces.
 12. Move to next row.
-13. Repeat steps 12 and 13 untill we reach end of the array.
+13. Repeat steps 11 and 12 untill we reach end of the array.
 
 
 Compare it with what you wrote.

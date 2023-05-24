@@ -3,7 +3,7 @@ First step is "Understand the problem statement".
 How many arrays are given in the problem?
 0 array- This answer is incorrect, Please read the problem description carefully.
 1 array- This answer is incorrect, Please read the problem description carefully.
-2 array- This is correct answer.
+2 arrays- This is correct answer.
 Not mentioned- This answer is incorrect, Please read the problem description carefully.
 
 
@@ -92,18 +92,10 @@ Input:
 
 
 What should be the output for the above input?
-Output1:
-300
 
-Output2:
-450
-
-Output3:
-360
-
-Output1- This answer is incorrect. 
-Output2- This is correct answer. Two integers for which the product is maximum are -15 and 30
-Output3- This answer is incorrect. Why do you think it is correct? Have you considered only positive number in both array
+300- This answer is incorrect.
+450- This is correct answer. Two integers for which the product is maximum are -15 and 30
+360- This answer is incorrect. Why do you think it is correct? Have you considered only positive number in both array
 
 
 While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.

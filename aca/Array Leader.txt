@@ -12,7 +12,8 @@ We have some array of elements, which of the following will not have distinct in
 
 "Rightmost integer is always an a leader". Which of the following is rightmost integer in an array?
 Last element of array- This is correct answer. There is no element in the right of the last element so it is rightmost element.
-First element of array- This answer is incorrect.
+First element of array- This answer is incorrect.. Rightmost element is that element which is at last index of array
+
 
 
 
@@ -23,6 +24,12 @@ How many lines does the input contain?
 6 lines - This answer is incorrect. Please read the input description carefully.
 7 lines - This answer is incorrect. Please read the input description carefully.
 Not known until we read input - This is correct answer.
+
+What does the first line of input contain?
+Size of the array - This is correct answer.
+First value of the array - This answer is incorrect. Please read the input description carefully.
+space separated integers- This answer is incorrect. Please read the input description carefully.
+Don't know - Please read the input description provided in the assignment.
 
 Suppose first line contains 23. Then, how many lines will the input have?
 23 - This answer is incorrect. Please read the input description carefully.

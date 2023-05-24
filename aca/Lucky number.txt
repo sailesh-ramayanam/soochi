@@ -239,7 +239,7 @@ e. Comparing numbers (steps 9, 11.1 and 15)
 f. Displaying output (steps 11.2, 15.1 and 15.2)
 g. Repeating the process for one number at a time (steps 5 and 12)
 h. Break statement- (step 11.2)
-i. Create an empty array
+i. Create an empty array(step 2)
 
 We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
 
