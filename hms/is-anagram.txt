@@ -98,40 +98,40 @@ I will try to explain what I did.
 
 I took the first character from trainer (viz. t). I checked if t is present in terrain. It is present. So I struck off t in both the strings.
 
-<s>t</s>rainer
-<s>t</s>errain
+-rainer
+-errain
 
 Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
 
-<s>tr</s>ainer
-<s>t</s>e<s>r</s>rain
+--ainer
+-e-rain
 
 Note that there are 2 r's in terrain. I struck off only 1 r.
 
 Then I took the next character from trainer (viz. a). I checked if a is present in terrain. It is present. So I struck off a in both the strings.
 
-<s>tra</s>iner
-<s>t</s>e<s>r</s>r<s>a</s>in
+---iner
+-e-r-in
 
 Then I took the next character from trainer (viz. i). I checked if i is present in terrain. It is present. So I struck off i in both the strings.
 
-<s>trai</s>ner
-<s>t</s>e<s>r</s>r<s>ai</s>n
+----ner
+-e-r--n
 
 Then I took the next character from trainer (viz. n). I checked if n is present in terrain. It is present. So I struck off n in both the strings.
 
-<s>train</s>er
-<s>t</s>e<s>r</s>r<s>ain</s>
+-----er
+-e-r---
 
 Then I took the next character from trainer (viz. e). I checked if e is present in terrain. It is present. So I struck off e in both the strings.
 
-<s>traine</s>r
-<s>ter</s>r<s>ain</s>
+------r
+---r---
 
 Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
 
-<s>trainer</s>
-<s>terrain</s>
+-------
+-------
 
 Note that this time I struck off the 2nd r in terrain.
 
@@ -160,13 +160,15 @@ Following are some hints.
 3.9 By the time we reach the end of the 2nd string, if there are no mismatches, then the 2 strings are anagrams.
 
 These hints are almost like an algorithm, but one major point is not mentioned in these hints.
+
 How do we store the counts of every character of the 1st string?
 This is where our data structure skills come into picture.
 
-There are multiple ways to solve this problem.
-Variables approach: Use variables like a_count, b_count, c_count etc. to store the counts.
-Arrays approach: Use 2 arrays. In one array store the character, and in the second array store the corresponding count.
-Hashmap approach: Use a hashmap to store <character, count> key value pairs.
+There are multiple ways to store the counts of characters present in a string.
+
+1. Variables approach: Use variables like a_count, b_count, c_count etc. to store the counts.
+2. Arrays approach: Use 2 arrays. In one array store the character, and in the second array store the corresponding count.
+3. Hashmap approach: Use a hashmap to store <character, count> key value pairs.
 
 This method will look like below.
 let a_count = 0, b_count = 0, and so on z_count = 0;

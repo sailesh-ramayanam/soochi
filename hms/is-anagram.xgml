@@ -214,8 +214,8 @@ Let us demonstrate through an example.
 
 </attribute>
 			<section name="graphics">
-				<attribute key="x" type="double">7319.233134920635</attribute>
-				<attribute key="y" type="double">595.2958295761632</attribute>
+				<attribute key="x" type="double">4907.488065715948</attribute>
+				<attribute key="y" type="double">738.0355454322439</attribute>
 				<attribute key="w" type="double">307.48224392544455</attribute>
 				<attribute key="h" type="double">116.80694968111936</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -900,6 +900,448 @@ Write them on a paper.</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
+		<section name="node">
+			<attribute key="id" type="int">34</attribute>
+			<attribute key="label" type="String">One sample input is
+trainer
+terrain
+
+I will try to explain what I did.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4907.488065715948</attribute>
+				<attribute key="y" type="double">889.9005615220378</attribute>
+				<attribute key="w" type="double">194.4201059524163</attribute>
+				<attribute key="h" type="double">79.11957035677653</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">One sample input is
+trainer
+terrain
+
+I will try to explain what I did.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">194.4201059524163</attribute>
+				<attribute key="contentHeight" type="double">81.46875</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">35</attribute>
+			<attribute key="label" type="String">I took the first character from trainer (viz. t). I checked if t is present in terrain. It is present. So I struck off t in both the strings.
+
+-rainer
+-errain</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4907.024625080052</attribute>
+				<attribute key="y" type="double">1033.4918187474677</attribute>
+				<attribute key="w" type="double">282.47382677272583</attribute>
+				<attribute key="h" type="double">118.97546504386412</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I took the first character from trainer (viz. t). I checked if t is present in terrain. It is present. So I struck off t in both the strings.
+
+-rainer
+-errain</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">282.47382677272583</attribute>
+				<attribute key="contentHeight" type="double">96.5625</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">36</attribute>
+			<attribute key="label" type="String">Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
+
+--ainer
+-e-rain
+
+Note that there are 2 r's in terrain. I struck off only 1 r.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4933.739218045534</attribute>
+				<attribute key="y" type="double">1222.553890080317</attribute>
+				<attribute key="w" type="double">325.1103652751914</attribute>
+				<attribute key="h" type="double">130.0980403053769</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
+
+--ainer
+-e-rain
+
+Note that there are 2 r's in terrain. I struck off only 1 r.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">325.1103652751914</attribute>
+				<attribute key="contentHeight" type="double">126.75</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">37</attribute>
+			<attribute key="label" type="String">Then I took the next character from trainer (viz. a). I checked if a is present in terrain. It is present. So I struck off a in both the strings.
+
+---iner
+-e-r-in</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4933.739218045534</attribute>
+				<attribute key="y" type="double">1396.3597634947823</attribute>
+				<attribute key="w" type="double">325.1103652751914</attribute>
+				<attribute key="h" type="double">130.0980403053769</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Then I took the next character from trainer (viz. a). I checked if a is present in terrain. It is present. So I struck off a in both the strings.
+
+---iner
+-e-r-in</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">325.1103652751914</attribute>
+				<attribute key="contentHeight" type="double">96.5625</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">38</attribute>
+			<attribute key="label" type="String">Then I took the next character from trainer (viz. i). I checked if i is present in terrain. It is present. So I struck off i in both the strings.
+
+----ner
+-e-r--n</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4933.739218045534</attribute>
+				<attribute key="y" type="double">1570.165636909248</attribute>
+				<attribute key="w" type="double">325.1103652751914</attribute>
+				<attribute key="h" type="double">130.0980403053769</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Then I took the next character from trainer (viz. i). I checked if i is present in terrain. It is present. So I struck off i in both the strings.
+
+----ner
+-e-r--n</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">325.1103652751914</attribute>
+				<attribute key="contentHeight" type="double">96.5625</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">39</attribute>
+			<attribute key="label" type="String">Then I took the next character from trainer (viz. n). I checked if n is present in terrain. It is present. So I struck off n in both the strings.
+
+-----er
+-e-r---</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4933.739218045534</attribute>
+				<attribute key="y" type="double">1750.0714260551938</attribute>
+				<attribute key="w" type="double">325.1103652751914</attribute>
+				<attribute key="h" type="double">130.0980403053769</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Then I took the next character from trainer (viz. n). I checked if n is present in terrain. It is present. So I struck off n in both the strings.
+
+-----er
+-e-r---</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">325.1103652751914</attribute>
+				<attribute key="contentHeight" type="double">96.5625</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">40</attribute>
+			<attribute key="label" type="String">Then I took the next character from trainer (viz. e). I checked if e is present in terrain. It is present. So I struck off e in both the strings.
+
+------r
+---r---</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4933.739218045534</attribute>
+				<attribute key="y" type="double">1916.906666541987</attribute>
+				<attribute key="w" type="double">325.1103652751914</attribute>
+				<attribute key="h" type="double">130.0980403053769</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Then I took the next character from trainer (viz. e). I checked if e is present in terrain. It is present. So I struck off e in both the strings.
+
+------r
+---r---</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">325.1103652751914</attribute>
+				<attribute key="contentHeight" type="double">96.5625</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">41</attribute>
+			<attribute key="label" type="String">Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
+
+-------
+-------
+
+Note that this time I struck off the 2nd r in terrain.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4938.531865474031</attribute>
+				<attribute key="y" type="double">2083.7419070287806</attribute>
+				<attribute key="w" type="double">325.1103652751914</attribute>
+				<attribute key="h" type="double">130.0980403053769</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
+
+-------
+-------
+
+Note that this time I struck off the 2nd r in terrain.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">325.1103652751914</attribute>
+				<attribute key="contentHeight" type="double">126.75</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">42</attribute>
+			<attribute key="label" type="String">I reached the end of trainer. I see that I struck off all the characters from trainer and also all the characters from terrain. This means that I can rearrange the characters in trainer and get terrain. So, they are anagrams.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4938.531865474031</attribute>
+				<attribute key="y" type="double">2239.939676973289</attribute>
+				<attribute key="w" type="double">247.9938434620359</attribute>
+				<attribute key="h" type="double">94.50579946853543</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I reached the end of trainer. I see that I struck off all the characters from trainer and also all the characters from terrain. This means that I can rearrange the characters in trainer and get terrain. So, they are anagrams.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">247.9938434620359</attribute>
+				<attribute key="contentHeight" type="double">81.46875</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">43</attribute>
+			<attribute key="label" type="String">Now repeat this exercise for the following input.
+
+create
+reacot</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4918.140477494591</attribute>
+				<attribute key="y" type="double">2369.5359544173452</attribute>
+				<attribute key="w" type="double">207.21106750315596</attribute>
+				<attribute key="h" type="double">76.89505530447343</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Now repeat this exercise for the following input.
+
+create
+reacot</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">207.21106750315596</attribute>
+				<attribute key="contentHeight" type="double">81.46875</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">44</attribute>
+			<attribute key="label" type="String">These (create and reacot) are not anagrams. But, at which step do you find out that they are not anagrams?</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4927.918439617128</attribute>
+				<attribute key="y" type="double">2476.4310097218186</attribute>
+				<attribute key="w" type="double">207.21106750315596</attribute>
+				<attribute key="h" type="double">76.89505530447343</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">These (create and reacot) are not anagrams. But, at which step do you find out that they are not anagrams?</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">207.21106750315596</attribute>
+				<attribute key="contentHeight" type="double">51.28125</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">45</attribute>
+			<attribute key="label" type="String">Can you try to write down an algorithm based on the above exercise?</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4918.140477494591</attribute>
+				<attribute key="y" type="double">2583.326065026292</attribute>
+				<attribute key="w" type="double">207.21106750315596</attribute>
+				<attribute key="h" type="double">76.89505530447343</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Can you try to write down an algorithm based on the above exercise?</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">207.21106750315596</attribute>
+				<attribute key="contentHeight" type="double">51.28125</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">46</attribute>
+			<attribute key="label" type="String">Following are some hints.
+1. You can strike off on a paper. But how do we do it in a program?
+2. What did we do in the above logic? We are simply tallying the characters between the 2 strings.
+3. So, it is sufficient to tally the characters.
+3.1 Take a character from the 1st string.
+3.2 Count how many times it appears in the 1st string. Write it down.
+3.3 Repeat this for all the characters in the 1st string.
+3.4 Take a character from the 2nd string.
+3.5 Count how many times it appears in the 2nd string.
+3.6 Check if this count matches with the count in the 1st string.
+3.7 If yes, continue and repeat for the next character from the 2nd string.
+3.8 If no, then the 2 strings are not anagrams.
+3.9 By the time we reach the end of the 2nd string, if there are no mismatches, then the 2 strings are anagrams.
+
+These hints are almost like an algorithm, but one major point is not mentioned in these hints.
+
+How do we store the counts of every character of the 1st string?
+This is where our data structure skills come into picture.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4959.386694089368</attribute>
+				<attribute key="y" type="double">2839.3641032865025</attribute>
+				<attribute key="w" type="double">474.45073858356045</attribute>
+				<attribute key="h" type="double">324.99736243119185</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Following are some hints.
+1. You can strike off on a paper. But how do we do it in a program?
+2. What did we do in the above logic? We are simply tallying the characters between the 2 strings.
+3. So, it is sufficient to tally the characters.
+3.1 Take a character from the 1st string.
+3.2 Count how many times it appears in the 1st string. Write it down.
+3.3 Repeat this for all the characters in the 1st string.
+3.4 Take a character from the 2nd string.
+3.5 Count how many times it appears in the 2nd string.
+3.6 Check if this count matches with the count in the 1st string.
+3.7 If yes, continue and repeat for the next character from the 2nd string.
+3.8 If no, then the 2 strings are not anagrams.
+3.9 By the time we reach the end of the 2nd string, if there are no mismatches, then the 2 strings are anagrams.
+
+These hints are almost like an algorithm, but one major point is not mentioned in these hints.
+
+How do we store the counts of every character of the 1st string?
+This is where our data structure skills come into picture.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">474.45073858356045</attribute>
+				<attribute key="contentHeight" type="double">322.96875</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">47</attribute>
+			<attribute key="label" type="String">There are multiple ways to store the counts of characters present in a string.
+
+1. Variables approach: Use variables like a_count, b_count, c_count etc. to store the counts.
+2. Arrays approach: Use 2 arrays. In one array store the character, and in the second array store the corresponding count.
+3. Hashmap approach: Use a hashmap to store &lt;character, count> key value pairs.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">4986.290258197595</attribute>
+				<attribute key="y" type="double">3134.5165312163676</attribute>
+				<attribute key="w" type="double">396.4802232032313</attribute>
+				<attribute key="h" type="double">155.12383464378092</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">There are multiple ways to store the counts of characters present in a string.
+
+1. Variables approach: Use variables like a_count, b_count, c_count etc. to store the counts.
+2. Arrays approach: Use 2 arrays. In one array store the character, and in the second array store the corresponding count.
+3. Hashmap approach: Use a hashmap to store &lt;character, count> key value pairs.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">396.4802232032313</attribute>
+				<attribute key="contentHeight" type="double">141.84375</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
 		<section name="edge">
 			<attribute key="source" type="int">1</attribute>
 			<attribute key="target" type="int">0</attribute>
@@ -1183,8 +1625,8 @@ Write them on a paper.</attribute>
 				<attribute key="contentWidth" type="double">129.390625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">5943.277901785715</attribute>
-				<attribute key="y" type="double">585.9452436386632</attribute>
+				<attribute key="x" type="double">4076.815831960901</attribute>
+				<attribute key="y" type="double">1065.6410305926997</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2369,6 +2811,272 @@ Write them on a paper.</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">88.732421875</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">8</attribute>
+			<attribute key="target" type="int">34</attribute>
+			<attribute key="label" type="String">Continue</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Continue</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">52.03515625</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">34</attribute>
+			<attribute key="target" type="int">35</attribute>
+			<attribute key="label" type="String">Continue</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Continue</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">52.03515625</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">35</attribute>
+			<attribute key="target" type="int">36</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">36</attribute>
+			<attribute key="target" type="int">37</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">37</attribute>
+			<attribute key="target" type="int">38</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">38</attribute>
+			<attribute key="target" type="int">39</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">39</attribute>
+			<attribute key="target" type="int">40</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">40</attribute>
+			<attribute key="target" type="int">41</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">41</attribute>
+			<attribute key="target" type="int">42</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">42</attribute>
+			<attribute key="target" type="int">43</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">43</attribute>
+			<attribute key="target" type="int">44</attribute>
+			<attribute key="label" type="String">I wrote down the steps</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I wrote down the steps</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">124.064453125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">44</attribute>
+			<attribute key="target" type="int">45</attribute>
+			<attribute key="label" type="String">Next</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Next</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">28.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">45</attribute>
+			<attribute key="target" type="int">46</attribute>
+			<attribute key="label" type="String">Hints</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Hints</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">31.33984375</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">46</attribute>
+			<attribute key="target" type="int">47</attribute>
+			<attribute key="label" type="String">Continue</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Continue</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">52.03515625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model"/>
 				<attribute key="position"/>
