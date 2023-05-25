@@ -346,16 +346,18 @@ Following is what I came up with.
 9.     for every key c in w1Map {
 10.        if c is not present in w2Map {
 11.            areAnagrams = false;
-12.        } else if (w1Map.get(c) !== w2Map.get(c)) {
-13.            areAnagrams = false;
-14.        }
-15.    }
-16.}
-17.if (areAnagrams) {
-18.    // firstWord and secondWord are anagrams
-19.} else {
-20.    // firstWord and secondWord are not anagrams
-21.}
+12.            break;
+13.        } else if (w1Map.get(c) !== w2Map.get(c)) {
+14.            areAnagrams = false;
+15.            break;
+16.        }
+17.    }
+18.}
+19.if (areAnagrams) {
+20.    // firstWord and secondWord are anagrams
+21.} else {
+22.    // firstWord and secondWord are not anagrams
+23.}
 
 Compare it with what you wrote.
 What are the differences?
@@ -367,7 +369,28 @@ Algorithm design is done on a paper, not in a computer.
 
 Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
 
-We know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.
+Fact: The above algorithm has some partial code in it. It is called pseudo-code. Pseudo-code is not complete code. At the same time, it is also not complete English. It is a mix of both. Quite often, developers use pseudo-code to express algorithms.
+
+Let us convert the algorithm step by step. It is a long algorithm, so we will discuss the major aspects of the implementation. Basic aspects like creating/updating variables, writing conditional blocks, loops etc. are not discussed here. If you are not clear on such basic aspects, please revise the assignments from STOC module.
+
+Following are the major aspects from the above algorithm.
+a. Store the counts of unique characters from a string (steps 2 and 4)
+b. Iterating over the keys of a hashmap (step 9)
+c. Check if a key is present in a hashmap (step 10)
+d. Retrieve a value from a hashmap, using a key (step 13)
+
+The method to store the counts of unique characters has been discussed in the Algorithm design section. If you haven't gone through that section, we strongly recommend you to go through it.
+
+Please refer to the following page for examples on how to iterate over a hashmap in Javascript.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/@@iterator#iteration_using_for...of_loop
+
+We use has() method to check if a key is present in a hashmap. Please refer to the following page for examples on how to use has() method in Javascript.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has
+
+We use get() method to retrieve a value from a hashmap. Please refer to the following page for examples on how to use get() method in Javascript.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get
+
+We now know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.
 
 By now we have converted our entire algorithm into code.
 We have completed 4 steps.
@@ -376,6 +399,12 @@ We have completed 4 steps.
 3. Coming up with logic (or algorithm)
 4. Converting logic to code
 Next step is to execute the code and test with different test cases.
+
+This assignment demonstrates the concepts of
+1. Algorithm design and how to choose a relevant data structure
+2. Analysing the time and space complexities of various approaches
+3. Hashmaps
+Like strings and arrays, hashmaps are also used extensively in software development.
 
 You have the code on your paper. Now write it in your computer and execute it with various test cases.
 If all test cases are passing, then submit it on the student portal.
