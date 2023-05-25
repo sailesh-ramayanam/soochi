@@ -170,7 +170,7 @@ There are multiple ways to store the counts of characters present in a string.
 2. Arrays approach: Use 2 arrays. In one array store the character, and in the second array store the corresponding count.
 3. Hashmap approach: Use a hashmap to store <character, count> key value pairs.
 
-This method will look like below.
+Variables approach will look like below.
 let a_count = 0, b_count = 0, and so on z_count = 0;
 for each character c in word {
     if (c === "a") {
@@ -184,16 +184,20 @@ for each character c in word {
 
 There are multiple issues with this approach.
 
-You have to create 26 variables and write 26 if conditions. That is also not sufficient.
-What about uppercase letters (i.e. A, B, C, ... Z)?
-What about digits (i.e. 0, 1, 2, 3 ... 9)?
-What about special characters (like @, #, $, %, ;, ', and so on)?
+You have to create 26 variables and write 26 if conditions.
+That is also not sufficient.
+
+What about
+- uppercase letters (i.e. A, B, C, ... Z)?
+- digits (i.e. 0, 1, 2, 3 ... 9)?
+- special characters (like @, #, $, %, ;, ', and so on)?
+
 We will have to create 100s of variables and write 100s of if conditions. Even if we miss one character, our program will not work correctly.
 
-This is a correct approach, but not a practical approach.
+Variables approach is a correct approach, but not a practical approach.
 
 
-This method will look like below.
+Arrays approach will look like below.
 1. let charsArray = [], countsArray = [];
 2. for each character c in word {
 3.     // Check if c is present in charsArray
@@ -201,10 +205,11 @@ This method will look like below.
 5.     // Otherwise, append c at the end of charsArray and append 1 at the end of countsArray
 6. }
 
-Unlike the variables approach, arrays approach looks more elegant. But, it is still not the optimal approach.
+Unlike the variables approach, arrays approach looks more elegant.
+What will be the time complexity of the above for loop?
 
-What will be the time complexity of the above for loop? Assume that string's length is n.
-Let us try to analyse the time complexity of the arrays approach.
+For complexity analysis, we will need an implementation.
+Try to convert the above arrays approach into code.
 
 Below is an implementation of the arrays approach.
 1. let charsArray = [], countsArray = [];
@@ -229,37 +234,38 @@ n^2 times - This answer is incorrect. Please revise the lectures on time complex
 
 In the body of for loop, on an average, which is the most time taking line?
 line 3 - This answer is incorrect. Access by index in a string takes O(1) time.
-line 4 - This is correct answer. Here, we are searching for an element by its value in an array. For this, we have to look compare it with each element in an array. So, the time depends on the length of the array. Compared to other lines, this is the most time taking line. It is O(m), where m is the length of charsArray.
+line 4 - This is correct answer. Here, we are searching for an element by its value. For this, we have to compare it with every element in the array. So, the time depends on the length of the array. Compared to other lines, this is the most time taking line. It is O(m), where m is the length of charsArray.
 line 7 - This answer is incorrect. On an average, append operation takes O(1) time.
 line 10 - This answer is incorrect. In an array, access by index takes O(1) time.
 All take O(1) time - This answer is incorrect.
 
-Based on the above discussion, what is the time complexity of the above implementation? Assume that word's length is n.
+Based on the above discussion, what is the time complexity of the arrays approach? Assume that word's length is n.
 O(1) - This answer is incorrect. Please revise the lectures on time complexity analysis.
 O(n) - This answer is incorrect. Please revise the lectures on time complexity analysis.
 O(n^2) - This is correct answer. Each iteration of the for loop takes O(m), where m is the length of charsArray. Worst case is where, in every iteration, we encounter a new character. So, the size of charsArrays increases in every execution. So, it will be 0 + 1 + 2 + ... + (n-1). This is O(n^2).
 
-Thus, arrays approach has a time complexity of O(n^2).
+Many beginners falsely believe that one loop means O(n) time complexity. Above arrays approach is an example, where we have one loop but the time complexity is O(n^2).
 
-Let us look at the space complexity.
+Let us look at the space complexity of arrays approach.
 Which of the following will take the most space?
-i - This answer is incorrect. i stores an integer value. 
-c - This answer is incorrect. c stores a string containing one character. 
-cIndex - This answer is incorrect. cIndex stores an integer value. 
+i - This answer is incorrect. i stores a single integer. So, O(1) space.
+c - This answer is incorrect. c stores a string containing one character. So, O(1) space. 
+cIndex - This answer is incorrect. cIndex stores a single integer. So, O(1) space.
 charsArray - This is correct answer. charsArray is an array that stores all the unique characters in word. So it can be as large as the word itself. Same applies to countsArray as well. So, apart from word, charsArray and countsArray take the most amount of space in the above program.
+All take O(1) space - This answer is incorrect.
 
 If the word's length is n, then what can be the maximum size of charsArray?
-log n - This answer is incorrect. Please revise the lectures on time complexity analysis.
+log n - This answer is incorrect. Please revise the lectures on complexity analysis.
 n - This is correct answer. If word does not contain any duplicate characters, then the size of charsArray will also be n. Do a dry run and check. Some samples for word are "cyberpunk", "path-finder", "blue sky", "sharp knife" etc.
-n/2 - This answer is incorrect. Please revise the lectures on time complexity analysis.
-No relation with n - This answer is incorrect. Please revise the lectures on time complexity analysis.
+n/2 - This answer is incorrect. Please revise the lectures on complexity analysis.
+No relation with n - This answer is incorrect. Please revise the lectures on complexity analysis.
 
 Thus, arrays approach has extra space complexity of O(n).
 
 To summarise, arrays approach has a time complexity of O(n^2) and extra space complexity of O(n).
 We can improve time complexity by using hashmaps.
 
-This method will look like below.
+Hashmap approach will look like below.
 let charMap = new Map();
 for each character c in word {
     // If c is present in charMap, increment its count
@@ -268,8 +274,13 @@ for each character c in word {
 
 This looks very similar to the arrays approach. But, its time complexity is different.
 
-What will be the time complexity of the above for loop? Assume that string's length is n.
-Let us try to analyse the time complexity of the hashmap approach.
+If you haven't gone through other approaches, we strongly recommend you to go through them first and then come back to hashmap approach.
+That will help you realise how there can be multiple correct solutions for a single problem. It will also make you appreciate the importance of data structures and complexity analysis.
+
+What will be the time complexity of the above for loop?
+
+For complexity analysis, we will need an implementation.
+Try to convert the above hashmap approach into code.
 
 Below is an implementation of the hashmap approach.
 1. let charMap = new Map();
@@ -296,37 +307,38 @@ line 5 - This answer is incorrect. Both, getting and setting the value of a key 
 line 7 - This answer is incorrect. Setting the value of a key in hashmap take O(1) time.
 All take O(1) time - This is correct answer. All lines take constant amount of time.
 
-Based on the above discussion, what is the time complexity of the above implementation? Assume that word's length is n.
+Based on the above discussion, what is the time complexity of the hashmap approach? Assume that word's length is n.
 O(1) - This answer is incorrect. Please revise the lectures on time complexity analysis.
 O(n) - This is correct answer. Each iteration of the for loop takes O(1) time. n iterations will take O(n) time.
 O(n^2) - This answer is incorrect. Please revise the lectures on time complexity analysis.
 
-Thus, hashmap approach has a time complexity of O(n), whereas arrays approach has a time complexity of O(n^2).
+Thus, hashmap approach has a time complexity of O(n).
 
-Let us look at the space complexity.
+Let us look at the space complexity of hashmap approach.
 Which of the following will take the most space?
-i - This answer is incorrect. i stores an integer value. 
-c - This answer is incorrect. c stores a string containing one character. 
+i - This answer is incorrect. i stores a single integer. So, O(1) space.
+c - This answer is incorrect. c stores a string containing one character. So, O(1) space.
 charMap - This is correct answer. charMap is a hashmap that stores all the unique characters in word and their counts. So it can be as large as the word itself. So, apart from word, charMap takes the most amount of space in the above program.
+All take O(1) space - This answer is incorrect.
 
 If the word's length is n, then what can be the maximum size of charMap?
-log n - This answer is incorrect. Please revise the lectures on time complexity analysis.
+log n - This answer is incorrect. Please revise the lectures on complexity analysis.
 n - This is correct answer. If word does not contain any duplicate characters, then the size of charMap will also be n. Do a dry run and check. Some samples for word are "cyberpunk", "path-finder", "blue sky", "sharp knife" etc.
-n/2 - This answer is incorrect. Please revise the lectures on time complexity analysis.
-No relation with n - This answer is incorrect. Please revise the lectures on time complexity analysis.
+n/2 - This answer is incorrect. Please revise the lectures on complexity analysis.
+No relation with n - This answer is incorrect. Please revise the lectures on complexity analysis.
 
 Thus, hashmap approach has extra space complexity of O(n).
 
-To summarise, hashmap approach has a time complexity of O(n) and extra space complexity of O(n).
+To summarise, hashmap approach has a time complexity of O(n) and extra space complexity of O(n). On the other hand arrays approach has a time complexity of O(n^2) and extra space complexity of O(n). So, hashmap approach has a better time complexity than the arrays approach.
 
-Based on our discussion, can you write an algorithm?
+Based on our discussion, can you write an algorithm to check if 2 strings are anagrams, using a hashmap?
 
 Following is what I came up with.
 
 1. Take firstWord
-2. Store the counts of each unique character in firstWord, in w1Map
+2. Store the counts of each unique character from firstWord, in w1Map
 3. Take secondWord
-4. Store the counts of each unique character in secondWord, in w2Map
+4. Store the counts of each unique character from secondWord, in w2Map
 5. let areAnagrams = true;
 6. if w1Map.size() !== w2Map.size() {
 7.     areAnagrams = false;
