@@ -7,10 +7,10 @@ The problem statement is very simple.
 To be able to solve this, we need to understand the meaning of anagram.
 
 Two strings are called anagrams, if one string can be obtained by rearranging the characters of the second string.
-You can also use internet and read more about anagrams (Warning: Do not look up the solutions).
+Let us understand through examples.
 
 Which of the following is not an anagram of heater?
-reheat - This answer is incorrect.
+reheat - This answer is incorrect. You need find the word that is NOT an anagram.
 aethar - This is correct answer. aethar contains one less e and one extra a.
 hearet
 
