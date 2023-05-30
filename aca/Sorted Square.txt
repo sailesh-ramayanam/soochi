@@ -1,0 +1,272 @@
+First step is "Understand the problem statement".
+
+Which of the following statement is correct regarding "A", according to the problem statement?
+Option1: A is the length of the array
+Option2: A is the given array of integer
+Option3: A is an integer
+
+Option1- This answer is incorrect, Please read the problem description carefully.
+Option2- This is correct answer.
+Option3- This answer is incorrect, Please read the problem description carefully.
+
+Do you know the meaning of sorted array?
+Yes
+No - Sorted array means all elements arranged in either ascending order or descending order.
+
+Which of the following sequence is not sorted?
+11, 13, 15, 17- This is incorrect answer.Here integers are sorted in ascending order
+9,5,3,1- This is incorrect answer.Here integers are sorted in descending order
+6,7,10,2- This is correct answer. The numbers are neither in ascending order nor in descending order. So they are not sorted.
+
+Which of the following is not a sorted non-decreasing array?
+[10, 10, 10, 10, 10]- This answer is incorrect, Since all the elements are same so it is also non-decreasing array.
+[15, 20, 55, 55, 100]- This answer is incorrect.
+[34, 45, 63, 72, 91]- This answer is incorrect.
+All are sorted non-decreasing array- This is correct answer.
+
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+4 lines - This answer is incorrect. Please read the input description carefully.
+5 lines - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This is correct answer.
+
+What does the first line of input contain?
+Size of the array - This is correct answer.
+First element of array - This answer is incorrect. Please read the input description carefully.
+space separated elements of array- This answer is incorrect. Please read the input description carefully.
+Don't know - Please read the input description provided in the assignment.
+
+
+Suppose first line contains 23. Then, how many lines will the input have?
+23 - This answer is incorrect. Please read the input description carefully.
+24 - This is correct answer. First line contains 23 means the list has 23 values. Each value is provided in a separate line, starting from 2nd line. So, 23 lines + the first line. Total 24 lines of input.
+22 - This answer is incorrect. Please read the input description carefully.
+Cannot say - This answer is incorrect. Please read the input description carefully.
+
+
+We have some sample inputs below.
+Input 1:
+1
+15
+20
+
+Input 2:
+3
+95
+39
+38
+
+Input 3:
+2
+1
+0
+
+
+
+Which of these is not a valid input for this problem?
+Input 3- This answer is incorrect. The size of array is 3 and there are 3 elements, why do you think it is invalid?
+Input 2- This answer is incorrect. Why do you think it is invalid, because elements are 1 and 0?
+Input 1- This is correct answer. Input 1 is invalid because here size of array is 1, but total elements in the array are 2.
+
+
+
+Now that we understood the input format, let us understand the output format.
+
+
+How many lines should the output contain?
+1 line - This answer is incorrect. Please read the output description carefully.
+2 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This is correct answer.
+
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+4
+5
+7
+3
+9
+
+
+What should be the output for the above input?
+Output1:
+25
+49
+9
+81
+
+Output2:
+81
+49
+25
+9
+
+Output3:
+9
+25
+49
+81
+
+
+Output1- This answer is incorrect. Elements must be in sorted non-decreasing order.
+Output2- This answer is incorrect. Elements are sorted but they are not in non-decreasing order.
+Output3- This is correct answer
+
+Consider the following input.
+Input:
+5
+10
+10
+10
+10
+10
+
+
+What should be the output for the above input?
+Output1:
+10
+
+Output2:
+10
+10
+10
+10
+10
+
+
+What should be the output for the above input?
+Output2- This is correct answer.
+Output1- This answer is incorrect. Why do you think this is correct answer? There are 5 elements in the array so there should be 5 lines also in the output.
+
+
+While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+
+1. Normal test cases - length of the array is like 5, 8 and 10 .
+1.1 When all the elements are different.
+1.2 When some of the elements are same.
+1.3 When all the elements are same.
+
+
+Based on these hints, you can come up with at least 3 new test cases.
+Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previously.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+4
+5
+7
+3
+9
+
+I will try to explain what I did.
+
+I looked at the first line. It contains 4 that means the size of array is 4.
+
+Then I see in the next 4 lines, these are 4 elements of the array.
+
+Then looked at first element of the array i.e 5 and I replace it with its square (i.e 25)
+
+Then I move second element of the array i.e 7 and I replace it with its square (i.e 49)
+
+Then I move to third element of the array i.e 3 and I replace it with its square (i.e 9)
+
+Then I move to fourth element of the array i.e 9 and I replace it with its square (i.e 81)
+
+Now my array looks something like this [25,49,9,81]. Which is not sorted. So now I sort the array.
+
+
+Now imagine that there are 1000 elements in the array
+What will you do? Put it in words.
+
+Following are some hints to put the logic in words.
+
+1. As there are 1000 elements in the array, it will be difficult for me to remember all the elements of the array, so I will write all the elements of the array in paper.
+2. Now I will start from first element of the array and change each element to its square 
+3. Now I will apply it to all other elements of the array
+4. Now I will sort the array.
+
+
+Following is what I came up with.
+
+We have 3 major phases in the implementation.
+Phase 1: One is to read the elements of the array.
+Phase 2: Second is squaring the elements of the array
+Phase 3: Third is sorting the array
+
+Phase 1
+1. Read the length of the array
+2. Create an empty array.
+3. Read the next value from input
+4. Append it to the array
+5. Repeat steps 3 and 4 until you read all the elements of the array.
+Phase 2
+6. Now go to index 0 element of the array.
+7. Replace the that element with the square of that element.
+8. Now move to next element
+9. Repeat steps 7,8 untill we reach the end of array.
+Phase 3
+10. Now sort the array in ascending order.
+11. Now start displaying elements of array from index 0 to last element in separate lines.
+
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+
+There are various things to be implemented.
+a. Taking input as an integer (steps 1 and 3).
+b. Displaying output (step 11).
+c. Repeating the process for one number at a time (steps 5 and 9).
+d. Creating an empty array (steps 2).
+e. Sort the array(step 10)
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+How to Initialize an empty array? Please refer to assignment "Good Pairs"
+How to use break statements?- Please refer to the lectures where break statements are covered
+How to append an element in array? Please refer to the assignment like "good pairs" and "lucky number"
+How to sort the array? Since sorting algorithms are not covered yet, use inbuilt functions for sorting the array.
+Suppose you have array points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a - b});
+The above line will sort the array in ascending order.
+If you will do console.log(points) now, you will get the output as [1, 5, 10, 25, 40, 100]
+points.sort(function(a, b){return b - a});
+The above line will sort the array in descending order. So if you do console.log(points) after this line
+you will get output as [100,40,25,10,5,1]
+It is recommend to create random array of numbers and practice above sort method and observe the changes.
+For strings the sorting function will be different in javascript.It will be array.sort() only. It will sort in ascending order by default. So do array.reverse() after sorting, if you want to sort in descending order. 
