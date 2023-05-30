@@ -1,0 +1,410 @@
+First step is "Understand the problem statement".
+
+The problem statement is very simple.
+- We have 2 strings.
+- We need to check if they are anagrams or not.
+
+To be able to solve this, we need to understand the meaning of anagram.
+
+Two strings are called anagrams, if one string can be obtained by rearranging the characters of the second string.
+Let us understand through examples.
+
+Which of the following is not an anagram of heater?
+reheat - This answer is incorrect. You need find the word that is NOT an anagram.
+aethar - This is correct answer. aethar contains one less e and one extra a.
+hearet
+
+We have a few pairs of words below. Which pair does not contain anagrams?
+Pair 1: hectare, teacher
+Pair 2: trainer, terrain
+Pair 3: armrest, smarter
+Pair 4: create, reacot
+
+Pair 1 - This answer is incorrect.
+Pair 2 - This answer is incorrect.
+Pair 3 - This answer is incorrect.
+Pair 4 - This is correct answer. create and reacot are not anagrams.
+
+Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+
+First let us understand the input format.
+
+How many lines does the input contain?
+1 line - This answer is incorrect. Please read the input description carefully.
+2 lines - This is correct answer. Input will contain 2 lines. Each line will contain one string.
+3 lines - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This answer is incorrect. Please read the input description carefully.
+
+How many lines should the output contain?
+1 line - This is correct answer.
+2 lines - 
+3 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This answer is incorrect. Please read the output description carefully.
+
+If the given strings are anagrams, what should we output?
+Yes - This answer is incorrect. Please read the output description carefully.
+1 - This is correct answer. If the given strings are anagrams, we should print 1. Otherwise, we should print 0.
+True
+They are anagrams
+
+Consider the following input.
+Input:
+break
+brake
+
+What should be the output for the above input?
+1 - This is correct answer. break and brake are anagrams. So, we should output 1.
+0 - This answer is incorrect.
+
+Based on the above discussion, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+---
+1. Normal test cases
+1.1. Both strings are anagrams (string length more than 1)
+1.2. Both strings are of same length (length more than 1), but not anagrams
+1.3. Both strings are of different lengths
+1.4. Both strings are same
+---
+2. Boundary test cases
+2.1. Both strings are of size 1 and anagrams
+2.2. Both strings are of size 1 but not anagrams
+2.3. Both strings are almost anagrams except for 1 character
+
+Based on these hints, you can come up with at least 7 new test cases.
+
+Write them on a paper.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previously.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One sample input is
+trainer
+terrain
+
+I will try to explain what I did.
+
+I took the first character from trainer (viz. t). I checked if t is present in terrain. It is present. So I struck off t in both the strings.
+
+-rainer
+-errain
+
+Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
+
+--ainer
+-e-rain
+
+Note that there are 2 r's in terrain. I struck off only 1 r.
+
+Then I took the next character from trainer (viz. a). I checked if a is present in terrain. It is present. So I struck off a in both the strings.
+
+---iner
+-e-r-in
+
+Then I took the next character from trainer (viz. i). I checked if i is present in terrain. It is present. So I struck off i in both the strings.
+
+----ner
+-e-r--n
+
+Then I took the next character from trainer (viz. n). I checked if n is present in terrain. It is present. So I struck off n in both the strings.
+
+-----er
+-e-r---
+
+Then I took the next character from trainer (viz. e). I checked if e is present in terrain. It is present. So I struck off e in both the strings.
+
+------r
+---r---
+
+Then I took the next character from trainer (viz. r). I checked if r is present in terrain. It is present. So I struck off r in both the strings.
+
+-------
+-------
+
+Note that this time I struck off the 2nd r in terrain.
+
+I reached the end of trainer. I see that I struck off all the characters from trainer and also all the characters from terrain. This means that I can rearrange the characters in trainer and get terrain. So, they are anagrams.
+
+Now repeat this exercise for the following input.
+create
+reacot
+
+These (create and reacot) are not anagrams. But, at which step do you find out that they are not anagrams?
+
+Can you try to write down an algorithm based on the above exercise?
+
+Following are some hints.
+1. You can strike off on a paper. But how do we do it in a program?
+2. What did we do in the above logic? We are simply tallying the characters between the 2 strings.
+3. So, it is sufficient to tally the characters.
+3.1 Take a character from the 1st string.
+3.2 Count how many times it appears in the 1st string. Write it down.
+3.3 Repeat this for all the characters in the 1st string.
+3.4 Take a character from the 2nd string.
+3.5 Count how many times it appears in the 2nd string.
+3.6 Check if this count matches with the count in the 1st string.
+3.7 If yes, continue and repeat for the next character from the 2nd string.
+3.8 If no, then the 2 strings are not anagrams.
+3.9 By the time we reach the end of the 2nd string, if there are no mismatches, then the 2 strings are anagrams.
+
+These hints are almost like an algorithm, but one major point is not mentioned in these hints.
+
+How do we store the counts of every character of the 1st string?
+This is where our data structure skills come into picture.
+
+There are multiple ways to store the counts of characters present in a string.
+
+1. Variables approach: Use variables like a_count, b_count, c_count etc. to store the counts.
+2. Arrays approach: Use 2 arrays. In one array store the character, and in the second array store the corresponding count.
+3. Hashmap approach: Use a hashmap to store <character, count> key value pairs.
+
+Variables approach will look like below.
+let a_count = 0, b_count = 0, and so on z_count = 0;
+for each character c in word {
+    if (c === "a") {
+        a_count++;
+    } else if (c === "b") {
+        b_count++;
+    } and so on until else if (c === "z") {
+        z_count++;
+    }
+}
+
+There are multiple issues with this approach.
+
+You have to create 26 variables and write 26 if conditions.
+That is also not sufficient.
+
+What about
+- uppercase letters (i.e. A, B, C, ... Z)?
+- digits (i.e. 0, 1, 2, 3 ... 9)?
+- special characters (like @, #, $, %, ;, ', and so on)?
+
+We will have to create 100s of variables and write 100s of if conditions. Even if we miss one character, our program will not work correctly.
+
+Variables approach is a correct approach, but not a practical approach.
+
+
+Arrays approach will look like below.
+1. let charsArray = [], countsArray = [];
+2. for each character c in word {
+3.     // Check if c is present in charsArray
+4.     // If yes, then get its index (say idx). Increment countsArray[idx]
+5.     // Otherwise, append c at the end of charsArray and append 1 at the end of countsArray
+6. }
+
+Unlike the variables approach, arrays approach looks more elegant.
+What will be the time complexity of the above for loop?
+
+For complexity analysis, we will need an implementation.
+Try to convert the above arrays approach into code.
+
+Below is an implementation of the arrays approach.
+1. let charsArray = [], countsArray = [];
+2. for (let i = 0; i < word.length; ++i) {
+3.     let c = word.charAt(i);
+4.     let cIndex = charsArray.indexOf(c);
+5.     if (cIndex === -1) {
+6.         // c is not present in charsArray
+7.         charsArray.append(c);
+8.         countsArray.append(1);
+9.     } else {
+10.        ++countsArray[cIndex];
+11.    }
+12.}
+
+There is one for loop. The body of the loop is from line 3 to line 11.
+
+How many times will the body of for loop get executed? Assume that word's length is n.
+1 time - This answer is incorrect. Please revise the lectures on time complexity analysis.
+n times - This is correct answer. For every character of the word, the body of for loop is executed once. If there are n characters in the word, then the body will be executed n times.
+n^2 times - This answer is incorrect. Please revise the lectures on time complexity analysis.
+
+In the body of for loop, on an average, which is the most time taking line?
+line 3 - This answer is incorrect. Access by index in a string takes O(1) time.
+line 4 - This is correct answer. Here, we are searching for an element by its value. For this, we have to compare it with every element in the array. So, the time depends on the length of the array. Compared to other lines, this is the most time taking line. It is O(m), where m is the length of charsArray.
+line 7 - This answer is incorrect. On an average, append operation takes O(1) time.
+line 10 - This answer is incorrect. In an array, access by index takes O(1) time.
+All take O(1) time - This answer is incorrect.
+
+Based on the above discussion, what is the time complexity of the arrays approach? Assume that word's length is n.
+O(1) - This answer is incorrect. Please revise the lectures on time complexity analysis.
+O(n) - This answer is incorrect. Please revise the lectures on time complexity analysis.
+O(n^2) - This is correct answer. Each iteration of the for loop takes O(m), where m is the length of charsArray. Worst case is where, in every iteration, we encounter a new character. So, the size of charsArrays increases in every execution. So, it will be 0 + 1 + 2 + ... + (n-1). This is O(n^2).
+
+Many beginners falsely believe that one loop means O(n) time complexity. Above arrays approach is an example, where we have one loop but the time complexity is O(n^2).
+
+Let us look at the space complexity of arrays approach.
+Which of the following will take the most space?
+i - This answer is incorrect. i stores a single integer. So, O(1) space.
+c - This answer is incorrect. c stores a string containing one character. So, O(1) space. 
+cIndex - This answer is incorrect. cIndex stores a single integer. So, O(1) space.
+charsArray - This is correct answer. charsArray is an array that stores all the unique characters in word. So it can be as large as the word itself. Same applies to countsArray as well. So, apart from word, charsArray and countsArray take the most amount of space in the above program.
+All take O(1) space - This answer is incorrect.
+
+If the word's length is n, then what can be the maximum size of charsArray?
+log n - This answer is incorrect. Please revise the lectures on complexity analysis.
+n - This is correct answer. If word does not contain any duplicate characters, then the size of charsArray will also be n. Do a dry run and check. Some samples for word are "cyberpunk", "path-finder", "blue sky", "sharp knife" etc.
+n/2 - This answer is incorrect. Please revise the lectures on complexity analysis.
+No relation with n - This answer is incorrect. Please revise the lectures on complexity analysis.
+
+Thus, arrays approach has extra space complexity of O(n).
+
+To summarise, arrays approach has a time complexity of O(n^2) and extra space complexity of O(n).
+We can improve time complexity by using hashmaps.
+
+Hashmap approach will look like below.
+let charMap = new Map();
+for each character c in word {
+    // If c is present in charMap, increment its count
+    // Otherwise, add c to charMap and set its count to 1
+}
+
+This looks very similar to the arrays approach. But, its time complexity is different.
+
+If you haven't gone through other approaches, we strongly recommend you to go through them first and then come back to hashmap approach.
+That will help you realise how there can be multiple correct solutions for a single problem. It will also make you appreciate the importance of data structures and complexity analysis.
+
+What will be the time complexity of the above for loop?
+
+For complexity analysis, we will need an implementation.
+Try to convert the above hashmap approach into code.
+
+Below is an implementation of the hashmap approach.
+1. let charMap = new Map();
+2. for (let i = 0; i < word.length; ++i) {
+3.     let c = word.charAt(i);
+4.     if (charMap.has(c)) {
+5.         charMap.set(c, charMap.get(c) + 1);
+6.     } else {
+7.         charMap.set(c, 1);
+8.     }
+9. }
+
+There is one for loop. The body of the loop is from line 3 to line 8.
+
+How many times will the body of for loop get executed? Assume that word's length is n.
+1 time - This answer is incorrect. Please revise the lectures on time complexity analysis.
+n times - This is correct answer. For every character of the word, the body of for loop is executed once. If there are n characters in the word, then the body will be executed n times.
+n^2 times - This answer is incorrect. Please revise the lectures on time complexity analysis.
+
+In the body of for loop, on an average, which is the most time taking line?
+line 3 - This answer is incorrect. Access by index in a string takes O(1) time.
+line 4 - This answer is incorrect. Checking if a key is present in a hashmap takes O(1) time.
+line 5 - This answer is incorrect. Both, getting and setting the value of a key in hashmap take O(1) time.
+line 7 - This answer is incorrect. Setting the value of a key in hashmap take O(1) time.
+All take O(1) time - This is correct answer. All lines take constant amount of time.
+
+Based on the above discussion, what is the time complexity of the hashmap approach? Assume that word's length is n.
+O(1) - This answer is incorrect. Please revise the lectures on time complexity analysis.
+O(n) - This is correct answer. Each iteration of the for loop takes O(1) time. n iterations will take O(n) time.
+O(n^2) - This answer is incorrect. Please revise the lectures on time complexity analysis.
+
+Thus, hashmap approach has a time complexity of O(n).
+
+Let us look at the space complexity of hashmap approach.
+Which of the following will take the most space?
+i - This answer is incorrect. i stores a single integer. So, O(1) space.
+c - This answer is incorrect. c stores a string containing one character. So, O(1) space.
+charMap - This is correct answer. charMap is a hashmap that stores all the unique characters in word and their counts. So it can be as large as the word itself. So, apart from word, charMap takes the most amount of space in the above program.
+All take O(1) space - This answer is incorrect.
+
+If the word's length is n, then what can be the maximum size of charMap?
+log n - This answer is incorrect. Please revise the lectures on complexity analysis.
+n - This is correct answer. If word does not contain any duplicate characters, then the size of charMap will also be n. Do a dry run and check. Some samples for word are "cyberpunk", "path-finder", "blue sky", "sharp knife" etc.
+n/2 - This answer is incorrect. Please revise the lectures on complexity analysis.
+No relation with n - This answer is incorrect. Please revise the lectures on complexity analysis.
+
+Thus, hashmap approach has extra space complexity of O(n).
+
+To summarise, hashmap approach has a time complexity of O(n) and extra space complexity of O(n). On the other hand arrays approach has a time complexity of O(n^2) and extra space complexity of O(n). So, hashmap approach has a better time complexity than the arrays approach.
+
+Based on our discussion, can you write an algorithm to check if 2 strings are anagrams, using a hashmap?
+
+Following is what I came up with.
+
+1. Take firstWord
+2. Store the counts of each unique character from firstWord, in w1Map
+3. Take secondWord
+4. Store the counts of each unique character from secondWord, in w2Map
+5. let areAnagrams = true;
+6. if w1Map.size() !== w2Map.size() {
+7.     areAnagrams = false;
+8. } else {
+9.     for every key c in w1Map {
+10.        if c is not present in w2Map {
+11.            areAnagrams = false;
+12.            break;
+13.        } else if (w1Map.get(c) !== w2Map.get(c)) {
+14.            areAnagrams = false;
+15.            break;
+16.        }
+17.    }
+18.}
+19.if (areAnagrams) {
+20.    // firstWord and secondWord are anagrams
+21.} else {
+22.    // firstWord and secondWord are not anagrams
+23.}
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now. Some part of the algorithm may look like code. It is written to avoid long and confusing sentences. But it is not real code.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Fact: The above algorithm has some partial code in it. It is called pseudo-code. Pseudo-code is not complete code. At the same time, it is also not complete English. It is a mix of both. Quite often, developers use pseudo-code to express algorithms.
+
+Let us convert the algorithm step by step. It is a long algorithm, so we will discuss the major aspects of the implementation. Basic aspects like creating/updating variables, writing conditional blocks, loops etc. are not discussed here. If you are not clear on such basic aspects, please revise the assignments from STOC module.
+
+Following are the major aspects from the above algorithm.
+a. Store the counts of unique characters from a string (steps 2 and 4)
+b. Iterating over the keys of a hashmap (step 9)
+c. Check if a key is present in a hashmap (step 10)
+d. Retrieve a value from a hashmap, using a key (step 13)
+
+The method to store the counts of unique characters has been discussed in the Algorithm design section. If you haven't gone through that section, we strongly recommend you to go through it.
+
+Please refer to the following page for examples on how to iterate over a hashmap in Javascript.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/@@iterator#iteration_using_for...of_loop
+
+We use has() method to check if a key is present in a hashmap. Please refer to the following page for examples on how to use has() method in Javascript.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has
+
+We use get() method to retrieve a value from a hashmap. Please refer to the following page for examples on how to use get() method in Javascript.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get
+
+We now know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.
+
+By now we have converted our entire algorithm into code.
+We have completed 4 steps.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3. Coming up with logic (or algorithm)
+4. Converting logic to code
+Next step is to execute the code and test with different test cases.
+
+This assignment demonstrates the concepts of
+1. Algorithm design and how to choose a relevant data structure
+2. Analysing the time and space complexities of various approaches
+3. Hashmaps
+Like strings and arrays, hashmaps are also used extensively in software development.
+
+You have the code on your paper. Now write it in your computer and execute it with various test cases.
+If all test cases are passing, then submit it on the student portal.
