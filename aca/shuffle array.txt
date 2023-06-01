@@ -1,0 +1,216 @@
+First step is "Understand the problem statement".
+
+What is meaning of 2n elements in the array?
+Option1: Length of the array is always odd.
+Option2: Length of the array is always even.
+
+Option1 - This answer is incorrect.
+Option2 - This is correct answer. Since length is 2n, so for any value of n, length will be even only.
+
+Which of the following can never be length of array?
+6 - This answer is incorrect. It is possible to have 6 elements in array (for n=3).
+0 - This is correct answer. As per the problem description, n can never be 0.
+
+What are x1,x2 and xn mentioned in the problem statement?
+Option1: Elements at index 0,1 and n-1 respectively in the input array.
+Option2: Elements at index 1,2 and n respectively in the input array.
+
+Option1 - This is correct answer. Since indexing starts from 0 in javascript array.
+Option2 - This answer is incorrect. Indexing starts from 0, please observe the given array carefully.
+
+Which of the following statemnets is correct regarding problem statement?
+Option1: First half of elements of input array are mentioned as x1,x2...xn and second half of the elements of input array are mentioned as y1,y2...yn.
+Option2: Second half of the elements of input array are mentioned as y1,y2...yn and first half of elements of input array are mentioned as x1,x2...xn.
+
+Option1 - This is correct answer.
+Option2 - This answer is incorrect. Please read the problem statement carefully.
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+10 lines - This answer is incorrect. Please read the input description carefully.
+7 lines - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This is correct answer. Until we read the first line of input, we don't know how many lines the input contains.
+
+What does the first line of input contain?
+Size of the array - This answer is incorrect. Please read the input description carefully.
+Half of the size of the array - This is correct answer. Since first line is n after that next 2n lines will have elements of array.
+Don't know - Please read the input description provided in the assignment.
+
+Suppose first line contains 7. Then, how many lines will the input have?
+14 - This answer is incorrect. Please read the input description carefully.
+15 - This is correct answer. First line contains 7 means the list has 14 (2*7) values. Each value is provided in a separate line, starting from 2nd line. So, 14 lines + the first line. Total 15 lines of input.
+8 - This answer is incorrect. Please read the input description carefully.
+Cannot say - This answer is incorrect. Please read the input description carefully.
+
+We have some sample inputs below.
+Input 1:
+3
+5
+10
+7
+
+
+Input 2:
+2
+9
+7
+16
+25
+
+Which of these is not a valid input for this problem?
+Input 1 - This is correct answer. Since first line is 3 so there should be 6 elements in the array but only 3 elements are there. So it is invalid input.
+Input 2 - This answer is incorrect. This is a valid input.
+
+
+Now that we understood the input format, let us understand the output format.
+
+How many lines should the output contain?
+6 line - 
+7 lines - 
+15 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This is correct answer.
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+2
+10
+15
+52
+24
+
+What should be the output for the above input?
+Output1:
+10
+52
+15
+24
+
+Output2:
+15
+10
+24
+52
+
+Output3:
+52
+10
+24
+15
+
+Output1 - This is correct answer.
+Output2 - This answer is incorrect. Please read the problem statement carefully.
+Output3 - This answer is incorrect. Please read the problem statement carefully.
+
+
+Based on your understanding, come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+
+1. Normal test cases - length of the array is like 5, 8, 10 etc.
+1.1 Elements can be either positive, negative or zero.
+
+Based on these hints, you can come up with at least 1 new test case.
+Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+2
+10
+15
+52
+24
+
+I will try to explain what I did.
+I looked at the first line. It contains 2. So, I came to know that there will be 4 values in the array.
+
+Since there are 4 elements so I know they will be in the order x1,x2,y1 and y2. I have to arrange them in order x1,y1,x2 and y2.
+
+Here I looked into x1 that is 10, next I looked for y1 that is 52.
+
+After y1 next element is x2 which is 15.
+
+After x2 next element will be y2 which is 24.
+
+So I got the final array as 10,52,15,24.
+
+
+Now imagine that the array size is 1000.
+What will you do? Put it in words.
+
+Following are some hints to put the logic in words.
+
+1. As I process 1000 values, it will be difficult for me to remember all the elements of the array. So I will write down all the elements of the array.
+2. Now further I have to check for shuffling which element is x1, y1 then x2,y2 and so on. So it will be difficult for me to remember which is which.
+3. I have observe that xm element will have the index value as m-1 and ym element will have index value as n+m. Where n is the half of the length of array.
+
+Following is what I came up with.
+
+We have 2 major phases in implementation
+Phase 1: One is to read the input of the array.
+Phase 2: Second is shuffling the array.
+
+Phase 1
+1. Read the value of n, that is half the length of array
+2. Create an empty array.
+3. Read the next value from input.
+4. Append it to the array.
+5. Repeat steps 3 and 4 until you read all the elements of the array.
+Phase 2
+6. Create an empty array called resArr
+7. Create a variable i and initialize it to 0.
+8. Now push the element at index i and index i+n.
+9. Move to next element by increasing the value of i by 1.
+10. Repeat step 8 and 9 till value of i reaches to value n.
+11. Now for to index 0 element of the array.
+12. Display that element.
+13. Move to the next element.
+14. Repeat steps 11 and 12 till we reach end of the array.
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+
+
+There are various things to be implemented.
+a. Taking input as an integer (steps 1 and 3).
+b. Displaying output (step 12).
+c. Repeating the process for one number at a time (steps 5, 10 and 14).
+d. Creating an empty array (steps 2 and 6).
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+How to Initialize an empty array? Please refer to assignment "Good Pairs"
+How to use break statements?- Please refer to the lectures where break statements are covered
+How to append an element in array? Please refer to the assignment like "good pairs" and "lucky number"
