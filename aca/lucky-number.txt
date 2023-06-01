@@ -4,46 +4,38 @@ The problem statement mentions that we will have a sorted array. Do you know the
 Yes
 No - Sorted means arranged in either ascending order or descending order.
 
-Which of the following sequence is not sorted?
-5,5,5,5-This is incorrect answer. Since all the integers are same, so they are also sequence of sorted integers.
-9,5,3,3- This is incorrect answer.Here integers are sorted in descending order
-6,7,10,2- This is correct answer. The numbers are neither in ascending order nor in descending order. So they are not sorted.
-
-We are given n integers. What is n supposed to be according to the problem statement.
-number of inputs for given problem- This answer is incorrect. Please read the problem statement carefully.
-natural numbers- This answer is incorrect. Please read the problem statement carefully.
-size of array- This is correct answer. n is size of array.
+Which of the following sequences is not sorted?
+5, 5, 5, 5 -This is incorrect answer. Since all the integers are same, they are also a sequence of sorted integers.
+9, 5, 3, 3 - This is incorrect answer. Here integers are sorted in descending order.
+6, 7, 10, 2 - This is correct answer. The numbers are neither in ascending order nor in descending order. So they are not sorted.
+3, 9, 10, 12 - This is incorrect answer. Here integers are sorted in ascending order.
 
 
 As per the problem statement, we have to print -1 in some scenarios. We have 4 scenarios below. In which of these scenarios should we print -1? 
-S1: When all elements of array are same - This answer is incorrect. Please read the problem statement carefully.
-S2: When all the elements of the array are negative - This answer is incorrect. Please read the problem statement carefully.
-S3: When frequency of all the elements in the array is same - This answer is incorrect. Please read the problem statement carefully.
-S4: When none of the element in the array has frequency equal to its value- This answer is correct
+S1: When all elements of array are same.
+S2: When frequency of all the elements in the array is same.
+S3: When none of the elements in the array has frequency equal to its value.
+
+S1 - This answer is incorrect. Please read the problem statement carefully.
+S2 - This answer is incorrect. Please read the problem statement carefully.
+S3 - This is correct answer.
 
 
-Below are couple of sequence, identify the lucky number/s in each sequence.
-2
-2
-3
-3
-3
+Identify the lucky number in the following sequence.
+2, 2, 3, 3, 3
 
-only 2- This answer is incorrect. 3 is also lucky number. Since here it is not asked to identify first lucky number in sequence. You have to look for all the lucky number.
-only 3- This answer is incorrect. 2 is also lucky number here.
-both 2,3- This is correct answer
-None- This answer is incorrect. Please read problem description and go through defination of lucky number.
+Only 2 - This answer is incorrect. 3 is also a lucky number.
+Only 3 - This answer is incorrect. 2 is also a lucky number.
+Both 2 and 3 - This is correct answer. 2 appears 2 times, so 2 is a lucky number. 3 appears 3 times, so 3 is also a lucky number.
+None - This answer is incorrect. Please read the problem description to understand the meaning of a lucky number.
 
 
-4
-4
-4
-4
-4
+Identify the lucky number in the following sequence.
+4, 4, 4, 4, 4
 
-4- This answer is incorrect. Here we have 5 numbers and all are 4. So frequency of 4 is not equal to 4, so 4 is not a lucky number.
-5- This answer is incorrect. Why do you think 5, because 4 is repeated 5 times? 5 is not even in the sequence.
-No lucky number- This is correct
+4 - This answer is incorrect. 4 appears 5 times. So, the frequency of 4 is 5. So, 4 is not a lucky number.
+5 - This answer is incorrect. 5 is not even present in the sequence. Why do you think 5, because 4 is repeated 5 times?
+No lucky number - This is correct answer. There is only one unique number in the sequence, which is 4. Its frequency is 5. So, it is not a lucky number.
 
 Now that we understand the problem statement, 2nd step is to come up with new test cases.
 First let us understand the input format.
@@ -56,7 +48,7 @@ Not known until we read input - This is correct answer. Until we read the first 
 What does the first line of input contain?
 Size of the sequence - This is correct answer.
 First value of the sequence - This answer is incorrect. Please read the input description carefully.
-space separated integers- This answer is incorrect. Please read the input description carefully.
+Space separated integers - This answer is incorrect. Please read the input description carefully.
 Don't know - Please read the input description provided in the assignment.
 
 Suppose first line contains 23. Then, how many lines will the input have?
@@ -113,16 +105,15 @@ Input:
 6
 1
 2
-2
 3
 3
 3
 
 What should be the output for the above input?
--1 - This answer is incorrect. Please read the problem statement carefully.
-3 - This answer is incorrect. Please read the problem statement carefully.
-2 - This answer is incorrect. Please read the problem statement carefully.
-1 - This is correct answer.
+-1 - This answer is incorrect. -1 means there is no lucky number in the given sequence. The given sequence contains a lucky number.
+3 - This answer is incorrect. 3 is a lucky number, but it is not the first lucky number in the given sequence.
+2 - This answer is incorrect. 2 is not a lucky number.
+1 - This is correct answer. Both 1 and 3 are lucky numbers. In the sequence 1 appears first, so we should output 1.
 
 We need to print the number whose frequency is same as that of its value.Here all three elements have satisfy that criteria. So all three(i.e 1,2,3) are lucky numbers
 
