@@ -5,21 +5,22 @@ Yes
 No - Sorted means arranged in either ascending order or descending order.
 
 Which of the following sequences is not sorted?
-5, 5, 5, 5 -This is incorrect answer. Since all the integers are same, they are also a sequence of sorted integers.
-9, 5, 3, 3 - This is incorrect answer. Here integers are sorted in descending order.
+5, 5, 5, 5 - This answer is incorrect. Since all the integers are same, they are also a sequence of sorted integers.
+9, 5, 3, 3 - This answer is incorrect. Here integers are sorted in descending order.
 6, 7, 10, 2 - This is correct answer. The numbers are neither in ascending order nor in descending order. So they are not sorted.
-3, 9, 10, 12 - This is incorrect answer. Here integers are sorted in ascending order.
+3, 9, 10, 12 - This answer is incorrect. Here integers are sorted in ascending order.
+Don't know the meaning of sorted
 
+As per the problem statement "lucky integer is an integer which has a frequency in the array equal to its value".
+Do you know the meaning of frequency?
+Yes
+No - Frequency means the number of times it appears in the given sequence
 
-As per the problem statement, we have to print -1 in some scenarios. We have 4 scenarios below. In which of these scenarios should we print -1? 
-S1: When all elements of array are same.
-S2: When frequency of all the elements in the array is same.
-S3: When none of the elements in the array has frequency equal to its value.
-
-S1 - This answer is incorrect. Please read the problem statement carefully.
-S2 - This answer is incorrect. Please read the problem statement carefully.
-S3 - This is correct answer.
-
+What is the frequency of 10 in the following sequence?
+3, 9, 10, 12
+0 - This answer is incorrect.
+1 - This is correct answer. 10 appears 1 time in the sequence. So its frequency is 1.
+2
 
 Identify the lucky number in the following sequence.
 2, 2, 3, 3, 3
@@ -36,6 +37,15 @@ Identify the lucky number in the following sequence.
 4 - This answer is incorrect. 4 appears 5 times. So, the frequency of 4 is 5. So, 4 is not a lucky number.
 5 - This answer is incorrect. 5 is not even present in the sequence. Why do you think 5, because 4 is repeated 5 times?
 No lucky number - This is correct answer. There is only one unique number in the sequence, which is 4. Its frequency is 5. So, it is not a lucky number.
+
+As per the problem statement, we have to print -1 in some scenarios. We have 4 scenarios below. In which of these scenarios should we print -1? 
+S1: When all elements of array are same.
+S2: When frequency of all the elements in the array is same.
+S3: When none of the elements in the array has frequency equal to its value.
+
+S1 - This answer is incorrect. Please read the problem statement carefully.
+S2 - This answer is incorrect. Please read the problem statement carefully.
+S3 - This is correct answer.
 
 Now that we understand the problem statement, 2nd step is to come up with new test cases.
 First let us understand the input format.
