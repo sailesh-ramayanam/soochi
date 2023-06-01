@@ -58,13 +58,12 @@ Not known until we read input - This is correct answer. Until we read the first 
 What does the first line of input contain?
 Size of the sequence - This is correct answer.
 First value of the sequence - This answer is incorrect. Please read the input description carefully.
-Space separated integers - This answer is incorrect. Please read the input description carefully.
 Don't know - Please read the input description provided in the assignment.
 
-Suppose first line contains 23. Then, how many lines will the input have?
-23 - This answer is incorrect. Please read the input description carefully.
-24 - This is correct answer. First line contains 23 means the list has 23 values. Each value is provided in a separate line, starting from 2nd line. So, 23 lines + the first line. Total 24 lines of input.
-22 - This answer is incorrect. Please read the input description carefully.
+Suppose first line contains 17. Then, how many lines will the input have?
+17 - This answer is incorrect. Please read the input description carefully.
+18 - This is correct answer. First line contains 17, means the sequence has 17 values. Each value is provided in a separate line, starting from 2nd line. So, 17 lines + the first line. Total 18 lines of input.
+16 - This answer is incorrect. Please read the input description carefully.
 Cannot say - This answer is incorrect. Please read the input description carefully.
 
 We have some sample inputs below.
@@ -92,10 +91,10 @@ Input 4:
 9
 
 Which of these is not a valid input for this problem?
-Input 1- This answer is incorrect. Why do you think this is invalid, because numbers are in decreasing order? Please read the input description carefully.
-Input 2- This answer is incorrect. Why do you think this is invalid, because all numbers are same? Please read the input description carefully.
-Input 3- This answer is incorrect. Why do you think this is invalid, because there is one negative integer? Please read the input description carefully.
-Input 4- This is correct answer. Input 4 is invalid, because it has decimal value.And in the problem description it is given that we have n integers, so there will be no decimal values.
+Input 1 - This answer is incorrect. Why do you think this is invalid? Is it because numbers are sorted in decreasing order? Please read the input description carefully.
+Input 2 - This answer is incorrect. Why do you think this is invalid? Is it because all numbers are same? Please read the input description carefully.
+Input 3 - This answer is incorrect. Why do you think this is invalid? Is it because there is a negative integer? Please read the input description carefully.
+Input 4 - This is correct answer. Input 4 is invalid, because it has a decimal value. As per the problem statement, input will contain only integers.
 
 
 
@@ -103,7 +102,7 @@ Now that we understood the input format, let us understand the output format.
 
 
 How many lines should the output contain?
-1 line - This is correct answer. Output should contain 1 line.
+1 line - This is correct answer. Output should contain 1 line. We should print the lucky integer.
 2 lines - This answer is incorrect. Please read the output description carefully.
 3 lines - This answer is incorrect. Please read the output description carefully.
 Not known until we read input - This answer is incorrect. Please read the output description carefully.
@@ -120,29 +119,26 @@ Input:
 3
 
 What should be the output for the above input?
--1 - This answer is incorrect. -1 means there is no lucky number in the given sequence. The given sequence contains a lucky number.
+-1 - This answer is incorrect. -1 means there is no lucky number in the given sequence. But, the given sequence contains a lucky number.
 3 - This answer is incorrect. 3 is a lucky number, but it is not the first lucky number in the given sequence.
 2 - This answer is incorrect. 2 is not a lucky number.
 1 - This is correct answer. Both 1 and 3 are lucky numbers. In the sequence 1 appears first, so we should output 1.
-
-We need to print the number whose frequency is same as that of its value.Here all three elements have satisfy that criteria. So all three(i.e 1,2,3) are lucky numbers
-
-But If we have more than one lucky number then we have to print the number which has occured first(element with least index). Here number 1 has occured first so output is 1
 
 While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
 
 Following are some hints for coming up with new test cases.
 
-1. Normal test cases - length of the list is like 5, 8, 10 etc.
-1.1 Only 1 lucky number
+1. Normal test cases - length of the sequence is like 5, 8, 10 etc.
+1.1. Only 1 lucky number
 1.2. Multiple lucky numbers
 
 2. Boundary test cases
-2.1. All the vlaues in the list are same
-2.2. List have multiple values and only last value is lucky number
+2.1. All the values in the sequence are same
+2.2. The sequence has multiple unique values and the first value is lucky number
+2.3. The sequence has multiple unique values and only the last unique value is lucky number
 
 
-Based on these hints, you can come up with at least 4 new test cases.
+Based on these hints, you can come up with at least 5 new test cases.
 Write them on a paper along with the expected output.
 
 We have completed 2 steps in problem solving approach.
@@ -181,13 +177,13 @@ Now I compared count of 1 with 1, I see that both are same. I got lucky number n
 
 If you observe for this test case there are three lucky numbers, but output will be 1, since the number 1 is having least index
 
-Now imagine that the list size is 1000.
+Now imagine that the sequence size is 1000.
 What will you do? Put it in words.
 
 Following are some hints to put the logic in words.
 
 1. As I process 1000 values, it will be difficult for me to remember the frequency number in my memory. So, I will take a paper and write down the number with its frequency. That way, for every value, I will update the paper and I don't need to worry about forgetting.
-2. If it is a small list like 3 or 5 values, then it is easy for me to remember how many values I checked. But 1000 is a large number. So, to avoid checking more than 1000, I will also keep a count of how many values I checked until now. Whenever it reaches 1000, I will stop processing. This count also, I will write on a paper. 
+2. If it is a small sequence like 3 or 5 values, then it is easy for me to remember how many values I checked. But 1000 is a large number. So, to avoid checking more than 1000, I will also keep a count of how many values I checked until now. Whenever it reaches 1000, I will stop processing. This count also, I will write on a paper. 
 3. Actually I don't have to iterate through whole array, once I got the lucky number. There is no point in counting frequency of any other number once we got the lucky number
 
 Following is what I came up with.
@@ -285,4 +281,4 @@ Following are some common mistakes.
 5. Comparing frequency of number to its value at incorrect place.
 6.Not assigning value of variable count again to 1, or assigning it at incorrect place.
 7. Using break statement at incorrect place (if you are using it).
-8. Not handling boundary conditions (observe the boundary test cases), especially the case when last number of the list is lucky number.
+8. Not handling boundary conditions (observe the boundary test cases), especially the case when last number of the sequence is lucky number.
