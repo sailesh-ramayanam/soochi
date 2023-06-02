@@ -279,20 +279,21 @@ Let us convert the algorithm step by step.
 
 There are various things to be implemented.
 a. Taking input as an integer (steps 1 and 3)
-b. Initialize an empty array (step 2)
-c. Creating new variables (step 6)
-d. Append an element in array.(step 4)
-e. Comparing numbers (steps 9, 11.1 and 15)
-f. Displaying output (steps 11.2, 15.1 and 15.2)
-g. Repeating the process for one number at a time (steps 5 and 12)
-h. Break statement- (step 11.2)
-i. Create an empty array(step 2)
+b. Creating new variables (steps 1, 2, 3 and 6)
+c. Displaying output (steps 14, 15.1 and 15.2)
+d. Comparing numbers (steps 9, 11.1, 14 and 15)
+e. Conditional block (steps 10, 11, 14 and 15)
+f. Loop (steps 5 and 12)
+g. Break out of a loop (step 11.2)
+h. Initialize an empty array (step 2)
+i. Append an element to an array (step 4)
+j. Access an element of an array by index (step 8)
 
 We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
 
-How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
-How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
-How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take input? - Please refer to assignments from STOC module.
+How to create variables? - Please refer to assignments from STOC module.
+How to compare 2 values? - Please refer to assignments from STOC module.
 How to take different actions? - Please refer to the assignment "Rating contest"
 How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
 How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
