@@ -111,7 +111,7 @@ Let us now look at some sample test cases.
 
 Consider the following input.
 Input:
-6
+5
 1
 2
 3
@@ -157,9 +157,8 @@ Now write down, how you arrived at the result.
 Let us demonstrate through an example.
 
 One test input from above is
-6
+5
 1
-2
 2
 3
 3
@@ -167,15 +166,66 @@ One test input from above is
 
 I will try to explain what I did.
 
+I looked at the first line. It contains 5. So, I came to know that there will be 5 values in the sequence.
+
+Then I looked at 1. And wrote the count of 1 equals to 1.
+
+Then I looked at 2 and compared it with previous value (i.e. 1). They are not equal. This means that there won't be any more 1's in the sequence.
+
+How can we say that there won't be any more 1's after 2? Bunny and Bablu gave 2 different reasons.
+Bunny: Problem statement says that the values won't be repeated.
+Bablu: Problem statement says that the sequence is sorted. In a sorted sequence, any repeated values will always appear consecutively (i.e. side-by-side).
+
+Who is correct?
+
+Bunny - This answer is incorrect. The problem statement does not say it. In fact, in the given sequence 3 is repeated 3 times.
+Bablu - This is correct answer.
+Both are correct - This answer is incorrect. Please read the problem statement carefully.
+Both are wrong
+
+
+Now I know that there won't be any more 1's in the sequence. I see that the count of 1 is 1. I found a lucky number. I can stop as I have to output only the first lucky number (note that the given sequence has two lucky numbers).
+
+Let us repeat this exercise for the following input.
+6
+1
+1
+2
+3
+4
+4
+
+Before continuing further, first write down the steps by yourself. And then, you can compare with what I have.
+
 I looked at the first line. It contains 6. So, I came to know that there will be 6 values in the sequence.
 
-Then I looked at 1.And wrote the count of 1 equals to 1.
+Then I looked at the next line. It contains 1. I started making a note of the frequency. I have seen one 1. So the frequency is 1.
 
-Then I looked at 2 and compared it with previous value that is 1, they are not equal.
+I looked at the next line. It contains 1. It is same as the previous value. So, I increase the frequency.
+After the above step, what is the frequency of 1?
+0 - This answer is incorrect.
+1
+2 - This is correct answer. Until now, 1 appeared 2 times.
 
-Now I compared count of 1 with 1, I see that both are same. I got lucky number now, so I don't have to check further. Since it is asked to return lucky number with least index.
+I looked at the next line. It contains 2. It is different from the previous value. So, now we know that the frequency of 1 is 2. So, 1 is not a lucky number. So, now I will start noting down the frequency of the new value (viz. 2).
+After the above step, what is the frequency of 2?
+0 - This answer is incorrect.
+1 - This is correct answer. Until now, 2 appeared 1 time.
+2
 
-If you observe for this test case there are three lucky numbers, but output will be 1, since the number 1 is having least index
+I looked at next line. It contains 3. It is different from the previous value. So, now we know that the frequency of 2 is 1. So, 2 is not a lucky number. So, now I will start noting down the frequency of the new value (viz. 3).
+
+I looked at next line. It contains 4. It is different from the previous value. So, now we know that the frequency of 3 is 1. So, 3 is not a lucky number. So, now I will start noting down the frequency of the new value (viz. 4).
+
+I looked at the next line. It contains 4. It is same as the previous value. So, I increase the frequency.
+After the above step, what is the frequency of 4?
+0 - This answer is incorrect.
+1
+2 - This is correct answer. Until now, 4 appeared 2 times.
+
+By now, I have completed looking at all the 6 values. So, the final value is 4 and its frequency is 2. So, 4 is not a lucky number.
+
+There is no lucky number in the given sequence.
 
 Now imagine that the sequence size is 1000.
 What will you do? Put it in words.
@@ -184,7 +234,7 @@ Following are some hints to put the logic in words.
 
 1. As I process 1000 values, it will be difficult for me to remember the frequency number in my memory. So, I will take a paper and write down the number with its frequency. That way, for every value, I will update the paper and I don't need to worry about forgetting.
 2. If it is a small sequence like 3 or 5 values, then it is easy for me to remember how many values I checked. But 1000 is a large number. So, to avoid checking more than 1000, I will also keep a count of how many values I checked until now. Whenever it reaches 1000, I will stop processing. This count also, I will write on a paper. 
-3. Actually I don't have to iterate through whole array, once I got the lucky number. There is no point in counting frequency of any other number once we got the lucky number
+3. Once I find a lucky number, I can stop processing the rest of the sequence.
 
 Following is what I came up with.
 
@@ -199,17 +249,17 @@ Phase 1
 4. Append it to the array
 5. Repeat steps 3 and 4 until you read all values of the sequence
 Phase 2
-6. Create a new variable called count and initialize it to 1
+6. Create a new variable called frequency and initialize it to 1
 7. Start from the second element of the array (Why second? Why not first?)
 8. Take the element (why are we starting from second element and not first element?)
 9. Compare it with the previous element
-10. If current element and previous element have same value then increase the count by 1
+10. If current element and previous element have same value then increase the frequency by 1
 11 Otherwise
 11.1 Compare count value with the previous element value
 11.2 If they are equal then you have found a lucky number. Stop and break out of the loop.
-11.3 Otherwise reset the value of count to 1 (Why 1? Why not 0?)
+11.3 Otherwise reset the value of frequency to 1 (Why 1? Why not 0?)
 12. Repeat steps 8 to 11 until we reach end of array.
-13. We need to check if we came out of the loop becasue we found lucky number or because we reached end of the array.
+13. Once we are out of the loop, we need to check if we came out of the loop because we found lucky number or because we reached end of the array.
 14. If we found lucky number, then display it.
 15. If we reached end of the array, then check if the frequency of last element is same as its value.
 15.1 If yes then last element is the lucky number. Display it.
