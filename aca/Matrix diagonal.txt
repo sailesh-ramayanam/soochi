@@ -1,0 +1,282 @@
+First step is "Understand the problem statement".
+
+Do you know what is a 2 Dimensional array?
+Yes
+No- 2 Dimensional arrays are arrays where the data element's position is referred to, by two indices. The name specifies two dimensions, that is, row and column. E.g. we have an array
+arr =[[5, 9],
+      [17,13]]
+here if we want to access element 17, we will access it by using arr[1][0], where 1 and 0 indicates the row and column of element 17 respectively. Please go through lecture recordings where 2-dimensional arrays are covered.
+
+Which of the following is 2D array?
+[[5]]- This is correct answer.
+[20, 13]- This answer is incorrect. Why do you think it is a 2D array, because there are 2 elements in array?. This is 1D array with only 2 elements. Please go through lecture recordings where 2-dimensional arrays are covered.
+[[[53]], [[19]]]- This answer is incorrect. Actually this is 3D array. Please revise concept of multi-dimensional array, and watch lecture recordings of 2D array.
+
+Which of the following statement is correct about length of the 2D array?
+Option1: Length of 2D array is equal to the number of rows in the array.
+Option2: Length of 2D array is equal to the number of columns in the array.
+Option3: Length of 2D array is equal to the sum of number of rows and number of columns in the array.
+Optio4: Length cannot be determined for 2D arrays.
+
+Option1- This is correct answer.
+Option2- This answer is incorrect. Please rewatch the lectures on 2D arrays
+Option3- This answer is incorrect. Please rewatch the lectures on 2D arrays
+Option4- This answer is incorrect. Length of 2D array is equal to the number of rows in 2D arrays. Please rewatch the lectures on 2D arrays.
+
+We have 2 dimensional array, which of the following array does not have size n*n?
+A1:
+9 15 -17
+13 -71 62
+-83 -51 78
+
+A2:
+10 10
+-10 10
+
+A3:
+25 -36 64
+-81 62 93
+
+A1- This answer is incorrect. Since number of rows is equal to number of columns, so it is an array of size n*n (or n*n matrix).
+A2- This answer is incorrect. Since number of rows is equal to number of columns, so it is an array of size n*n (or n*n matrix).
+A3- This is correct answer.
+
+What does element 'e' refers to in the given problem statement?
+option 1: Any element of the given 2 dimensional array.
+option 2: Only diagonal element of the given array.
+
+Option 1- This answer is incorrect. Please read the problem description carefully.
+Option 2- This is correct answer.
+
+Suppose the element 'e' is equal to 0, what changes we have to apply to this element?
+Change element to 1- This is correct answer.
+Change element to -1- This is incorrect answer, please read the description carefully.
+No change- This is incorrect answer, please read the description carefully.
+Don't Know- Please read the description carefully.
+
+In which of the following scenario there will be no change with the element value?
+S1: Only when element is equal to 1
+S2: Only when element is equal to -1
+S3: When element is equal to either -1 or 1
+S4: When element is equal to either 0, -1 or 1
+
+S3- This answer is incorrect. Please read the problem description carefully.
+S2- This answer is incorrect. Please read the problem description carefully.
+S1- This is correct answer.
+S4- This answer is incorrect. Please read the problem description carefully.
+
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+4 lines - This answer is incorrect. Please read the input description carefully.
+5 lines - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This is correct answer.
+
+What does the first line of input contain?
+Length of 2D array - This is correct answer.
+First row of 2D array - This answer is incorrect. Please read the input description carefully.
+First column of 2D array- This answer is incorrect. Please read the input description carefully.
+Don't know - Please read the input description provided in the assignment.
+
+What does the second line of input contain?
+First column of array - This answer is incorrect. Please read the input description carefully.
+First row of 2D array- This is correct answer
+Don't know - Please read the input description provided in the assignment.
+
+Suppose first line of input contains 15. Then, how many lines will the input have?
+15 - This answer is incorrect. Please read the input description carefully.
+16 - This is correct answer. First line contains 15 means the array has 15 rows and 15 columns. Each row of 2D is provided in a separate line, starting from 2nd line. So, 15 lines + the first line. Total 16 lines of input.
+17 - This answer is incorrect. Please read the input description carefully.
+Cannot say - This answer is incorrect. Please read the input description carefully.
+
+
+We have some sample inputs below.
+Input 1:
+2
+-17 23 35
+72 -41 53
+
+Input 2:
+3
+42 83 -68
+39 -26 16
+32 15 92
+
+
+Which of these is not a valid input for this problem?
+Input 2- This answer is incorrect. Please read problem description carefully.
+Input 1- This is correct answer. Input 1 is invalid because number of rows is not equal to number of columns. So the given matrix is not n*n, since it is mentioned in the problem statement that it should be n*n.
+
+
+Now that we understood the input format, let us understand the output format.
+
+
+How many lines should the output contain?
+4 lines - This answer is incorrect. Please read the output description carefully.
+5 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This answer is correct. Since output depends on initial size of array.
+
+What does the first line of output contain?
+First row of final array- This is correct answer.
+First column of final array- This answer is incorrect. Please read the output description carefully.
+Don't know- Please read the output description carefully.
+
+Suppose the given array is
+42 83 -68
+39 -26 16
+32 15 92
+
+Which of the following elements we have to change?
+42,-26,92- This is correct answer.
+-68,-26,32- This answer is incorrect. We have to consider only left to right diagonal. Please observe the sample output carefully
+42,-26,92,-68,32- This answer is incorrect. We have to consider only left to right diagonal. Please observe the sample output carefully
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+4
+20 10 13 40
+-1 11 3 7
+9 51 -1 61
+5 -3 -9 0
+
+What should be the output for the above input?
+Output 1
+1 10 13 40
+0 1 3 7
+9 51 0 61
+5 0 0 1
+
+Output 2
+1 10 13 40
+-1 1 3 7
+9 51 0 61
+5 -3 -9 0
+
+Output 3
+1 10 13 40
+-1 1 3 7
+9 51 0 61
+5 -3 -9 1
+
+Output 1 - This answer is incorrect. You don't have to change all negative elements to 0. Please read problem description carefully
+Output 2 - This answer is incorrect. Please read problem statement carefully.
+Output 3 - This is correct answer.
+
+
+While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+
+1. Normal test cases - length of the array is like 5, 8, 10 etc.
+1.1 When all numbers are greater than or equal to zero
+1.2 When all numbers are less than zero
+1.3 When all numbers are positive, negative as well as zero
+
+
+Based on these hints, you can come up with at least 3 new test cases.
+Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previously.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+4
+20 10 13 40
+-1 11 3 7
+9 51 -1 61
+5 -3 -9 0
+
+I will try to explain what I did.
+
+I looked at the first line. It contains 4 that means there size of 2D array is 4*4 (i.e 4 rows and 4 columns).
+
+Then I see in the next 4 lines, these are 4 rows of 2D array.
+
+Now I looked at first row and index 0 element of that row. I see it is not less than 0. SO I change it to 1
+
+Now I looked at second row and index 1 element of that row. I see it is not less than 0. SO I change it to 1
+
+Now I looked at third row and index 2 element of that row. I see it is less than 0. SO I change it to 0
+
+Now I looked at forth row and index 3 element of that row. I see it is not less than 0. SO I change it to 1
+
+
+Now imagine that the size of array is 1000*1000
+What will you do? Put it in words.
+
+Following are some hints to put the logic in words.
+
+1. As there are 1000 rows it will be difficult for me to remember each row of the array, so I will take a paper and note down all the rows of 2D array.
+2. Again I have to see through each row and look into diagonal elements and see if it is nrgative or not, if it is negative, I have to change it to -1 otherwise I have to change it to 1.
+
+Hint: The diagonal elements will have row value same as the column value (e.g arr[0][0] or arr[5][5])
+
+Following is what I came up with.
+
+We have 2 major phases in the implementation.
+Phase 1: One is to read the rows of 2D array and store it in 2D array.
+Phase 2: Second is changing the elements of the diagonal of the array.
+
+1. Read the length of 2D array from input
+2. Create an empty array
+3. Read the next row from input
+4. Append it to the array
+5. Repeat steps 3 and 4 until you read all rows of 2D array.
+Phase 2
+6. Now go to first row of 2D array.
+7. Go to that element row value is equal to its column value and check if it is negative or not
+7.1 If it is negative, then change it to 0.
+7.2 Otherwise, change it to 1.
+8. Move to next row.
+9 Repeat step 7, 7.1, 7.2 and 8 untill we reach end of the array.
+10. Go to first row of array.
+11. Display that row, with elements are separated by spaces.
+12. Move to next row.
+13. Repeat steps 11 and 12 untill we reach end of the array.
+
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+
+There are various things to be implemented.
+a. Taking input as an integer (step 1).
+b. Displaying output (step 11).
+c. Repeating the process for one number at a time (steps 5, 9 and 13).
+d. Creating an empty array (step 2).
+e. Read space separated numbers as input.(step 3)
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+How to create an empty array?- Use let arr = [], please refer lecture recordings this is covered in lecture.
+How to read space separated numbers as input? Please refer to assignments like "good pairs"
