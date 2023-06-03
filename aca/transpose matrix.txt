@@ -1,0 +1,250 @@
+First step is "Understand the problem statement".
+
+
+Do you know what is a 2 Dimensional array?
+Yes
+No- 2 Dimensional arrays are arrays where the data element's position is referred to, by two indices. The name specifies two dimensions, that is, row and column. E.g. we have an array
+arr =[[5, 9],
+      [17,13]]
+here if we want to access element 17, we will access it by using arr[1][0], where 1 and 0 indicates the row and column of element 17 respectively. Please go through lecture recordings where 2-dimensional arrays are covered.
+
+Which of the following is 2D array?
+[[5]] - This is correct answer.
+[20, 13] - This answer is incorrect. Why do you think it is a 2D array, because there are 2 elements in array?. This is 1D array with only 2 elements. Please go through lecture recordings where 2-dimensional arrays are covered.
+[[[53]], [[19]]] - This answer is incorrect. Actually this is 3D array. Please revise concept of multi-dimensional array, and watch lecture recordings of 2D array.
+
+Which of the following statement is correct about length of the 2D array?
+Option1: Length of 2D array is equal to the number of rows in the array.
+Option2: Length of 2D array is equal to the number of columns in the array.
+Option3: Length of 2D array is equal to the sum of number of rows and number of columns in the array.
+Optio4: Length cannot be determined for 2D arrays.
+
+Option1 - This is correct answer.
+Option2 - This answer is incorrect. Please rewatch the lectures on 2D arrays
+Option3 - This answer is incorrect. Please rewatch the lectures on 2D arrays
+Option4 - This answer is incorrect. Length of 2D array is equal to the number of rows in 2D arrays. Please rewatch the lectures on 2D arrays.
+
+Below 2D matrix has m rows and n columns?
+10 20 30 40 50
+15 25 31 42 58
+74 27 15 74 92
+
+Which of the following statement is true regarding m and n?
+m = 3 and n = 5 -  This is correct answer. Numbers of rows are 3 and number of columns are 5 in the above array.
+m = 5 and n = 3 - This answer is incorrect. Please watch the lectures on 2D array to understand the concept of rows and column in 2D array.
+
+Do you know what is the transpose of a matrix?
+Yes
+No - For a given matrix, the transpose of a matrix is obtained by interchanging rows into columns or columns to rows.
+
+What will be the transpose of below matrix?
+45 63
+15 94
+29 46
+20 28
+
+Option1:
+45 15 29 20
+63 94 46 28
+
+Option2:
+45 63 15 94
+29 46 20 28
+
+Option3:
+63 94 46 28
+45 15 29 28
+
+Option1 - This is correct answer.
+Option2 - This answer is incorrect. Please refer to the example in problem to understand how to transpose a matrix.
+Option3 - This answer is incorrect. Please refer to the example in problem to understand how to transpose a matrix.
+
+Suppose a given matrix has n rows and m columns. How many rows and columns will the transpose of that matrix will have?
+m rows and n columns - This is correct answer.
+n rows and m columns - This answer is incorrect.
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+5 lines - This answer is incorrect. Please read the input description carefully.
+6 lines - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This is correct answer. Until we read the first line of input, we don't know how many lines the input contains.
+
+What does the first line of input contain?
+Size of the matrix - This is correct answer.
+First row of the list - This answer is incorrect. Please read the input description carefully.
+Don't know - Please read the input description provided in the assignment.
+
+Suppose first line contains 15. Then, how many lines will the input have?
+15 - This answer is incorrect. Please read the input description carefully.
+16 - This is correct answer. First line contains 15 means matrix has 15 rows. Each row is provided in a separate line, starting from 2nd line. So, 15 lines + the first line. Total 16 lines of input.
+17 - This answer is incorrect. Please read the input description carefully.
+Cannot say - This answer is incorrect. Please read the input description carefully.
+
+What does the second line of input contain?
+First row of the matrix - This is correct answer
+First column of the matrix - This answer is incorrect. Please read the input description carefully.
+
+We have some sample inputs below.
+Input 1:
+3
+15 28 54
+29 94 28
+
+Input 2:
+2
+48 29 84 27
+47 20 37 19
+
+Which of these is not a valid input for this problem?
+Input 1 - This is correct answer. Since first line of input contains 3 so there should be 3 rows but in the given matrix there are only 3 rows.
+Input 2 - This answer is incorrect. Why do you think this is invalid, because there are 4 elements in row each row.
+
+
+Now that we understood the input format, let us understand the output format.
+
+How many lines should the output contain?
+1 line - 
+2 lines - 
+3 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This is correct answer.
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+3
+29 47
+84 37
+94 28
+
+What should be the output for the above input?
+Output1: 
+29 47
+84 37
+94 28
+
+Output2:
+29 84 94
+47 37 28
+
+Output3:
+47 37 28
+29 84 94
+
+Output1 - This answer is incorrect. After transposing a matrix rows and columns are interchanged.
+Output2 - This is correct answer. Here rows and columns are interchanged, so this is transpose of the given matrix.
+Output3 - This answer is incorrect. Please read about transposing a matrix.
+
+
+Based on your understanding, come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+
+1. Normal test cases - length of the matrix is like 5, 8, 10 etc.
+1.1 Total columns in the matrix be like 4, 7, 9 etc.
+
+Based on these hints, you can come up with at least 1 new test cases.
+Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+3
+29 47
+84 37
+94 28
+
+I will try to explain what I did.
+I looked at the first line. It contains 3. So, I came to know that there will be 3 rows in the array.
+
+Then I looked at elements of first column, which are 29, 84, 94. I have to interchange rows and column for transposing the array. So first row of output will be 29 84 and 94
+
+Then I looked at elements of second column, which are 47, 37 and 28. Now these elements will be second row of the output.
+
+There are no columns after second column.
+
+So now my final output will be
+29 84 94
+47 37 28
+
+Now imagine that there are 1000 rows in array.
+What will you do? Put it in words.
+
+Following are some hints to put the logic in words.
+
+1. As I process 1000 values, it will be difficult for me to remember the elements of the row of array. So I will write it down in a paper.
+2. Now I will start from first coulmn of the array and write it down as the first row. Then move to next coulmn and write it as second row.
+3. Similary I will do it till I reach last row
+
+Following is what I came up with.
+
+We have 2 major phases in the implementation.
+Phase 1: One is to read the elements of 2D array.
+Phase 2: Second is transposing the array.
+
+Phase 1
+1. Read the size of 2D array
+2. Create an empty array.
+3. Read the row of 2D array from next line, which are space separated integers.
+4. Append it to the array.
+5. Repeat steps 3 and 4 until you read all rows of 2D array.
+Phase 2
+6. Create an empty array called resArr.
+7. Create a variable i and initialize it to 0.
+8. Create an empty array called column.
+9. Create a variable j and initialize it to 0.
+10. Now append the element at index (j,i) from input array to column array.
+11. Increase the value of j by 1.
+12. Repeat step 10 and 11 till j reaches the size of input array(i.e. 2D array and size is length of array).
+13. Now append the column array to resArr array.
+14. Increase the value of i by 1.
+15. Repeat step 8,9,10,11,12,13 and 14 till i reaches the length of first row of input array.
+16. Create a varible k and initialize it to 0.
+17. Go to row k of the resArr and display all the elements of row space separated.
+18. Increase the value of k by 1
+19. Repeat steps 17 and 18 till k reaches the length of resArr.
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+
+There are various things to be implemented.
+a. Taking input as an integer (step 1).
+b. Creating new variables (steps 7, 9 and 16).
+c. Creating empty array. (steps 2, 6 and 8).
+d. Displaying output (step 17).
+e. Repeating the process for one number at a time (step 12, 15 and 19).
+f. Append an element or an array to an array (steps 4, 10 and 13).
+
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
