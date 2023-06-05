@@ -7,31 +7,34 @@ The problem statement talks about exporting and importing certain components. Th
 
 Let us try to break down the question.
 The question asks us to export certain components. How many components are we expected to export?
-1 - This answer is incorrect. Please read the problem description carefully.
-2
-3
-4 - This is correct answer.
+1 component - This answer is incorrect. Please read the problem description carefully.
+2 components
+3 components
+4 components - This is correct answer.
 
-The question also mentions which components to export. Which of the following components is not present in the question?
+The question also mentions which components to export.
+Which of the following components is not present in the question?
 Heading - This answer is incorrect. Please read the problem description carefully.
 SubHeading
 Title - This is correct answer. There is no component called Title, in this assignment.
 SubmitButton
 
-Which file should we import the components into?
+Into which file should we import the components?
 Heading.js - This answer is incorrect. Please read the problem description carefully.
 SubHeading.js
 InputQuery.js
-SubmitButton.js
 App.js - This is correct answer.
+SubmitButton.js
 
-Second step is "Come up with new test cases".
+Now that we understand the problem statement, 2nd step is "Come up with new test cases".
 
 In this assignment we should build only a UI (user interface). There is no functionality requirement in the question.
 
-So, make sure that your output matches with the sample screenshot provided in the assignment.
+So, there are no specific test cases. Just make sure that your output matches with the sample screenshot provided in the assignment.
 
-Third step is "Coming up with logic".
+We have completed the second step. Third step is "Coming up with logic".
+
+For this assignment, logic means step-by-step procedure on how to relate and compose the various components.
 
 In this assignment we have multiple React components. We need to render them in the UI.
 The logic is very simple.
@@ -39,40 +42,43 @@ The logic is very simple.
 2. Import each of the components
 3. Render each of the components, one below the other
 
-Fourth step is "Convert logic to code".
+We have completed the third step. Fourth step is "Convert logic to code".
 
 Following is the logic we came up with.
 1. Export the individual components
 2. Import each of the components
 3. Render each of the components, one below the other
 
-There are 3 concepts here, export, import and render.
+There are 3 concepts here, export, import and render. Choose an option to find out how that concept is related to the current question.
 
 Below we have 2 methods to export a React component. Which method is correct?
+------
 Method 1:
 export function Heading() {
     ...
 }
-
+------
 Method 2:
 function Heading() {
     ...
 }
 export Heading;
-
+------
 Method 1 - This is correct answer. This is called a named export.
-Method 2 - This answer is incorrect. Please revise the lectures.
+Method 2 - This answer is incorrect. Please revise the concepts and try again.
 Both are correct
 Both are wrong
 
-We have a file Heading.js as given below.
+We have a file named Heading.js as given below.
 export function Heading() {
     return (
         <h1>Welcome to our Site.</h1>
     )
 }
 
-We have another file MainPage.js in the same folder as Heading.js. Below, we have a few methods to import Heading in MainPage. Which method is correct?
+We have another file named MainPage.js, located in the same folder as Heading.js.
+
+Below, we have a few methods to import Heading in MainPage. Which method is correct?
 Method 1: import Heading from "Heading.js"
 Method 2: import Heading from "./Heading.js"
 Method 3: import { Heading } from "Heading.js"
@@ -81,9 +87,11 @@ Method 4: import { Heading } from "./Heading.js"
 Method 1 - This answer is incorrect. To import a named export we must use flower brackets.
 Method 2
 Method 3 - This answer is incorrect. We must use relative path for the file name.
-Method 4 - This is correct answer. To import a named export we must use flower brackets. Also, we must use relative path for the file name.
+Method 4 - This is correct answer. Two points must be taken care of, when importing a React component.
+1. To import a named export we must use flower brackets. 
+2. We must use relative path for the file name.
 
-Next, let us discuss about rendering a component. Rendering a component means using it so that it appears in the UI.
+Rendering a component means using it so that it appears in the UI.
 In a React application, where does the rendering start from?
 App.js - This is correct answer. React application rendering starts from App.js
 index.html - This answer is incorrect.
@@ -116,12 +124,12 @@ Bablu:
 
 Who is correct?
 
-Bunny - This is correct answer. A react component must always return a single element. Here, we are returning a div element.
-Bablu - This answer is incorrect. Here we are returning 2 elements (viz. Heading and SubHeading). A react component must always return a single element.
+Bunny - This is correct answer. A react component must always return a single top-level element. Here, we are returning a div element. In Bunny's solution, we are returning 2 top-level elements (viz. Heading and SubHeading), which is incorrect.
+Bablu - This answer is incorrect. Here we are returning 2 top-level elements (viz. Heading and SubHeading). A react component must always return a single top-level element.
 Both are correct - This answer is incorrect.
 Both are wrong - This answer is incorrect.
 
-Now we know all the concepts required to implement our logic.
+Now that you know all the concepts required to implement our logic, take a paper and write down the code.
 1. Export each of the individual components in their respective files (use named exports)
 2. Import each of the components in App.js
 3. Render each of the components one below the other in the return statement of App component
