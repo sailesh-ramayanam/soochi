@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<section name="xgml">
+	<attribute key="Creator" type="String">yFiles</attribute>
+	<attribute key="Version" type="String">2.20</attribute>
+	<section name="graph">
+		<attribute key="hierarchic" type="int">1</attribute>
+		<attribute key="label" type="String"></attribute>
+		<attribute key="directed" type="int">1</attribute>
+		<section name="node">
+			<attribute key="id" type="int">0</attribute>
+			<attribute key="label" type="String">What are you facing difficulty with?</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">881.4222222222222</attribute>
+				<attribute key="y" type="double">75.85016286644952</attribute>
+				<attribute key="w" type="double">196.99017242128116</attribute>
+				<attribute key="h" type="double">51.700325732899046</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">What are you facing difficulty with?</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">196.99017242128116</attribute>
+				<attribute key="contentHeight" type="double">21.09375</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">1</attribute>
+			<attribute key="label" type="String">start</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">881.4222222222222</attribute>
+				<attribute key="y" type="double">15.0</attribute>
+				<attribute key="w" type="double">30.0</attribute>
+				<attribute key="h" type="double">30.0</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">start</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">2</attribute>
+			<attribute key="label" type="String">There is a lot of information in the problem statement. In such cases, we should try to break down it into small pieces.
+
+One way to start is by identifying what needs to be calculated.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">136.58968253968254</attribute>
+				<attribute key="y" type="double">256.570640665552</attribute>
+				<attribute key="w" type="double">233.17897344305766</attribute>
+				<attribute key="h" type="double">128.33828611530575</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">There is a lot of information in the problem statement. In such cases, we should try to break down it into small pieces.
+
+One way to start is by identifying what needs to be calculated.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">233.17897344305766</attribute>
+				<attribute key="contentHeight" type="double">96.5625</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">3</attribute>
+			<attribute key="label" type="String">One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+
+</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">709.6226190476191</attribute>
+				<attribute key="y" type="double">517.963291121441</attribute>
+				<attribute key="w" type="double">194.4201059524163</attribute>
+				<attribute key="h" type="double">79.11957035677653</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+
+</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">194.4201059524163</attribute>
+				<attribute key="contentHeight" type="double">81.46875</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">4</attribute>
+			<attribute key="label" type="String">Let us first look at some examples.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">487.3357142857143</attribute>
+				<attribute key="y" type="double">517.963291121441</attribute>
+				<attribute key="w" type="double">190.15320187302518</attribute>
+				<attribute key="h" type="double">66.55769104038714</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Let us first look at some examples.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">190.15320187302518</attribute>
+				<attribute key="contentHeight" type="double">21.09375</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">5</attribute>
+			<attribute key="label" type="String">Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">881.4222222222222</attribute>
+				<attribute key="y" type="double">256.570640665552</attribute>
+				<attribute key="w" type="double">233.17897344305766</attribute>
+				<attribute key="h" type="double">128.33828611530575</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">233.17897344305766</attribute>
+				<attribute key="contentHeight" type="double">81.46875</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">6</attribute>
+			<attribute key="label" type="String">Tip: Never jump into writing code without figuring out the logic (also known as algorithm).</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">1274.334126984127</attribute>
+				<attribute key="y" type="double">256.570640665552</attribute>
+				<attribute key="w" type="double">233.17897344305766</attribute>
+				<attribute key="h" type="double">128.33828611530575</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Tip: Never jump into writing code without figuring out the logic (also known as algorithm).</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">233.17897344305766</attribute>
+				<attribute key="contentHeight" type="double">51.28125</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">7</attribute>
+			<attribute key="label" type="String">Following is an algorithm for this question.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">1468.4432539682539</attribute>
+				<attribute key="y" type="double">517.963291121441</attribute>
+				<attribute key="w" type="double">319.47475971991173</attribute>
+				<attribute key="h" type="double">213.6455758623414</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Following is an algorithm for this question.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">319.47475971991173</attribute>
+				<attribute key="contentHeight" type="double">21.09375</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">l</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">8</attribute>
+			<attribute key="label" type="String">Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">1124.9646825396826</attribute>
+				<attribute key="y" type="double">517.963291121441</attribute>
+				<attribute key="w" type="double">307.48224392544455</attribute>
+				<attribute key="h" type="double">116.80694968111936</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">307.48224392544455</attribute>
+				<attribute key="contentHeight" type="double">111.65625</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">9</attribute>
+			<attribute key="label" type="String">If you haven't gone through the hints for breaking down the problem statement, we strongly recommend you to go through them first.
+They provide a deep understanding of the assignment, demonstrating through examples and also highlighting the points that are often ignored.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">587.202380952381</attribute>
+				<attribute key="y" type="double">256.57064066555193</attribute>
+				<attribute key="w" type="double">295.26039642621686</attribute>
+				<attribute key="h" type="double">127.73738129943652</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">If you haven't gone through the hints for breaking down the problem statement, we strongly recommend you to go through them first.
+They provide a deep understanding of the assignment, demonstrating through examples and also highlighting the points that are often ignored.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">295.26039642621686</attribute>
+				<attribute key="contentHeight" type="double">96.5625</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">1</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">-1.0</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">2</attribute>
+			<attribute key="label" type="String">Problem statement</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">881.4222222222222</attribute>
+						<attribute key="y" type="double">75.85016286644952</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">802.6261532537097</attribute>
+						<attribute key="y" type="double">117.20032573289905</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">136.58968253968254</attribute>
+						<attribute key="y" type="double">117.20032573289905</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">136.58968253968254</attribute>
+						<attribute key="y" type="double">256.570640665552</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-0.8000000000000003</attribute>
+				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000002</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Problem statement</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">104.7109375</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">84.23421378968249</attribute>
+				<attribute key="y" type="double">158.70032573289916</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">5</attribute>
+			<attribute key="label" type="String">Algorithm design</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000002</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Algorithm design</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">93.37890625</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">834.7327690972222</attribute>
+				<attribute key="y" type="double">158.70032573289907</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">6</attribute>
+			<attribute key="label" type="String">Implementation</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">881.4222222222222</attribute>
+						<attribute key="y" type="double">75.85016286644952</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">920.8202567064784</attribute>
+						<attribute key="y" type="double">133.20032573289905</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1216.0392857142858</attribute>
+						<attribute key="y" type="double">133.20032573289905</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1274.334126984127</attribute>
+						<attribute key="y" type="double">256.570640665552</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">0.3999999999999995</attribute>
+				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="xTarget" type="double">-0.5</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000002</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Implementation</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">86.04296875</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">1173.0178013392858</attribute>
+				<attribute key="y" type="double">158.7003257328991</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">5</attribute>
+			<attribute key="target" type="int">3</attribute>
+			<attribute key="label" type="String">Continue</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">881.4222222222222</attribute>
+						<attribute key="y" type="double">256.570640665552</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">881.4222222222222</attribute>
+						<attribute key="y" type="double">395.64050319027024</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">758.2276455357231</attribute>
+						<attribute key="y" type="double">395.64050319027024</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">709.6226190476191</attribute>
+						<attribute key="y" type="double">517.963291121441</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="ySource" type="double">1.0000000000000002</attribute>
+				<attribute key="xTarget" type="double">0.4999999999999997</attribute>
+				<attribute key="yTarget" type="double">-1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Continue</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">52.03515625</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">855.4046440972222</attribute>
+				<attribute key="y" type="double">361.43933131527024</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">6</attribute>
+			<attribute key="target" type="int">0</attribute>
+			<attribute key="label" type="String">Go back</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">1274.334126984127</attribute>
+						<attribute key="y" type="double">256.570640665552</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1332.6289682539682</attribute>
+						<attribute key="y" type="double">117.20032573289905</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">960.2182911907347</attribute>
+						<attribute key="y" type="double">117.20032573289905</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">881.4222222222222</attribute>
+						<attribute key="y" type="double">75.85016286644952</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">0.5</attribute>
+				<attribute key="ySource" type="double">-1.0000000000000002</attribute>
+				<attribute key="xTarget" type="double">0.8000000000000003</attribute>
+				<attribute key="yTarget" type="double">1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Go back</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">48.689453125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">1308.2842416914682</attribute>
+				<attribute key="y" type="double">158.70032573289905</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">6</attribute>
+			<attribute key="target" type="int">7</attribute>
+			<attribute key="label" type="String">I wrote down the algorithm</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">1274.334126984127</attribute>
+						<attribute key="y" type="double">256.570640665552</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1274.334126984127</attribute>
+						<attribute key="y" type="double">395.64050319027024</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1468.4432539682539</attribute>
+						<attribute key="y" type="double">395.64050319027024</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">1468.4432539682539</attribute>
+						<attribute key="y" type="double">517.963291121441</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="ySource" type="double">1.0000000000000002</attribute>
+				<attribute key="yTarget" type="double">-1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I wrote down the algorithm</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">144.736328125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">1201.965962921627</attribute>
+				<attribute key="y" type="double">361.43933131527024</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">3</attribute>
+			<attribute key="target" type="int">8</attribute>
+			<attribute key="label" type="String">I wrote down test cases</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">1.0</attribute>
+				<attribute key="xTarget" type="double">-1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">I wrote down test cases</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">129.390625</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">816.8328621031746</attribute>
+				<attribute key="y" type="double">508.612705183941</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">0</attribute>
+			<attribute key="target" type="int">9</attribute>
+			<attribute key="label" type="String">Test cases</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">881.4222222222222</attribute>
+						<attribute key="y" type="double">75.85016286644952</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">842.024187737966</attribute>
+						<attribute key="y" type="double">133.20032573289905</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">587.202380952381</attribute>
+						<attribute key="y" type="double">133.20032573289905</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">587.202380952381</attribute>
+						<attribute key="y" type="double">256.57064066555193</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-0.3999999999999995</attribute>
+				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">-0.9999999999999998</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Test cases</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">62.01953125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">556.192615327381</attribute>
+				<attribute key="y" type="double">158.700325732899</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">9</attribute>
+			<attribute key="target" type="int">4</attribute>
+			<attribute key="label" type="String">Continue to test cases</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">587.202380952381</attribute>
+						<attribute key="y" type="double">256.57064066555193</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">513.3872818458267</attribute>
+						<attribute key="y" type="double">335.93933131527024</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">487.3357142857143</attribute>
+						<attribute key="y" type="double">335.93933131527024</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">487.3357142857143</attribute>
+						<attribute key="y" type="double">517.963291121441</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-0.5000000000000003</attribute>
+				<attribute key="ySource" type="double">0.9999999999999998</attribute>
+				<attribute key="yTarget" type="double">-0.9999999999999996</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Continue to test cases</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">122.734375</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">425.9685267857143</attribute>
+				<attribute key="y" type="double">361.43933131527024</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">9</attribute>
+			<attribute key="target" type="int">2</attribute>
+			<attribute key="label" type="String">Hints for problem statement</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-1.0</attribute>
+				<attribute key="xTarget" type="double">1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Hints for problem statement</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">151.392578125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">278.17950458829364</attribute>
+				<attribute key="y" type="double">247.22005472805193</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">3</attribute>
+			<attribute key="target" type="int">9</attribute>
+			<attribute key="label" type="String">Didn't write test cases</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-0.4999999999999997</attribute>
+				<attribute key="ySource" type="double">-1.0</attribute>
+				<attribute key="xTarget" type="double">0.5000000000000003</attribute>
+				<attribute key="yTarget" type="double">0.9999999999999998</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Didn't write test cases</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">120.33203125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">600.8514446924603</attribute>
+				<attribute key="y" type="double">361.43933131527024</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">6</attribute>
+			<attribute key="target" type="int">5</attribute>
+			<attribute key="label" type="String">Go to algorithm design</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="edgeAnchor">
+				<attribute key="xSource" type="double">-1.0</attribute>
+				<attribute key="xTarget" type="double">1.0</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Go to algorithm design</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">124.732421875</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model" type="String">free</attribute>
+				<attribute key="x" type="double">1023.0119636656746</attribute>
+				<attribute key="y" type="double">247.22005472805205</attribute>
+			</section>
+		</section>
+	</section>
+</section>
