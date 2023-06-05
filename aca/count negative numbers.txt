@@ -1,0 +1,169 @@
+First step is "Understand the problem statement".
+
+We have an array, what do we have to find in this array?
+Option 1: Number of zeroes present in the array.
+Option 2: Number of negative numbers present in the array.
+Option 3: Number of positive numbers present in the array.
+
+Option 1 - This answer is incorrect. Please read the problem statement carefully.
+Option 2 - This is correct answer.
+Option 3 - This answer is incorrect. Please read the problem statement carefully.
+
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+1 lines - This answer is incorrect. Please read the input description carefully.
+2 lines - This is correct answer. There are 2 lines present in the input.
+Not known until we read input - This answer is incorrect. Please read the input description carefully.
+
+What does the first line of input contain?
+Size of the array - This is correct answer.
+First value of the array - This answer is incorrect. Please read the input description carefully.
+Space separated integers - This answer is incorrect. Please read the input description carefully.
+Don't know - Please read the input description provided in the assignment.
+
+What does the second line of input contain?
+Size of the array - This answer is incorrect. Please read the input description carefully.
+First value of the array - This answer is incorrect. Please read the input description carefully.
+Space separated integers - This is correct answer.
+Don't know - Please read the input description provided in the assignment.
+
+We have some sample inputs below.
+Input 1:
+5
+9 37 36 28 20
+
+Input 2:
+4
+-48 56 68 -49 73
+
+Which of these is not a valid input for this problem?
+Input 1 - This answer is incorrect. Why do you think this is invalid, because there are no negative numbers in the array.
+Input 2 - This is correct answer. Input 2 is invalid. First line contains 4, which means there are 4 numbers in the array but in second line we have 5 numbers. 
+Both are invalid - This answer is incorrect. Please read the input description carefully.
+Both are valid - This answer is incorrect. Please read the input description carefully.
+
+Now that we understood the input format, let us understand the output format.
+
+How many lines should the output contain?
+1 line - This is correct answer. Output should contain 1 line representing number of negative numbers in the array.
+2 lines - 
+3 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This answer is incorrect. Please read the output description carefully.
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+6
+-8 30 86 57 -17 -93
+
+What should be the output for the above input?
+0 - This answer is incorrect. Please read the problem statement carefully.
+6 - This answer is incorrect. Please read the problem statement carefully.
+3 - This is correct answer.
+
+Based on your understanding, come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+
+1. Normal test cases - length of the array is like 5, 8, 10 etc.
+1.1 All positive integers.
+1.2. All negative integers.
+1.3. A mix of positive, negative and 0.
+
+Based on these hints, you can come up with at least 3 new test cases.
+Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+6
+-8 30 86 57 -17 -93
+
+I will try to explain what I did.
+I looked at the first line. It contains 6. So, I came to know that there will be 6 values in the array.
+
+Then is looked at second line which has 6 elements separated by space.
+
+Then I looked at first element of array -8. I see that it is negative. So, now my I have 1 negative number.
+
+Then I looked at second element of array 30. I see that it is positive. I can ignore this since I have to count only negative numbers in the array.
+
+Then I looked at third element of array 86. I see that it is positive. I can ignore this also since it is positive
+
+Then I looked at fourth element of array 57. I see that it is positive. I ignored this also.
+
+Then I looked at fifth element of the array -17. I see that it is negative. So, I increase my count of negative number by 1, since I got 1 more negative number.
+
+So my count of negative numbers is 2 now.
+
+Then I looked at sixth element of the array -93. I see that it is negative. So, I increase my count of negative number by 1, since I got 1 more negative number.
+
+So my total count of negative numbers is 3 now.
+
+There are no more elements after 3 so my final count is 3.
+
+Now imagine that the array size is 1000.
+What will you do? Put it in words.
+
+Following are some hints to put the logic in words.
+
+1. As I process 1000 values, it will be difficult for me to remember elements of the array in my memory. So, I will take a paper and write down the all the elements of array. That way, for every value, I will update the paper and I don't need to worry about forgetting.
+2. If it is a small array like 3 or 5 values, then it is easy for me to remember how many values I checked. But 1000 is a large number. So, to avoid checking more than 1000, I will also keep a count of how many values I checked until now. Whenever it reaches 1000, I will stop processing. This count also, I will write on a paper.
+
+Following is what I came up with.
+
+1. Read the size of array.
+2. Read the next line which is space separated integers, and store them in array as numbers.
+3. Create a variable called negativeCount and initialize it to 0.
+4. Create a variable i and initialize it to 0.
+5. Go to element at index 0 of the input array.
+6. Check if it is less than 0 or not, if it is less than 0 then increase the count of negativeCount by 1, else do nothing.
+7. Increase the count of i by 1.
+8. Repeat steps 5,6 and 7 till i reaches the size of array.
+9. Display the negativeCount.
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+
+There are various things to be implemented.
+a. Taking input as an integer (step 1).
+b. Creating new variables (steps 3 and 4).
+c. Check if a number is negative (step 3).
+d. Displaying output (step 9).
+e. Repeating the process for one number at a time (step 8).
+f. Read the space separated integers and store them in array (step 2).
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments like "Simple interest" or "Square sum"
+How to create variables? - Please refer to assignments like "Simple interest" or "Square sum"
+How to compare 2 values? - Please refer to the assignments like "Rating contest" or "Even or Odd"
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
