@@ -1,0 +1,239 @@
+Let us divide problem statement into 3 parts.
+Firstly, The problem statement says
+"we will be given a series of n dials, all set to zero initially."
+
+Let's try to understand this first
+
+Imagine that, we have 3 dials which are Dial 1, Dial 2 and Dial 3.
+And each of it has a default value set to it.
+
+Now, according to the problem statement.
+What would be those default values set to these 3 dials?
+
+1,2,3 - This answer is incorrect. Please read the problem statement and try again.
+0,1,2 - This answer is incorrect. Please read the problem statement and try again.
+0,0,0 - This is correct answer. Each dial will initially start with the value zero (0).
+
+Now, Let's try to understand the second part of the problem statement,
+
+"An input i arrives. The i-th dial is incremented by 1,
+Similarly for input j, j-th dial is incremented by 1."
+
+Let us consider the previous example.
+
+We have 3 dials.
+Dial 1 with value 0
+Dial 2 with value 0 and
+Dial 3 with value 0
+
+Now, if an input 2 is given, Which dial will be incremented by 1?
+
+Dial 1 - This answer is incorrect. Please read the problem statement and try again.
+Dial 3 - This answer is incorrect. Please read the problem statement and try again.
+Dial 2 - This is correct answer.
+
+Note that, the value of Dial 2 is now incremented by 1.
+
+Now, The new values of dials are as follows:
+Dial 1 with value 0
+Dial 2 with value 1 and
+Dial 3 with value 0
+
+Now, if following inputs are given:
+3
+2
+
+Which dials will be incremented by 1?
+
+Dial 3 and Dial 1 - This answer is incorrect. Please read the problem statement and try again.
+Dial 1 and Dial 2 - This answer is incorrect. Please read the problem statement and try again.
+Dial 3 and Dial 2 - 
+This is correct answer.
+
+Note that, Dial 3 will be incremented first  and
+then Dial 2 will be incremented
+
+Now, The new values of dials are as follows:
+Dial 1 with value 0
+Dial 2 with value 2 and
+Dial 3 with value 1.
+
+Now, Let's try to understand the third part of the problem statement,
+
+"A max value will be given. Given a sequence of such inputs,
+find which dial reaches the max value first."
+
+Let us consider the previous example.
+
+Dial 1 is with value 0
+Dial 2 is with value 2 and
+Dial 3 is with value 1.
+
+Now, If the max value is given as 2,
+looking into the values of Dials,
+Which Dial reached the max value first?
+
+Dial 1 - This answer is incorrect. Please read the problem statement and try again.
+Dial 3 - This answer is incorrect. Please read the problem statement and try again.
+Dial 2 -
+This is correct answer.
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+What does the first line of input contain?
+Number of dials (n) - This is correct answer.
+Number of inputs (m), Max limit for the dial (max) - This answer is incorrect. Please read the input description carefully.
+
+What does the second line of input contain?
+Number of inputs (m), Number of dials (n) - This answer is incorrect. Please read the input description carefully.
+Max limit for the dial (max) - This is correct answer.
+
+What does the third line of input contain?
+Max limit for the dial (max), Number of dials (n) - This answer is incorrect. Please read the input description carefully.
+Number of inputs (m) - This is correct answer.
+
+After the third line, How many lines does the input contain?
+2 lines, 3 lines - This answer is incorrect. Please read the output description carefully.
+m lines - This is correct answer.
+
+Now that we understood the input format, let us understand the output format.
+
+How many lines should the output contain?
+2 lines, 3 lines - This answer is incorrect. Please read the output description carefully.
+1 line - This is correct answer.
+
+As per the problem statement, we have to print 0 in some scenarios. We have 2 scenarios below. In which of these scenarios should we print 0?
+S1: When number of dials given is 1
+S2: If none of the dial reaches maximum limit given
+S1 - This answer is incorrect. Please read the output description carefully.
+S2 - This is correct answer.
+
+While trying to understand the problem statement, input and output format, we also saw a test case. Based on those, please come up with 3 new test cases.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previously.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example given in the problem.
+
+The sample input from the problem is
+3
+2
+4
+1
+2
+1
+3
+
+I will try to explain what I did.
+
+I looked at the first line. It is 3.
+Which is the number of dials(n).
+i.e., n = 3
+
+Then I wrote down 3 dials with their default values as 0:
+Dial 1 with value 0,
+Dial 2 with value 0 and
+Dial 3 with value 0.
+
+I looked at the second line. It is 2.
+Which is the max limit for the dial (max)
+i.e., max = 2
+
+I looked at the third line. It is 4.
+Which is the the number of inputs (m)
+i.e., m = 4
+It means, we have to read next 4 lines as inputs for incrementing dial values
+
+Then I looked at the fourth line.
+It is 1.
+It means, I have to increment Dial 1 value by 1.
+
+Now, The new values of dials are as follows:
+Dial 1 with value 1
+Dial 2 with value 0 and
+Dial 3 with value 0.
+
+and none of the dials have reached the max value which is 2
+
+Then I looked at the fifth line.
+It is 2.
+It means, I have to increment Dial 2 value by 1.
+
+Now, The new values of dials are as follows:
+Dial 1 with value 1
+Dial 2 with value 1 and
+Dial 3 with value 0.
+
+and none of the dials have reached the max value which is 2
+
+Then I looked at the sixth line.
+It is 1.
+It means, I have to increment Dial 1 value by 1.
+
+Now, The new values of dials are as follows:
+Dial 1 with value 2
+Dial 2 with value 1 and
+Dial 3 with value 0.
+
+Now, Dial 1 value has reached the max value which is 2
+
+Since Dial 1 first reached the max limit of the dial 
+We can stop looking into the inputs and
+we need to print 1 as an output.
+
+Similarly, Can you try to write down an algorithm based on this?
+
+Following are some hints.
+1. What do you need to read from input?
+2. What do you need to store? When will you use it?
+3. What do you need to update? And when should you update?
+
+Following is what I came up with.
+1. Read the number of dials
+2. Read the max limit of the dial
+3. Read the number of inputs for which we have to increase corresponding dial value by 1
+4. Write down the max dial as 0
+5. Create an empty array
+6. Assign 0 as default value to the each element of the array till the number of dials
+7. Read the next number from the inputs
+8. Increment the corresponding dial value by 1
+9. Check if the value of the dial reached the max limit of the dial
+10. If yes, update the value of max dial to the dial that reached the max limit of the dial and stop reading inputs by using break
+11. If no, repeat steps 7, 8, 9, 10 and 11 until you reach the end of the inputs
+12. By the end, max dial will be the dial that first reached the max limit of the dial as per problem statement
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+There are various things to be implemented.
+a. Taking input into a variable (step 1,2,3 and 7)
+b. Creating new variables (steps 1, 2, 3, 4 and 5)
+c. Check if one number is same as another number (step 9)
+d. Displaying output (step 12)
+e. Repeating the check for one number at a time
+f. Stop reading the inputs by using break.
+
+We have discussed all the above in previous assignments multiple times..
+
+How to use break - Please look into the break, continue lecture from STOC module
+
+Now we know all the concepts required to convert our algorithm into code. Take a paper and write the code for our algorithm.
