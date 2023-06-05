@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Cp1252"?>
 <section name="xgml">
 	<attribute key="Creator" type="String">yFiles</attribute>
-	<attribute key="Version" type="String">2.18</attribute>
+	<attribute key="Version" type="String">2.20</attribute>
 	<section name="graph">
 		<attribute key="hierarchic" type="int">1</attribute>
 		<attribute key="label" type="String"></attribute>
@@ -946,7 +946,7 @@ This step-by-step procedure is also called as algorithm.</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">35</attribute>
-			<attribute key="label" type="String">One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+			<attribute key="label" type="String">One way to come up with an algorithm is by using the test cases we wrote down previously.
 Take a test case.
 Write down the input.
 Write down the expected result.
@@ -963,7 +963,7 @@ Let us demonstrate through an example.</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">One way to come up with an algorithm is by using the test cases we wrote down previosuly.
+				<attribute key="text" type="String">One way to come up with an algorithm is by using the test cases we wrote down previously.
 Take a test case.
 Write down the input.
 Write down the expected result.
@@ -1525,7 +1525,7 @@ for (init_expr; loop_cond; step_expr) {
 		<section name="node">
 			<attribute key="id" type="int">55</attribute>
 			<attribute key="label" type="String">Note that there are 2 kinds of brackets here.
-1. Circular brackets also known as Parantheses - opening bracket is "(", closing bracket is ")"
+1. Circular brackets also known as Parentheses - opening bracket is "(", closing bracket is ")"
 2. Flower brackets - opening bracket is "{", closing bracket is "}"
 
 Then we also have semi-colons - (i.e. ";")</attribute>
@@ -1541,7 +1541,7 @@ Then we also have semi-colons - (i.e. ";")</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Note that there are 2 kinds of brackets here.
-1. Circular brackets also known as Parantheses - opening bracket is "(", closing bracket is ")"
+1. Circular brackets also known as Parentheses - opening bracket is "(", closing bracket is ")"
 2. Flower brackets - opening bracket is "{", closing bracket is "}"
 
 Then we also have semi-colons - (i.e. ";")</attribute>
@@ -5127,8 +5127,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
-				<attribute key="model"/>
-				<attribute key="position"/>
+				<attribute key="model" type="String">six_pos</attribute>
+				<attribute key="position" type="String">tail</attribute>
 			</section>
 		</section>
 		<section name="edge">
