@@ -1,0 +1,89 @@
+First step is "Understand the problem statement".
+
+The problem statement talks about rendering a component in react. This assignment is to familiarize you with the following concepts.
+1. How to change id name in react component?
+2. How to you render semantic tag in react component?
+
+Let us try to break down the question.
+The question asks us to render a component. Inside which tag we have to render that component.
+ul tag - This answer is incorrect. Please read the problem description carefully.
+body tag
+html tag
+div tag - This is correct answer.
+
+The question also mentions the id name of the div tag.
+Which of the following is correct name for the id of div tag?
+div - This answer is incorrect. Please read the problem description carefully.
+component
+root - This is correct answer. 
+
+
+We have to render the text "I am learning React. My life is getting better.", inside which tag should we render this text?
+h1 tag - This answer is incorrect. Please read the problem description carefully.
+div tag
+span tag
+p tag - This is correct answer.
+
+
+Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+
+In this assignment we should build only a UI (user interface). There is no functionality requirement in the question.
+
+So, there are no specific test cases. Just make sure that your output matches with the sample screenshot provided in the assignment.
+
+You should render the exact text mention in the problem statement.
+
+We have completed the second step. Third step is "Coming up with logic".
+
+For this assignment, logic means step-by-step procedure on how to relate and compose the various components.
+
+In this assignment we have app component. We need to render the exact text inside the mentioned tags.
+The logic is very simple.
+1. Change the id of the div tag.
+2. Keep a p tag inside div tag
+3. Render the exact text inside the p tag.
+
+We have completed the third step. Fourth step is "Convert logic to code".
+
+Following is the logic we came up with.
+1. Change the id attribute of the div tag in app.js.
+2. Keep a p tag inside div tag
+3. Render the exact text inside the p tag.
+
+
+Below we have 2 methods to write id attribute inside div tag in react. Which method is correct?
+------
+Method 1:
+<div id = "root">
+   ...
+</div>
+------
+Method 2:
+<div id = root>
+   ...
+</div>
+------
+Method 1 - This is correct answer. id name should be inside double quotes
+Method 2 - This answer is incorrect. Please revise the concepts and try again.
+Both are correct
+Both are wrong
+
+
+Which of the following is correct way of rendering text inside a p tag?
+Method 1: <p>I am learning React. My life is getting better.</p>
+Method 2: <p I am learning React. My life is getting better./>
+Method 3: <p text=""I am learning React. My life is getting better."></p>
+Method 4: <p tag>I am learning React. My life is getting better.</p tag>
+
+Method 1 - This is correct answer.
+Method 2 - This answer is incorrect. p tag is not a self closing tag
+Method 3 - This answer is incorrect. Please revise the concept of basic html.
+Method 4 - This answer is incorrect. No need to write tag.
+
+
+Rendering a component means using it so that it appears in the UI.
+In a React application, where does the rendering start from?
+App.js - This is correct answer. React application rendering starts from App.js
+index.html - This answer is incorrect.
+Cannot say - This answer is incorrect.
+
