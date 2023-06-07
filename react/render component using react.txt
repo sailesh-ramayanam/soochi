@@ -2,7 +2,8 @@ First step is "Understand the problem statement".
 
 The problem statement talks about rendering a component in react. This assignment is to familiarize you with the following concepts.
 1. How to change id name in react component?
-2. How to you render semantic tag in react component?
+2. How to create and render a component in react?
+3. How to render semantic tag in react component?
 
 Let us try to break down the question.
 The question asks us to render a component. Inside which tag we have to render that component.
@@ -29,27 +30,28 @@ Now that we understand the problem statement, 2nd step is "Come up with new test
 
 In this assignment we should build only a UI (user interface). There is no functionality requirement in the question.
 
-So, there are no specific test cases. Just make sure that your output matches with the sample screenshot provided in the assignment.
+So, there are no specific test cases. Just make sure you are using the mentioned tags with the mentioned attribute names and values.
 
-You should render the exact text mention in the problem statement.
+You should render the exact text as mentioned in the problem statement.
 
 We have completed the second step. Third step is "Coming up with logic".
 
 For this assignment, logic means step-by-step procedure on how to relate and compose the various components.
 
-In this assignment we have app component. We need to render the exact text inside the mentioned tags.
+In this assignment we have App component. We need to render the exact text inside the mentioned tags.
 The logic is very simple.
 1. Change the id of the div tag.
-2. Keep a p tag inside div tag
-3. Render the exact text inside the p tag.
+2. Create a component in App.js file.
+3. Component should return the exact text inside the mentioned tag and id.
 
 We have completed the third step. Fourth step is "Convert logic to code".
 
 Following is the logic we came up with.
-1. Change the id attribute of the div tag in app.js.
-2. Keep a p tag inside div tag
-3. Render the exact text inside the p tag.
+1. Change the id of the div tag.
+2. Create a component in App.js file.
+3. Component should return the exact text inside the mentioned tag.
 
+There are 3 concepts here, change id name, creating a component, rendering a component. Choose an option to find out how that concept is related to the current question.
 
 Below we have 2 methods to write id attribute inside div tag in react. Which method is correct?
 ------
@@ -68,11 +70,64 @@ Method 2 - This answer is incorrect. Please revise the concepts and try again.
 Both are correct
 Both are wrong
 
+We have App.js file, inside App.js file we are creating a new component. 
+Which of the following is correct way of creating a new component?
+------------
+Method 1:
+import React from "react";
+import './App.css';
 
-Which of the following is correct way of rendering text inside a p tag?
+const component1 = () => {
+  return <p>This is new component</p>;
+};
+
+const App = () => {
+  return (
+    <div id="root">
+      //fill your code here
+    </div>
+  )
+}
+------------
+Method 2:
+import React from "react";
+import './App.css';
+
+const Component1 = () => {
+  return <p>This is new component</p>;
+};
+
+const App = () => {
+  return (
+    <div id="root">
+      //fill your code here
+    </div>
+  )
+}
+------------
+Method 3:
+import React from "react";
+import './App.css';
+
+const App = () => {
+   const Component1 = () => {
+  return <p>This is new component</p>;
+};
+  return (
+    <div id="root">
+      //fill your code here
+    </div>
+  )
+}
+Method 1 - This answer is incorrect. Component name should always start with capital letter.
+Method 2 - This is correct answer. Component name should start with capital letter and it should not be written inside App component.
+Method 3 - This answer is incorrect. New component should be created separately. Please revise the concepts and try again.
+Method 1 and Method 2 are correct - This answer is incorrect. In method 1 component name is starting with small letter, which is not correct.
+
+Which of the following is correct way of rendering text inside a paragraph tag?
 Method 1: <p>I am learning React. My life is getting better.</p>
 Method 2: <p I am learning React. My life is getting better./>
-Method 3: <p text=""I am learning React. My life is getting better."></p>
+Method 3: <p text="I am learning React. My life is getting better."></p>
 Method 4: <p tag>I am learning React. My life is getting better.</p tag>
 
 Method 1 - This is correct answer.
@@ -80,10 +135,41 @@ Method 2 - This answer is incorrect. p tag is not a self closing tag
 Method 3 - This answer is incorrect. Please revise the concept of basic html.
 Method 4 - This answer is incorrect. No need to write tag.
 
+We have created a new component called component1. How should we render inside App component?
+--------
+Method 1:
+const App = () => {
+  return (
+    <div id="root">
+      <Component1/>
+    </div>
+  )
+}
+--------
+Method 2:
+const App = () => {
+  return (
+   <Component/>
+  )
+}
+--------
+Method 3:
+const App = () => {
+  return (
+    <div id="root">
+      {Component1}
+    </div>
+  )
+}
+--------
+Method 1 - This is correct answer. Here we are correct syntax for rendering a component.
+Method 2 - This answer is incorrect. We have to wrap everything inside html tag or react fragment(i.e. <> </>) inside return statement.
+Method 3 - This answer is incorrect. Component should not be kept inside flower brackets while rendering.
 
-Rendering a component means using it so that it appears in the UI.
-In a React application, where does the rendering start from?
-App.js - This is correct answer. React application rendering starts from App.js
-index.html - This answer is incorrect.
-Cannot say - This answer is incorrect.
+Now that you know all the concepts required to implement our logic, take a paper and write down the code.
+1. Create a new component separately in App.js file.
+2. Return the mentioned tag with exact text, inside new component.
+3. Render the component inside App component.
+4. Keep everything inside div tag with mentioned attribute name and value, inside return statement in App component.
 
+NOTE: If you will directly render the paragragh tag inside the return statement then also you will get the 100% acceptance but that is not what this assignment is for. Here you have to learn how to create a new component in App.js file and how you should render it inside App component.
