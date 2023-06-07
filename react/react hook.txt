@@ -1,8 +1,8 @@
 First step is "Understand the problem statement".
 
-The problem statement talks about functional component and React Hook. This assignment will to familiarizw you with the following concepts
+The problem statement talks about functional component and React Hook. This assignment is to familiarize you with the following concepts
 1. How to use functional component in React?
-2. How to use useEffect hook in React?
+2. How to use useState hook in React?
 3. How to add onclick functionality in React?
 
 Let us try to break down the question.
@@ -15,8 +15,8 @@ paragraph tag and button tag - This is correct answer.
 The question also mentions about attribute inside paragraph tag and button tag. 
 What are the attributes for paragraph tag and button tag?
 id attribute for both tag - This answer is incorrect. Please read the problem description carefully.
-data-testid and id tag respectively
-id and data-testid tag respectively
+data-testid and id attribute respectively
+id and data-testid attribute respectively
 data-testid attribute of both tags - This is correct answer. For both tags we have to use data-testid attribute.
 
 What are the values inside data-testid attribute for paragraph tag and button tag respectively?
@@ -62,7 +62,7 @@ Following is the logic we came up with.
 2. Use useState for changing the state of paragraph tag.
 3. Add an onClick event to the button.
 
-There are 3 concepts here, export, import and render. Choose an option to find out how that concept is related to the current question.
+There are 3 concepts here, create a button, using useState, add onClick event. Choose an option to find out how that concept is related to the current question.
 
 Below we have 2 methods to create a button with data-testid in a React component. Which method is correct?
 ------
