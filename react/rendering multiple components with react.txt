@@ -1,0 +1,71 @@
+First step is "Understand the problem statement".
+
+The problem statement talks rendering prject name and description in the mentioned tags. This assignment is to familiarize you with the following concept.
+1. How to directly render the html elements inside JSX components?
+
+Let us try to break down the question.
+The question asks us to render some html tags. Which of the following tags we have to render in this assignment?
+2 paragraph tags- This is correct answer.
+paragraph tag and button tag - This answer is incorrect. Please read the problem description carefully.
+
+The question also mentions about attribute inside paragraph tags. 
+What are the attributes for paragraph tags?
+data-ns-test attribute for both tags - This is correct answer. For both tags we have to use data-ns-test attribute.
+id tag for both attribute
+data-testid attribute of both tags - This answer is incorrect. Please read the problem statement carefully.
+
+What are the values inside data-ns-test attribute for each paragraph tags?
+Option 1: "project-name" for both paragraph tag.
+Option 2: "project-description" for both paragraph tag.
+Option 3: "project-name" for tag containing project name and "project-description" for tag containing project description.
+
+Option 1 - This answer is incorrect. Please read the problem description carefully.
+Option 2
+Option 3 - This is correct answer. 
+
+
+Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+
+So, there are no specific test cases. Just make sure that you are using the mentioned tags with the correct attribute name and values.
+
+We have completed the second step. Third step is "Coming up with logic".
+
+For this assignment, logic means step-by-step procedure on how to render different tags in JSX component.
+
+The logic for this assignment.
+1. Create two p tags
+2. Give the attribute mentioned in the problem description with the exact values.
+
+We have completed the third step. Fourth step is "Convert logic to code".
+
+Following is the logic we came up with.
+1. Create two p tags
+2. Give the attribute mentioned in the problem description with the exact values.
+
+There is only one concept that we have to use in this assignment, which is rendering the paragraph tag.
+
+Below we have 2 methods to render a paragraph with data-ns-test id attribute. Which method is correct?
+------
+Method 1:
+return (
+    <div id="main">
+      <p data-ns-test="project-name">PROJECT_NAME</p>
+    </div>
+  )
+}
+------
+Method 2:
+return (
+    <div id="main">
+      <p id="project-name">str</p>
+    </div>
+  )
+}
+------
+Method 1 - This is correct answer.
+Method 2 - This answer is incorrect. Here paragraph tag has id attribute.
+Both are correct - This answer is incorrect.
+Both are wrong
+
+Now that you know all the concepts required to implement our logic, take a paper and write down the code.
+1. Write 2 paragraph component with the mentioned attributes and the values
