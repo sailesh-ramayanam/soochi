@@ -11,7 +11,7 @@ Render the text `I am learning React. My life is getting better.`. You would alr
 
 1. The text must be rendered by `Learner` component.
 2. The text must be rendered in a `p` tag.
-3. tThe rendered text must exactly match the text given above (including case, punctuation and white space).
+3. The rendered text must exactly match the text given above (including case, punctuation and white space).
 
 
 # Sample UI

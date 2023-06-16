@@ -17,6 +17,8 @@ Create a page that displays
 
 Please refer to `Sample UI` section below, for an example. You can use your own project name and description. 
 
+## Other requirements
+
 1. Project name and project description must be rendered by two separate `React` components
 2. Project name must be rendered by `ProjectName` component
     - `ProjectName` component should have an attribute `data-ns-test` with value `project-name`

@@ -14,7 +14,9 @@ Import the above mentioned component in App.js and render them
 ## Task 3 :
 App.js file should also export the respective component(viz. `App`)
 
-# UI requirements
+# Requirements
+
+## UI requirements
 There should be 4 elements on the page
 1. One heading - `Welcome to our Site`
 2. One sub-heading - `Happy to solve your doubts`
@@ -22,4 +24,4 @@ There should be 4 elements on the page
 4. One button - `Ask`
 
 # Sample UI
-[Click here](https://drive.google.com/file/d/1JtgRIk9gNUtrPNyEGynDKL-8XZeFSXa4/view?usp=drive_link) for the image of a sample UI
+[Click here](https://drive.google.com/file/d/12O0DBIvOClVOYJNeNl5MSQx6cQOqDMzQ/view?usp=sharing) for the image of a sample UI
