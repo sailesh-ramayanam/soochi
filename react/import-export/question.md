@@ -1,6 +1,5 @@
 # Description
-
-## Functional requirements
+Render a heading, a sub-heading, a query box and a button. You would already know how to do it using `HTML/CSS/JS`. In this assignment, you must use `React`. The `React` code for the above UI elements will be given. You will only need to use those components.
 
 ## Task 1 : 
 Default export the following components from their respective files
@@ -10,13 +9,17 @@ Default export the following components from their respective files
 4. SubmitButton
 
 ## Task 2 :
-Import the above mention component in App.js and render them
+Import the above mentioned component in App.js and render them
 
 ## Task 3 :
-All the above files can be found in components folder.
+App.js file should also export the respective component(viz. `App`)
 
-## Task 4 :
-App.js file should also export the respective component
+# UI requirements
+There should be 4 elements on the page
+1. One heading - `Welcome to our Site`
+2. One sub-heading - `Happy to solve your doubts`
+3. One input box - `Enter your query here..`
+4. One button - `Ask`
 
 # Sample UI
 [Click here](https://drive.google.com/file/d/1JtgRIk9gNUtrPNyEGynDKL-8XZeFSXa4/view?usp=drive_link) for the image of a sample UI

@@ -1,10 +1,17 @@
 # Description
+Render the text `I am learning React. My life is getting better.`. You would already know how to do it using `HTML/CSS/JS`. In this assignment, you must use `React`.
 
-## Functional requirements
+# Requirements
 
-1. Render the react Learner component inside App component.
-2. The Learner component should return a single p tag
-3. the textContent inside the p tag should exactly be equal to the following content inside quotations, `I am learning React. My life is getting better.`
+## UI requirements
+
+1. The page should display the text `I am learning React. My life is getting better.`
+
+## Other requirements
+
+1. The text must be rendered by `Learner` component.
+2. The text must be rendered in a `p` tag.
+3. tThe rendered text must exactly match the text given above (including case, punctuation and white space).
 
 
 # Sample UI
