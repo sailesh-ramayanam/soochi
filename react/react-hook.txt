@@ -1,192 +1,326 @@
 First step is "Understand the problem statement".
 
-The problem statement talks about functional component and React Hook. This assignment is to familiarize you with the following concepts
-1. How to use functional component in React?
-2. How to use useState hook in React?
-3. How to add onclick functionality in React?
-
 Let us try to break down the question.
-The question asks us to render two things. What are those?
-only 1 paragraph - This answer is incorrect. Please read the problem description carefully.
-only a button
-We dont have to render anything.
-paragraph and a button - This is correct answer.
+
+As per the description, how many UI elements should be present on the page?
+0 - This answer is incorrect. Please read the problem description carefully.
+1
+2 - This is correct answer.
+3
+
+The question asks us to render two UI elements. What are those?
+2 buttons - This answer is incorrect. Please read the problem description carefully.
+1 button and 1 text - This is correct answer.
+1 input field and 1 button
 
 Now that we understand the problem statement, 2nd step is "Come up with new test cases".
 
-Please answer below questions to learn about test cases in this assignment.
+There are multiple requirements provided in the question.
 
-The question also mentions about attribute inside paragraph tag and button tag. 
-What are the attributes for paragraph tag and button tag?
-id attribute for both tag - This answer is incorrect. Please read the problem description carefully.
-data-testid and id attribute respectively
-id and data-testid attribute respectively
-data-testid attribute of both tags - This is correct answer. For both tags we have to use data-testid attribute.
+When the page is first rendered, what should be present on the page?
+1 button - This is correct answer. The text should appear only after clicking the button.
+1 button and 1 text - This answer is incorrect. The text should appear only after clicking the button.
+Nothing - This answer is incorrect.
 
-What are the values inside data-testid attribute for paragraph tag and button tag respectively?
-"click" for both  - This answer is incorrect. For both tags, attributes don't have same values. Please read the problem description carefully.
-"para" for both
-"Para" and "Click" respectively - This answer is incorrect. First letter of both values should be in lowercase. Since test cases are depends on it.
-"para" and "click" respectively- This is correct answer. "para" and "click" are the values for data-testid attribute of paragraph tag and button tag respectively.
+What should be the title of the button element?
+Click me - This answer is incorrect. Please read the problem statement carefully.
+click - This answer is incorrect. First C should be uppercase.
+Click - This is correct answer. Note that the first C is uppercase. Otherwise some test cases may fail.
+Clikc - This answer is incorrect. The spelling is wrong.
 
-What text should be rendered inside button element?
-"Click" - This is correct answer. First letter of text should be uppercase, since test cases depends on it.
-"click me" - This is incorrect answer.
-"click" - This is incorrect. First letter should be uppercase.
+How should the text be rendered?
+As a heading - This answer is incorrect. Please read the problem statement carefully.
+As a paragraph - This is correct answer.
+As 2 headings
+As 2 paragraphs
 
-In this assignment we have 1 test case i.e after clicking the button element exact text should be rendered that is mentioned in the problem description. 
-Make sure that you are using correct tag name with mentioned attribute name and attributes should have exact values as mentioned in the problem description.
-Text inside button element should also be exact as mentioned in problem description.
+As per the question, button and paragraph elements must have some attributes. What are those?
+id for both - This answer is incorrect. Please read the problem statement carefully.
+data-testid and id respectively
+id and data-testid respectively
+data-testid for both - This is correct answer. Both elements must contain data-testid attribute.
+
+For button element, what should be the value of data-testid attribute?
+Click - This answer is incorrect. First c should be lowercase.
+clikc - This answer is incorrect. The spelling is wrong.
+click - This is correct answer. Note that the first c is lowercase. Otherwise some test cases may fail.
+clcik - This answer is incorrect. The spelling is wrong.
+
+For paragraph element, what should be the value of data-testid attribute?
+Same as button - This answer is incorrect. Please read the problem statement carefully.
+para - This is correct answer. Note that the letter p is lowercase. Otherwise some test cases may fail.
+Para - This answer is incorrect. The letter p should be lowercase.
+paragraph
+
+There are multiple strings (in the form of text, attributes, values etc.) in this assignment. Make sure that the spellings are correct and the case (lower/upper) is also correct. Otherwise, some test cases may fail.
 
 We have completed the second step. Third step is "Coming up with logic".
-
-For this assignment, logic means step-by-step procedure on how to use functional component for changing state of paragraph tag.
 
 In this assignment we have to create 1 button and after clicking button we have to render some text.
 
 The logic for this assignment.
 1. Create a button.
-2. Add on click action to it.
-3. On click action should display the given text.
+2. Add "On click" action to it.
+3. The "On click" action should display the given text as a paragraph.
+4. Add the required attributes for button and paragraph elements.
+
+All the above steps are straight forward except step 3. Below there are 2 suggestions from Bablu and Bunny. Who is correct?
+Bablu - After clicking the button, add a new paragraph element to the DOM
+Bunny - Add a paragraph element along with the button in step 1 itself. After clicking the button, just change the content of the paragraph.
+
+Bablu is correct - This answer is incorrect. Every time the button is clicked, a new paragraph will be added. But we don't want multiple paragraphs. There are some ways to modify Bablu's approach and make it work correctly. But, Bunny's approach is much simpler.
+Bunny is correct - This is correct answer.
+Both are correct - This answer is incorrect.
+Both are wrong - This answer is incorrect.
+
+Let us apply Bunny's suggestion to our logic. Following is our new logic.
+1. Create a button and a paragraph. The text of the paragraph should be empty.
+2. Add "On click" action to the button.
+3. In the on click handler, replace the text of the paragraph with the required text.
+4. Add the required attributes for button and paragraph elements.
 
 We have completed the third step. Fourth step is "Convert logic to code".
 
 Following is the logic we came up with.
-1. Create a button.
-2. Add on click action to it.
-3. On click action should display the given text.
+1. Create a button and a paragraph. The text of the paragraph should be empty.
+2. Add "On click" action to the button.
+3. In the on click handler, replace the text of the paragraph with the required text.
+4. Add the required attributes for button and paragraph elements.
 
-There are 3 concepts here, create a button, add onClick event, Functinality for onClick event. Choose an option to find out how that concept is related to the current question.
+There are multiple concepts here. Choose an option to find out the implementation details about that concept.
+Create a UI element (like button, paragraph)
+Configure "On click" event for a button
+Modify an existing DOM element (viz. paragraph)
+Add custom attributes
 
-Below we have 2 methods to create a button with data-testid in a React component. Which method is correct?
+--------- Begin Create a UI element
+Do you know how to create a button using HTML?
+Yes
+No - Please revise HTML concepts and solve a couple of HTML assignments that contain buttons. A working knowledge of HTML, CSS and JS is a must to learn advanced technologies like React. Please revise HTML and then come back to this assignment.
+
+We should use HTML button tag in a React component. Below is an example showing how to create a button using React.
+export default const App = () => {
+  return (
+    <button>Click</button>
+  );
+}
+
+Similarly, we can add a paragraph element. Below there are 2 code snippets that add a button and a paragraph using React. Which snippet is correct?
 ------
-Method 1:
-<button data-testid="click">Click</button>
+
+Snippet 1:
+export default const App = () => {
+  return (
+    <button>Click</button>
+    <p></p>
+  );
+}
+
 ------
-Method 2:
-<button id="click">Click</button>
-------
-Method 1 - This is correct answer. Here we have button tag with data-testid attribute.
-Method 2 - This answer is incorrect. Here button tag has id attribute.
-Both are correct - This answer is incorrect.
-Both are wrong
-
-For giving functionality to onClick event, we have multiple approaches using vanilla javascript, javascript libraries etc.
-1. Using vanilla javascript: Use vanilla javascript to give functionality to DOM element.
-2. Using useState in React: Use useState to manage the state of any html element.
-
-Vanilla javascript approach will look something like this
-html file
-<html>
-...
-<body>
-<button id="demo">Click me.</button>
-</body>
-</html>
-
-js file
-const <functionname> = () => {
-    // logic for functinality we have to give after clicking button
-  };
-
-document.getElementById("<idname>").addEventListener("click",<functionname>);
-
-Above code is used in vanilla javascript fo adding functionality to any event in javascript.
-But in react we don't have hooks to manage the state of element.
-
-Similar functinality using react hook will look something like this
-
- const [currentState,setCurrentState ] = useState("");
-
-  const <functionname> = () => {
-    // logic for functinality we have to give after clicking button
-  };
-
+Snippet 2:
+export default const App = () => {
   return (
     <div>
-      <button onClick=<functionname> id="click">Click</button>
-      {currentState}
-    </div>
-  )
-
-The above code looks very similar to the code in vanilla javascript.
-
-For using useState Hook in react, we have to import useState Hook at the top of our component.
-Above statement is true - This is correct answer. If we have to use useState in our component then we have to import useState at the top of our component.
-It is not necessay - This answer is incorrect. Please revise the concepts of useState hook.
-
-Which of the following is correct syntax for importing useState in react?
-import {useState} from react; - This answer is incorrect. We have to write react in double quotes
-import useState from "react"; - This answer is incorrect. We have to use destructuring while importing in react, since it is a named export.(i.e use flower brackets {useState})
-import {useState} from "react"; - This is correct answer. We are destructuring useState from react as it is a named export.
-
-We have two methods for initializing state. Which of the method is correct?
-Method 1: const [para, setPara] = useState("");
-Method 2: const [para] = useState("");
-Method 3: const [setPara] = useState("");
-
-Method 1 - This is correct asnwer. 
-useState accepts an initial state and returns two values:
-The current state. In this example, para state variable is initialized with an empty string,
-A function that updates the state. In this example setPara function can be used to update the value of para later in the component.
-Method 2 - This answer in incorrect. In this example we are not using the function which might be used to update the state for first argument later in the component.
-Mehotd 3
-
-Below are 2 methods to update the state of variable para using useState hook. Which of the following is correct?
-------
-Method 1:
-const [para,setPara] = useState("");
-
-  const handleClick = () => {
-      setPara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");    
-  };
-------
-Method 2:
-const [para,setPara] = useState("");
-
-  const handleClick = () => {
-      para = "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";    
-  };
-------
-
-Method 1 - This is correct answer. Here handleClick is a function which is used to change the state of the variable para.
-Method 2 - This answer is incorrect. We don't have to diectly update the state of variable while using useState.
-
-Now you know how to initialize and update a state variable using useState. Do you know how to render the state variable in rendered component?
-Yes -
-No - To render a State variable in the component, you can simply include the variable in the JSX code. Below is an example for this.
-const ExampleComponent = () => {
-  const [message, setMessage] = useState('Hello, World!');
-
-  return (
-    <div>
-      <p>{message}</p>
+      <button>Click</button>
+      <p></p>
     </div>
   );
-};
-The above code is just an example. To run it in react, you have to include import and export statements.
+}
 
-Ramesh and Suresh gave 2 different pieces of code to use onClick functionality for button element. Where onClick event will invoke handleClick function.
-
-Ramesh:
-    <button onClick = {handleClick}>Button element</button>
-
-Suresh:
-    <button onClick = (handleClick)>Button element</button>
-
-Who is correct?
-
-Ramesh - This is correct answer. We are giving function reference to the onClick event.
-Suresh - This answer is incorrect. Please revise the concepts.
+Only snippet 1 - This answer is incorrect. A React component should return only one top-level element. In snippet 1, there are 2 top-level elements (viz. button and p). So, it will give you error.
+Only snippet 2 - This is correct answer. A React component should return only one top-level element. In snippet 2, there is only one top level element (viz. div). button and p are not at top-level. They are the children of div. So, snippet 2 is correct. Snippet 1 is wrong because it has 2 top-level elements (viz. button and p).
 Both are correct - This answer is incorrect.
 Both are wrong - This answer is incorrect.
 
-Now that you know all the concepts required to implement our logic, take a paper and write down the code.
-1. Create a button element.
-2. Use useState for changing the state of paragraph tag. In this step you should take care of following things.
-2.1. Initialize the state at the top of functional component.
-2.2. Write a function to change the state of variable which you initialized using useState.
-2.3. Render the state variable in the rendered component.
-3. Add an onClick event to the button.
+--------- End Create a UI element
 
-If you are getting 100% acceptance. Try to add 1 more feature, just for your practice. When you click the button the text should render and when you click button again the text should disappears.
+--------- Begin Configure "On click" event
+Below we have 2 methods to configure on click functionality for a button. Which method is correct?
+------
+
+Method 1:
+In HTML:
+<button id="log-in">Log in</button>
+
+In JS:
+const verifyUser = () {
+  //
+}
+document.getElementById("log-in").addEventListener("click", verifyUser);
+
+------
+Method 2:
+In HTML:
+<button id="log-in" onclick="verifyUser()">Log in</button>
+
+In JS:
+const verifyUser = () {
+  //
+}
+
+Only method 1 - This answer is incorrect. Method 2 is also correct.
+Only method 2 - This answer is incorrect. Method 1 is also correct.
+Both are correct - This is correct answer. Both methods are correct. Method 1 is using DOM manipulation, where as method 2 is using inline event handler.
+Both are wrong - This answer is incorrect.
+
+For simple use cases like this assignment, we generally use Method 2 (i.e. inline event handler). There is a small difference between HTML and React in terms of event names. HTML use all lowercase where as React uses camelCase.
+In HTML: onclick
+In React: onClick
+
+Below we have 3 different pieces of code to attach click handler to a button in React. Which of them is correct?
+
+Method 1:
+<button onClick = {verifyUser}>Log in</button>
+
+Method 2:
+<button onClick = (verifyUser)>Log in</button>
+
+Method 3:
+<button onClick = {verifyUser()}>Log in</button>
+
+Method 1 is correct - This is correct answer. We should use flower brackets (Method 2 uses circular brackets. So, Method 2 is wrong). And also, we should not invoke the function (Method 3 invokes the function. So, Method 3 is also wrong).
+Method 2 is correct - This answer is incorrect. We should not use circular brackets.
+Method 3 is correct - This answer is incorrect. We should not invoke the function.
+All are correct - This answer is incorrect.
+
+Below is an example showing the use of an inline event handler in React.
+
+export default const App = () => {
+  function updateText () {
+    // Code to update the text
+  }
+  return (
+    <button onClick = {updateText}>Click</button>
+  );
+}
+
+Note that we are only providing the function name, but we are not invoking the function.
+updateText - this is just the function name
+updateText() - this is invoking (or calling) the function
+--------- End Configure "On click" event
+
+--------- Begin Modify an existing DOM
+Previously you would have learnt DOM manipulation using Javascript. DOM manipulation helps us create interactive webpages. Current assignment is an example of an interactive webpage. User clicks the button and the webpage shows some text. This is an interaction between user and the webpage.
+
+DOM manipulation in plain Javascript uses methods like getElementById, getElementsByTagName etc. and properties like innerHTML.
+
+In React, we can do DOM manipulation using hooks. There are multiple other advantages of hooks. DOM manipulation is just one of them.
+
+Do you know about React hooks?
+Yes
+No - Please revise the lectures on React hooks and come back.
+
+There are different types of React hooks, used for different purposes. Below are some commonly used React hooks.
+1. State hooks - e.g. useState
+2. Context hooks - e.g. useContext
+3. Ref hooks - e.g. useRef
+4. Effect hooks - e.g. useEffect
+
+How do we decide which hook to use?
+
+To decide which hook to use, we should write down what is our goal. Take a paper and write down what are we trying to do in this step.
+
+In this step, our goal is the following. Based on user action (viz. button click), we need to display something (viz. a text). In other words, we have to change UI based on a user action. For this purpose, we can use useState hook. So, whenever the UI needs to change based on a user action, we can use useState hook.
+
+We encourage you to read the official documentation on React hooks - https://react.dev/reference/react
+
+Bablu says that we have to import useState in order to use it. Bunny says, we don't need to import useState as we already import React. Who is correct?
+Bablu is correct - This is correct answer. We have to import useState.
+Bunny is correct - This answer is incorrect. Even though we import React, we have to separately import useState.
+Both are correct - This answer is incorrect.
+Both are wrong - This answer is incorrect.
+
+useState lets us add a state variable to a React component. Basically, useState is a function. Every function will have some input parameters and a return value.
+How many input parameters does useState take?
+0 - This answer is incorrect. Please revise the lectures or refer to the documentation of useState - https://react.dev/reference/react/useState 
+1 - This is correct answer.
+2
+
+useState hook takes exactly one input parameter. What is that parameter?
+Empty string - This answer is incorrect. Please revise the lectures or refer to the documentation of useState - https://react.dev/reference/react/useState
+0
+Initial state - This is correct answer.
+State variable
+
+What is the return value of useState?
+Initial state - This answer is incorrect. Please revise the lectures or refer to the documentation of useState - https://react.dev/reference/react/useState 
+Current state
+An array containing current state and set function - This is correct answer.
+An object containing current state and set function
+
+Below is a partial code showing the usage of useState. It does 2 things.
+1. Imports useState
+2. Invokes useState and stores its return value for further use.
+
+import React, {useState} from "react";
+export default function App() {
+  const [showText, setShowText] = useState("")
+}
+
+Now we know how to add a state to a React component (we are using useState hook). Try to recall why we came to useState. We came to useState because it will help us to change UI based on a user action. The way to achieve this is as follows.
+1. Identify the UI element that needs to be updated (in our case this is a paragraph tag).
+2. Make that element use the current state variable (recall that the useState returns current state and set function).
+3. When you handle user action, call the set function to set the new state.
+Once we implement these 3 steps, React will automatically update the UI.
+
+Below is an example showing the implementation of the above 3 steps.
+
+import React, { useState } from "react";
+export default function App() {
+  const [showText, setShowText] = useState("")
+  function updateText(){
+    // step 3
+    setShowText("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy!!!");
+  }
+  return (
+    <div>
+      <button onClick = {updateText}>Click</button>
+      <p>{showText}</p> {/* steps 1 and 2 */}
+    </div>
+  )
+}
+
+In the above code snippet, inside updateText function, we are calling setShowText in order to change the state of showText. Bablu suggested an alternative way. He gave the below snippet. Is this correct?
+
+function updateText() {
+  showText = "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy!!!";
+}
+
+Yes - This answer is incorrect.
+No - This is correct answer.
+
+You should never modify the state variable directly. It won't give you any error. But it also won't work correctly. You should always use the set function only.
+
+--------- End Modify an existing DOM
+
+--------- Begin Add custom attributes
+We want to create an HTML button with a custom attribute "data-testid" and its value must be "click". Below we have different methods to do this. Which method is correct?
+
+Method 1:
+<button "data-testid" = "click">Log in</button>
+
+Method 2:
+<button data-testid = click>Log in</button>
+
+Method 3:
+<button data-testid = "click">Log in</button>
+
+Method 4:
+<button "data-testid" = click>Log in</button>
+
+Method 1 - This answer is incorrect. Please refer to the documentation to learn the correct format - https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes 
+Method 2
+Method 3 - This is correct answer. Please refer to the documentation for more details - https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+Method 4
+--------- End Add custom attributes
+
+Now that you know all the concepts required to implement our logic, take a paper and write down the code.
+1. Create a state at the top of your functional component.
+1.1 Store the current state and set function returned by useState
+2. Create a button element and a paragraph element.
+3. Add the required custom attributes to them.
+4. For the button, attach a click handler.
+5. For the paragraph, use the current state
+6. Implement the click handler. Inside it, use the set function to change the state.
+
+If you are getting 100% acceptance. Try to add 1 more feature, just for your practice. When you click the button the text should render and when you click button again the text should disappear.
