@@ -34,13 +34,21 @@ T4 - This is correct answer.
 
 We have completed the second step. Third step is "Coming up with logic".
 
-For this assignment, logic means step-by-step procedure on how to relate and compose the various components.
+For this assignment, logic means step-by-step procedure on
+1. What is the HTML content to be rendered?
+2. What are the React components we should define?
+3. What HTML content should be rendered in each of the React components?
+4. Which component must be used in which component? (this is known as composition or composing the components)
 
-In this assignment we have App component. We need to render the exact text inside the mentioned tags.
-The logic is very simple.
-1. Change the id of the div tag.
-2. Create a component in App.js file.
-3. Component should return the exact text inside the mentioned tag and id.
+Take a paper and write down the answers to the above questions.
+
+Following is what I came up with.
+1. <p>I am learning React. My life is getting better.</p>
+2.1. We need to define a Learner component (Learner.js is already given as part of the boiler-plate code).
+2.2. We also have App component (already given as a part of the boiler-plate code).
+3.1. p tag should be rendered inside Learner component.
+3.2. No need of any explicit HTML inside App component.
+4. Learner component must be rendered inside App component.
 
 We have completed the third step. Fourth step is "Convert logic to code".
 
