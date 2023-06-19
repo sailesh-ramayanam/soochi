@@ -1,38 +1,36 @@
 First step is "Understand the problem statement".
 
-The problem statement talks about rendering a component in react. This assignment is to familiarize you with the following concepts.
-1. How to change id name in react component?
-2. How to create and render a component in react?
-3. How to render semantic tag in react component?
+The problem statement is very simple. We have to display a text on a webpage.
 
-Let us try to break down the question.
-The question asks us to render a component. Inside which tag we have to render that component.
-ul tag - This answer is incorrect. Please read the problem description carefully.
-body tag
-html tag
-div tag - This is correct answer.
+There are multiple ways to display text. But this assignment mentions some requirements. Go to test cases section to understand about them.
 
-The question also mentions the id name of the div tag.
-Which of the following is correct name for the id of div tag?
-div - This answer is incorrect. Please read the problem description carefully.
-component
-root - This is correct answer. 
+2nd step is "Come up with new test cases".
 
-
-We have to render the text "I am learning React. My life is getting better.", inside which tag should we render this text?
-h1 tag - This answer is incorrect. Please read the problem description carefully.
+We have to display the text "I am learning React. My life is getting better.".
+There are multiple ways to render a text on a webpage. As per the assignment, which tag must be used to render 
+the text?
+h1 tag - This answer is incorrect. Please read the problem statement carefully.
 div tag
 span tag
 p tag - This is correct answer.
 
+We should use p tag. It must be rendered inside a React component. In which React component, should we render the p tag?
+App component - This answer is incorrect. Please read the problem statement carefully.
+Learner component - This is correct answer.
 
-Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+There are 4 texts given below. All of them look similar, but are not. Which of them should be displayed?
+T1: i am learning react.my life is getting better.
 
-In this assignment we should build only a UI (user interface). There is no functionality requirement in the question.
+T2: I am learning React.My life is getting better.
 
-So, there are no specific test cases. Just make sure you are using the mentioned tags with the mentioned attribute names and values.
+T3: I am learning React. My life is getting better
 
-You should render the exact text as mentioned in the problem statement.
+T4: I am learning React. My life is getting better.
+
+T1 - This answer is incorrect. You should take care of the case of the letters. I; R in React; m in My; all of these must be in upper case.
+T2 - This answer is incorrect. You should take care of white space. There must be exactly one space between full-stop and My.
+T3 - This answer is incorrect. You should take care of punctuation. Full-stop at the end is missing.
+T4 - This is correct answer.
 
 We have completed the second step. Third step is "Coming up with logic".
 
