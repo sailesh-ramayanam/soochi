@@ -43,139 +43,148 @@ For this assignment, logic means step-by-step procedure on
 Take a paper and write down the answers to the above questions.
 
 Following is what I came up with.
-1. <p>I am learning React. My life is getting better.</p>
+1. A paragraph tag containing the text "I am learning React. My life is getting better."
 2.1. We need to define a Learner component (Learner.js is already given as part of the boiler-plate code).
 2.2. We also have App component (already given as a part of the boiler-plate code).
 3.1. p tag should be rendered inside Learner component.
 3.2. No need of any explicit HTML inside App component.
 4. Learner component must be rendered inside App component.
 
+Interesting fact:
+Any React application will have one single top level component. You can name it anything you want, but most people use the name App.
+
 We have completed the third step. Fourth step is "Convert logic to code".
 
 Following is the logic we came up with.
-1. Change the id of the div tag.
-2. Create a component in App.js file.
-3. Component should return the exact text inside the mentioned tag.
+1. A paragraph tag containing the text "I am learning React. My life is getting better."
+2.1. We need to define a Learner component (Learner.js is already given as part of the boiler-plate code).
+2.2. We also have App component (already given as a part of the boiler-plate code).
+3.1. p tag should be rendered inside Learner component.
+3.2. No need of any explicit HTML inside App component.
+4. Learner component must be rendered inside App component.
 
-There are 3 concepts here, change id name, creating a component, rendering a component. Choose an option to find out how that concept is related to the current question.
+There are various concepts here. Choose an option to learn more about its implementation.
+Paragraph tag
+Define a React component
+Render HTML inside a React component
+Compose React components
 
-Below we have 2 methods to write id attribute inside div tag in react. Which method is correct?
-------
-Method 1:
-<div id = "root">
-   ...
-</div>
-------
-Method 2:
-<div id = root>
-   ...
-</div>
-------
-Method 1 - This is correct answer. id name should be inside double quotes
-Method 2 - This answer is incorrect. Please revise the concepts and try again.
-Both are correct
-Both are wrong
+--------- Begin Paragraph tag
 
-We have App.js file, inside App.js file we are creating a new component. 
-Which of the following is correct way of creating a new component?
-------------
-Method 1:
-import React from "react";
-import './App.css';
-
-const component1 = () => {
-  return <p>This is new component</p>;
-};
-
-const App = () => {
-  return (
-    <div id="root">
-      //fill your code here
-    </div>
-  )
-}
-------------
-Method 2:
-import React from "react";
-import './App.css';
-
-const Component1 = () => {
-  return <p>This is new component</p>;
-};
-
-const App = () => {
-  return (
-    <div id="root">
-      //fill your code here
-    </div>
-  )
-}
-------------
-Method 3:
-import React from "react";
-import './App.css';
-
-const App = () => {
-   const Component1 = () => {
-  return <p>This is new component</p>;
-};
-  return (
-    <div id="root">
-      //fill your code here
-    </div>
-  )
-}
-Method 1 - This answer is incorrect. Component name should always start with capital letter.
-Method 2 - This is correct answer. Component name should start with capital letter and it should not be written inside App component.
-Method 3 - This answer is incorrect. New component should be created separately. Please revise the concepts and try again.
-Method 1 and Method 2 are correct - This answer is incorrect. In method 1 component name is starting with small letter, which is not correct.
+Do you know how what a paragraph tag is and how to use it?
+Yes
+No - Please revise HTML concepts and solve a couple of HTML assignments that contain paragraph tags. A working knowledge of HTML, CSS and JS is a must, to learn advanced technologies like React. Please revise HTML and then come back to this assignment.
 
 Which of the following is correct way of rendering text inside a paragraph tag?
-Method 1: <p>I am learning React. My life is getting better.</p>
-Method 2: <p I am learning React. My life is getting better./>
-Method 3: <p text="I am learning React. My life is getting better."></p>
+Method 1: <p I am learning React. My life is getting better./>
+Method 2: <p text="I am learning React. My life is getting better."></p>
+Method 3: <p>I am learning React. My life is getting better.</p>
 Method 4: <p tag>I am learning React. My life is getting better.</p tag>
 
-Method 1 - This is correct answer.
-Method 2 - This answer is incorrect. p tag is not a self closing tag
-Method 3 - This answer is incorrect. Please revise the concept of basic html.
-Method 4 - This answer is incorrect. No need to write tag.
+Method 1 - This answer is incorrect. p tag is not a self-closing tag.
+Method 2 - This answer is incorrect. Please revise the concept of p tag.
+Method 3 - This is correct answer.
+Method 4 - This answer is incorrect. <p tag> is not valid syntax. Please revise the syntax of p tag.
 
-We have created a new component called component1. How should we render inside App component?
---------
+--------- End Paragraph tag
+
+--------- Begin Define a React component
+Do you know what a React component is and how to implement one?
+Yes
+No - Please revise the lectures and come back.
+
+The most basic React component will have 3 parts.
+1. Imports
+2. A function with the name of the component
+3. A return statement within the above function
+
+We have MyComponent.js file in which we are creating a new component. 
+Which of the following is the correct way of creating a new component?
+
+-----
 Method 1:
-const App = () => {
-  return (
-    <div id="root">
-      <Component1/>
-    </div>
-  )
-}
---------
+
+import React from "react";
+
+function mycomponent() {
+  return <div></div>;
+};
+
+-----
 Method 2:
+
+import React from "react";
+
+function MyComponent() {
+  return <div></div>;
+};
+
+Method 1 - This answer is incorrect. Component name should always start with an uppercase letter.
+Method 2 - This is correct answer. Component name should always start with an uppercase letter.
+
+--------- End Define a React component
+
+Render HTML inside a React component
+Compose React components
+
+--------- Begin Render HTML inside a React component
+
+Inside a React component, we can render any valid HTML.
+A React component is basically a Javascript function. Inside it, we can have more functions, variables etc. Also, it will have a return statement as well. 
+When a React component is rendered, what exactly is rendered?
+Function body - This answer is incorrect. Please revise the lectures.
+Return value - This is correct answer. When a React component is rendered, whatever is returned by the return statement is rendered.
+Function name
+
+Below is an example showing how to return HTML from a React component.
+
+import React from "react";
+
+function Learner() {
+  return (<p>I am learning React. My life is getting better.</p>);
+};
+--------- End Render HTML inside a React component
+
+--------- Begin Compose React components
+Composing the components means rendering one or more React components in another component. Composing allows us to build modular and reusable code. Modularity and Reusability are two of the most important principles in professional software development.
+
+In its most basic form, composing involves 2 components.
+1. Parent component
+2. Child component
+
+Child component is rendered inside the parent component.
+
+Composing involves the following steps.
+1. Export the child component from its file
+2. In the parent component file, import the child component
+3. Render the child component inside the parent component (i.e. use it in the return statement)
+
+We have already seen composing in the first assignment itself.
+Do you know how to export a component and how to import a component?
+Yes
+No
+First assignment deals with the export, import and rendering of components. You can revisit it to revise these concepts.
+
+Below, we have various methods showing how to render one component inside another. Which of them is correct?
+-----
+Method 1:
+
 const App = () => {
   return (
-   <Component/>
+      <Learner/>
   )
 }
---------
-Method 3:
+
+-----
+Method 2:
+
 const App = () => {
   return (
-    <div id="root">
       {Component1}
-    </div>
   )
 }
---------
+
 Method 1 - This is correct answer. Here we are correct syntax for rendering a component.
-Method 2 - This answer is incorrect. We have to wrap everything inside html tag or react fragment(i.e. <> </>) inside return statement.
-Method 3 - This answer is incorrect. Component should not be kept inside flower brackets while rendering.
+Method 2 - This answer is incorrect. We should not put a component n flower brackets. We should use it as a tag.
 
-Now that you know all the concepts required to implement our logic, take a paper and write down the code.
-1. Create a new component separately in App.js file.
-2. Return the mentioned tag with exact text, inside new component.
-3. Render the component inside App component.
-4. Keep everything inside div tag with mentioned attribute name and value, inside return statement in App component.
-
-NOTE: If you will directly render the paragragh tag inside the return statement then also you will get the 100% acceptance but that is not what this assignment is for. Here you have to learn how to create a new component in App.js file and how you should render it inside App component.
+--------- End Compose React components
