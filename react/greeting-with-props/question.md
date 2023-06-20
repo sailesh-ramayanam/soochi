@@ -33,4 +33,4 @@ Import Welcome component in App.js.
 
 # Sample UI
 
-[Click here](https://drive.google.com/file/d/12TvFXeP8Jj-Ey6SP4fr5lyhQbzpOm161/view?usp=sharing) for the image of a sample UI
+[Click here](https://drive.google.com/file/d/1Tu178ynuiQC45Pg0J5BwYtMwEMmVFPT2/view?usp=sharing) for the image of a sample UI
