@@ -16,7 +16,7 @@ When 1 or more task/s are added -
 3. Todo task with the name exactly as mentioned while adding it.
 4. Edit button for each task.
 5. Delete button for each task.
-6. Save button for editing already added task.
+6. Save button for saving the edited task.
 
 ## Functional requirements
 
