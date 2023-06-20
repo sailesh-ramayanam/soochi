@@ -21,16 +21,16 @@ Your task is to take a submitted form response and display `Hello {username}`.
 
 ## UI requirements
 
-1. Add Validation for each input fields. If validation failed then show the respective error message. Given below is expected functionality and error message which is to be displayed if that functionality fails<br>
+1. Add Validation for each input fields. If validation failed then show the respective error message. Given below is expected functionality for each input field and error message which is to be displayed if that functionality fails<br>
 
     **Note: Show only one error message at a time and they should have the same priority order as given below**
 
-    - Every input field should be filled. Error Message: `All fields are mandatory`
-    - Name must be alphanumeric ({space} allowed). Error Message: `Name is not alphanumeric`
-    - Email must contain one @ character. Error Message: `Email must contain @` 
-    - Gender value should be either male or female or other. Error Message: `Please identify as male, female or others`
-    - Phone Number must be number. Error Message: `Phone Number must contain only numbers`
-    - Password length should at least be 6 characters long. Error Message: `Password must contain atleast 6 letters`
+    - Every input field should be filled. If any of the field is missing, display Error Message: `All fields are mandatory`
+    - Name must be alphanumeric ({space} allowed). If it is not alphanumeric, display Error Message: `Name is not alphanumeric`
+    - Email must contain one @ character. If it doesn't contain @ character, display Error Message: `Email must contain @` 
+    - Gender value should be either male or female or other. if it's not one of them, then displayError Message: `Please identify as male, female or others`
+    - Phone Number must be number. If it contains string or any other character other than number, display Error Message: `Phone Number must contain only numbers`
+    - Password length should at least be 6 characters long. If it doesnt contain a minimum od 6 letter count, display Error Message: `Password must contain atleast 6 letters`
     - Submit Button
 
 2. Default value for gender should be male
