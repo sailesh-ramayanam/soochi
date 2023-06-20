@@ -1,6 +1,5 @@
 # Description
-`Form validation` is a technique that checks the correctness of the user's data.
-Form validation is required to prevent web-form abuse by malicious users. You've seen that today a lot of websites validate user's data before submission.
+`Form validation` is a process of validation of information that has been entered by a user who is using the application. This is done to ensure that the information entered by the user is valid.
 - eg: `Google form, etc.`
 
 Your task is to take a submitted form response and display `Hello {username}`. 
@@ -22,20 +21,6 @@ Your task is to take a submitted form response and display `Hello {username}`.
 
 ## UI requirements
 
-1. Form must have the following `Input Fields with given attributes`: 
-
-    - Name | data-testid = 'name' 
-    - Email address | data-testid = 'email' 
-    - Gender | data-testid = 'gender' 
-        1. Use `<select>` tag to create a drop-down list for gender field
-    - Phone Number | data-testid = 'phoneNumber'
-    - Password | data-testid = 'password', type='password' 
-    - Submit button | data-testid = 'submit'
-2. Your output should be in the format `Hello {username}`
-    - For example refer to *Above Description*  
-
-## Functional requirements
-
 1. Add Validation for each input fields. If validation failed then show the respective error message. Given below is expected functionality and error message which is to be displayed if that functionality fails<br>
 
     **Note: Show only one error message at a time and they should have the same priority order as given below**
@@ -46,10 +31,33 @@ Your task is to take a submitted form response and display `Hello {username}`.
     - Gender value should be either male or female or other. Error Message: `Please identify as male, female or others`
     - Phone Number must be number. Error Message: `Phone Number must contain only numbers`
     - Password length should at least be 6 characters long. Error Message: `Password must contain atleast 6 letters`
+    - Submit Button
 
 2. Default value for gender should be male
 3. Do not clear input fields if there are validation errors after submission. Show the appropriate errors.
 
+
+## Functional requirements
+
+1. On clicking submit button, 
+    - Validations should happen 
+    - If Validation Passes, Your output should be rendered in the format `Hello {username}`
+        - For example refer to *Above Description*  
+
+
+
+## Other requirements
+
+1. Form must have the following `Input Fields with given attributes`: 
+
+    - Name: An `input` element should contain an attribute `data-testid` and its value must be `name`. 
+    - Email address: An `input` element should contain an attribute `data-testid` and its value must be `email`. 
+    - Gender: A `select` element should contain an attribute `data-testid` and its value must be `gender`. 
+        (Hint : you can use select and option to create a dropdown)
+    - Phone Number: An `input` element should contain an attribute `data-testid` and its value must be `phoneNumber`. 
+    - Password: An `input` element should contain an attribute `data-testid` and its value must be `password`, and its type should be set to password. 
+    - Submit button: A `button` element should contain an attribute `data-testid` and its value must be `submit`
+    
 # Sample UI
 [Click here](https://drive.google.com/file/d/1zF4iERKUuQcgMKDyBJLNl6U4pquo9W5a/view?usp=sharing) for the image of a sample UI
 
