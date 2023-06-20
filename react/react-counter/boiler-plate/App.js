@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 const App = () => {
-  let [count, setCount] = useState(0);
   return (
     <div className="ball">
       <h1>{count}</h1>
