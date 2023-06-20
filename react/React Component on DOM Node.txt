@@ -1,0 +1,84 @@
+First step is "Understand the problem statement".
+
+The problem statement talks about rendering App component on DOM node. This assignment is to familiarize you with the following concepts.
+1. How to create App component?
+2. How to export the App Component?
+3. How to render App component on dom element using ReactDOM.render?
+
+Let us try to break down the question.
+The question mentions that there are few lines of codes that were deleted from few files.
+From which of the files codes are removed?
+Only App.js - This answer is incorrect. Please read the problem description carefully.
+Only Index.js
+Both App.js and Index.js - This is correct answer.
+
+The question also mentions about making default export to 1 compoenent?
+Which component is that?
+Index Component - This answer is incorrect. There is no component as Index component in this assignment.
+App Component - This is correct answer. We have to make default export for App component.
+
+What type of component should be App.js
+Class Component - This answer is incorrect. Please read the problem description carefully.
+Can be either Class or Functional Component
+Functional Component - This is correct answer. We have make App component as functional component.
+
+Question also mention about using ReactDOM.render method for rendering App component. In which file should we use this render method?
+Index.js - This is correct answer. We have to use ReactDOM.render method in index.js file.
+App.js - This answer is incorrect. Please read the problem description carefully.
+
+Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+
+This assignment is kind of a debugging challenge.
+
+In this assignment we should just render the element given in App.js file. There is no functionality requirement in the question.
+
+So, there are no specific test cases. Just make sure that the element which you are returning inside App component should render succesfully.
+
+We have completed the second step. Third step is "Coming up with logic".
+
+For this assignment, logic means step-by-step procedure on how create App component and how to render it inside index.js file.
+
+In this assignment we have  App.js file and Index.js file. We have to create App component inside App.js file and render it inside index.js file.
+The logic is very simple.
+1. Create App component.
+2. Make App component default export.
+3. Render App component inside Index.js file
+
+We have completed the third step. Fourth step is "Convert logic to code".
+
+Following is the logic we came up with.
+1. Create App component.
+2. Make App component default export.
+3. Render App component inside Index.js file.
+
+There are 3 concepts here, Create App component, Export, use ReactDOM.render method. Choose an option to find out how that concept is related to the current question.
+
+How to create App component?
+This concept was already covered in previous react assignments i.e. on "render components using react" and "render multiple components using react"
+Please go through this assignment to see how to create a compnent.
+Just keep in mind this 2 points
+1. Do not use named export for App component and
+2. Wrap everything inside <div> tag or react fragment(i.e <> </>) in the return statement of App component
+
+How to export a component in React?
+This is already discussed in previous assignment. Please refer to assignment "import-export".
+We have another file named MainPage.js, located in the same folder as Heading.js.
+
+How to use ReactDOM.render method in index.js.?
+To understnd this we should know in which file we have the html element with id = "root".
+In which file does the html element with id="root" is present in the default react project (project that we get from npx create-react-app)?
+App.js file - This answer is incorrect. index.html file is the root DOM node in React App. Please learn about JSX and go through official documentation of react to learn about this more.
+Index.html file
+Index.html file - This is correct answer. 
+If you look at the html file you could see <div id="root"></div>. 
+We call this a “root” DOM node because everything inside it will be managed by React DOM. That is the mounting point for react app.
+
+What of the following is correct syntax for using ReactDOM.render method in index.js file for rendering App component on the DOM element with id="root"?
+ReactDOM.render(<App />, document.getElementById("root")); - This is correct answer.
+ReactDOM.render(document.getElementById("root")); - This answer is incorrect.
+ReactDOM.render(<App />);
+
+Now that you know all the concepts required to implement our logic, take a paper and write down the code.
+1. Create App component.
+2. Make App component default export.
+3. Render App component inside Index.js file using ReactDOM.render method
