@@ -8,7 +8,7 @@ The code for buttons is already given in `React`. You just need to implement log
 
 ## UI requirements
 
-1. Title of the `Increment` button should be `Increment`. `Decrement` and `Reset` for `Increment`, `Decrement`.
+1. Title of the `Increment` button should be `Increment`.
 2. Title of the `Decrement` button should be `Decrement`.
 3. Title of the `Reset` button should be `Reset`.
 4. Initially counter value should be `0`.
