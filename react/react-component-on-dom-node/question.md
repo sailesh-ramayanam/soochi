@@ -8,10 +8,9 @@ This is a debugging challenge in react. Now, assume you have a root DOM node, pl
 1. App component should return the text `I am from App component` 
 
 ## Other requirements
-1. Make App component a functional component and while importing necessary dependencies
-2. Make App component a default export
-3. Import dependencies inside index.js and create a `rootElement` that has an `id="root"` inside index.js.
-4. Render the App component in the DOM element using rootElement
+1. Make App component a default export
+2. Create a `rootElement` that has an `id="root"` inside index.js.
+3. Render the App component in the DOM element using rootElement
 
 # Sample UI
 [Click here](https://drive.google.com/file/d/1x-ITYwOaaqGpTWfhSpxp8-UN-x5Pe5Oe/view?usp=drive_link) for the image of a sample UI
