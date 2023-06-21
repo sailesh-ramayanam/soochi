@@ -1,34 +1,32 @@
 # Description
 
-Render a welcome message i.e.  
-`Welcome to 10x Academy`  
-`Hello <name>!`  
-Display above text using `React`.
-
-## Task 1 :
-
-Default export the Welcome component in Welcome.js.
-
-## Task 2 :
-
-Import Welcome component in App.js.
+We want to create a welcome page for new students when they login to our site.
+Instead of showing same message to everybody, we want to customise the message by showing the student's name. The message should be as follows.
+`Hello <name>!`
+`Welcome to 10x Academy`
 
 # Requirements
 
 ## UI requirements
 
-1. Welcome Component should render the following text:  
-   `Welcome to 10x Academy`  
+1. The web page should show the following message.
    `Hello <name>!`
+   `Welcome to 10x Academy`
+
+Example:
+`Hello Ravi!`
+`Welcome to 10x Academy`
 
 ## Functional requirements
 
-1. On changing value of attribute `name`, it must reflect in the browser.
+1. Isolate the greeting text from the main component (viz. App).
+2. Use Welcome component to render the greeting.
+3. Welcome component must take a `name` prop, which can then be used to customise the greeting.
 
 ## Other requirements
 
-1. `Welcome to 10x Academy` must be rendered inside h2 tag.
-2. `Hello <name>!` must be rendered inside h1 tag.
+1. `Hello <name>!` must be rendered inside h1 tag.
+2. `Welcome to 10x Academy` must be rendered inside h2 tag.
 3. h1 tag should contain an attribute `data-testid` and its value must be `result` (Notice the lowercase `r`).
 
 # Sample UI
