@@ -1,16 +1,18 @@
 # Description
-This is a debugging challenge in react. Now, assume you have a root DOM node, place the App component on that root DOM node.
-- We have removed some lines of code from App.js and index.js. Fill them appropriately as per requirements 
+This is a debugging challenge in React. You are provided empty `App.js` and `index.js` files.
+You should create a React app that displays a text message (please refer to `Requirements` section for further details).
+Important note: Do not copy/paste the code from other assignments or internet. Please type the code on your own. That way you will realise how different files are connected.
 
 # Requirements
 
 ## UI requirements
-1. App component should return the text `I am from App component` 
+1. Your app should display the text `I am from App component`.
 
-## Other requirements
-1. Make App component a default export
-2. Create a `rootElement` that has an `id="root"` inside index.js.
-3. Render the App component in the DOM element using rootElement
+## Other information
+
+1. You can assume that the DOM will contain an element with `id` as `root`.
+2. You should render your `App` as a child to this `root` element.
+
 
 # Sample UI
 [Click here](https://drive.google.com/file/d/1x-ITYwOaaqGpTWfhSpxp8-UN-x5Pe5Oe/view?usp=drive_link) for the image of a sample UI

@@ -1,1 +1,1 @@
-// Write your code from here
+// Write your index.js code over here
