@@ -1,13 +1,17 @@
 # Description
-Create a Page which should look similar to an Instagram page. For demo visit *Sample UI* section
+Create a landing Page with a clickable button and on clicking the button redirect user to a Page which should look similar to an Instagram pagewith posts visible. For demo visit *Sample UI* section
+
+- Hint : For all the `Redirection or Routing` use `react-router-dom` package
+ 
 
 # Requirements
 ## UI requirements
 
-1. Landing Page should be the first viewable page when an user enter's your site and it should have a `click` button
-2. PostView Page should have same number of cards as the length of user object data receiving from json-server
+1. `Landing` Page should be the first viewable page when an user enter's your site and it should have a `click` button
+2. `PostView` Page should have same number of cards as the length of user-posts object data receiving from json-server
 3. Your Page should have all the spcified fields visible in the UI
     - name, location, date, image, like button, share icon, number of likes, & description about the post
+4. Display `NotFound` Page when user try to access any other page other than specified pages (Landing Page, PostView Page) and it should have text `Not found page`
 
 ## Functional requirements
 
@@ -22,6 +26,8 @@ Create a Page which should look similar to an Instagram page. For demo visit *Sa
     - eg : display locations `Bengaluru, Pune and Hyderabad`, should have attribute `data-testid="Bengaluru", data-testid="Pune" and data-testid="Hyderabad"`
 4. for each date in the `PostView` page should have respective `data-testid` attribute
     - eg : display date `12/02/2022, 15/05/2022 and 10/06/2022`, should have attribute `data-testid="12/02/2022", data-testid="15/05/2022" and data-testid="10/06/2022"`
+5. set the path `/` for `Landing` Page
+6. set the path `/posts` for `PostView` Page
 
 
 ### Instructions to setup local server
@@ -41,3 +47,7 @@ Create a Page which should look similar to an Instagram page. For demo visit *Sa
 
 # Sample UI
 [Click here](https://docs.google.com/document/d/1TvKXow5yC09LfpCEg9q7tnS9Ny9r4AhhDCjwc9TffBw/edit?usp=sharing) for the image of a sample UI
+
+
+---
+---
