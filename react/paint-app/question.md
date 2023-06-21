@@ -9,9 +9,9 @@ Create an app that allows users an option to choose colours for given blocks. Af
 1. Title of the `Orange` colour selector box should be `Orange`.
 2. Title of the `Green` colour selector box should be `Green`.
 3. Title of the `Blue` colour selector box should be `Blue`.
-4. Colour of the `Orange` colour selector box should be `Orange`.
-5. Colour of the `Green` colour selector box should be `Green`.
-6. Colour of the `Blue` colour selector box should be `Blue`.
+4. Colour of the `Orange` colour selector box should be `rgb(221, 112, 18)`.
+5. Colour of the `Green` colour selector box should be `rgb(44, 209, 88)`.
+6. Colour of the `Blue` colour selector box should be `rgb(34, 193, 195)`.
 7. Three selection boxes with no colour inside it at initial render.
 
 ## Functional requirements
