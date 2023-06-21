@@ -38,4 +38,4 @@ Create an app that allows users an option to choose colours for given blocks. Af
 # Sample UI
 
 [Click here](https://drive.google.com/file/d/16hnrEZ6LVutQZvmJR9udc_rOIxsMl5ff/view?usp=sharing) for the video of a sample UI
-[Click here](https://drive.google.com/file/d/19Ry5v6BRVbY3lEZMhP7sBZmAvOAIeOpg/view?usp=sharing) for the video of a sample UI
+[Click here](https://drive.google.com/file/d/19Ry5v6BRVbY3lEZMhP7sBZmAvOAIeOpg/view?usp=sharing) for the image of a sample UI
