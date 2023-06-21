@@ -1,9 +1,15 @@
 # Description
-`Form validation` is a process of validation of information that has been entered by a user who is using the application. This is done to ensure that the information entered by the user is valid.
-- eg: `Google form, etc.`
+`Form validation` is an essential aspect of web development. It has multiple advantages.
 
-Your task is to take a submitted form response and display `Hello {username}`. 
-- eg: <br>
+    Ensures that user input meets the specified requirements
+    Prevents erroneous or incomplete data from being submitted
+    Secures your application from various attacks
+
+You would have seen *form validation* in multiple contexts - e.g. `Google forms, Sign up forms`
+
+In this assignment, you have to collect details in a form and display a greeting in the format `Hello {username}`. 
+
+### Example 
     `Input`
     ```
     Name            : "Mohan Chowdary"
@@ -20,46 +26,54 @@ Your task is to take a submitted form response and display `Hello {username}`.
 # Requirements
 
 ## UI requirements
-
-1. Add Validation for each input fields. If validation failed then show the respective error message. Given below is expected functionality for each input field and error message which is to be displayed if that functionality fails<br>
-
-    **Note: Show only one error message at a time and they should have the same priority order as given below**
-
-    - Every input field should be filled. If any of the field is missing, display Error Message: `All fields are mandatory`
-    - Name must be alphanumeric ({space} allowed). If it is not alphanumeric, display Error Message: `Name is not alphanumeric`
-    - Email must contain one @ character. If it doesn't contain @ character, display Error Message: `Email must contain @` 
-    - Gender value should be either male or female or other. if it's not one of them, then displayError Message: `Please identify as male, female or others`
-    - Phone Number must be number. If it contains string or any other character other than number, display Error Message: `Phone Number must contain only numbers`
-    - Password length should at least be 6 characters long. If it doesnt contain a minimum od 6 letter count, display Error Message: `Password must contain atleast 6 letters`
-    - Submit Button
-
-2. Default value for gender should be male
-3. Do not clear input fields if there are validation errors after submission. Show the appropriate errors.
-
+1. Form should contain the following fields
+    1. Name - text input field
+    2. Email - text input field
+    3. Gender - drop down field - Male, Female, Others. Default: Male
+    4. Phone number - text input field
+    5. Password - password field
+    6. Submit - button
+2. Error message must be shown below the submit button (please refer to `Sample UI` section for details)
+3. When greeting message is shown, form must not be shown (please refer to `Sample UI` section for details)
 
 ## Functional requirements
-
-1. On clicking submit button, 
-    - Validations should happen 
-    - If Validation Passes, Your output should be rendered in the format `Hello {username}`
-        - For example refer to *Above Description*  
-
-
+1. Following are the validation rules
+    1. Every input field should be filled. Error Message: `All fields are mandatory`.
+    2. Name must be alphanumeric (i.e. only alphabets and digits. Spaces are allowed). Error Message: `Name must contain only alphabets, digits and spaces`.
+    3. Email must contain exactly one @ character. Error Message: `Email must contain exactly one @`.
+    4. Phone Number must contain only digits. Error Message: `Phone number must contain only digits`.
+    5. Password should contain at least 6 characters. Error Message: `Password must contain at least 6 letters`.
+2. If there are multiple errors, display only one error (order of priority is as given above).
+    - Suppose password contains only 4 letters and phone number is left blank. Then there are 2 errors. As per the above order, `All fields are mandatory` takes priority over `Password must contain at least 6 letters`. so, you must display only `All fields are mandatory` error.
+3. Validation must happen after clicking the submit button.
+4. If there are errors, do not clear the input fields. It will help the user to correct the mistakes instead of filling all the details again.
+5. Display the error message below the submit button.
+6. If there are no errors, display the greeting `Hello {Name}` in a blank page (i.e. Form should not be shown. Only the greeting message must be shown.).
 
 ## Other requirements
-
-1. Form must have the following `Input Fields with given attributes`: 
-
-    - Name: An `input` element should contain an attribute `data-testid` and its value must be `name`. 
-    - Email address: An `input` element should contain an attribute `data-testid` and its value must be `email`. 
-    - Gender: A `select` element should contain an attribute `data-testid` and its value must be `gender`. 
-        (Hint : you can use select and option to create a dropdown)
-    - Phone Number: An `input` element should contain an attribute `data-testid` and its value must be `phoneNumber`. 
-    - Password: An `input` element should contain an attribute `data-testid` and its value must be `password`, and its type should be set to password. 
-    - Submit button: A `button` element should contain an attribute `data-testid` and its value must be `submit`
+1. UI elements should have the following attributes 
+    1. Name
+        - An `input` element
+        - Should contain an attribute `data-testid` with value `name`
+    2. Email address
+        - An `input` element
+        - Should contain an attribute `data-testid` with value `email`
+    3. Gender
+        - A `select` element
+        - Should contain an attribute `data-testid` with value `gender`
+    4. Phone Number
+        - An `input` element
+        - Should contain an attribute `data-testid` with value `phoneNumber`
+    5. Password
+        - An `input` element
+        - Type should be set to password
+        - Should contain an attribute `data-testid` with value `password`
+    6. Submit
+        - A `button` element
+        - Should contain an attribute `data-testid` with value `submit`
     
 # Sample UI
-[Click here](https://drive.google.com/file/d/1zF4iERKUuQcgMKDyBJLNl6U4pquo9W5a/view?usp=sharing) for the image of a sample UI
+[Click here](https://drive.google.com/file/d/1AgVAmDa8AdXAXgzn50e2vQnr_RAc91rh/view?usp=sharing) for the image of a sample UI
 
 
 
