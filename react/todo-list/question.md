@@ -7,8 +7,8 @@ Build a to-do list app that allows users to add, edit, and delete tasks they wan
 ## UI requirements
 
 1. Title of the app `ToDo App` should be displayed.
-2. There should be one input field for entering the task description with placeholder `Enter Task`.
-3. There should be one button for adding task with title `Add`.
+2. There should be one input field for entering the task description with placeholder `Enter here`.
+3. There should be one button for adding task with title `Add To Do`.
 
 4. A list of tasks one below the other
    - Todo tasks with the name exactly as mentioned while adding it.
