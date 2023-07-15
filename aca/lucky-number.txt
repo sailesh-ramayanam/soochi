@@ -1,0 +1,335 @@
+First step is "Understand the problem statement".
+
+The problem statement mentions that we will have a sorted array. Do you know the meaning of sorted?
+Yes
+No - Sorted means arranged in either ascending order or descending order.
+
+Which of the following sequences is not sorted?
+5, 5, 5, 5 - This answer is incorrect. Since all the integers are same, they are also a sequence of sorted integers.
+9, 5, 3, 3 - This answer is incorrect. Here integers are sorted in descending order.
+6, 7, 10, 2 - This is correct answer. The numbers are neither in ascending order nor in descending order. So they are not sorted.
+3, 9, 10, 12 - This answer is incorrect. Here integers are sorted in ascending order.
+Don't know the meaning of sorted
+
+As per the problem statement "lucky integer is an integer which has a frequency in the array equal to its value".
+Do you know the meaning of frequency?
+Yes
+No - Frequency means the number of times it appears in the given sequence
+
+What is the frequency of 10 in the following sequence?
+3, 9, 10, 12
+0 - This answer is incorrect.
+1 - This is correct answer. 10 appears 1 time in the sequence. So its frequency is 1.
+2
+
+Identify the lucky number in the following sequence.
+2, 2, 3, 3, 3
+
+Only 2 - This answer is incorrect. 3 is also a lucky number.
+Only 3 - This answer is incorrect. 2 is also a lucky number.
+Both 2 and 3 - This is correct answer. 2 appears 2 times, so 2 is a lucky number. 3 appears 3 times, so 3 is also a lucky number.
+None - This answer is incorrect. Please read the problem description to understand the meaning of a lucky number.
+
+
+Identify the lucky number in the following sequence.
+4, 4, 4, 4, 4
+
+4 - This answer is incorrect. 4 appears 5 times. So, the frequency of 4 is 5. So, 4 is not a lucky number.
+5 - This answer is incorrect. 5 is not even present in the sequence. Why do you think 5, because 4 is repeated 5 times?
+No lucky number - This is correct answer. There is only one unique number in the sequence, which is 4. Its frequency is 5. So, it is not a lucky number.
+
+As per the problem statement, we have to print -1 in some scenarios. We have 4 scenarios below. In which of these scenarios should we print -1? 
+S1: When all elements of array are same.
+S2: When frequency of all the elements in the array is same.
+S3: When none of the elements in the array has frequency equal to its value.
+
+S1 - This answer is incorrect. Please read the problem statement carefully.
+S2 - This answer is incorrect. Please read the problem statement carefully.
+S3 - This is correct answer.
+
+Now that we understand the problem statement, 2nd step is to come up with new test cases.
+First let us understand the input format.
+
+How many lines does the input contain?
+4 lines - This answer is incorrect. Please read the input description carefully.
+5 lines - This answer is incorrect. Please read the input description carefully.
+Not known until we read input - This is correct answer. Until we read the first line of input, we don't know how many lines the input contains.
+
+What does the first line of input contain?
+Size of the sequence - This is correct answer.
+First value of the sequence - This answer is incorrect. Please read the input description carefully.
+Don't know - Please read the input description provided in the assignment.
+
+Suppose first line contains 17. Then, how many lines will the input have?
+17 - This answer is incorrect. Please read the input description carefully.
+18 - This is correct answer. First line contains 17, means the sequence has 17 values. Each value is provided in a separate line, starting from 2nd line. So, 17 lines + the first line. Total 18 lines of input.
+16 - This answer is incorrect. Please read the input description carefully.
+Cannot say - This answer is incorrect. Please read the input description carefully.
+
+We have some sample inputs below.
+Input 1:
+3
+10
+8
+5
+
+Input 2:
+3
+7
+7
+7
+
+Input 3:
+2
+-5
+3
+
+Input 4:
+3
+4
+6.5
+9
+
+Which of these is not a valid input for this problem?
+Input 1 - This answer is incorrect. Why do you think this is invalid? Is it because numbers are sorted in decreasing order? Please read the input description carefully.
+Input 2 - This answer is incorrect. Why do you think this is invalid? Is it because all numbers are same? Please read the input description carefully.
+Input 3 - This answer is incorrect. Why do you think this is invalid? Is it because there is a negative integer? Please read the input description carefully.
+Input 4 - This is correct answer. Input 4 is invalid, because it has a decimal value. As per the problem statement, input will contain only integers.
+
+
+
+Now that we understood the input format, let us understand the output format.
+
+
+How many lines should the output contain?
+1 line - This is correct answer. Output should contain 1 line. We should print the lucky integer.
+2 lines - This answer is incorrect. Please read the output description carefully.
+3 lines - This answer is incorrect. Please read the output description carefully.
+Not known until we read input - This answer is incorrect. Please read the output description carefully.
+
+Let us now look at some sample test cases.
+
+Consider the following input.
+Input:
+5
+1
+2
+3
+3
+3
+
+What should be the output for the above input?
+-1 - This answer is incorrect. -1 means there is no lucky number in the given sequence. But, the given sequence contains a lucky number.
+3 - This answer is incorrect. 3 is a lucky number, but it is not the first lucky number in the given sequence.
+2 - This answer is incorrect. 2 is not a lucky number.
+1 - This is correct answer. Both 1 and 3 are lucky numbers. In the sequence 1 appears first, so we should output 1.
+
+While trying to understand the input and output format, we also saw a few test cases. Based on those, please come up with 3 new test cases.
+
+Following are some hints for coming up with new test cases.
+
+1. Normal test cases - length of the sequence is like 5, 8, 10 etc.
+1.1. Only 1 lucky number
+1.2. Multiple lucky numbers
+
+2. Boundary test cases
+2.1. All the values in the sequence are same
+2.2. The sequence has multiple unique values and the first value is lucky number
+2.3. The sequence has multiple unique values and only the last unique value is lucky number
+
+
+Based on these hints, you can come up with at least 5 new test cases.
+Write them on a paper along with the expected output.
+
+We have completed 2 steps in problem solving approach.
+1. Understanding the problem statement
+2. Coming up with new test cases
+3rd step is "Coming up with logic"
+
+Logic means step-by-step procedure which explains how to calculate the result for the given input.
+This step-by-step procedure is also called as algorithm.
+
+One way to come up with an algorithm is by using the test cases we wrote down previously.
+Take a test case.
+Write down the input.
+Write down the expected result.
+Now write down, how you arrived at the result.
+Let us demonstrate through an example.
+
+One test input from above is
+5
+1
+2
+3
+3
+3
+
+I will try to explain what I did.
+
+I looked at the first line. It contains 5. So, I came to know that there will be 5 values in the sequence.
+
+Then I looked at 1. And wrote the count of 1 equals to 1.
+
+Then I looked at 2 and compared it with previous value (i.e. 1). They are not equal. This means that there won't be any more 1's in the sequence.
+
+How can we say that there won't be any more 1's after 2? Bunny and Bablu gave 2 different reasons.
+Bunny: Problem statement says that the values won't be repeated.
+Bablu: Problem statement says that the sequence is sorted. In a sorted sequence, any repeated values will always appear consecutively (i.e. side-by-side).
+
+Who is correct?
+
+Bunny - This answer is incorrect. The problem statement does not say it. In fact, in the given sequence 3 is repeated 3 times.
+Bablu - This is correct answer.
+Both are correct - This answer is incorrect. Please read the problem statement carefully.
+Both are wrong
+
+
+Now I know that there won't be any more 1's in the sequence. I see that the count of 1 is 1. I found a lucky number. I can stop as I have to output only the first lucky number (note that the given sequence has two lucky numbers).
+
+Let us repeat this exercise for the following input.
+6
+1
+1
+2
+3
+4
+4
+
+Before continuing further, first write down the steps by yourself. And then, you can compare with what I have.
+
+I looked at the first line. It contains 6. So, I came to know that there will be 6 values in the sequence.
+
+Then I looked at the next line. It contains 1. I started making a note of the frequency. I have seen one 1. So the frequency is 1.
+
+I looked at the next line. It contains 1. It is same as the previous value. So, I increase the frequency.
+After the above step, what is the frequency of 1?
+0 - This answer is incorrect.
+1
+2 - This is correct answer. Until now, 1 appeared 2 times.
+
+I looked at the next line. It contains 2. It is different from the previous value. So, now we know that the frequency of 1 is 2. So, 1 is not a lucky number. So, now I will start noting down the frequency of the new value (viz. 2).
+After the above step, what is the frequency of 2?
+0 - This answer is incorrect.
+1 - This is correct answer. Until now, 2 appeared 1 time.
+2
+
+I looked at next line. It contains 3. It is different from the previous value. So, now we know that the frequency of 2 is 1. So, 2 is not a lucky number. So, now I will start noting down the frequency of the new value (viz. 3).
+
+I looked at next line. It contains 4. It is different from the previous value. So, now we know that the frequency of 3 is 1. So, 3 is not a lucky number. So, now I will start noting down the frequency of the new value (viz. 4).
+
+I looked at the next line. It contains 4. It is same as the previous value. So, I increase the frequency.
+After the above step, what is the frequency of 4?
+0 - This answer is incorrect.
+1
+2 - This is correct answer. Until now, 4 appeared 2 times.
+
+By now, I have completed looking at all the 6 values. So, the final value is 4 and its frequency is 2. So, 4 is not a lucky number.
+
+There is no lucky number in the given sequence.
+
+Now imagine that the sequence size is 1000.
+What will you do? Put it in words.
+
+Following are some hints to put the logic in words.
+
+1. As I process 1000 values, it will be difficult for me to remember the frequency number in my memory. So, I will take a paper and write down the number with its frequency. That way, for every value, I will update the paper and I don't need to worry about forgetting.
+2. If it is a small sequence like 3 or 5 values, then it is easy for me to remember how many values I checked. But 1000 is a large number. So, to avoid checking more than 1000, I will also keep a count of how many values I checked until now. Whenever it reaches 1000, I will stop processing. This count also, I will write on a paper. 
+3. Once I find a lucky number, I can stop processing the rest of the sequence.
+
+Following is what I came up with.
+
+We have 2 major phases in the implementation.
+Phase 1: One is to read the sequence and store it in an array.
+Phase 2: Second is finding the lucky number in that array.
+
+Phase 1
+1. Read the size of sequence from input
+2. Create an empty array
+3. Read the next value from input
+4. Append it to the array
+5. Repeat steps 3 and 4 until you read all values of the sequence
+Phase 2
+6. Create a new variable called frequency and initialize it to 1
+7. Start from the second element of the array (Why second? Why not first?)
+8. Take the element (why are we starting from second element and not first element?)
+9. Compare it with the previous element
+10. If current element and previous element have same value then increase the frequency by 1
+11 Otherwise
+11.1 Compare count value with the previous element value
+11.2 If they are equal then you have found a lucky number. Stop and break out of the loop.
+11.3 Otherwise reset the value of frequency to 1 (Why 1? Why not 0?)
+12. Repeat steps 8 to 11 until we reach end of array.
+13. Once we are out of the loop, we need to check if we came out of the loop because we found lucky number or because we reached end of the array.
+14. If we found lucky number, then display it.
+15. If we reached end of the array, then check if the frequency of last element is same as its value.
+15.1 If yes then last element is the lucky number. Display it.
+15.2 Otherwise there is no lucky number. Display -1.
+
+Compare it with what you wrote.
+What are the differences?
+What are the similarities?
+
+Next step is to convert the algorithm into code.
+Note that we have not written even a single line of code until now.
+Algorithm design is done on a paper, not in a computer.
+
+Tip: Never jump into writing code without figuring out the logic (also known as algorithm).
+
+Let us convert the algorithm step by step.
+
+There are various things to be implemented.
+a. Taking input as an integer (steps 1 and 3)
+b. Creating new variables (steps 1, 2, 3 and 6)
+c. Displaying output (steps 14, 15.1 and 15.2)
+d. Comparing numbers (steps 9, 11.1, 14 and 15)
+e. Conditional block (steps 10, 11, 14 and 15)
+f. Loop (steps 5 and 12)
+g. Break out of a loop (step 11.2)
+h. Initialize an empty array (step 2)
+i. Append an element to an array (step 4)
+j. Access an element of an array by index (step 8)
+
+We have discussed all of the above in previous assignments multiple times. Take a paper and write the code for our algorithm.
+
+How to take input? - Please refer to assignments from STOC module.
+How to create variables? - Please refer to assignments from STOC module.
+How to compare 2 values? - Please refer to assignments from STOC module.
+How to take different actions? - Please refer to the assignment "Rating contest"
+How to show output? - Please refer to assignments like "Simple interest" or "Square sum"
+How to repeat some code? - Please refer to the assignments like "Count odd even" or "Count first"
+How to Initialize an empty array? Please refer to assignment "Good Pairs"
+How to use break statements?- Please refer to the lectures where break statements are covered
+How to append an element in array- Use array.push() method.
+Suppose I have an array = [1,2,3,4] and if I will do array.push(5) then my array will become [1,2,3,4,5]
+Similarly if I have to add a new value from user, I can use readLine() for taking value and then array.push() for appending that value to end of array
+One example for that will be:
+arr=[]
+for(let i=1;i<4;i++){
+input = readLine()
+arr.push(input)
+}
+
+Here if input from user is 7,5,10 then the final array we have is arr=['7','5','10'].
+In the above example we are using "input = readLine()", so all the elements in the array are string. If we want numbers instead of string, inside array then we should write input = parseInt(readLine()). Try to use this approach whenever you have inputs in multiple lines and you want to store them in an array.
+
+Please use console.log() statements in different lines and observe how it is working. Best way is to put console.log() statement after arr.push() method like this
+  arr=[]
+for(let i=1;i<4;i++){
+input = readLine()
+arr.push(input)
+console.log(arr)
+}
+
+Now you will observe that the array is ['7'] , ['7','5']  and ['7','5','10'] after first second and third iteration respectively, when the input from the user is 7,5 and 10 respectively.
+Please rewatch the lecture recordings also, this concept is already covered in lectures
+
+
+Following are some common mistakes.
+1. Not converting string to integer
+2. Not writing the loop condition correctly
+3. Not using the brackets correctly
+4. Printing extra output
+5. Comparing frequency of number to its value at incorrect place.
+6.Not assigning value of variable count again to 1, or assigning it at incorrect place.
+7. Using break statement at incorrect place (if you are using it).
+8. Not handling boundary conditions (observe the boundary test cases), especially the case when last number of the sequence is lucky number.
