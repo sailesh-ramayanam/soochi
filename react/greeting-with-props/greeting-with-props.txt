@@ -1,0 +1,97 @@
+First step is "Understand the problem statement".
+
+The problem statement talks about creating a welcome page with greeting message. This assignment is to familiarize you with the following concept.
+1. How to pass props to a react component?
+2. How to use the props inside react component?
+
+Let us try to break down the question.
+The question asks us create a Welcome component. In which file we have to create Welcome component.
+App.js - This answer is incorrect. Please read the problem description carefully.
+Welcome.js - This is correct answer. We have to create a welcome component in Welcome.js file.
+Don't know - Please read the problem description carefully.
+
+The question also mentions about rendering "Hello <name>". 
+In which tag we have to render this text?
+h2 - This answer is incorrect. Please read the problem description carefully.
+paragraph
+h1 - This is correct answer. We have to render "Hello <name>" inside h1 tag.
+
+What attribute and attribute-value we have to use for h1 tag?
+id attrbute with value = "result" - This answer is incorrect. Please read the problem description carefully.
+data-ns-test attribute with value = "result"
+data-testid attribute with value = "name"
+data-testid attribute with value = "result" - This is correct answer.
+
+Inside which tag we have to render the text "Welcome to 10x Academy" in Welcome component?
+h2 - This is correct answer.
+paragraph - This answer is incorrect. Please read the problem description carefully.
+h1 -
+
+What should be the name of the props which we have to send in the Welcome component?
+name - This is correct answer. Props name should be equal to name.
+result - This answer is incorrect. Please read the problem statement carefully.
+Hello
+
+Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+
+In this assignment we should render greeting message. Greeting message should also display "Hello <name>!"
+
+Here name is the value, which we are setting for the props, that we are sending to Welcome component.
+
+So there is only 1 test case that the name should change in the greeting message when we change the value of props in Welcome element
+
+
+We have completed the second step. Third step is "Coming up with logic".
+
+For this assignment, logic means step-by-step procedure on how to create component and pass props in that component.
+
+The logic for this assignment will be
+1. Pass Props to the Welcome component.
+2. Render the Welcome component inside App component.
+3. Render the exact greeting message inside Welcome component.
+
+We have completed the third step. Fourth step is "Convert logic to code".
+
+Following is the logic we came up with.
+1. Pass Props to the Welcome component.
+2. Render the Welcome component inside App component.
+3. Render the exact greeting message inside Welcome component.
+
+There are 4 concepts here, passing props, using props, import , export. Choose an option to find out how that concept is related to the current question.
+
+Below we have 2 methods to send a props and give its value in component. Which method is correct?
+------
+Method 1: <Welcome props_name = "props_value"/>
+------
+Method 2: <Welcome>props_name = "props_value"</Welcome>
+------
+Method 1 - This is correct answer. To send props into a component, use the same syntax as HTML attributes:
+Method 2 - This answer is incorrect. Please revise the concepts and try again.
+Both are correct
+Both are wrong
+
+We have 2 methods for passing the props to a react component and using it. Which method is correct?
+------
+Method 1:
+const Welcome => (props) =>{
+  return <h2>Hello {props.props_name}</h2>;
+}
+------
+Method 2:
+const Welcome => (props) =>{
+  return <h2>Hello props.props_name</h2>;
+}
+------
+Method 1 - This is correct answer. While using props we should keep them inside flower brackets.
+Method 2 - This answer is incorrect. We have to keep props inside flower brackets while using it.
+Both are correct
+Both are wrong
+
+
+How to import and export components in React?
+This concept is already covered in React assignment-1 i.e. import-export component, Please go through that assignment.
+
+Now that you know all the concepts required to implement our logic, take a paper and write down the code.
+1. Create a Welcome component inside Welcome.js.
+2. Send Props to the Welcome component just like html attributes inside return statement of App component.
+3. Use the props inside Welcome component.
