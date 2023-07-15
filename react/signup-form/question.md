@@ -1,16 +1,16 @@
 # Description
 `Form validation` is an essential aspect of web development. It has multiple advantages.
-
-    Ensures that user input meets the specified requirements
-    Prevents erroneous or incomplete data from being submitted
-    Secures your application from various attacks
+1. Ensures that user input meets the specified requirements
+2. Prevents erroneous or incomplete data from being submitted
+3. Secures your application from various attacks
 
 You would have seen *form validation* in multiple contexts - e.g. `Google forms, Sign up forms`
 
 In this assignment, you have to collect details in a form and display a greeting in the format `Hello {username}`. 
 
 ### Example 
-    `Input`
+`Input`
+
     ```
     Name            : "Mohan Chowdary"
     Email address   : "mohanworks@yahoo.com"
@@ -18,7 +18,9 @@ In this assignment, you have to collect details in a form and display a greeting
     Phone Number    : 9898547989
     Password        : **********
     ```
-    `Output`
+
+`Output`
+
     ```
     Hello Mohan Chowdary
     ```
@@ -38,11 +40,16 @@ In this assignment, you have to collect details in a form and display a greeting
 
 ## Functional requirements
 1. Following are the validation rules
-    1. Every input field should be filled. Error Message: `All fields are mandatory`.
-    2. Name must be alphanumeric (i.e. only alphabets and digits. Spaces are allowed). Error Message: `Name must contain only alphabets, digits and spaces`.
-    3. Email must contain exactly one @ character. Error Message: `Email must contain exactly one @`.
-    4. Phone Number must contain only digits. Error Message: `Phone number must contain only digits`.
-    5. Password should contain at least 6 characters. Error Message: `Password must contain at least 6 letters`.
+    1. Every input field should be filled.
+        - Error Message: `All fields are mandatory`.
+    2. Name must be alphanumeric (i.e. only alphabets and digits. Spaces are allowed).
+        - Error Message: `Name must contain only alphabets, digits and spaces`.
+    3. Email must contain exactly one @ character.
+        - Error Message: `Email must contain exactly one @`.
+    4. Phone Number must contain only digits.
+        - Error Message: `Phone number must contain only digits`.
+    5. Password should contain at least 6 characters.
+        - Error Message: `Password must contain at least 6 letters`.
 2. If there are multiple errors, display only one error (order of priority is as given above).
     - Suppose password contains only 4 letters and phone number is left blank. Then there are 2 errors. As per the above order, `All fields are mandatory` takes priority over `Password must contain at least 6 letters`. so, you must display only `All fields are mandatory` error.
 3. Validation must happen after clicking the submit button.
