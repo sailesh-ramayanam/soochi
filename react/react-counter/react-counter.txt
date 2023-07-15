@@ -1,0 +1,118 @@
+First step is "Understand the problem statement".
+
+The problem statement talks changing a numerical value using useState. This assignment is to familiarize you with the following concepts.
+1. How to use useState in React? (To get you more comfortable with useState)
+2. How to add onClick event in React?
+
+Let us try to break down the question.
+The question asks us increment, decrement and reset the numerical value.
+By what value should we have to increment the numerical value when we click on increment button?
+increment by the value it possess - This answer is incorrect.
+Not mentioned - This answer is incorrect, it is mentioned in the problem. Please read problem description carefully.
+increment by 1 - This is correct answer. We have to increment the numerical value by 1.
+
+The question also mention that we have to decrement the numerical value by 1 when we click on decrement button.
+What should be the minimun value?
+-1 - This answer is incorrect. Please read the problem description carefully.
+1
+negative infinity -
+0 - This is correct answer. There minimum value we should have is 0.
+
+Question also mentions about the functionality of the reset button.
+What should happen when we click on reset button?
+Option 1: Value should neither increase nor decrease.
+Option 2: Value should change to 0.
+
+Option 1 - This answer is incorrect. Value should reset to 0 after clicking on reset button.
+Option 2 - This is correct answer.
+
+Now that we understand the problem statement, 2nd step is "Come up with new test cases".
+
+In this assignment UI(User Interface) is already given, we just have to apply the logic.
+
+Since the given template code will display 0 at the starting, so you don't have to worry about setting initial value.
+
+So, there are 4 test cases in this assignment.
+1. On clicking increment button, numerical value should increase by 1.
+2. On clicking decrement button, numerical value should decrease by 1.
+3. On clicking reset button, numerical value should reset to 0.
+4. When the numerical value is 0, it should not decrement further after clicking on decrement button. That is numerical value should never be negative.
+
+We have completed the second step. Third step is "Coming up with logic".
+
+For this assignment, logic means step-by-step procedure on how apply logic using useState and add onClick event.
+
+In this assignment we have 3 buttons. Button should do the desired thing after clicking on it.
+The logic could be
+1. Create 3 function for incrementing, decrementing and resetting the numerical value.
+2. Add onClick event to each of the button.
+
+We have completed the third step. Fourth step is "Convert logic to code".
+
+Following is the logic we came up with.
+1. Create 3 function for incrementing, decrementing and resetting the numerical value.
+2. Add onClick event to each of the button.
+
+There are 2 concepts here, use useState, add onClick event. Choose an option to find out how that concept is related to the current question.
+
+How to use useState in React.
+This concept is already covered in the previous assignment. Please go to "React hook" assignment to revise this concept.
+The only difference here is that you have to use 3 function for functionality of each button.
+Go through next questions to learn more about implementing the logic.
+
+We have two method for implementing increment functionality. Which of the following method is correct.
+------
+Method 1:
+const increment = () =>{
+    setCount(count+1)
+  }
+------
+Method 2:
+const increment = () =>{
+    count = count+1
+  }
+------
+Method 1 - This is correct answer. Here we have function increment inside which we are changing the state of variable count.
+Method 2 - This answer is incorrect. Since we are using useState, we can't directly change the value of count like this.
+
+We have two method for making sure that value should never be negative. Which method is correct.
+------
+Method 1:
+const decrement = () =>{
+    setCount(count-1)
+  }
+------
+Method 2:
+const decrement = () =>{
+   if(count>0){
+      setCount(count-1)
+    }
+  }
+------
+Method 1 - This answer is incorrect. With this logic value can get negative also.
+Method 2 - This is correct answer. We are using if statement to make sure value should only get decremented when it is greater than 0.
+
+We have two method for reseting numerical value to 0. Which of the following method is correct.
+------
+Method 1:
+const reset = () =>{
+    setCount(count-count)
+  }
+------
+Method 2:
+const reset = () =>{
+    setCount(0)
+  }
+------
+
+Method 1 - This answer is incorrect. Actually both the methods are correct. But method 2 is recommended to use.
+Method 2 - This answer is incorrect. Actually both the methods are correct. But this method is recommended to use.
+Both are correct - This is correct answer.
+Both are wrong - This answer is incorrect. Actually both methods are correct.
+
+How to add onClick event to a button?
+This concept is already covered in the previous react assignment. Pleasse go to "React Hook" assignment to learn about this.
+
+Now that you know all the concepts required to implement our logic, take a paper and write down the code.
+1. Write functions for all three functionality.
+2. For each button add onClick event by passing correct function to the onClick event.
