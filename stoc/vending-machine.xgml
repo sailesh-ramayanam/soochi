@@ -671,7 +671,9 @@ In Javascript, there is no command called output. Please refer to the lecture to
 			<attribute key="label" type="String">Following are some common mistakes.
 1. Not putting a space or putting multiple spaces (e.g. between Hello and Kiran)
 2. Not using capital H in Hello or capital Y in You
-3. Printing output in a single line</attribute>
+3. Not putting a full stop in the second line
+4. Printing output in a single line
+</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1478.2136904761905</attribute>
 				<attribute key="y" type="double">3846.6551432085735</attribute>
@@ -686,12 +688,14 @@ In Javascript, there is no command called output. Please refer to the lecture to
 				<attribute key="text" type="String">Following are some common mistakes.
 1. Not putting a space or putting multiple spaces (e.g. between Hello and Kiran)
 2. Not using capital H in Hello or capital Y in You
-3. Printing output in a single line</attribute>
+3. Not putting a full stop in the second line
+4. Printing output in a single line
+</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">341.69700345655394</attribute>
-				<attribute key="contentHeight" type="double">81.46875</attribute>
+				<attribute key="contentHeight" type="double">111.65625</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">tl</attribute>
 			</section>
