@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Cp1252"?>
 <section name="xgml">
 	<attribute key="Creator" type="String">yFiles</attribute>
-	<attribute key="Version" type="String">2.18</attribute>
+	<attribute key="Version" type="String">2.20</attribute>
 	<section name="graph">
 		<attribute key="hierarchic" type="int">1</attribute>
 		<attribute key="label" type="String"></attribute>
@@ -62,7 +62,7 @@ This problem requires the concept of simple interest. The formula for simple int
 				<attribute key="h" type="double">91.64028474733188</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -88,7 +88,7 @@ This problem requires the concept of simple interest. The formula for simple int
 				<attribute key="h" type="double">78.65980191215272</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -114,7 +114,7 @@ Simple interest is 48,000.</attribute>
 				<attribute key="h" type="double">55.08764834689765</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -140,7 +140,7 @@ Simple interest is 48,000.</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -169,7 +169,7 @@ Do you know these concepts?</attribute>
 				<attribute key="h" type="double">104.35174400000005</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -198,7 +198,7 @@ Do you know these concepts?</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -224,7 +224,7 @@ Here, what is the data type of msg?</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -247,12 +247,12 @@ Here, what is the data type of msg?</attribute>
 Please read about data types and try again.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">601.1055555555556</attribute>
-				<attribute key="y" type="double">1036.05141159637</attribute>
+				<attribute key="y" type="double">1038.1362043581685</attribute>
 				<attribute key="w" type="double">158.56340933767655</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -275,12 +275,12 @@ Please read about data types and try again.</attribute>
 In Javascript, there is no data type called text. Please read about data types and try again.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">403.31507936507944</attribute>
-				<attribute key="y" type="double">1036.05141159637</attribute>
+				<attribute key="y" type="double">1038.1362043581685</attribute>
 				<attribute key="w" type="double">177.01728007776154</attribute>
-				<attribute key="h" type="double">69.39829985146582</attribute>
+				<attribute key="h" type="double">85.638335523597</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -301,12 +301,12 @@ In Javascript, there is no data type called text. Please read about data types a
 			<attribute key="label" type="String">This is correct answer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">214.71428571428572</attribute>
-				<attribute key="y" type="double">1036.05141159637</attribute>
+				<attribute key="y" type="double">1038.1362043581685</attribute>
 				<attribute key="w" type="double">140.18352660152</attribute>
 				<attribute key="h" type="double">55.08764834689765</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -327,12 +327,12 @@ In Javascript, there is no data type called text. Please read about data types a
 Here, what is the data type of n?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">214.71428571428572</attribute>
-				<attribute key="y" type="double">1155.4839076448188</attribute>
+				<attribute key="y" type="double">1162.8440439949668</attribute>
 				<attribute key="w" type="double">151.4130001233441</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -355,12 +355,12 @@ Here, what is the data type of n?</attribute>
 Please read about data types and try again.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">175.0734126984127</attribute>
-				<attribute key="y" type="double">1296.5600795198188</attribute>
+				<attribute key="y" type="double">1303.9202158699668</attribute>
 				<attribute key="w" type="double">158.56340933767655</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -381,12 +381,12 @@ Please read about data types and try again.</attribute>
 			<attribute key="label" type="String">This is correct answer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">354.4472222222222</attribute>
-				<attribute key="y" type="double">1296.560079519819</attribute>
+				<attribute key="y" type="double">1303.920215869967</attribute>
 				<attribute key="w" type="double">140.18352660152</attribute>
 				<attribute key="h" type="double">55.08764834689765</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -408,12 +408,12 @@ let b = "5";
 Here, what are the data types of a, b?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">354.4472222222222</attribute>
-				<attribute key="y" type="double">1415.9925755682677</attribute>
+				<attribute key="y" type="double">1424.8643618441488</attribute>
 				<attribute key="w" type="double">222.69412622648446</attribute>
-				<attribute key="h" type="double">59.048637043074905</attribute>
+				<attribute key="h" type="double">69.39829985146594</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -437,12 +437,12 @@ Here, what are the data types of a, b?</attribute>
 Please read about data types and try again. You can also refer to previous questions above.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">126.4329365079365</attribute>
-				<attribute key="y" type="double">1626.8636693182677</attribute>
+				<attribute key="y" type="double">1641.718751720012</attribute>
 				<attribute key="w" type="double">177.01728007776154</attribute>
-				<attribute key="h" type="double">77.38141292403913</attribute>
+				<attribute key="h" type="double">105.50579240026042</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -465,12 +465,12 @@ Please read about data types and try again. You can also refer to previous quest
 When you print a and b, both will print 5. But, a and b are of different types. Next exercise will clarify the difference.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">354.4472222222222</attribute>
-				<attribute key="y" type="double">1626.8636693182677</attribute>
+				<attribute key="y" type="double">1641.718751720012</attribute>
 				<attribute key="w" type="double">219.01086611067961</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -493,12 +493,12 @@ When you print a and b, both will print 5. But, a and b are of different types. 
 In Javascript, every variable will have a single data type.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">582.4615079365079</attribute>
-				<attribute key="y" type="double">1626.8636693182677</attribute>
+				<attribute key="y" type="double">1641.718751720012</attribute>
 				<attribute key="w" type="double">177.01728007776154</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -522,12 +522,12 @@ let b = "5";
 What will be the values of a+a, b+b?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">354.4472222222222</attribute>
-				<attribute key="y" type="double">1759.4867161932677</attribute>
+				<attribute key="y" type="double">1776.3603197951422</attribute>
 				<attribute key="w" type="double">222.69412622648446</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -551,12 +551,12 @@ What will be the values of a+a, b+b?</attribute>
 a+a will give 10. But b+b will not give 10. Note that b contains a string value.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">180.67698412698414</attribute>
-				<attribute key="y" type="double">1962.936121358448</attribute>
+				<attribute key="y" type="double">1979.8097249603225</attribute>
 				<attribute key="w" type="double">181.6934781842371</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -579,12 +579,12 @@ a+a will give 10. But b+b will not give 10. Note that b contains a string value.
 b+b will give 55. But it is a string data type. So, it must be represented using double quotes, like "55".</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">407.37063492063487</attribute>
-				<attribute key="y" type="double">1962.936121358448</attribute>
+				<attribute key="y" type="double">1979.8097249603225</attribute>
 				<attribute key="w" type="double">211.69365079365076</attribute>
 				<attribute key="h" type="double">105.50579240026042</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -611,12 +611,12 @@ But b is of string type, so b+b will do string addition. Thus "5"+"5" will give 
 Note the use of double quotes for b and no double quotes for a.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">686.5341269841269</attribute>
-				<attribute key="y" type="double">1962.936121358448</attribute>
+				<attribute key="y" type="double">1979.8097249603225</attribute>
 				<attribute key="w" type="double">286.6327376644169</attribute>
 				<attribute key="h" type="double">159.12146658036033</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -642,12 +642,12 @@ Note the use of double quotes for b and no double quotes for a.</attribute>
 What will be the data type of a?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">686.5341269841269</attribute>
-				<attribute key="y" type="double">2130.7223450451656</attribute>
+				<attribute key="y" type="double">2147.59594864704</attribute>
 				<attribute key="w" type="double">222.69412622648446</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -669,12 +669,12 @@ What will be the data type of a?</attribute>
 readLine() will always give us a string.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">617.6452380952381</attribute>
-				<attribute key="y" type="double">2344.3397137787224</attribute>
+				<attribute key="y" type="double">2361.213317380597</attribute>
 				<attribute key="w" type="double">181.6934781842371</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -697,12 +697,12 @@ readLine() will always give us a string.</attribute>
 readLine() will always give us a string.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">829.3388888888888</attribute>
-				<attribute key="y" type="double">2344.3397137787224</attribute>
+				<attribute key="y" type="double">2361.213317380597</attribute>
 				<attribute key="w" type="double">181.6934781842371</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -727,12 +727,12 @@ readLine() will always give us a string.</attribute>
 So, how can we do multiplication and division? Luckily, Javascript has a way to convert string to integer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">829.3388888888888</attribute>
-				<attribute key="y" type="double">2511.8196287212404</attribute>
+				<attribute key="y" type="double">2528.693232323115</attribute>
 				<attribute key="w" type="double">365.30906401327246</attribute>
 				<attribute key="h" type="double">140.17607321099678</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -755,12 +755,12 @@ So, how can we do multiplication and division? Luckily, Javascript has a way to 
 			<attribute key="label" type="String">In Javascript, what can we use to convert a string to an integer?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">829.3388888888888</attribute>
-				<attribute key="y" type="double">2670.133155723277</attribute>
+				<attribute key="y" type="double">2687.0067593251506</attribute>
 				<attribute key="w" type="double">222.69412622648446</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -781,12 +781,12 @@ So, how can we do multiplication and division? Luckily, Javascript has a way to 
 Please watch the lecture or use internet to find out how to convert a string to an integer in Javascript.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">868.556746031746</attribute>
-				<attribute key="y" type="double">2919.606666271384</attribute>
+				<attribute key="y" type="double">2936.4802698732574</attribute>
 				<attribute key="w" type="double">201.16420243700583</attribute>
 				<attribute key="h" type="double">91.08303369450601</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -820,12 +820,12 @@ Example 2:
 let num = parseInt(readLine());</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">541.1638888888889</attribute>
-				<attribute key="y" type="double">2919.606666271384</attribute>
+				<attribute key="y" type="double">2936.4802698732574</attribute>
 				<attribute key="w" type="double">393.621076770122</attribute>
 				<attribute key="h" type="double">233.09369655313782</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -864,12 +864,12 @@ let num = parseInt(readLine());</attribute>
 Using these, you can write a program and run it. First write the program on a paper and after that type it in your computer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">541.1638888888889</attribute>
-				<attribute key="y" type="double">3173.323436422953</attribute>
+				<attribute key="y" type="double">3190.1970400248256</attribute>
 				<attribute key="w" type="double">341.69700345655394</attribute>
 				<attribute key="h" type="double">152.10176552281382</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -895,12 +895,12 @@ Using these, you can write a program and run it. First write the program on a pa
 			<attribute key="label" type="String">Please refer to the introduction video to learn how to run a program.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">414.99940476190477</attribute>
-				<attribute key="y" type="double">3419.2959222074223</attribute>
+				<attribute key="y" type="double">3436.169525809295</attribute>
 				<attribute key="w" type="double">175.62258414766563</attribute>
 				<attribute key="h" type="double">71.38673763300767</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -919,7 +919,7 @@ Using these, you can write a program and run it. First write the program on a pa
 			<attribute key="label" type="String">Mentor</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">623.4228174603174</attribute>
-				<attribute key="y" type="double">3419.2959222074223</attribute>
+				<attribute key="y" type="double">3436.169525809295</attribute>
 				<attribute key="w" type="double">181.22345276872989</attribute>
 				<attribute key="h" type="double">54.58413176981526</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -944,12 +944,12 @@ Using these, you can write a program and run it. First write the program on a pa
 1. Not converting string to integer</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1043.9422619047618</attribute>
-				<attribute key="y" type="double">3419.2959222074223</attribute>
+				<attribute key="y" type="double">3436.169525809295</attribute>
 				<attribute key="w" type="double">341.69700345655394</attribute>
 				<attribute key="h" type="double">108.20278406893885</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -969,7 +969,7 @@ Using these, you can write a program and run it. First write the program on a pa
 			<attribute key="label" type="String">Resolved</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1043.9422619047618</attribute>
-				<attribute key="y" type="double">3731.4923175246126</attribute>
+				<attribute key="y" type="double">3748.3659211264853</attribute>
 				<attribute key="w" type="double">181.22345276872989</attribute>
 				<attribute key="h" type="double">54.58413176981526</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -996,7 +996,7 @@ As an exercise, use internet and find out about the following in Python and Java
 2. How to convert a string to an integer?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1043.9422619047618</attribute>
-				<attribute key="y" type="double">3608.1493688782984</attribute>
+				<attribute key="y" type="double">3625.022972480171</attribute>
 				<attribute key="w" type="double">341.69700345655394</attribute>
 				<attribute key="h" type="double">152.10176552281382</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -1452,7 +1452,7 @@ As an exercise, use internet and find out about the following in Python and Java
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">601.1055555555556</attribute>
-						<attribute key="y" type="double">1036.05141159637</attribute>
+						<attribute key="y" type="double">1038.1362043581685</attribute>
 					</section>
 				</section>
 			</section>
@@ -1496,7 +1496,7 @@ As an exercise, use internet and find out about the following in Python and Java
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">403.31507936507944</attribute>
-						<attribute key="y" type="double">1036.05141159637</attribute>
+						<attribute key="y" type="double">1038.1362043581685</attribute>
 					</section>
 				</section>
 			</section>
@@ -1504,7 +1504,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="xSource" type="double">-0.4</attribute>
 				<attribute key="ySource" type="double">0.9999999999999982</attribute>
 				<attribute key="xTarget" type="double">-0.5000000000000001</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999983</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000013</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">text</attribute>
@@ -1540,7 +1540,7 @@ As an exercise, use internet and find out about the following in Python and Java
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">214.71428571428572</attribute>
-						<attribute key="y" type="double">1036.05141159637</attribute>
+						<attribute key="y" type="double">1038.1362043581685</attribute>
 					</section>
 				</section>
 			</section>
@@ -1571,7 +1571,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">601.1055555555556</attribute>
-						<attribute key="y" type="double">1036.05141159637</attribute>
+						<attribute key="y" type="double">1038.1362043581685</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">640.7464285714286</attribute>
@@ -1615,7 +1615,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.4999999999999995</attribute>
-				<attribute key="ySource" type="double">-0.9999999999999983</attribute>
+				<attribute key="ySource" type="double">-1.0000000000000013</attribute>
 				<attribute key="yTarget" type="double">0.9999999999999982</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1651,7 +1651,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">200.37737165178572</attribute>
-				<attribute key="y" type="double">1088.5952357698188</attribute>
+				<attribute key="y" type="double">1095.9553721199668</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1664,19 +1664,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">214.71428571428572</attribute>
-						<attribute key="y" type="double">1155.4839076448188</attribute>
+						<attribute key="y" type="double">1162.8440439949668</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">164.24328567317104</attribute>
-						<attribute key="y" type="double">1204.1714076448188</attribute>
+						<attribute key="y" type="double">1211.5315439949668</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">135.43253968253967</attribute>
-						<attribute key="y" type="double">1204.1714076448188</attribute>
+						<attribute key="y" type="double">1211.5315439949668</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">175.0734126984127</attribute>
-						<attribute key="y" type="double">1296.5600795198188</attribute>
+						<attribute key="y" type="double">1303.9202158699668</attribute>
 					</section>
 				</section>
 			</section>
@@ -1695,7 +1695,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">118.76066468253967</attribute>
-				<attribute key="y" type="double">1229.6714076448188</attribute>
+				<attribute key="y" type="double">1237.0315439949668</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1720,7 +1720,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">187.70354352678572</attribute>
-				<attribute key="y" type="double">1229.6714076448188</attribute>
+				<attribute key="y" type="double">1237.0315439949668</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1733,19 +1733,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">214.71428571428572</attribute>
-						<attribute key="y" type="double">1155.4839076448188</attribute>
+						<attribute key="y" type="double">1162.8440439949668</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">265.1852857554004</attribute>
-						<attribute key="y" type="double">1204.1714076448188</attribute>
+						<attribute key="y" type="double">1211.5315439949668</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1204.1714076448188</attribute>
+						<attribute key="y" type="double">1211.5315439949668</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1296.560079519819</attribute>
+						<attribute key="y" type="double">1303.920215869967</attribute>
 					</section>
 				</section>
 			</section>
@@ -1763,7 +1763,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">332.1034722222222</attribute>
-				<attribute key="y" type="double">1229.6714076448188</attribute>
+				<attribute key="y" type="double">1237.0315439949668</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1776,7 +1776,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.000000000000003</attribute>
-				<attribute key="yTarget" type="double">-1.0</attribute>
+				<attribute key="yTarget" type="double">-0.9999999999999967</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Next</attribute>
@@ -1787,7 +1787,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">340.1103081597222</attribute>
-				<attribute key="y" type="double">1349.1039036932677</attribute>
+				<attribute key="y" type="double">1356.4640400434157</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1800,27 +1800,27 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1415.9925755682677</attribute>
+						<attribute key="y" type="double">1424.8643618441488</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">265.3695717316284</attribute>
-						<attribute key="y" type="double">1464.6800755682677</attribute>
+						<attribute key="y" type="double">1475.0635117698819</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">82.17857142857143</attribute>
-						<attribute key="y" type="double">1464.6800755682677</attribute>
+						<attribute key="y" type="double">1475.0635117698819</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">126.4329365079365</attribute>
-						<attribute key="y" type="double">1626.8636693182677</attribute>
+						<attribute key="y" type="double">1641.718751720012</attribute>
 					</section>
 				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">-0.8</attribute>
-				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="ySource" type="double">0.9999999999999967</attribute>
 				<attribute key="xTarget" type="double">-0.5</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
+				<attribute key="yTarget" type="double">-0.9999999999999994</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">number, number</attribute>
@@ -1830,8 +1830,8 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentWidth" type="double">92.04296875</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">36.157087053571445</attribute>
-				<attribute key="y" type="double">1506.1800755682677</attribute>
+				<attribute key="x" type="double">36.15708705357147</attribute>
+				<attribute key="y" type="double">1516.5635117698819</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1844,27 +1844,27 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">126.4329365079365</attribute>
-						<attribute key="y" type="double">1626.8636693182677</attribute>
+						<attribute key="y" type="double">1641.718751720012</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">170.6873015873016</attribute>
-						<attribute key="y" type="double">1480.6800755682677</attribute>
+						<attribute key="y" type="double">1491.0635117698819</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">309.9083969769253</attribute>
-						<attribute key="y" type="double">1480.6800755682677</attribute>
+						<attribute key="y" type="double">1491.0635117698819</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1415.9925755682677</attribute>
+						<attribute key="y" type="double">1424.8643618441488</attribute>
 					</section>
 				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.49999999999999967</attribute>
-				<attribute key="ySource" type="double">-0.9999999999999992</attribute>
+				<attribute key="ySource" type="double">-0.9999999999999994</attribute>
 				<attribute key="xTarget" type="double">-0.4</attribute>
-				<attribute key="yTarget" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">0.9999999999999967</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Try again</attribute>
@@ -1875,7 +1875,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">143.6765593998016</attribute>
-				<attribute key="y" type="double">1544.8812474432677</attribute>
+				<attribute key="y" type="double">1555.2646836448819</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1887,7 +1887,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="ySource" type="double">0.9999999999999967</attribute>
 				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1899,7 +1899,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">314.0976128472222</attribute>
-				<attribute key="y" type="double">1506.1800755682677</attribute>
+				<attribute key="y" type="double">1516.5635117698819</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1912,25 +1912,25 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1415.9925755682677</attribute>
+						<attribute key="y" type="double">1424.8643618441488</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">398.9860474675191</attribute>
-						<attribute key="y" type="double">1480.6800755682677</attribute>
+						<attribute key="y" type="double">1491.0635117698819</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">538.2071428571429</attribute>
-						<attribute key="y" type="double">1480.6800755682677</attribute>
+						<attribute key="y" type="double">1491.0635117698819</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">582.4615079365079</attribute>
-						<attribute key="y" type="double">1626.8636693182677</attribute>
+						<attribute key="y" type="double">1641.718751720012</attribute>
 					</section>
 				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.4</attribute>
-				<attribute key="ySource" type="double">1.0</attribute>
+				<attribute key="ySource" type="double">0.9999999999999967</attribute>
 				<attribute key="xTarget" type="double">-0.4999999999999995</attribute>
 				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
 			</section>
@@ -1943,7 +1943,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">468.8448381696429</attribute>
-				<attribute key="y" type="double">1544.8812474432677</attribute>
+				<attribute key="y" type="double">1555.2646836448819</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -1956,19 +1956,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">582.4615079365079</attribute>
-						<attribute key="y" type="double">1626.8636693182677</attribute>
+						<attribute key="y" type="double">1641.718751720012</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">626.7158730158731</attribute>
-						<attribute key="y" type="double">1464.6800755682677</attribute>
+						<attribute key="y" type="double">1475.0635117698819</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">443.524872712816</attribute>
-						<attribute key="y" type="double">1464.6800755682677</attribute>
+						<attribute key="y" type="double">1475.0635117698819</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1415.9925755682677</attribute>
+						<attribute key="y" type="double">1424.8643618441488</attribute>
 					</section>
 				</section>
 			</section>
@@ -1976,7 +1976,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="xSource" type="double">0.4999999999999995</attribute>
 				<attribute key="ySource" type="double">-0.9999999999999992</attribute>
 				<attribute key="xTarget" type="double">0.8</attribute>
-				<attribute key="yTarget" type="double">1.0</attribute>
+				<attribute key="yTarget" type="double">0.9999999999999967</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Try again</attribute>
@@ -1987,7 +1987,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">599.7051308283731</attribute>
-				<attribute key="y" type="double">1506.1800755682677</attribute>
+				<attribute key="y" type="double">1516.5635117698819</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2011,7 +2011,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">340.1103081597222</attribute>
-				<attribute key="y" type="double">1692.5980443182677</attribute>
+				<attribute key="y" type="double">1709.4716479201422</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2024,19 +2024,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1759.4867161932677</attribute>
+						<attribute key="y" type="double">1776.3603197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">265.3695717316284</attribute>
-						<attribute key="y" type="double">1808.1742161932677</attribute>
+						<attribute key="y" type="double">1825.0478197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">135.25357142857143</attribute>
-						<attribute key="y" type="double">1808.1742161932677</attribute>
+						<attribute key="y" type="double">1825.0478197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">180.67698412698414</attribute>
-						<attribute key="y" type="double">1962.936121358448</attribute>
+						<attribute key="y" type="double">1979.8097249603225</attribute>
 					</section>
 				</section>
 			</section>
@@ -2055,7 +2055,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">116.57193080357143</attribute>
-				<attribute key="y" type="double">1849.6742161932677</attribute>
+				<attribute key="y" type="double">1866.5478197951422</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2068,19 +2068,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">180.67698412698414</attribute>
-						<attribute key="y" type="double">1962.936121358448</attribute>
+						<attribute key="y" type="double">1979.8097249603225</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">226.1003968253968</attribute>
-						<attribute key="y" type="double">1824.1742161932677</attribute>
+						<attribute key="y" type="double">1841.0478197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">309.9083969769253</attribute>
-						<attribute key="y" type="double">1824.1742161932677</attribute>
+						<attribute key="y" type="double">1841.0478197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1759.4867161932677</attribute>
+						<attribute key="y" type="double">1776.3603197951422</attribute>
 					</section>
 				</section>
 			</section>
@@ -2099,7 +2099,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">199.0896546378968</attribute>
-				<attribute key="y" type="double">1849.6742161932677</attribute>
+				<attribute key="y" type="double">1866.5478197951422</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2124,7 +2124,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">335.7655815972222</attribute>
-				<attribute key="y" type="double">1849.6742161932677</attribute>
+				<attribute key="y" type="double">1866.5478197951422</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2137,19 +2137,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">407.37063492063487</attribute>
-						<attribute key="y" type="double">1962.936121358448</attribute>
+						<attribute key="y" type="double">1979.8097249603225</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">460.2940476190476</attribute>
-						<attribute key="y" type="double">1824.1742161932677</attribute>
+						<attribute key="y" type="double">1841.0478197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">398.9860474675191</attribute>
-						<attribute key="y" type="double">1824.1742161932677</attribute>
+						<attribute key="y" type="double">1841.0478197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1759.4867161932677</attribute>
+						<attribute key="y" type="double">1776.3603197951422</attribute>
 					</section>
 				</section>
 			</section>
@@ -2168,7 +2168,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">433.2833054315476</attribute>
-				<attribute key="y" type="double">1849.6742161932677</attribute>
+				<attribute key="y" type="double">1866.5478197951422</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2181,19 +2181,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">354.4472222222222</attribute>
-						<attribute key="y" type="double">1759.4867161932677</attribute>
+						<attribute key="y" type="double">1776.3603197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">443.524872712816</attribute>
-						<attribute key="y" type="double">1808.1742161932677</attribute>
+						<attribute key="y" type="double">1825.0478197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">686.5341269841269</attribute>
-						<attribute key="y" type="double">1808.1742161932677</attribute>
+						<attribute key="y" type="double">1825.0478197951422</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">686.5341269841269</attribute>
-						<attribute key="y" type="double">1962.936121358448</attribute>
+						<attribute key="y" type="double">1979.8097249603225</attribute>
 					</section>
 				</section>
 			</section>
@@ -2211,7 +2211,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">663.5927207341269</attribute>
-				<attribute key="y" type="double">1849.6742161932677</attribute>
+				<attribute key="y" type="double">1866.5478197951422</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2223,7 +2223,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">1.0000000000000007</attribute>
+				<attribute key="ySource" type="double">0.9999999999999979</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000078</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -2235,7 +2235,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">672.1972129216269</attribute>
-				<attribute key="y" type="double">2067.496854648628</attribute>
+				<attribute key="y" type="double">2084.3704582505025</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2248,19 +2248,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">617.6452380952381</attribute>
-						<attribute key="y" type="double">2344.3397137787224</attribute>
+						<attribute key="y" type="double">2361.213317380597</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">678.2097308233172</attribute>
-						<attribute key="y" type="double">2290.149007316703</attribute>
+						<attribute key="y" type="double">2307.0226109185774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">714.3710317460317</attribute>
-						<attribute key="y" type="double">2290.149007316703</attribute>
+						<attribute key="y" type="double">2307.0226109185774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">686.5341269841269</attribute>
-						<attribute key="y" type="double">2130.7223450451656</attribute>
+						<attribute key="y" type="double">2147.59594864704</attribute>
 					</section>
 				</section>
 			</section>
@@ -2279,7 +2279,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">687.3602895585317</attribute>
-				<attribute key="y" type="double">2217.246663566703</attribute>
+				<attribute key="y" type="double">2234.1202671685774</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2292,27 +2292,27 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">686.5341269841269</attribute>
-						<attribute key="y" type="double">2130.7223450451656</attribute>
+						<attribute key="y" type="double">2147.59594864704</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">603.0238296491952</attribute>
-						<attribute key="y" type="double">2175.746663566703</attribute>
+						<attribute key="y" type="double">2192.6202671685774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">520.9194444444445</attribute>
-						<attribute key="y" type="double">2175.746663566703</attribute>
+						<attribute key="y" type="double">2192.6202671685774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">520.9194444444445</attribute>
-						<attribute key="y" type="double">2290.149007316703</attribute>
+						<attribute key="y" type="double">2307.0226109185774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">557.0807453671591</attribute>
-						<attribute key="y" type="double">2290.149007316703</attribute>
+						<attribute key="y" type="double">2307.0226109185774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">617.6452380952381</attribute>
-						<attribute key="y" type="double">2344.3397137787224</attribute>
+						<attribute key="y" type="double">2361.213317380597</attribute>
 					</section>
 				</section>
 			</section>
@@ -2331,7 +2331,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">498.5756944444445</attribute>
-				<attribute key="y" type="double">2217.246663566703</attribute>
+				<attribute key="y" type="double">2234.1202671685774</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2344,19 +2344,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">686.5341269841269</attribute>
-						<attribute key="y" type="double">2130.7223450451656</attribute>
+						<attribute key="y" type="double">2147.59594864704</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">658.6973612058164</attribute>
-						<attribute key="y" type="double">2191.746663566703</attribute>
+						<attribute key="y" type="double">2208.6202671685774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">617.6452380952381</attribute>
-						<attribute key="y" type="double">2191.746663566703</attribute>
+						<attribute key="y" type="double">2208.6202671685774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">617.6452380952381</attribute>
-						<attribute key="y" type="double">2344.3397137787224</attribute>
+						<attribute key="y" type="double">2361.213317380597</attribute>
 					</section>
 				</section>
 			</section>
@@ -2374,7 +2374,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">535.9196521577381</attribute>
-				<attribute key="y" type="double">2255.947835441703</attribute>
+				<attribute key="y" type="double">2272.8214390435774</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2387,19 +2387,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">686.5341269841269</attribute>
-						<attribute key="y" type="double">2130.7223450451656</attribute>
+						<attribute key="y" type="double">2147.59594864704</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">770.0444243190586</attribute>
-						<attribute key="y" type="double">2175.746663566703</attribute>
+						<attribute key="y" type="double">2192.6202671685774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">829.3388888888888</attribute>
-						<attribute key="y" type="double">2175.746663566703</attribute>
+						<attribute key="y" type="double">2192.6202671685774</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">829.3388888888888</attribute>
-						<attribute key="y" type="double">2344.3397137787224</attribute>
+						<attribute key="y" type="double">2361.213317380597</attribute>
 					</section>
 				</section>
 			</section>
@@ -2417,7 +2417,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">812.6670138888888</attribute>
-				<attribute key="y" type="double">2255.947835441703</attribute>
+				<attribute key="y" type="double">2272.8214390435774</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2441,7 +2441,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">815.0019748263888</attribute>
-				<attribute key="y" type="double">2408.030420240742</attribute>
+				<attribute key="y" type="double">2424.9040238426164</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2465,7 +2465,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">803.3213107638888</attribute>
-				<attribute key="y" type="double">2606.9076653267393</attribute>
+				<attribute key="y" type="double">2623.7812689286134</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2491,7 +2491,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">789.1689763144841</attribute>
-				<attribute key="y" type="double">2779.3586461198147</attribute>
+				<attribute key="y" type="double">2796.2322497216883</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2504,19 +2504,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">868.556746031746</attribute>
-						<attribute key="y" type="double">2919.606666271384</attribute>
+						<attribute key="y" type="double">2936.4802698732574</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">935.6115079365079</attribute>
-						<attribute key="y" type="double">2715.1574742448147</attribute>
+						<attribute key="y" type="double">2732.0310778466883</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">912.8491862238205</attribute>
-						<attribute key="y" type="double">2715.1574742448147</attribute>
+						<attribute key="y" type="double">2732.0310778466883</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">829.3388888888888</attribute>
-						<attribute key="y" type="double">2670.133155723277</attribute>
+						<attribute key="y" type="double">2687.0067593251506</attribute>
 					</section>
 				</section>
 			</section>
@@ -2535,7 +2535,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">908.6007657490079</attribute>
-				<attribute key="y" type="double">2779.3586461198147</attribute>
+				<attribute key="y" type="double">2796.2322497216883</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2548,19 +2548,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">829.3388888888888</attribute>
-						<attribute key="y" type="double">2670.133155723277</attribute>
+						<attribute key="y" type="double">2687.0067593251506</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">857.1756546671994</attribute>
-						<attribute key="y" type="double">2715.1574742448142</attribute>
+						<attribute key="y" type="double">2732.031077846688</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">868.556746031746</attribute>
-						<attribute key="y" type="double">2715.1574742448142</attribute>
+						<attribute key="y" type="double">2732.031077846688</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">868.556746031746</attribute>
-						<attribute key="y" type="double">2919.606666271384</attribute>
+						<attribute key="y" type="double">2936.4802698732574</attribute>
 					</section>
 				</section>
 			</section>
@@ -2578,7 +2578,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">842.216902281746</attribute>
-				<attribute key="y" type="double">2740.6574742448147</attribute>
+				<attribute key="y" type="double">2757.5310778466883</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2591,19 +2591,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">829.3388888888888</attribute>
-						<attribute key="y" type="double">2670.133155723277</attribute>
+						<attribute key="y" type="double">2687.0067593251506</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">745.8285915539573</attribute>
-						<attribute key="y" type="double">2715.1574742448142</attribute>
+						<attribute key="y" type="double">2732.031077846688</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">541.1638888888889</attribute>
-						<attribute key="y" type="double">2715.1574742448142</attribute>
+						<attribute key="y" type="double">2732.031077846688</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">541.1638888888889</attribute>
-						<attribute key="y" type="double">2919.606666271384</attribute>
+						<attribute key="y" type="double">2936.4802698732574</attribute>
 					</section>
 				</section>
 			</section>
@@ -2621,7 +2621,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">513.4881076388889</attribute>
-				<attribute key="y" type="double">2740.6574742448147</attribute>
+				<attribute key="y" type="double">2757.5310778466883</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2634,19 +2634,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">541.1638888888889</attribute>
-						<attribute key="y" type="double">3173.323436422953</attribute>
+						<attribute key="y" type="double">3190.1970400248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">413.02751259268115</attribute>
-						<attribute key="y" type="double">3267.292186422953</attribute>
+						<attribute key="y" type="double">3284.1657900248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">371.0938492063492</attribute>
-						<attribute key="y" type="double">3267.292186422953</attribute>
+						<attribute key="y" type="double">3284.1657900248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">414.99940476190477</attribute>
-						<attribute key="y" type="double">3419.2959222074223</attribute>
+						<attribute key="y" type="double">3436.169525809295</attribute>
 					</section>
 				</section>
 			</section>
@@ -2665,7 +2665,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">303.0704117063492</attribute>
-				<attribute key="y" type="double">3292.792186422953</attribute>
+				<attribute key="y" type="double">3309.6657900248256</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2678,19 +2678,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">541.1638888888889</attribute>
-						<attribute key="y" type="double">3173.323436422953</attribute>
+						<attribute key="y" type="double">3190.1970400248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">583.8760143209581</attribute>
-						<attribute key="y" type="double">3267.292186422953</attribute>
+						<attribute key="y" type="double">3284.1657900248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">623.4228174603174</attribute>
-						<attribute key="y" type="double">3267.292186422953</attribute>
+						<attribute key="y" type="double">3284.1657900248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">623.4228174603174</attribute>
-						<attribute key="y" type="double">3419.2959222074223</attribute>
+						<attribute key="y" type="double">3436.169525809295</attribute>
 					</section>
 				</section>
 			</section>
@@ -2708,7 +2708,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">584.7431299603174</attribute>
-				<attribute key="y" type="double">3292.792186422953</attribute>
+				<attribute key="y" type="double">3309.6657900248256</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2721,19 +2721,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">541.1638888888889</attribute>
-						<attribute key="y" type="double">3173.323436422953</attribute>
+						<attribute key="y" type="double">3190.1970400248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">669.3002651850966</attribute>
-						<attribute key="y" type="double">3267.292186422953</attribute>
+						<attribute key="y" type="double">3284.1657900248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1043.9422619047618</attribute>
-						<attribute key="y" type="double">3267.292186422953</attribute>
+						<attribute key="y" type="double">3284.1657900248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1043.9422619047618</attribute>
-						<attribute key="y" type="double">3419.2959222074223</attribute>
+						<attribute key="y" type="double">3436.169525809295</attribute>
 					</section>
 				</section>
 			</section>
@@ -2751,7 +2751,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">979.5721447172618</attribute>
-				<attribute key="y" type="double">3331.493358297953</attribute>
+				<attribute key="y" type="double">3348.3669618998256</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2764,19 +2764,19 @@ As an exercise, use internet and find out about the following in Python and Java
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">414.99940476190477</attribute>
-						<attribute key="y" type="double">3419.2959222074223</attribute>
+						<attribute key="y" type="double">3436.169525809295</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">458.90496031746034</attribute>
-						<attribute key="y" type="double">3267.292186422953</attribute>
+						<attribute key="y" type="double">3284.1657900248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">498.45176345681966</attribute>
-						<attribute key="y" type="double">3267.292186422953</attribute>
+						<attribute key="y" type="double">3284.1657900248256</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">541.1638888888889</attribute>
-						<attribute key="y" type="double">3173.323436422953</attribute>
+						<attribute key="y" type="double">3190.1970400248256</attribute>
 					</section>
 				</section>
 			</section>
@@ -2795,7 +2795,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">431.89421812996034</attribute>
-				<attribute key="y" type="double">3331.493358297953</attribute>
+				<attribute key="y" type="double">3348.3669618998256</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2819,7 +2819,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">739.0347904265873</attribute>
-				<attribute key="y" type="double">3409.9453362699223</attribute>
+				<attribute key="y" type="double">3426.818939871795</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2855,7 +2855,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1003.2557384672618</attribute>
-				<attribute key="y" type="double">3498.3973142418918</attribute>
+				<attribute key="y" type="double">3515.2709178437644</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2879,7 +2879,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">526.8269748263889</attribute>
-				<attribute key="y" type="double">3061.1535145479525</attribute>
+				<attribute key="y" type="double">3078.027118149826</attribute>
 			</section>
 		</section>
 	</section>
