@@ -158,7 +158,7 @@ Do you know these concepts?</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">6</attribute>
-			<attribute key="label" type="String">let otp = "5297";
+			<attribute key="label" type="String">otp = "5297";
 
 Here, what is the data type of otp?</attribute>
 			<section name="graphics">
@@ -172,7 +172,7 @@ Here, what is the data type of otp?</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">let otp = "5297";
+				<attribute key="text" type="String">otp = "5297";
 
 Here, what is the data type of otp?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
@@ -212,7 +212,7 @@ Here, what is the data type of otp?</attribute>
 			<attribute key="id" type="int">8</attribute>
 			<attribute key="label" type="String">This answer is incorrect.
 
-In Javascript, there is no data type called text. Please read about data types and try again.</attribute>
+In Python, there is no data type called text. Please read about data types and try again.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">780.0214285714286</attribute>
 				<attribute key="y" type="double">2891.744583072712</attribute>
@@ -226,7 +226,7 @@ In Javascript, there is no data type called text. Please read about data types a
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">This answer is incorrect.
 
-In Javascript, there is no data type called text. Please read about data types and try again.</attribute>
+In Python, there is no data type called text. Please read about data types and try again.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -266,7 +266,7 @@ Although the value looks like a number, it is enclosed in double quotes. Any val
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">10</attribute>
-			<attribute key="label" type="String">let interestRate = 7.5;
+			<attribute key="label" type="String">interestRate = 7.5;
 
 Here, what is the data type of interestRate?</attribute>
 			<section name="graphics">
@@ -280,7 +280,7 @@ Here, what is the data type of interestRate?</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">let interestRate = 7.5;
+				<attribute key="text" type="String">interestRate = 7.5;
 
 Here, what is the data type of interestRate?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
@@ -342,8 +342,8 @@ Here, what is the data type of interestRate?</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">13</attribute>
-			<attribute key="label" type="String">let loanAmount = 1000;
-let interest = "20";
+			<attribute key="label" type="String">loanAmount = 1000;
+interest = "20";
 
 Here, what are the data types of loanAmount, interest?</attribute>
 			<section name="graphics">
@@ -357,8 +357,8 @@ Here, what are the data types of loanAmount, interest?</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">let loanAmount = 1000;
-let interest = "20";
+				<attribute key="text" type="String">loanAmount = 1000;
+interest = "20";
 
 Here, what are the data types of loanAmount, interest?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
@@ -424,7 +424,7 @@ When you print loanAmount and interest, both will look like numbers. But, loanAm
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">16</attribute>
-			<attribute key="label" type="String">This answer is incorrect. In Javascript, every variable will have a single data type.</attribute>
+			<attribute key="label" type="String">This answer is incorrect. In Python, every variable will have a single data type.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1082.0396825396826</attribute>
 				<attribute key="y" type="double">3306.4378736234444</attribute>
@@ -436,7 +436,7 @@ When you print loanAmount and interest, both will look like numbers. But, loanAm
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This answer is incorrect. In Javascript, every variable will have a single data type.</attribute>
+				<attribute key="text" type="String">This answer is incorrect. In Python, every variable will have a single data type.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -448,8 +448,8 @@ When you print loanAmount and interest, both will look like numbers. But, loanAm
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">17</attribute>
-			<attribute key="label" type="String">let loanAmount = 1000;
-let interest = "20";
+			<attribute key="label" type="String">loanAmount = 1000;
+interest = "20";
 
 What will be the values of loanAmount+interest, loanAmount+loanAmount?</attribute>
 			<section name="graphics">
@@ -463,8 +463,8 @@ What will be the values of loanAmount+interest, loanAmount+loanAmount?</attribut
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">let loanAmount = 1000;
-let interest = "20";
+				<attribute key="text" type="String">loanAmount = 1000;
+interest = "20";
 
 What will be the values of loanAmount+interest, loanAmount+loanAmount?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
@@ -480,7 +480,7 @@ What will be the values of loanAmount+interest, loanAmount+loanAmount?</attribut
 			<attribute key="id" type="int">18</attribute>
 			<attribute key="label" type="String">This is correct answer.
 
-loanAmount is of number type, so loanAmount+loanAmount will do arithmetic addition. Thus, 1000+1000 will give 2000.
+loanAmount is of int type, so loanAmount+loanAmount will do arithmetic addition. Thus, 1000+1000 will give 2000.
 
 But interest is of string type, so loanAmount+interest will do string addition. Thus 1000+"20" will give "100020".
 
@@ -498,7 +498,7 @@ Note the use of double quotes for "20" and no double quotes for 1000.</attribute
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">This is correct answer.
 
-loanAmount is of number type, so loanAmount+loanAmount will do arithmetic addition. Thus, 1000+1000 will give 2000.
+loanAmount is of int type, so loanAmount+loanAmount will do arithmetic addition. Thus, 1000+1000 will give 2000.
 
 But interest is of string type, so loanAmount+interest will do string addition. Thus 1000+"20" will give "100020".
 
@@ -507,7 +507,7 @@ Note the use of double quotes for "20" and no double quotes for 1000.</attribute
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">319.4710867534938</attribute>
-				<attribute key="contentHeight" type="double">172.03125</attribute>
+				<attribute key="contentHeight" type="double">156.9375</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -542,7 +542,7 @@ loanAmount+loanAmount will give 2000. But loanAmount+interest will not give 1020
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">20</attribute>
-			<attribute key="label" type="String">let withdrawlAmount = readLine();
+			<attribute key="label" type="String">withdrawlAmount = input();
 
 What will be the data type of withdrawlAmount?</attribute>
 			<section name="graphics">
@@ -556,7 +556,7 @@ What will be the data type of withdrawlAmount?</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">let withdrawlAmount = readLine();
+				<attribute key="text" type="String">withdrawlAmount = input();
 
 What will be the data type of withdrawlAmount?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
@@ -570,7 +570,7 @@ What will be the data type of withdrawlAmount?</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">21</attribute>
-			<attribute key="label" type="String">This answer is incorrect. readLine() will always give us a string.</attribute>
+			<attribute key="label" type="String">This answer is incorrect. input() will always give us a string.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">556.7698412698413</attribute>
 				<attribute key="y" type="double">3991.4507444075066</attribute>
@@ -582,19 +582,19 @@ What will be the data type of withdrawlAmount?</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This answer is incorrect. readLine() will always give us a string.</attribute>
+				<attribute key="text" type="String">This answer is incorrect. input() will always give us a string.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">181.6934781842371</attribute>
-				<attribute key="contentHeight" type="double">51.28125</attribute>
+				<attribute key="contentHeight" type="double">36.1875</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">22</attribute>
-			<attribute key="label" type="String">This is correct answer. readLine() will always give us a string.</attribute>
+			<attribute key="label" type="String">This is correct answer. input() will always give us a string.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">768.463492063492</attribute>
 				<attribute key="y" type="double">3991.4507444075066</attribute>
@@ -606,12 +606,12 @@ What will be the data type of withdrawlAmount?</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This is correct answer. readLine() will always give us a string.</attribute>
+				<attribute key="text" type="String">This is correct answer. input() will always give us a string.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">181.6934781842371</attribute>
-				<attribute key="contentHeight" type="double">51.28125</attribute>
+				<attribute key="contentHeight" type="double">36.1875</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -622,11 +622,11 @@ What will be the data type of withdrawlAmount?</attribute>
 ----
 a. We will use the formula n*(n+1)*(2*n+1)/6
 ----
-2. To read input, we use readLine(). But it will always give a string. 
+2. To read input, we use input(). But it will always give a string. 
 3. But string operations are different from arithmetic operations (e.g. 5+5 will give 10, but "5"+"5" will give "55")
 
 So, how can we do the calculations?
-Luckily, Javascript has a way to convert string to integer.</attribute>
+Luckily, Python has a way to convert string to integer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1133.1702380952381</attribute>
 				<attribute key="y" type="double">3991.4507444075066</attribute>
@@ -642,11 +642,11 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 ----
 a. We will use the formula n*(n+1)*(2*n+1)/6
 ----
-2. To read input, we use readLine(). But it will always give a string. 
+2. To read input, we use input(). But it will always give a string. 
 3. But string operations are different from arithmetic operations (e.g. 5+5 will give 10, but "5"+"5" will give "55")
 
 So, how can we do the calculations?
-Luckily, Javascript has a way to convert string to integer.</attribute>
+Luckily, Python has a way to convert string to integer.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -658,7 +658,7 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">24</attribute>
-			<attribute key="label" type="String">In Javascript, what can we use to convert a string to an integer?</attribute>
+			<attribute key="label" type="String">In Python, what can we use to convert a string to an integer?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1133.1702380952381</attribute>
 				<attribute key="y" type="double">4168.06058143416</attribute>
@@ -670,7 +670,7 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">In Javascript, what can we use to convert a string to an integer?</attribute>
+				<attribute key="text" type="String">In Python, what can we use to convert a string to an integer?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -682,7 +682,7 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 		</section>
 		<section name="node">
 			<attribute key="id" type="int">25</attribute>
-			<attribute key="label" type="String">This answer is incorrect. Please watch the lecture or use internet to find out how to convert a string to an integer in Javascript.</attribute>
+			<attribute key="label" type="String">This answer is incorrect. Please watch the lecture or use internet to find out how to convert a string to an integer in Python.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1163.4525793650794</attribute>
 				<attribute key="y" type="double">4410.223980261615</attribute>
@@ -694,7 +694,7 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">This answer is incorrect. Please watch the lecture or use internet to find out how to convert a string to an integer in Javascript.</attribute>
+				<attribute key="text" type="String">This answer is incorrect. Please watch the lecture or use internet to find out how to convert a string to an integer in Python.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -708,18 +708,18 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 			<attribute key="id" type="int">26</attribute>
 			<attribute key="label" type="String">This is correct answer.
 
-Following are some examples demonstarting the usage of parseInt().
+Following are some examples demonstarting the usage of int().
 
 -------------
 Example 1:
 -------------
-let priceStr = "499";
-let num = parseInt(priceStr);
+priceStr = "499";
+num = int(priceStr);
 
 -------------
 Example 2:
 -------------
-let age = parseInt(readLine());</attribute>
+age = int(input());</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">846.8545634920636</attribute>
 				<attribute key="y" type="double">4410.223980261615</attribute>
@@ -733,18 +733,18 @@ let age = parseInt(readLine());</attribute>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">This is correct answer.
 
-Following are some examples demonstarting the usage of parseInt().
+Following are some examples demonstarting the usage of int().
 
 -------------
 Example 1:
 -------------
-let priceStr = "499";
-let num = parseInt(priceStr);
+priceStr = "499";
+num = int(priceStr);
 
 -------------
 Example 2:
 -------------
-let age = parseInt(readLine());</attribute>
+age = int(input());</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -895,7 +895,7 @@ Using these, you can write a program and run it. First write the program on a pa
 		<section name="node">
 			<attribute key="id" type="int">32</attribute>
 			<attribute key="label" type="String">This assignment demonstrates the concepts of data types and type conversion. Most programming languages have similar concepts of data types and type conversion.
-As an exercise, use internet and find out about the following in Python and Java. You already know it in Javascript.
+As an exercise, use internet and find out about the following in Javascript and Java. You already know it in Python.
 1. What are the different data types?
 2. How to convert a string to an integer?</attribute>
 			<section name="graphics">
@@ -910,7 +910,7 @@ As an exercise, use internet and find out about the following in Python and Java
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">This assignment demonstrates the concepts of data types and type conversion. Most programming languages have similar concepts of data types and type conversion.
-As an exercise, use internet and find out about the following in Python and Java. You already know it in Javascript.
+As an exercise, use internet and find out about the following in Javascript and Java. You already know it in Python.
 1. What are the different data types?
 2. How to convert a string to an integer?</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
@@ -1114,7 +1114,7 @@ Next step is coming up with logic</attribute>
 			<attribute key="id" type="int">40</attribute>
 			<attribute key="label" type="String">This answer is incorrect.
 
-In Javascript, there is no data type called mixed. Please read about data types and try again.</attribute>
+In Python, there is no data type called mixed. Please read about data types and try again.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">121.43928571428572</attribute>
 				<attribute key="y" type="double">2891.744583072711</attribute>
@@ -1128,7 +1128,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">This answer is incorrect.
 
-In Javascript, there is no data type called mixed. Please read about data types and try again.</attribute>
+In Python, there is no data type called mixed. Please read about data types and try again.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
@@ -1646,7 +1646,7 @@ Next step is implementation</attribute>
 			<attribute key="id" type="int">61</attribute>
 			<attribute key="label" type="String">This answer is incorrect.
 
-In Javascript, there is no data type called decimal. Please read about data types and try again.</attribute>
+In Python, there is no data type called decimal. Please read about data types and try again.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1088.7392857142856</attribute>
 				<attribute key="y" type="double">3079.0082549477124</attribute>
@@ -1660,12 +1660,36 @@ In Javascript, there is no data type called decimal. Please read about data type
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">This answer is incorrect.
 
-In Javascript, there is no data type called decimal. Please read about data types and try again.</attribute>
+In Python, there is no data type called decimal. Please read about data types and try again.</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">CroppingLabel</attribute>
 				<attribute key="contentWidth" type="double">202.87821212073843</attribute>
 				<attribute key="contentHeight" type="double">81.46875</attribute>
+				<attribute key="autoSizePolicy" type="String">node_width</attribute>
+				<attribute key="anchor" type="String">c</attribute>
+			</section>
+		</section>
+		<section name="node">
+			<attribute key="id" type="int">62</attribute>
+			<attribute key="label" type="String">This answer is incorrect. For int values, there won't be any decimal part. Here, 7.5 has a decimal part.</attribute>
+			<section name="graphics">
+				<attribute key="x" type="double">216.1064133543954</attribute>
+				<attribute key="y" type="double">3079.0082549477124</attribute>
+				<attribute key="w" type="double">158.56340933767655</attribute>
+				<attribute key="h" type="double">64.0208469055375</attribute>
+				<attribute key="type" type="String">rectangle</attribute>
+				<attribute key="raisedBorder" type="boolean">false</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
+				<attribute key="outline" type="String">#000000</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">This answer is incorrect. For int values, there won't be any decimal part. Here, 7.5 has a decimal part.</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">CroppingLabel</attribute>
+				<attribute key="contentWidth" type="double">158.56340933767655</attribute>
+				<attribute key="contentHeight" type="double">66.375</attribute>
 				<attribute key="autoSizePolicy" type="String">node_width</attribute>
 				<attribute key="anchor" type="String">c</attribute>
 			</section>
@@ -1890,7 +1914,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">6</attribute>
 			<attribute key="target" type="int">9</attribute>
-			<attribute key="label" type="String">string</attribute>
+			<attribute key="label" type="String">str</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -1919,14 +1943,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-1.0000000000000016</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">string</attribute>
+				<attribute key="text" type="String">str</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">33.34375</attribute>
+				<attribute key="contentWidth" type="double">17.330078125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">337.6459821428571</attribute>
+				<attribute key="x" type="double">345.6528180803571</attribute>
 				<attribute key="y" type="double">2802.215286197712</attribute>
 			</section>
 		</section>
@@ -2045,7 +2069,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">10</attribute>
 			<attribute key="target" type="int">11</attribute>
-			<attribute key="label" type="String">string</attribute>
+			<attribute key="label" type="String">str</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2075,14 +2099,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-1.0000000000000053</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">string</attribute>
+				<attribute key="text" type="String">str</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">33.34375</attribute>
+				<attribute key="contentWidth" type="double">17.330078125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">357.9947916666667</attribute>
+				<attribute key="x" type="double">366.0016276041667</attribute>
 				<attribute key="y" type="double">3004.572708072712</attribute>
 			</section>
 		</section>
@@ -2133,7 +2157,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">10</attribute>
 			<attribute key="target" type="int">12</attribute>
-			<attribute key="label" type="String">number</attribute>
+			<attribute key="label" type="String">float</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2143,14 +2167,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-0.9999999999999949</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">number</attribute>
+				<attribute key="text" type="String">float</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">44.6875</attribute>
+				<attribute key="contentWidth" type="double">26.681640625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">571.3375992063492</attribute>
+				<attribute key="x" type="double">580.3405288938492</attribute>
 				<attribute key="y" type="double">3004.572708072712</attribute>
 			</section>
 		</section>
@@ -2181,7 +2205,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">13</attribute>
 			<attribute key="target" type="int">14</attribute>
-			<attribute key="label" type="String">number, number</attribute>
+			<attribute key="label" type="String">int, int</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2211,14 +2235,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">number, number</attribute>
+				<attribute key="text" type="String">int, int</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">92.04296875</attribute>
+				<attribute key="contentWidth" type="double">36.015625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">521.4320870535714</attribute>
+				<attribute key="x" type="double">549.4457589285714</attribute>
 				<attribute key="y" type="double">3178.207404873445</attribute>
 			</section>
 		</section>
@@ -2269,7 +2293,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">13</attribute>
 			<attribute key="target" type="int">15</attribute>
-			<attribute key="label" type="String">number, string</attribute>
+			<attribute key="label" type="String">int, str</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2279,21 +2303,21 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-1.0000000000000036</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">number, string</attribute>
+				<attribute key="text" type="String">int, str</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">80.69921875</attribute>
+				<attribute key="contentWidth" type="double">36.671875</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">806.5242001488095</attribute>
+				<attribute key="x" type="double">828.5378720238095</attribute>
 				<attribute key="y" type="double">3178.207404873445</attribute>
 			</section>
 		</section>
 		<section name="edge">
 			<attribute key="source" type="int">13</attribute>
 			<attribute key="target" type="int">16</attribute>
-			<attribute key="label" type="String">number, number or string</attribute>
+			<attribute key="label" type="String">int, int or str</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2323,14 +2347,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">number, number or string</attribute>
+				<attribute key="text" type="String">int, int or str</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">138.724609375</attribute>
+				<attribute key="contentWidth" type="double">66.68359375</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">968.4230127728174</attribute>
+				<attribute key="x" type="double">1004.4435205853174</attribute>
 				<attribute key="y" type="double">3216.908576748445</attribute>
 			</section>
 		</section>
@@ -2517,7 +2541,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">20</attribute>
 			<attribute key="target" type="int">21</attribute>
-			<attribute key="label" type="String">number</attribute>
+			<attribute key="label" type="String">int</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2555,21 +2579,21 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">number</attribute>
+				<attribute key="text" type="String">int</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">44.6875</attribute>
+				<attribute key="contentWidth" type="double">16.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">437.7002976190476</attribute>
+				<attribute key="x" type="double">451.7071335565476</attribute>
 				<attribute key="y" type="double">3840.664054027391</attribute>
 			</section>
 		</section>
 		<section name="edge">
 			<attribute key="source" type="int">20</attribute>
 			<attribute key="target" type="int">21</attribute>
-			<attribute key="label" type="String">Cannot say, depends on input</attribute>
+			<attribute key="label" type="String">Cannot say, depends on user input</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2598,21 +2622,21 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">Cannot say, depends on input</attribute>
+				<attribute key="text" type="String">Cannot say, depends on user input</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">163.451171875</attribute>
+				<attribute key="contentWidth" type="double">190.12890625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">475.0442553323413</attribute>
+				<attribute key="x" type="double">461.7053881448413</attribute>
 				<attribute key="y" type="double">3879.365225902391</attribute>
 			</section>
 		</section>
 		<section name="edge">
 			<attribute key="source" type="int">20</attribute>
 			<attribute key="target" type="int">22</attribute>
-			<attribute key="label" type="String">string</attribute>
+			<attribute key="label" type="String">str</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2641,14 +2665,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">string</attribute>
+				<attribute key="text" type="String">str</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">33.34375</attribute>
+				<attribute key="contentWidth" type="double">17.330078125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">751.791617063492</attribute>
+				<attribute key="x" type="double">759.798453000992</attribute>
 				<attribute key="y" type="double">3879.365225902391</attribute>
 			</section>
 		</section>
@@ -2703,7 +2727,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">24</attribute>
 			<attribute key="target" type="int">25</attribute>
-			<attribute key="label" type="String">int()</attribute>
+			<attribute key="label" type="String">parseInt()</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2733,14 +2757,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-1.000000000000011</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">int()</attribute>
+				<attribute key="text" type="String">parseInt()</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">24.666015625</attribute>
+				<attribute key="contentWidth" type="double">55.3515625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1090.5548890128969</attribute>
+				<attribute key="x" type="double">1075.2121155753969</attribute>
 				<attribute key="y" type="double">4277.286071830697</attribute>
 			</section>
 		</section>
@@ -2834,7 +2858,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">24</attribute>
 			<attribute key="target" type="int">26</attribute>
-			<attribute key="label" type="String">parseInt()</attribute>
+			<attribute key="label" type="String">int()</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2863,14 +2887,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-0.9999999999999998</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">parseInt()</attribute>
+				<attribute key="text" type="String">int()</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">55.3515625</attribute>
+				<attribute key="contentWidth" type="double">24.666015625</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">819.1787822420634</attribute>
+				<attribute key="x" type="double">834.5215556795634</attribute>
 				<attribute key="y" type="double">4238.584899955697</attribute>
 			</section>
 		</section>
@@ -2921,7 +2945,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">27</attribute>
 			<attribute key="target" type="int">29</attribute>
-			<attribute key="label" type="String">Getting errors</attribute>
+			<attribute key="label" type="String">10x: More help</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -2950,14 +2974,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="yTarget" type="double">-1.0000000000000124</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">Getting errors</attribute>
+				<attribute key="text" type="String">10x: More help</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">77.359375</attribute>
+				<attribute key="contentWidth" type="double">83.376953125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">885.4014632936507</attribute>
+				<attribute key="x" type="double">882.3926742311507</attribute>
 				<attribute key="y" type="double">4795.9305819527635</attribute>
 			</section>
 		</section>
@@ -3051,7 +3075,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 		<section name="edge">
 			<attribute key="source" type="int">30</attribute>
 			<attribute key="target" type="int">29</attribute>
-			<attribute key="label" type="String">Connect with a mentor</attribute>
+			<attribute key="label" type="String">10x: More help</attribute>
 			<section name="graphics">
 				<attribute key="fill" type="String">#000000</attribute>
 				<attribute key="targetArrow" type="String">standard</attribute>
@@ -3061,14 +3085,14 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="xTarget" type="double">1.0</attribute>
 			</section>
 			<section name="LabelGraphics">
-				<attribute key="text" type="String">Connect with a mentor</attribute>
+				<attribute key="text" type="String">10x: More help</attribute>
 				<attribute key="fontSize" type="int">12</attribute>
 				<attribute key="fontName" type="String">Dialog</attribute>
 				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
-				<attribute key="contentWidth" type="double">124.05859375</attribute>
+				<attribute key="contentWidth" type="double">83.376953125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">1039.6931237599206</attribute>
+				<attribute key="x" type="double">1060.0339440724206</attribute>
 				<attribute key="y" type="double">4913.083731799733</attribute>
 			</section>
 		</section>
@@ -4886,6 +4910,58 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">451.6376891121032</attribute>
 				<attribute key="y" type="double">3685.9291214597765</attribute>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">10</attribute>
+			<attribute key="target" type="int">62</attribute>
+			<attribute key="label" type="String">int</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">int</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">16.673828125</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
+			</section>
+		</section>
+		<section name="edge">
+			<attribute key="source" type="int">62</attribute>
+			<attribute key="target" type="int">10</attribute>
+			<attribute key="label" type="String">Try again</attribute>
+			<section name="graphics">
+				<attribute key="fill" type="String">#000000</attribute>
+				<attribute key="targetArrow" type="String">standard</attribute>
+				<section name="Line">
+					<section name="point">
+						<attribute key="x" type="double">216.1064133543954</attribute>
+						<attribute key="y" type="double">3079.0082549477124</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">283.5967384488164</attribute>
+						<attribute key="y" type="double">2986.11358928747</attribute>
+					</section>
+					<section name="point">
+						<attribute key="x" type="double">593.6813492063492</attribute>
+						<attribute key="y" type="double">2882.895596013428</attribute>
+					</section>
+				</section>
+			</section>
+			<section name="LabelGraphics">
+				<attribute key="text" type="String">Try again</attribute>
+				<attribute key="fontSize" type="int">12</attribute>
+				<attribute key="fontName" type="String">Dialog</attribute>
+				<attribute key="configuration" type="String">AutoFlippingLabel</attribute>
+				<attribute key="contentWidth" type="double">54.021484375</attribute>
+				<attribute key="contentHeight" type="double">18.701171875</attribute>
+				<attribute key="model"/>
+				<attribute key="position"/>
 			</section>
 		</section>
 	</section>
