@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Cp1252"?>
 <section name="xgml">
 	<attribute key="Creator" type="String">yFiles</attribute>
-	<attribute key="Version" type="String">2.18</attribute>
+	<attribute key="Version" type="String">2.20</attribute>
 	<section name="graph">
 		<attribute key="hierarchic" type="int">1</attribute>
 		<attribute key="label" type="String"></attribute>
@@ -60,7 +60,7 @@
 				<attribute key="h" type="double">78.65980191215272</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -84,7 +84,7 @@
 				<attribute key="h" type="double">78.65980191215272</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -113,7 +113,7 @@ Do you know these concepts?</attribute>
 				<attribute key="h" type="double">104.35174400000005</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -142,7 +142,7 @@ Do you know these concepts?</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -168,7 +168,7 @@ Here, what is the data type of otp?</attribute>
 				<attribute key="h" type="double">69.39829985146571</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -194,7 +194,7 @@ Here, what is the data type of otp?</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -220,7 +220,7 @@ In Javascript, there is no data type called text. Please read about data types a
 				<attribute key="h" type="double">77.97180333724248</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -248,7 +248,7 @@ Although the value looks like a number, it is enclosed in double quotes. Any val
 				<attribute key="h" type="double">111.22701839371604</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -271,12 +271,12 @@ Although the value looks like a number, it is enclosed in double quotes. Any val
 Here, what is the data type of interestRate?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">593.6813492063492</attribute>
-				<attribute key="y" type="double">2891.7445830727115</attribute>
+				<attribute key="y" type="double">2882.895596013428</attribute>
 				<attribute key="w" type="double">130.49999999999994</attribute>
-				<attribute key="h" type="double">51.700325732899046</attribute>
+				<attribute key="h" type="double">69.39829985146594</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -302,7 +302,7 @@ Here, what is the data type of interestRate?</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -326,7 +326,7 @@ Here, what is the data type of interestRate?</attribute>
 				<attribute key="h" type="double">55.08764834689765</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -353,7 +353,7 @@ Here, what are the data types of loanAmount, interest?</attribute>
 				<attribute key="h" type="double">84.39829985146571</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -380,7 +380,7 @@ Here, what are the data types of loanAmount, interest?</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -406,7 +406,7 @@ When you print loanAmount and interest, both will look like numbers. But, loanAm
 				<attribute key="h" type="double">111.22701839371581</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -432,7 +432,7 @@ When you print loanAmount and interest, both will look like numbers. But, loanAm
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -459,7 +459,7 @@ What will be the values of loanAmount+interest, loanAmount+loanAmount?</attribut
 				<attribute key="h" type="double">111.22701839371598</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -492,7 +492,7 @@ Note the use of double quotes for "20" and no double quotes for 1000.</attribute
 				<attribute key="h" type="double">176.76869326023058</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -524,7 +524,7 @@ loanAmount+loanAmount will give 2000. But loanAmount+interest will not give 1020
 				<attribute key="h" type="double">121.5433408786713</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -552,7 +552,7 @@ What will be the data type of withdrawlAmount?</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -578,7 +578,7 @@ What will be the data type of withdrawlAmount?</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -602,7 +602,7 @@ What will be the data type of withdrawlAmount?</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -634,7 +634,7 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 				<attribute key="h" type="double">176.7686932602308</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -666,7 +666,7 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -690,7 +690,7 @@ Luckily, Javascript has a way to convert string to integer.</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -727,7 +727,7 @@ let age = parseInt(readLine());</attribute>
 				<attribute key="h" type="double">218.47347311183518</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -772,7 +772,7 @@ Using these, you can write a program and run it. First write the program on a pa
 				<attribute key="h" type="double">176.76869326023052</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -804,7 +804,7 @@ Using these, you can write a program and run it. First write the program on a pa
 				<attribute key="h" type="double">71.38673763300767</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -853,7 +853,7 @@ Using these, you can write a program and run it. First write the program on a pa
 				<attribute key="h" type="double">108.20278406893885</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -932,7 +932,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="h" type="double">51.700325732899046</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -960,7 +960,7 @@ This is a good opportunity to learn that skill. Use internet to find out what na
 				<attribute key="h" type="double">146.2061489259848</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -989,7 +989,7 @@ Natural numbers are 1, 2, 3, 4, 5 and so on.</attribute>
 				<attribute key="h" type="double">79.55424762621743</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1014,7 +1014,7 @@ Natural numbers are 1, 2, 3, 4, 5 and so on.</attribute>
 				<attribute key="h" type="double">33.45920200130303</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1038,7 +1038,7 @@ Natural numbers are 1, 2, 3, 4, 5 and so on.</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1067,7 +1067,7 @@ Next step is coming up with logic</attribute>
 				<attribute key="h" type="double">106.81630382002146</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1096,7 +1096,7 @@ Next step is coming up with logic</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1122,7 +1122,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="h" type="double">77.97180333724225</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1148,7 +1148,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="h" type="double">67.41963886808497</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1172,7 +1172,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="h" type="double">67.41963886808497</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1196,7 +1196,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="h" type="double">67.41963886808497</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1220,7 +1220,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="h" type="double">67.41963886808497</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1244,7 +1244,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="h" type="double">44.11952872554417</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1270,7 +1270,7 @@ First 4 natural numbers are 1, 2, 3 and 4. Their sum is 10.</attribute>
 				<attribute key="h" type="double">67.41963886808497</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1296,7 +1296,7 @@ First 4 natural numbers are 1, 2, 3 and 4. Their sum is 10.</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1320,7 +1320,7 @@ First 4 natural numbers are 1, 2, 3 and 4. Their sum is 10.</attribute>
 				<attribute key="h" type="double">44.11952872554417</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1344,7 +1344,7 @@ First 4 natural numbers are 1, 2, 3 and 4. Their sum is 10.</attribute>
 				<attribute key="h" type="double">44.11952872554417</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1372,7 +1372,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">106.81630382002157</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1400,7 +1400,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">32.86011330293178</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1424,7 +1424,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">57.860586319218385</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1448,7 +1448,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">57.860586319218385</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1472,7 +1472,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">57.860586319218385</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1496,7 +1496,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">44.11952872554417</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1520,7 +1520,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">64.02084690553744</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1544,7 +1544,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">64.02084690553744</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1568,7 +1568,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">64.02084690553744</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1592,7 +1592,7 @@ Their squares are 1, 4, 9 and 16. So, sum of the squares is 30.</attribute>
 				<attribute key="h" type="double">64.02084690553744</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1622,7 +1622,7 @@ Next step is implementation</attribute>
 				<attribute key="h" type="double">134.4642053559174</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1654,7 +1654,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="h" type="double">77.97180333724225</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -2038,8 +2038,8 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="contentWidth" type="double">28.673828125</attribute>
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
-				<attribute key="x" type="double">465.7571335565476</attribute>
-				<attribute key="y" type="double">2882.393997135212</attribute>
+				<attribute key="x" type="double">465.57870420486563</attribute>
+				<attribute key="y" type="double">2879.452388161411</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2052,7 +2052,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">593.6813492063492</attribute>
-						<attribute key="y" type="double">2891.7445830727115</attribute>
+						<attribute key="y" type="double">2882.895596013428</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">541.4813492063493</attribute>
@@ -2070,7 +2070,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">-0.7999999999999993</attribute>
-				<attribute key="ySource" type="double">0.9999999999999956</attribute>
+				<attribute key="ySource" type="double">0.9999999999999959</attribute>
 				<attribute key="xTarget" type="double">-0.5000000000000002</attribute>
 				<attribute key="yTarget" type="double">-1.0000000000000053</attribute>
 			</section>
@@ -2108,7 +2108,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">593.6813492063492</attribute>
-						<attribute key="y" type="double">2891.7445830727115</attribute>
+						<attribute key="y" type="double">2882.895596013428</attribute>
 					</section>
 				</section>
 			</section>
@@ -2116,7 +2116,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="xSource" type="double">0.5000000000000002</attribute>
 				<attribute key="ySource" type="double">-1.0000000000000053</attribute>
 				<attribute key="xTarget" type="double">-0.4000000000000005</attribute>
-				<attribute key="yTarget" type="double">0.9999999999999956</attribute>
+				<attribute key="yTarget" type="double">0.9999999999999959</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Try again</attribute>
@@ -2139,7 +2139,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="targetArrow" type="String">standard</attribute>
 			</section>
 			<section name="edgeAnchor">
-				<attribute key="ySource" type="double">0.9999999999999956</attribute>
+				<attribute key="ySource" type="double">0.9999999999999959</attribute>
 				<attribute key="yTarget" type="double">-0.9999999999999949</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -4742,7 +4742,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">593.6813492063492</attribute>
-						<attribute key="y" type="double">2891.7445830727115</attribute>
+						<attribute key="y" type="double">2882.895596013428</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">619.7813492063492</attribute>
@@ -4760,7 +4760,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.4000000000000005</attribute>
-				<attribute key="ySource" type="double">0.9999999999999956</attribute>
+				<attribute key="ySource" type="double">0.9999999999999959</attribute>
 				<attribute key="xTarget" type="double">-0.5000000000000007</attribute>
 				<attribute key="yTarget" type="double">-0.9999999999999957</attribute>
 			</section>
@@ -4798,7 +4798,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">593.6813492063492</attribute>
-						<attribute key="y" type="double">2891.7445830727115</attribute>
+						<attribute key="y" type="double">2882.895596013428</attribute>
 					</section>
 				</section>
 			</section>
@@ -4806,7 +4806,7 @@ In Javascript, there is no data type called decimal. Please read about data type
 				<attribute key="xSource" type="double">0.5000000000000007</attribute>
 				<attribute key="ySource" type="double">-0.9999999999999957</attribute>
 				<attribute key="xTarget" type="double">0.7999999999999993</attribute>
-				<attribute key="yTarget" type="double">0.9999999999999956</attribute>
+				<attribute key="yTarget" type="double">0.9999999999999959</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Try again</attribute>
