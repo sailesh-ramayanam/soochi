@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Cp1252"?>
 <section name="xgml">
 	<attribute key="Creator" type="String">yFiles</attribute>
-	<attribute key="Version" type="String">2.18</attribute>
+	<attribute key="Version" type="String">2.20</attribute>
 	<section name="graph">
 		<attribute key="hierarchic" type="int">1</attribute>
 		<attribute key="label" type="String"></attribute>
@@ -60,7 +60,7 @@
 				<attribute key="h" type="double">78.65980191215272</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -84,7 +84,7 @@
 				<attribute key="h" type="double">78.65980191215272</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -113,7 +113,7 @@ Do you know these concepts?</attribute>
 				<attribute key="h" type="double">104.35174400000005</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -142,7 +142,7 @@ Do you know these concepts?</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -168,7 +168,7 @@ Here, what is the data type of ageMsg?</attribute>
 				<attribute key="h" type="double">57.86058631921833</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -194,7 +194,7 @@ Here, what is the data type of ageMsg?</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -220,7 +220,7 @@ In Javascript, there is no data type called text. Please read about data types a
 				<attribute key="h" type="double">85.36489032269276</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -246,7 +246,7 @@ In Javascript, there is no data type called text. Please read about data types a
 				<attribute key="h" type="double">55.08764834689765</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -272,7 +272,7 @@ Here, what is the data type of temperature?</attribute>
 				<attribute key="h" type="double">64.83606453507059</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -298,7 +298,7 @@ Here, what is the data type of temperature?</attribute>
 				<attribute key="h" type="double">64.0208469055375</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -322,7 +322,7 @@ Here, what is the data type of temperature?</attribute>
 				<attribute key="h" type="double">55.08764834689765</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -349,7 +349,7 @@ Here, what are the data types of chocolatePrice, shirtPrice?</attribute>
 				<attribute key="h" type="double">90.1834884619675</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -373,12 +373,12 @@ Here, what are the data types of chocolatePrice, shirtPrice?</attribute>
 Please read about data types and try again. You can also refer to previous questions above.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">716.245238095238</attribute>
-				<attribute key="y" type="double">1939.4346982837776</attribute>
+				<attribute key="y" type="double">1939.4346982837778</attribute>
 				<attribute key="w" type="double">177.01728007776154</attribute>
-				<attribute key="h" type="double">77.38141292403913</attribute>
+				<attribute key="h" type="double">92.15050910992414</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -406,7 +406,7 @@ When you print chocolatePrice and shirtPrice, both will look like numbers. But, 
 				<attribute key="h" type="double">106.91960529580894</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -434,7 +434,7 @@ In Javascript, every variable will have a single data type.</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -460,10 +460,10 @@ What will be the values of chocolatePrice+shirtPrice, shirtPrice+shirtPrice?</at
 				<attribute key="x" type="double">949.0496031746031</attribute>
 				<attribute key="y" type="double">2102.245245158778</attribute>
 				<attribute key="w" type="double">247.61721490377346</attribute>
-				<attribute key="h" type="double">83.66797192255376</attribute>
+				<attribute key="h" type="double">92.15050910992409</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -487,12 +487,12 @@ What will be the values of chocolatePrice+shirtPrice, shirtPrice+shirtPrice?</at
 shirtPrice+shirtPrice will give 998. But chocolatePrice+shirtPrice will not give 519. Note that chocolatePrice contains a string value.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">900.0253968253968</attribute>
-				<attribute key="y" type="double">2303.562586991464</attribute>
+				<attribute key="y" type="double">2303.5625869914634</attribute>
 				<attribute key="w" type="double">196.0967454446931</attribute>
-				<attribute key="h" type="double">101.43043175734198</attribute>
+				<attribute key="h" type="double">115.56264041401943</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -524,7 +524,7 @@ Note the use of double quotes for "20" and no double quotes for 499.</attribute>
 				<attribute key="h" type="double">156.66983991537052</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -556,7 +556,7 @@ What will be the data type of age?</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -577,12 +577,12 @@ What will be the data type of age?</attribute>
 			<attribute key="label" type="String">This answer is incorrect. readLine() will always give us a string.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1074.5321428571428</attribute>
-				<attribute key="y" type="double">2572.8309780538025</attribute>
+				<attribute key="y" type="double">2574.7841732608117</attribute>
 				<attribute key="w" type="double">181.6934781842371</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -603,12 +603,12 @@ What will be the data type of age?</attribute>
 readLine() will always give us a string.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1286.2257936507935</attribute>
-				<attribute key="y" type="double">2572.8309780538025</attribute>
+				<attribute key="y" type="double">2574.7841732608117</attribute>
 				<attribute key="w" type="double">181.6934781842371</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -637,12 +637,12 @@ b. Subtract it from 180. The result will be the 3rd angle.
 So, how can we do the calculations? Luckily, Javascript has a way to convert string to integer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1646.9519841269841</attribute>
-				<attribute key="y" type="double">2572.8309780538025</attribute>
+				<attribute key="y" type="double">2574.7841732608117</attribute>
 				<attribute key="w" type="double">412.410505903392</attribute>
 				<attribute key="h" type="double">188.0758446246776</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -669,12 +669,12 @@ So, how can we do the calculations? Luckily, Javascript has a way to convert str
 			<attribute key="label" type="String">In Javascript, what can we use to convert a string to an integer?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1646.9519841269841</attribute>
-				<attribute key="y" type="double">2755.094390762679</attribute>
+				<attribute key="y" type="double">2757.047585969688</attribute>
 				<attribute key="w" type="double">222.69412622648446</attribute>
 				<attribute key="h" type="double">59.048637043074905</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -693,12 +693,12 @@ So, how can we do the calculations? Luckily, Javascript has a way to convert str
 			<attribute key="label" type="String">This answer is incorrect. Please watch the lecture or use internet to find out how to convert a string to an integer in Javascript.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1679.6797619047618</attribute>
-				<attribute key="y" type="double">3003.0311283631195</attribute>
+				<attribute key="y" type="double">3004.9843235701287</attribute>
 				<attribute key="w" type="double">181.6934781842371</attribute>
 				<attribute key="h" type="double">77.38141292403913</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -730,12 +730,12 @@ Example 2:
 let age = parseInt(readLine());</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1363.2765873015874</attribute>
-				<attribute key="y" type="double">3003.03112836312</attribute>
+				<attribute key="y" type="double">3004.984323570129</attribute>
 				<attribute key="w" type="double">391.1122362993294</attribute>
 				<attribute key="h" type="double">230.02015065780648</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -775,12 +775,12 @@ let age = parseInt(readLine());</attribute>
 Using these, you can write a program and run it. First write the program on a paper and after that type it in your computer.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1363.2765873015874</attribute>
-				<attribute key="y" type="double">3263.969871658289</attribute>
+				<attribute key="y" type="double">3265.923066865298</attribute>
 				<attribute key="w" type="double">355.2686053570966</attribute>
 				<attribute key="h" type="double">174.45499218253144</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -807,12 +807,12 @@ Using these, you can write a program and run it. First write the program on a pa
 			<attribute key="label" type="String">Please refer to the introduction video to learn how to run a program.</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1236.609126984127</attribute>
-				<attribute key="y" type="double">3518.7011035340247</attribute>
+				<attribute key="y" type="double">3520.654298741034</attribute>
 				<attribute key="w" type="double">175.62258414766563</attribute>
 				<attribute key="h" type="double">71.38673763300767</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -831,7 +831,7 @@ Using these, you can write a program and run it. First write the program on a pa
 			<attribute key="label" type="String">Mentor</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1445.0325396825397</attribute>
-				<attribute key="y" type="double">3518.7011035340242</attribute>
+				<attribute key="y" type="double">3520.6542987410335</attribute>
 				<attribute key="w" type="double">181.22345276872989</attribute>
 				<attribute key="h" type="double">54.58413176981526</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -856,12 +856,12 @@ Using these, you can write a program and run it. First write the program on a pa
 1. Not converting string to integer</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1865.551984126984</attribute>
-				<attribute key="y" type="double">3518.7011035340247</attribute>
+				<attribute key="y" type="double">3520.654298741034</attribute>
 				<attribute key="w" type="double">341.69700345655394</attribute>
 				<attribute key="h" type="double">108.20278406893885</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -881,7 +881,7 @@ Using these, you can write a program and run it. First write the program on a pa
 			<attribute key="label" type="String">Resolved</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1865.5519841269838</attribute>
-				<attribute key="y" type="double">3830.897498851215</attribute>
+				<attribute key="y" type="double">3832.8506940582242</attribute>
 				<attribute key="w" type="double">181.22345276872989</attribute>
 				<attribute key="h" type="double">54.58413176981526</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -908,7 +908,7 @@ As an exercise, use internet and find out about the following in Python and Java
 2. How to convert a string to an integer?</attribute>
 			<section name="graphics">
 				<attribute key="x" type="double">1865.551984126984</attribute>
-				<attribute key="y" type="double">3707.554550204901</attribute>
+				<attribute key="y" type="double">3709.50774541191</attribute>
 				<attribute key="w" type="double">341.69700345655394</attribute>
 				<attribute key="h" type="double">152.10176552281382</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
@@ -940,7 +940,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="h" type="double">51.700325732899046</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -964,7 +964,7 @@ As an exercise, use internet and find out about the following in Python and Java
 				<attribute key="h" type="double">90.46148975461455</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -990,7 +990,7 @@ From our previous knowledge, we know that the sum of the 3 angles in a triangle 
 				<attribute key="h" type="double">90.46148975461455</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1018,7 +1018,7 @@ We get the 3rd angle by subtracting the sum of 2 angles from 180.</attribute>
 				<attribute key="h" type="double">79.55424762621743</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1044,7 +1044,7 @@ We get the 3rd angle by subtracting the sum of 2 angles from 180.</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1068,7 +1068,7 @@ We get the 3rd angle by subtracting the sum of 2 angles from 180.</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1128,7 +1128,7 @@ Next step is implementation</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1154,7 +1154,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="h" type="double">77.97180333724225</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1700,7 +1700,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">716.245238095238</attribute>
-						<attribute key="y" type="double">1939.4346982837776</attribute>
+						<attribute key="y" type="double">1939.4346982837778</attribute>
 					</section>
 				</section>
 			</section>
@@ -1708,7 +1708,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="xSource" type="double">-0.7999999999999998</attribute>
 				<attribute key="ySource" type="double">1.0</attribute>
 				<attribute key="xTarget" type="double">-0.4999999999999995</attribute>
-				<attribute key="yTarget" type="double">-0.9999999999999992</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000018</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">number, number</attribute>
@@ -1732,7 +1732,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">716.245238095238</attribute>
-						<attribute key="y" type="double">1939.4346982837776</attribute>
+						<attribute key="y" type="double">1939.4346982837778</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">760.4996031746032</attribute>
@@ -1750,7 +1750,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.4999999999999995</attribute>
-				<attribute key="ySource" type="double">-0.9999999999999992</attribute>
+				<attribute key="ySource" type="double">-1.0000000000000018</attribute>
 				<attribute key="xTarget" type="double">-0.3999999999999999</attribute>
 				<attribute key="yTarget" type="double">1.0</attribute>
 			</section>
@@ -1888,7 +1888,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="ySource" type="double">1.0000000000000016</attribute>
-				<attribute key="yTarget" type="double">-1.0000000000000027</attribute>
+				<attribute key="yTarget" type="double">-1.0000000000000024</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Next</attribute>
@@ -1924,15 +1924,15 @@ In Javascript, there is no data type called mixed. Please read about data types 
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">900.0253968253968</attribute>
-						<attribute key="y" type="double">2303.562586991464</attribute>
+						<attribute key="y" type="double">2303.5625869914634</attribute>
 					</section>
 				</section>
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">-0.6666666666666671</attribute>
-				<attribute key="ySource" type="double">1.0000000000000027</attribute>
+				<attribute key="ySource" type="double">1.0000000000000024</attribute>
 				<attribute key="xTarget" type="double">-0.5000000000000001</attribute>
-				<attribute key="yTarget" type="double">-1.000000000000004</attribute>
+				<attribute key="yTarget" type="double">-0.9999999999999996</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">519, 998</attribute>
@@ -1956,8 +1956,8 @@ In Javascript, there is no data type called mixed. Please read about data types 
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.5000000000000001</attribute>
-				<attribute key="ySource" type="double">-1.000000000000004</attribute>
-				<attribute key="yTarget" type="double">1.0000000000000027</attribute>
+				<attribute key="ySource" type="double">-0.9999999999999996</attribute>
+				<attribute key="yTarget" type="double">1.0000000000000024</attribute>
 			</section>
 			<section name="LabelGraphics">
 				<attribute key="text" type="String">Try again</attribute>
@@ -1999,7 +1999,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 			</section>
 			<section name="edgeAnchor">
 				<attribute key="xSource" type="double">0.6666666666666671</attribute>
-				<attribute key="ySource" type="double">1.0000000000000027</attribute>
+				<attribute key="ySource" type="double">1.0000000000000024</attribute>
 				<attribute key="yTarget" type="double">-0.9999999999999978</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -2048,15 +2048,15 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1074.5321428571428</attribute>
-						<attribute key="y" type="double">2572.8309780538025</attribute>
+						<attribute key="y" type="double">2574.7841732608117</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1135.096635585222</attribute>
-						<attribute key="y" type="double">2489.293055741464</attribute>
+						<attribute key="y" type="double">2491.246250948473</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1171.2579365079366</attribute>
-						<attribute key="y" type="double">2489.293055741464</attribute>
+						<attribute key="y" type="double">2491.246250948473</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1143.4210317460318</attribute>
@@ -2079,7 +2079,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1144.2471943204366</attribute>
-				<attribute key="y" type="double">2416.390711991464</attribute>
+				<attribute key="y" type="double">2418.343907198473</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2096,23 +2096,23 @@ In Javascript, there is no data type called mixed. Please read about data types 
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1059.9107344111</attribute>
-						<attribute key="y" type="double">2374.890711991464</attribute>
+						<attribute key="y" type="double">2376.843907198473</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">977.8063492063492</attribute>
-						<attribute key="y" type="double">2374.890711991464</attribute>
+						<attribute key="y" type="double">2376.843907198473</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">977.8063492063492</attribute>
-						<attribute key="y" type="double">2489.293055741464</attribute>
+						<attribute key="y" type="double">2491.246250948473</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1013.9676501290638</attribute>
-						<attribute key="y" type="double">2489.293055741464</attribute>
+						<attribute key="y" type="double">2491.246250948473</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1074.5321428571428</attribute>
-						<attribute key="y" type="double">2572.8309780538025</attribute>
+						<attribute key="y" type="double">2574.7841732608117</attribute>
 					</section>
 				</section>
 			</section>
@@ -2131,7 +2131,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">955.4625992063492</attribute>
-				<attribute key="y" type="double">2416.390711991464</attribute>
+				<attribute key="y" type="double">2418.343907198473</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2148,15 +2148,15 @@ In Javascript, there is no data type called mixed. Please read about data types 
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1115.5842659677212</attribute>
-						<attribute key="y" type="double">2390.890711991464</attribute>
+						<attribute key="y" type="double">2392.843907198473</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1074.5321428571428</attribute>
-						<attribute key="y" type="double">2390.890711991464</attribute>
+						<attribute key="y" type="double">2392.843907198473</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1074.5321428571428</attribute>
-						<attribute key="y" type="double">2572.8309780538025</attribute>
+						<attribute key="y" type="double">2574.7841732608117</attribute>
 					</section>
 				</section>
 			</section>
@@ -2174,7 +2174,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">992.8065569196428</attribute>
-				<attribute key="y" type="double">2455.091883866464</attribute>
+				<attribute key="y" type="double">2457.045079073473</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2199,7 +2199,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1286.2257936507935</attribute>
-						<attribute key="y" type="double">2572.8309780538025</attribute>
+						<attribute key="y" type="double">2574.7841732608117</attribute>
 					</section>
 				</section>
 			</section>
@@ -2217,7 +2217,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1269.5539186507935</attribute>
-				<attribute key="y" type="double">2455.091883866464</attribute>
+				<attribute key="y" type="double">2457.045079073473</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2241,7 +2241,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1387.0726097470238</attribute>
-				<attribute key="y" type="double">2563.4803921163025</attribute>
+				<attribute key="y" type="double">2565.4335873233117</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2265,7 +2265,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1620.9344060019841</attribute>
-				<attribute key="y" type="double">2691.868900366141</attribute>
+				<attribute key="y" type="double">2693.8220955731504</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2291,7 +2291,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1606.7820715525793</attribute>
-				<attribute key="y" type="double">2864.3198811592165</attribute>
+				<attribute key="y" type="double">2866.2730763662257</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2304,19 +2304,19 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1679.6797619047618</attribute>
-						<attribute key="y" type="double">3003.0311283631195</attribute>
+						<attribute key="y" type="double">3004.9843235701287</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1740.2444444444445</attribute>
-						<attribute key="y" type="double">2800.1187092842165</attribute>
+						<attribute key="y" type="double">2802.0719044912257</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1730.4622814619158</attribute>
-						<attribute key="y" type="double">2800.1187092842165</attribute>
+						<attribute key="y" type="double">2802.0719044912257</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1646.9519841269841</attribute>
-						<attribute key="y" type="double">2755.094390762679</attribute>
+						<attribute key="y" type="double">2757.047585969688</attribute>
 					</section>
 				</section>
 			</section>
@@ -2335,7 +2335,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1713.2337022569445</attribute>
-				<attribute key="y" type="double">2864.3198811592165</attribute>
+				<attribute key="y" type="double">2866.2730763662257</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2348,19 +2348,19 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1646.9519841269841</attribute>
-						<attribute key="y" type="double">2755.094390762679</attribute>
+						<attribute key="y" type="double">2757.047585969688</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1674.7887499052947</attribute>
-						<attribute key="y" type="double">2800.118709284216</attribute>
+						<attribute key="y" type="double">2802.0719044912253</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1679.6797619047618</attribute>
-						<attribute key="y" type="double">2800.118709284216</attribute>
+						<attribute key="y" type="double">2802.0719044912253</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1679.6797619047618</attribute>
-						<attribute key="y" type="double">3003.0311283631195</attribute>
+						<attribute key="y" type="double">3004.9843235701287</attribute>
 					</section>
 				</section>
 			</section>
@@ -2378,7 +2378,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1653.3399181547618</attribute>
-				<attribute key="y" type="double">2825.6187092842165</attribute>
+				<attribute key="y" type="double">2827.5719044912257</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2391,19 +2391,19 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1646.9519841269841</attribute>
-						<attribute key="y" type="double">2755.094390762679</attribute>
+						<attribute key="y" type="double">2757.047585969688</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1563.4416867920525</attribute>
-						<attribute key="y" type="double">2800.118709284216</attribute>
+						<attribute key="y" type="double">2802.0719044912253</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1363.2765873015874</attribute>
-						<attribute key="y" type="double">2800.118709284216</attribute>
+						<attribute key="y" type="double">2802.0719044912253</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1363.2765873015874</attribute>
-						<attribute key="y" type="double">3003.03112836312</attribute>
+						<attribute key="y" type="double">3004.984323570129</attribute>
 					</section>
 				</section>
 			</section>
@@ -2421,7 +2421,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1335.6008060515874</attribute>
-				<attribute key="y" type="double">2825.6187092842165</attribute>
+				<attribute key="y" type="double">2827.5719044912257</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2434,19 +2434,19 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1363.2765873015874</attribute>
-						<attribute key="y" type="double">3263.969871658289</attribute>
+						<attribute key="y" type="double">3265.923066865298</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1230.0508602926761</attribute>
-						<attribute key="y" type="double">3366.697367749555</attribute>
+						<attribute key="y" type="double">3368.650562956564</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1192.7035714285714</attribute>
-						<attribute key="y" type="double">3366.697367749555</attribute>
+						<attribute key="y" type="double">3368.650562956564</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1236.609126984127</attribute>
-						<attribute key="y" type="double">3518.7011035340247</attribute>
+						<attribute key="y" type="double">3520.654298741034</attribute>
 					</section>
 				</section>
 			</section>
@@ -2465,7 +2465,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1124.6801339285714</attribute>
-				<attribute key="y" type="double">3392.1973677495553</attribute>
+				<attribute key="y" type="double">3394.1505629565645</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2478,19 +2478,19 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1363.2765873015874</attribute>
-						<attribute key="y" type="double">3263.969871658289</attribute>
+						<attribute key="y" type="double">3265.923066865298</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1407.6851629712244</attribute>
-						<attribute key="y" type="double">3366.697367749555</attribute>
+						<attribute key="y" type="double">3368.650562956564</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1445.0325396825397</attribute>
-						<attribute key="y" type="double">3366.697367749555</attribute>
+						<attribute key="y" type="double">3368.650562956564</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1445.0325396825397</attribute>
-						<attribute key="y" type="double">3518.7011035340242</attribute>
+						<attribute key="y" type="double">3520.6542987410335</attribute>
 					</section>
 				</section>
 			</section>
@@ -2508,7 +2508,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1406.3528521825397</attribute>
-				<attribute key="y" type="double">3392.1973677495553</attribute>
+				<attribute key="y" type="double">3394.1505629565645</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2521,19 +2521,19 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1363.2765873015874</attribute>
-						<attribute key="y" type="double">3263.969871658289</attribute>
+						<attribute key="y" type="double">3265.923066865298</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1496.5023143104986</attribute>
-						<attribute key="y" type="double">3366.697367749555</attribute>
+						<attribute key="y" type="double">3368.650562956564</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1865.551984126984</attribute>
-						<attribute key="y" type="double">3366.697367749555</attribute>
+						<attribute key="y" type="double">3368.650562956564</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1865.551984126984</attribute>
-						<attribute key="y" type="double">3518.7011035340247</attribute>
+						<attribute key="y" type="double">3520.654298741034</attribute>
 					</section>
 				</section>
 			</section>
@@ -2551,7 +2551,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1801.181866939484</attribute>
-				<attribute key="y" type="double">3430.8985396245553</attribute>
+				<attribute key="y" type="double">3432.8517348315645</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2564,19 +2564,19 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<section name="Line">
 					<section name="point">
 						<attribute key="x" type="double">1236.609126984127</attribute>
-						<attribute key="y" type="double">3518.7011035340247</attribute>
+						<attribute key="y" type="double">3520.654298741034</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1280.5146825396826</attribute>
-						<attribute key="y" type="double">3366.697367749555</attribute>
+						<attribute key="y" type="double">3368.650562956564</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1318.8680116319501</attribute>
-						<attribute key="y" type="double">3366.697367749555</attribute>
+						<attribute key="y" type="double">3368.650562956564</attribute>
 					</section>
 					<section name="point">
 						<attribute key="x" type="double">1363.2765873015874</attribute>
-						<attribute key="y" type="double">3263.969871658289</attribute>
+						<attribute key="y" type="double">3265.923066865298</attribute>
 					</section>
 				</section>
 			</section>
@@ -2595,7 +2595,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1253.5039403521826</attribute>
-				<attribute key="y" type="double">3430.8985396245553</attribute>
+				<attribute key="y" type="double">3432.8517348315645</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2619,7 +2619,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1560.6445126488095</attribute>
-				<attribute key="y" type="double">3509.3505175965247</attribute>
+				<attribute key="y" type="double">3511.303712803534</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2655,7 +2655,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1824.865460689484</attribute>
-				<attribute key="y" type="double">3597.802495568494</attribute>
+				<attribute key="y" type="double">3599.7556907755034</attribute>
 			</section>
 		</section>
 		<section name="edge">
@@ -2679,7 +2679,7 @@ In Javascript, there is no data type called mixed. Please read about data types 
 				<attribute key="contentHeight" type="double">18.701171875</attribute>
 				<attribute key="model" type="String">free</attribute>
 				<attribute key="x" type="double">1348.9396732390874</attribute>
-				<attribute key="y" type="double">3143.0412036920234</attribute>
+				<attribute key="y" type="double">3144.9943988990326</attribute>
 			</section>
 		</section>
 		<section name="edge">
