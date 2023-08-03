@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Cp1252"?>
 <section name="xgml">
 	<attribute key="Creator" type="String">yFiles</attribute>
-	<attribute key="Version" type="String">2.18</attribute>
+	<attribute key="Version" type="String">2.20</attribute>
 	<section name="graph">
 		<attribute key="hierarchic" type="int">1</attribute>
 		<attribute key="label" type="String"></attribute>
@@ -60,7 +60,7 @@
 				<attribute key="h" type="double">78.65980191215272</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -84,7 +84,7 @@
 				<attribute key="h" type="double">78.65980191215272</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -109,7 +109,7 @@ First step is "Take n". This means we have to read the input.</attribute>
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -134,7 +134,7 @@ First step is "Take n". This means we have to read the input.</attribute>
 				<attribute key="h" type="double">51.700325732899046</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -162,7 +162,7 @@ This is a good opportunity to learn that skill. Use internet to find out what ev
 				<attribute key="h" type="double">142.52805854922906</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -190,7 +190,7 @@ This is a good opportunity to learn that skill. Use internet to find out what ev
 				<attribute key="h" type="double">79.55424762621743</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -214,7 +214,7 @@ This is a good opportunity to learn that skill. Use internet to find out what ev
 				<attribute key="h" type="double">33.45920200130303</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -238,7 +238,7 @@ This is a good opportunity to learn that skill. Use internet to find out what ev
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -267,7 +267,7 @@ Next step is coming up with logic</attribute>
 				<attribute key="h" type="double">101.13128679706398</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -296,7 +296,7 @@ Next step is coming up with logic</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -320,7 +320,7 @@ Next step is coming up with logic</attribute>
 				<attribute key="h" type="double">67.41963886808497</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -344,7 +344,7 @@ Next step is coming up with logic</attribute>
 				<attribute key="h" type="double">67.41963886808497</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -368,7 +368,7 @@ Next step is coming up with logic</attribute>
 				<attribute key="h" type="double">44.11952872554417</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -392,7 +392,7 @@ Next step is coming up with logic</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -417,7 +417,7 @@ Write these down on a paper. We will use them towards the end.</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CCFFCC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -443,7 +443,7 @@ This step-by-step procedure is also called as algorithm.</attribute>
 				<attribute key="h" type="double">87.86058631921838</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -470,7 +470,7 @@ In the case of "Even or Odd" assignment, there is such a relationship. Let us fi
 				<attribute key="h" type="double">109.74427400464089</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -502,7 +502,7 @@ Which of these will help us determine whether n is even or odd?</attribute>
 				<attribute key="h" type="double">129.03606861119903</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -532,7 +532,7 @@ Which of these will help us determine whether n is even or odd?</attribute>
 				<attribute key="h" type="double">78.6749162397046</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -556,7 +556,7 @@ Which of these will help us determine whether n is even or odd?</attribute>
 				<attribute key="h" type="double">78.6749162397046</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -580,7 +580,7 @@ Which of these will help us determine whether n is even or odd?</attribute>
 				<attribute key="h" type="double">64.02084690553744</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -604,7 +604,7 @@ Which of these will help us determine whether n is even or odd?</attribute>
 				<attribute key="h" type="double">64.02084690553744</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -628,7 +628,7 @@ Which of these will help us determine whether n is even or odd?</attribute>
 				<attribute key="h" type="double">64.02084690553744</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -652,7 +652,7 @@ Which of these will help us determine whether n is even or odd?</attribute>
 				<attribute key="h" type="double">67.41963886808497</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#FF99CC</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -681,7 +681,7 @@ What next? Let us figure out.</attribute>
 				<attribute key="h" type="double">115.65663715036732</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -710,7 +710,7 @@ What next? Let us figure out.</attribute>
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -735,7 +735,7 @@ So our next step in the algorithm is to check if the remainder is 0 or 1.</attri
 				<attribute key="h" type="double">78.6749162397046</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -760,7 +760,7 @@ So our next step in the algorithm is to check if the remainder is 0 or 1.</attri
 				<attribute key="h" type="double">78.6749162397046</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -787,7 +787,7 @@ So our next step in the algorithm is to check if the remainder is 0 or 1.</attri
 				<attribute key="h" type="double">78.6749162397046</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -814,7 +814,7 @@ So our next step in the algorithm is to check if the remainder is 0 or 1.</attri
 				<attribute key="h" type="double">51.7003257328991</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -838,7 +838,7 @@ So our next step in the algorithm is to check if the remainder is 0 or 1.</attri
 				<attribute key="h" type="double">69.61788236438662</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#99CCFF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -862,7 +862,7 @@ So our next step in the algorithm is to check if the remainder is 0 or 1.</attri
 				<attribute key="h" type="double">51.70032573289927</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -887,7 +887,7 @@ Write the code to read input as an integer and store it in a variable called n.<
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -912,7 +912,7 @@ Write the code to read input as an integer and store it in a variable called n.<
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -936,7 +936,7 @@ Write the code to read input as an integer and store it in a variable called n.<
 				<attribute key="h" type="double">51.70032573289927</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -960,7 +960,7 @@ Write the code to read input as an integer and store it in a variable called n.<
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -984,7 +984,7 @@ Write the code to read input as an integer and store it in a variable called n.<
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1014,7 +1014,7 @@ n % 3.</attribute>
 				<attribute key="h" type="double">129.08154254704004</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1044,7 +1044,7 @@ n % 3.</attribute>
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1068,7 +1068,7 @@ n % 3.</attribute>
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1096,7 +1096,7 @@ Here we have to check the remainder and based on it we have to do different thin
 				<attribute key="h" type="double">116.25829829406302</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1124,7 +1124,7 @@ Here we have to check the remainder and based on it we have to do different thin
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1148,7 +1148,7 @@ Here we have to check the remainder and based on it we have to do different thin
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1172,7 +1172,7 @@ Here we have to check the remainder and based on it we have to do different thin
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1202,7 +1202,7 @@ typedPassword === storedPassword</attribute>
 				<attribute key="h" type="double">152.89842646417355</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1232,7 +1232,7 @@ typedPassword === storedPassword</attribute>
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1256,7 +1256,7 @@ typedPassword === storedPassword</attribute>
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1286,7 +1286,7 @@ Following are some examples.
 				<attribute key="h" type="double">138.35843673391446</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1316,7 +1316,7 @@ Following are some examples.
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1340,7 +1340,7 @@ Following are some examples.
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1364,7 +1364,7 @@ Following are some examples.
 				<attribute key="h" type="double">89.1566014801997</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1388,7 +1388,7 @@ Following are some examples.
 				<attribute key="h" type="double">89.1566014801997</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1415,7 +1415,7 @@ What will be the output of the above code snippet?</attribute>
 				<attribute key="h" type="double">101.71830856380438</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1442,7 +1442,7 @@ What will be the output of the above code snippet?</attribute>
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1466,7 +1466,7 @@ What will be the output of the above code snippet?</attribute>
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1490,7 +1490,7 @@ What will be the output of the above code snippet?</attribute>
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1515,7 +1515,7 @@ So, it is not sufficient to compare. Depending on the result, we need to do diff
 				<attribute key="h" type="double">96.36413833144888</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1540,7 +1540,7 @@ So, it is not sufficient to compare. Depending on the result, we need to do diff
 				<attribute key="h" type="double">53.94263572124146</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1564,7 +1564,7 @@ So, it is not sufficient to compare. Depending on the result, we need to do diff
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1588,7 +1588,7 @@ So, it is not sufficient to compare. Depending on the result, we need to do diff
 				<attribute key="h" type="double">79.47790913709468</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1612,7 +1612,7 @@ So, it is not sufficient to compare. Depending on the result, we need to do diff
 				<attribute key="h" type="double">79.47790913709468</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1636,7 +1636,7 @@ So, it is not sufficient to compare. Depending on the result, we need to do diff
 				<attribute key="h" type="double">69.59328716966775</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1666,7 +1666,7 @@ if (comparison_statement) {
 				<attribute key="h" type="double">116.40563014943837</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1698,7 +1698,7 @@ if (comparison_statement) {
 				<attribute key="h" type="double">96.36413833144888</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1728,7 +1728,7 @@ Otherwise you will get errors.</attribute>
 				<attribute key="h" type="double">96.36413833144888</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1756,7 +1756,7 @@ Otherwise you will get errors.</attribute>
 				<attribute key="h" type="double">48.58846548888687</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1786,7 +1786,7 @@ if (remainder === 0) {
 				<attribute key="h" type="double">110.36735278530341</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1816,7 +1816,7 @@ if (remainder === 0) {
 				<attribute key="h" type="double">71.65258341288245</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1846,7 +1846,7 @@ Next step is to execute the code and test with different test cases.</attribute>
 				<attribute key="h" type="double">130.96031521744226</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1877,7 +1877,7 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 				<attribute key="h" type="double">79.06604988845265</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1902,7 +1902,7 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 				<attribute key="h" type="double">71.38673763300767</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
@@ -1953,7 +1953,7 @@ If all test cases are passing, then submit it on the student portal.</attribute>
 				<attribute key="h" type="double">108.20278406893885</attribute>
 				<attribute key="type" type="String">rectangle</attribute>
 				<attribute key="raisedBorder" type="boolean">false</attribute>
-				<attribute key="fill" type="String">#FFCC00</attribute>
+				<attribute key="fill" type="String">#CC99FF</attribute>
 				<attribute key="outline" type="String">#000000</attribute>
 			</section>
 			<section name="LabelGraphics">
